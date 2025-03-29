@@ -1,0 +1,20 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill": {
+    "tag": "createoreexcavation:high_tier_drills"
+  },
+  "fluid": {
+    "amount": 250,
+    "fluid": "minecraft:water",
+    "nbt": {}
+  },
+  "output": [
+    {"chance": 0.70,"item": "tfc:rock/loose/andesite"},
+    {"chance": 0.70,"item": "tfc:ore/cinnabar"},
+    {"chance": 0.40,"item": "tfc:ore/graphite"}
+  ],
+  "priority": 0,
+  "stress": 256,
+  "ticks": 400,
+  "vein_id": "tfc_ore_excavation:vein_type/cinnabar"
+}

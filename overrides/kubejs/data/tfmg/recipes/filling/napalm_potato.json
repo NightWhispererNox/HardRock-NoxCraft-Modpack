@@ -1,0 +1,19 @@
+
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "tag": "forge:vegetables/potato"
+    },
+    {
+      "fluidTag": "forge:napalm",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:napalm_potato"
+    }
+  ]
+}

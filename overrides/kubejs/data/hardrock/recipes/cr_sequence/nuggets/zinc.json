@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/zinc"},
+  "transitionalItem": {"item": "tfc:metal/rod/zinc"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/zinc"}],"results": [{"item": "tfc:metal/rod/zinc"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/zinc"}],"results": [{"item": "tfc:metal/rod/zinc"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/zinc"}],"results": [{"item": "tfc:metal/rod/zinc"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/zinc"}],"results": [{"item": "tfc:metal/rod/zinc"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/zinc"}],"results": [{"item": "tfc:metal/rod/zinc"}]}
+  ],
+  "results": [
+    {"item": "immersivegeology:nugget_zinc","count": 5}    
+  ],
+  "loops": 1
+}
+

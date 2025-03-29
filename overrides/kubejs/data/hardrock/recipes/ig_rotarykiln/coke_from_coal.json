@@ -1,0 +1,7 @@
+{
+    "type":"immersivegeology:rotarykiln",
+    "energy":5600,
+    "input":{"tag":"forge:bicoals"},
+    "result":{"tag":"forge:coal_coke"},
+    "time":300
+}

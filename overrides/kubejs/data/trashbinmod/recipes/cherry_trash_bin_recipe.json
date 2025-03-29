@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:wood/planks/kapok_button"
+    },
+    "c": {
+      "item": "tfc:wood/barrel/kapok"
+    },
+    "b": {
+      "item": "tfc:wood/planks/kapok_trapdoor"
+    }
+  },
+  "result": {
+    "item": "trashbinmod:cherry_trash_bin",
+    "count": 1
+  }
+}

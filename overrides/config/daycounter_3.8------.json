@@ -1,0 +1,61 @@
+{
+  "Day Counter Config": {
+    "Ui": {
+      "New Day Text": {
+        "Description": "You can choose how to display the new day text. You can choose between: title, subtitle, chat, actionbar, disabled",
+        "Display": "title"
+      },
+      "Disabled Feature Text": {
+        "Description": "You can enable or disable the this feature is disabled text.",
+        "Enable": true
+      }
+    },
+    "Sound": {
+      "Sound Effect": {
+        "Description": "You can enable or disable the sound effect on new day",
+        "Enable": true
+      }
+    },
+    "Block": {
+      "Calendar Block": {
+        "Description": "You can enable or disable the calendar block or edit the block to a other one.",
+        "Block": "ags_day_counter:calendar",
+        "Enable": true
+      }
+    },
+    "Item": {
+      "Calendar Item": {
+        "Description": "You can enable or disable the right click with calendar item.",
+        "Enable": true
+      }
+    },
+    "Counter": {
+      "Description": "You can choose which counter you want to use. You can choose between: vanilla, mod",
+      "Counter": "vanilla"
+    },
+    "Days": {
+      "Description": "You can choose which day(s) to show. You can choose between: player, server",
+      "Display": "server"
+    },
+    "Advancements": {
+      "Description": "You can enable or disable the advancements.",
+      "Enable": true
+    },
+    "Texts": {
+      "Description": "You can customize the texts here. Every text except Title Text what use JSON is using normal color codes.",
+      "Title Text": "[\"\",{\"text\":\"$day$\",\"bold\":true,\"color\":\"gold\"},{\"text\":\". Day\",\"bold\":true}] ",
+      "Disabled Feature Text": "§6§l[§b§lDay Counter§6§l] §fThis feature is §c§ldisabled §fin the config!",
+      "Chat show day(s) Text": "§6§l[§b§lDay Counter§6§l] §fThis the §b§l$day$§f. Day!",
+      "Command add (player)": "§6§l[§b§lDay Counter§6§l] §fYou have added §b§l$day$§f day(s) to §6§l$player$ §fday(s). Now: §e$newday$",
+      "Command add (server)": "§6§l[§b§lDay Counter§6§l] §fYou have added §b§l$day$§f day(s) to §6§lSERVER §fday(s). Now: §e$newday$",
+      "Command set (player)": "§6§l[§b§lDay Counter§6§l] §fYou set §b§l$day$§f day(s) of §6§l$player$ §fday(s).",
+      "Command set (server)": "§6§l[§b§lDay Counter§6§l] §fYou set §b§l$day$§f day(s) of §6§lSERVER §fday(s).",
+      "Command reset (player)": "§6§l[§b§lDay Counter§6§l] §fYou resetted §6§l$player$ §fday(s).",
+      "Command reset (server)": "§6§l[§b§lDay Counter§6§l] §fYou resetted §6§lSERVER §fday(s)."
+    },
+    "Config Version": {
+      "Description": "Don\u0027t touch this!",
+      "Config Version": "3.8"
+    }
+  }
+}

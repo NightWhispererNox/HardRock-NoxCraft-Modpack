@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:brass_casing"},
+  "transitionalItem": {"item": "kubejs:un_casing"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "forge:plates/steel"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "forge:glue"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "forge:plates/steel"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "forge:glue"}],"results": [{"item": "kubejs:un_casing"}]}
+  ],
+  "results": [{"item": "mekanism:dynamic_tank", "count": 2}],
+  "loops": 1
+}

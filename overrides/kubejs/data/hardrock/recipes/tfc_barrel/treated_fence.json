@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "tag": "minecraft:wooden_fences"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "immersiveengineering:creosote",
+    "amount": 250
+  },
+  "output_item": {
+    "item": "immersiveengineering:treated_fence"
+  },
+  "duration": 8000
+}

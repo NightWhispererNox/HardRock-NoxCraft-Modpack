@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:mixer",
+  "inputs": [
+    {
+      "count": 1,
+      "base_ingredient": {
+        "tag": "forge:bark_powder"
+      }
+    }
+  ],
+  "result": {
+    "fluid": "tfc:tannin",
+    "amount": 200
+  },
+  "fluid": {
+    "tag": "tfc:fresh_water",
+    "amount": 200
+  },
+  "energy": 3200
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "axa",
+    " O "
+  ],
+  "key": {
+    "a": {
+      "item": "kubejs:coffee_ground"
+    },
+    "x": {
+      "item": "kubejs:coffee_beans_roasted"
+    },
+    "O": {
+      "type": "tfc:not_rotten","ingredient": {"item": "createaddition:chocolate_cake"}
+    }
+  },
+  "result": {
+    "item": "farmersrespite:coffee_cake"
+  }
+}

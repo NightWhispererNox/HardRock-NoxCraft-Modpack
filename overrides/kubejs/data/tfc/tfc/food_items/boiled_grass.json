@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "kubejs:boiled_grass"
+  },
+  "hunger": 2,
+  "water": 5,
+  "saturation": 0.25,
+  "decay_modifier": 1.0,
+  "protein": 0.25
+}

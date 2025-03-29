@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WSW",
+		"NCN",
+		"LLL"
+	],
+	"key": {
+		"N": {
+			"tag": "forge:plates/copper"
+		},
+		"L": {
+			"item": "tfc:burlap_cloth"
+		},
+		"S": {
+			"tag": "forge:glue"
+		},
+		"W": {
+			"item": "tfc:silk_cloth"
+		},
+		"C": {
+			"item": "untamedwilds:carpet_straw"
+		}
+	},
+	"result": {
+		"item": "adpother:iron_vacuum_bag",
+		"count": 1
+	}
+}

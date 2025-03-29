@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WSW",
+		"DCD",
+		"LLL"
+	],
+	"key": {
+		"D": {
+			"tag": "mekanism:enriched/diamond"
+		},
+		"L": {
+			"tag": "forge:leather"
+		},
+		"S": {
+			"tag": "forge:glue"
+		},
+		"W": {
+			"tag": "minecraft:wool"
+		},
+		"C": {
+			"item": "tfcambiental:leather_apron"
+		}
+	},
+	"result": {
+		"item": "adpother:diamond_vacuum_bag",
+		"count": 1
+	}
+}

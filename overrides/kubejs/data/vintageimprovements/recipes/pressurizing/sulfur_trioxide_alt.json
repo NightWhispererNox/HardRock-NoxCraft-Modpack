@@ -1,0 +1,23 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"secondaryFluidOutput": 0,
+	"heatRequirement": "superheated",
+	"ingredients": [ 
+		{
+			"fluid": "mekanism:sulfur_dioxide",
+			"amount": 250
+		},
+		[
+			{"item": "tfcorewashing:briquet_limonite"},
+			{"item": "tfcorewashing:briquet_magnetite"},
+			{"item": "tfcorewashing:briquet_hematite"}
+		]
+	],
+	"results": [
+		{
+			"fluid": "mekanism:sulfur_trioxide",
+			"amount": 250
+		}
+	],
+	"processingTime": 400
+}

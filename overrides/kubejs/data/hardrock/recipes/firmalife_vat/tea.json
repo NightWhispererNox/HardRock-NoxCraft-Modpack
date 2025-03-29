@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "firmalife:vat",
+  "input_item": {
+    "ingredient": {
+      "item": "kubejs:dry_tea_leaves"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 200
+  },
+  "output_fluid": {
+    "fluid": "create:tea",
+    "amount": 200
+  }
+}

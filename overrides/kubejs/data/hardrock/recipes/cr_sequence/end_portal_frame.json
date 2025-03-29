@@ -1,0 +1,15 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "minecraft:end_stone"},
+    "transitionalItem": {"item": "create:gantry_shaft"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "minecraft:end_crystal"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "minecraft:end_stone"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "tfc:metal/double_sheet/black_steel"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "minecraft:end_stone"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "fluxnetworks:flux_controller"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "minecraft:end_stone"}],"results": [{"item": "create:gantry_shaft"}]}
+    ],
+    "results": [{"item": "minecraft:end_portal_frame", "count": 6}],
+    "loops": 1
+  }

@@ -1,0 +1,1118 @@
+{
+	autofocus_id: "42F115614DC103D7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "survive"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "minecraft:lingering_potion"
+		tag: {
+			Potion: "minecraft:water"
+		}
+	}
+	id: "06B6FD62E2BD027C"
+	images: [
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/the_world/climate.html"
+			dependency: "42F115614DC103D7"
+			height: 0.5d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.9702380952381233d
+			y: -6.241071428571448d
+		}
+		{
+			click: "https://mc-wiki.com/minecraft-mods/technology/pollution-of-the-realms-forge/"
+			dependency: "4659489FEB8EA50D"
+			height: 0.5d
+			hover: ["wiki Pollution of Realms"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.472619047619091d
+			y: 9.651785714285673d
+		}
+		{
+			click: "https://github.com/Momo-Softworks/Cold-Sweat/wiki"
+			dependency: "4448FC9B28E30815"
+			height: 0.5d
+			hover: ["wiki Cold Sweat"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.7321428571428825d
+			y: -0.3363095238095255d
+		}
+		{
+			click: "https://github.com/Momo-Softworks/Cold-Sweat/wiki"
+			dependency: "4448FC9B28E30815"
+			height: 0.5d
+			hover: ["wiki Cold Sweat"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.446428571428598d
+			y: -0.3363095238095255d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/the_world/climate.html"
+			dependency: "43A3F6984C4136E3"
+			height: 0.5d
+			hover: ["wiki Firma CIvilization"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.1666666666666856d
+			y: -8.33630952380954d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4448FC9B28E30815"]
+			dependency_requirement: "one_started"
+			description: [
+				"When it is cold, use warm clothes or move closer to a heat source. Build a home, because an interior is warmer. "
+				""
+				"What temperature it is currently is indicated by the character icon on the right side of the indicators. If it is blue, your body is cooling down."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:blue_ice"
+			id: "2450F1AC75601AC2"
+			size: 2.0d
+			tasks: [{
+				id: "1BCBEF0768B6C251"
+				title: "Cold temperature"
+				type: "checkmark"
+			}]
+			title: "Winter is cold"
+			x: -0.02976190476187668d
+			y: 0.3779761904761827d
+		}
+		{
+			dependencies: ["2F9C67F4A3684B2D"]
+			dependency_requirement: "one_started"
+			description: [
+				""
+				"this good clothing for cold days will keep you warm and survive the winter"
+				""
+				""
+				"this clothing warms - But remember that by using the tailoring table you can combine it with any other to add its properties, for example to armor"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "cold_sweat:goat_fur_parka"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0B9D186CEF6B9C2D"
+			tasks: [
+				{
+					id: "3EA462894DD2067E"
+					item: {
+						Count: 1
+						id: "cold_sweat:goat_fur_cap"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D5CCFE828124BB4"
+					item: {
+						Count: 1
+						id: "cold_sweat:goat_fur_parka"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "419008111F03E2DB"
+					item: {
+						Count: 1
+						id: "cold_sweat:goat_fur_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78A2896B8D3865EF"
+					item: {
+						Count: 1
+						id: "cold_sweat:goat_fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fur Cloth"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2450F1AC75601AC2"]
+			description: ["A firepit is a good heat source. When you are near, it will warm you."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:firepit"
+			id: "595D54A6418D8DEA"
+			size: 1.5d
+			tasks: [{
+				id: "771D39CB46AE089E"
+				title: "Firepit"
+				type: "checkmark"
+			}]
+			title: "Heat source"
+			x: -0.02976190476187668d
+			y: 2.3779761904761827d
+		}
+		{
+			dependencies: ["595D54A6418D8DEA"]
+			description: ["Lava is a powerful source of heat; in winter it may be necessary."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:lava_bucket"
+			id: "416A4C5CC1EAE6EC"
+			size: 1.5d
+			tasks: [{
+				id: "1AB73DE65267D13D"
+				title: "Lava"
+				type: "checkmark"
+			}]
+			x: 0.06547619047621112d
+			y: 4.235119047619044d
+		}
+		{
+			dependencies: ["4448FC9B28E30815"]
+			dependency_requirement: "one_started"
+			description: [
+				"Summer is hot, but beware - machines and heat sources also keep you warm."
+				""
+				"If your body is overheated the character icon on the right side of the information bars will be yellow or even red"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:sunflower"
+			id: "7E0D6F601DF62AD9"
+			size: 2.0d
+			tasks: [{
+				id: "7980E8FE77DEB410"
+				title: "Warm"
+				type: "checkmark"
+			}]
+			title: "Summer is warm"
+			x: 4.684523809523839d
+			y: 0.4255952380952337d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: ["these items are cooling - added to any of your clothes on the sewing table, they will add cold to that piece of clothing"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:silk_cloth"
+			id: "51FC9CB225C9C78B"
+			tasks: [
+				{
+					id: "6FD261D3C8263C81"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "1B3BB767CC8801BA"
+					item: "textile:linen_cloth"
+					type: "item"
+				}
+				{
+					id: "3D18BD3DAD443752"
+					item: "tfc:silk_cloth"
+					type: "item"
+				}
+				{
+					id: "568DE672DCD8B95A"
+					type: "checkmark"
+				}
+			]
+			title: "cooling items"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E0D6F601DF62AD9"]
+			description: ["Water is not only muddy, but also cools you when you are hot."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:water_bucket"
+			id: "0847B8484857A0B0"
+			size: 1.5d
+			tasks: [{
+				id: "294C8F68F7ADDAAB"
+				title: "Water is cold"
+				type: "checkmark"
+			}]
+			x: 4.684523809523839d
+			y: 2.4255952380952337d
+		}
+		{
+			dependencies: ["51FC9CB225C9C78B"]
+			dependency_requirement: "one_started"
+			description: [
+				"it's a good set for hot days, hot summer or a trip to the Nether"
+				""
+				"this clothing cools - But remember that by using the tailoring table you can combine it with any other to add its properties, for example to armor"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "cold_sweat:hoglin_tunic"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "34F81D875F4CF2E4"
+			tasks: [
+				{
+					id: "2DB311885366E4B2"
+					item: {
+						Count: 1
+						id: "cold_sweat:hoglin_headpiece"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46FA598DC5F46D72"
+					item: {
+						Count: 1
+						id: "cold_sweat:hoglin_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C4E37628BE382A3"
+					item: {
+						Count: 1
+						id: "cold_sweat:hoglin_trousers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32347CA2EB840B31"
+					item: {
+						Count: 1
+						id: "cold_sweat:hoglin_hooves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hoglin Cloth"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0847B8484857A0B0"]
+			description: ["Ice can always cool you down when it is too hot."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:ice"
+			id: "4044261E6BA73C1F"
+			size: 1.5d
+			tasks: [{
+				id: "2E4CA52D830F1043"
+				title: "ice"
+				type: "checkmark"
+			}]
+			title: "Ice"
+			x: 4.684523809523839d
+			y: 4.235119047619023d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: [
+				"Many animals are not peaceful towards you. Avoid large predators! In the early game, destroy tarantula nests around you if you don't want unexpected visitors. There are small but deadly piranhas in the rivers, and sharks in the seas. It will be hard at first but you can do it!"
+				""
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:piglin_head"
+			id: "45851CF30EE3C043"
+			size: 2.0d
+			tasks: [{
+				id: "413379DB864020A4"
+				title: "done"
+				type: "checkmark"
+			}]
+			title: "Angry animals"
+			x: 4.8535714285714775d
+			y: 10.2708333333333d
+		}
+		{
+			dependencies: ["5852A15C1C544857"]
+			dependency_requirement: "one_started"
+			description: [
+				"Settling near a lake or river is a good idea because you will need drinkable water in addition, it is an easy source of food in the form of fish and the river current can help to power the first machines."
+				""
+				"Make sure to purify or boil it because drinking dirty water causes disease."
+				""
+				"To drink water from a water source, select an empty hotbar slot and right click at the water."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "4000B42666202503"
+			size: 2.0d
+			tasks: [{
+				id: "1A2D5037B7712713"
+				title: "done"
+				type: "checkmark"
+			}]
+			title: "Water"
+			x: 2.148809523809547d
+			y: -3.336309523809547d
+		}
+		{
+			dependencies: ["4000B42666202503"]
+			description: [
+				"Remember that the water should be purified before drinking. Purify water with grass or charcoal powder in a pot or a vat."
+				""
+				"Acceptable drinking water without bad side effects - boiling water, herbal water, purified water, mineral water, milk"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:ceramic/jug"
+			id: "4EB64621C9851B24"
+			size: 1.5d
+			tasks: [{
+				id: "17E38D772595113C"
+				type: "checkmark"
+			}]
+			title: "Source of water"
+			x: 2.2202380952381233d
+			y: -1.693452380952408d
+		}
+		{
+			dependencies: ["4EB64621C9851B24"]
+			description: ["Aqueducts are a good way to supply water to agricultural fields and bring it to places where there is no water."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:rock/aqueduct/granite"
+			id: "4448FC9B28E30815"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0C533BEDC941E405"
+					type: "checkmark"
+				}
+				{
+					id: "4C6004C7E83B8936"
+					item: "tfc:rock/aqueduct/marble"
+					type: "item"
+				}
+			]
+			title: "Conduit"
+			x: 2.255952380952408d
+			y: -0.19345238095240092d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: [
+				"Technological development can pollute the environment. Make sure this doesn't happen in your world."
+				"Carbon, sulfur, and dust pollutants will be produced by machines, furnaces, torches ... and more."
+				""
+				"Make sure to mitigate the effects of these particles by using chimney ventilation filters. Otherwise, your world will be polluted, which is harmful to life."
+				""
+				"Some fabrics can filter out dangerous particles - wool filters sulfur, leaves filter carbon, and paper or cloth filter the dusts."
+				""
+				"In severe cases, use a vacuum to get rid of dust, carbon and sulfur."
+				"You will need a respirator to breathe in polluted air."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "mekanism:hazmat_mask"
+			}
+			id: "489E01FD9A7D8A21"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5645F5442652056A"
+					title: "done"
+					type: "checkmark"
+				}
+				{
+					id: "2C6281C8CD9061D4"
+					item: "adpother:iron_filter_frame"
+					type: "item"
+				}
+				{
+					id: "12F6D17B0CA3040F"
+					item: {
+						Count: 1
+						id: "adpother:iron_respirator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04E4717C12B9BFF7"
+					item: {
+						Count: 1
+						id: "adpother:iron_vacuum_bag"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "minecraft:mangrove_leaves"
+					id: "4955FE4EABA69BCB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+					title: "Any #minecraft:leaves"
+					type: "item"
+				}
+				{
+					id: "5DAAE1D9335BD3D1"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5EA3A2B25C5AF724"
+					item: "tfc:burlap_cloth"
+					type: "item"
+				}
+				{
+					id: "72CEC72D2894429F"
+					item: {
+						Count: 1
+						id: "adpother:iron_vacuum_tube"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Civilization Pollution"
+			x: 2.5678571428571857d
+			y: 10.226190476190446d
+		}
+		{
+			dependencies: ["42F115614DC103D7"]
+			dependency_requirement: "one_started"
+			description: [
+				"In TerraFirmaCraft, both climate and time are very important factors."
+				""
+				"Your survival will be affected by the seasons, rainfall, temperatures, and biomes in your surrounding terrain."
+				""
+				"you can also find infos in the climate tab in Inventory on the right"
+				""
+				"The types of fruit trees and wild crops you find are determined by climatic and weather conditions. Likewise, your unprotected crops will not grow in inhospitable conditions."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "twilightforest:mining_sapling"
+			id: "5852A15C1C544857"
+			size: 2.0d
+			tasks: [{
+				id: "11FB03CEF6F0C249"
+				title: "done"
+				type: "checkmark"
+			}]
+			title: "Climate"
+			x: 2.1130952380952692d
+			y: -5.526785714285733d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: [
+				""
+				"these items are warming - added to any of your clothes on the sewing table, they will add warmth to that piece of clothing"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "cold_sweat:goat_fur"
+			id: "2F9C67F4A3684B2D"
+			tasks: [
+				{
+					id: "37916F165E97641A"
+					item: "cold_sweat:goat_fur"
+					type: "item"
+				}
+				{
+					id: "64BEF0D14860320E"
+					item: "tfc:wool"
+					type: "item"
+				}
+				{
+					id: "3B5AE4F2BEE4B0C5"
+					item: "textile:cotton_cloth"
+					type: "item"
+				}
+				{
+					id: "1365B3290A13AC3F"
+					item: "htm:plant_fabric"
+					type: "item"
+				}
+				{
+					id: "4D7846C28DC4B2E7"
+					type: "checkmark"
+				}
+			]
+			title: "warm items"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71FC875D1675D97B"]
+			dependency_requirement: "one_started"
+			description: [
+				"some of the clothes can be useful on both cold and hot days"
+				""
+				"you can add insulation or cooling materials to these clothes to enhance the factor you want"
+				""
+				"IMPORTANT"
+				"the material added to the set can always be removed using scissors and a tailor's table"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3FF41D560DE9CACA"
+			tasks: [
+				{
+					id: "5043F68E9B116A8D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FBD2131DF73D61C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "textile:burlap_shirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Universal Cloth"
+			x: 2.3630952380952763d
+			y: 5.580357142857153d
+		}
+		{
+			dependencies: [
+				"4044261E6BA73C1F"
+				"416A4C5CC1EAE6EC"
+			]
+			description: [
+				"this table will allow you to add ingredients to each of your clothes that will warm (fur, wool) or cool (clay, silk) your body"
+				""
+				"Place your clothes and the cold or warm items in the table"
+				""
+				"If you want to remove cooling or warm items from your clothing, use scissors."
+				""
+				"If you want to know the ambient temperature, create a thermometer item and put it in Inventory or Curios Slots"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "cold_sweat:sewing_table"
+			id: "4659489FEB8EA50D"
+			size: 2.0d
+			tasks: [
+				{
+					id: "216426BBFF7C4D25"
+					item: "cold_sweat:sewing_table"
+					type: "item"
+				}
+				{
+					id: "5A2DD8711538C334"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:shears"
+						}
+					}
+					title: "Any #tfc:shears"
+					type: "item"
+				}
+				{
+					id: "2A128DFCDC51BC64"
+					item: "cold_sweat:thermometer"
+					type: "item"
+				}
+				{
+					id: "29EC2CB015F9D074"
+					type: "checkmark"
+				}
+			]
+			x: 2.398809523809554d
+			y: 6.973214285714292d
+		}
+		{
+			dependencies: [
+				"416A4C5CC1EAE6EC"
+				"4044261E6BA73C1F"
+			]
+			description: [
+				"the first clothes you can craft are clothes made of straw and animal hides or plants"
+				""
+				"you can add insulation or cooling materials to these clothes to enhance the factor you want"
+				""
+				"IMPORTANT"
+				"the material added to the set can always be removed using scissors and a tailor's table"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "71FC875D1675D97B"
+			tasks: [
+				{
+					id: "0DEC5C038C60BB08"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "textile:raw_shirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EBA1323CFC7A497"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "textile:raw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0648122D315C1A3E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "textile:raw_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C1D75C4EA1EEEE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "tfc_stone_tools:plant_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A93021C721A6011"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "tfc_stone_tools:plant_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "757E9F8EAC9D8A34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "tfc_stone_tools:plant_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "119B43B6400FEF05"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "tfc_stone_tools:plant_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Primitive cloth"
+			x: 2.3630952380952763d
+			y: 4.580357142857153d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: [
+				"your mind will be your strength - Remember that too long in the dark or sleeplessness will cause your weakness and long-term neglect of the mind will cause mental illness"
+				""
+				"on the left side of the information bars you have a brain icon, all bad factors such as monsters, lack of food, darkness will affect the weakening of your mind, while good factors such as sun, feeding animals, satisfied thirst and hunger will affect the better well-being"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:player_head"
+			id: "3599044D3B27EC56"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2C218BFABFC7405A"
+					item: "tfc:thatch_bed"
+					type: "item"
+				}
+				{
+					id: "2AFF9CAFF90C7870"
+					item: "comforts:sleeping_bag_white"
+					type: "item"
+				}
+				{
+					id: "0B5051D53BAD2BD8"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+				{
+					id: "22B8EAB0025285B7"
+					type: "checkmark"
+				}
+			]
+			title: "You Mind"
+			x: -1.6226190476190112d
+			y: 10.2708333333333d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: [
+				"in the world you will encounter conditions that will be unfavorable due to air quality and oxygen content."
+				""
+				"high in the mountains without a respirator and oxygen supply it will be very difficult for you to survive, just like deep underground exploring mines."
+				""
+				"a poisoning situation will also occur when approaching too close to a fire or a campfire where there is a lack of oxygen"
+				""
+				"The Nether or End is completely devoid of oxygen, without the necessary equipment this expedition will fail. items are flying that will make it easier for you, appropriate clothing, masks, oxygen tanks, special soul lamps"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "thinair:respirator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "679C991BFBF73E86"
+			size: 2.0d
+			tasks: [
+				{
+					id: "45DE595BFDFF51C5"
+					item: {
+						Count: 1
+						id: "thinair:respirator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0989995EDB5BB8C3"
+					item: {
+						Count: 1
+						id: "thinair:air_bladder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D1A946A8CFEE70"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F53E5E4A83F010E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "791DE0CC935878A8"
+					type: "checkmark"
+				}
+			]
+			title: "Respiration"
+			x: 0.4726190476190837d
+			y: 10.2708333333333d
+		}
+		{
+			dependencies: ["4659489FEB8EA50D"]
+			dependency_requirement: "one_started"
+			description: [
+				"Nether and End has always been dangerous but now, due to its unfavorable environment, it will require even more effort from you."
+				""
+				"except for the lack of oxygen - you, the player, will be tormented by high temperatures- large lakes of lava and heated magma and basalt rocks will require cooling your body"
+				""
+				""
+				"There are special lamp and fruits that will definitely help you on this journey. Adjust your clothes to cool you down as much as possible and also protect yourself with a Soul Lamp and a supply of soul sprout"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "cold_sweat:soul_sprout"
+			}
+			id: "75ADFBD1C085BA0B"
+			size: 2.0d
+			tasks: [
+				{
+					count: 10L
+					id: "54983F6EAD0675A5"
+					item: { Count: 10, id: "cold_sweat:soul_sprout" }
+					type: "item"
+				}
+				{
+					id: "7C821D1182236998"
+					item: {
+						Count: 1
+						id: "cold_sweat:soulspring_lamp"
+						tag: {
+							Fuel: 64.0d
+							Lit: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6814999A3FBD4BDC"
+					item: { Count: 5, id: "minecraft:soul_torch" }
+					type: "item"
+				}
+			]
+			title: "Nether and End"
+			x: 6.996428571428609d
+			y: 10.2708333333333d
+		}
+		{
+			dependencies: ["43A3F6984C4136E3"]
+			description: [
+				"{image:firmaciv:item/sextant_icon width:18 height:18 align:left}"
+				"You can hold &6sextant&r and press Right Click to determine your &6Latitude&r. Remember that your Latitude is measured in Degrees North or South, meaning 0 Degrees at the Equator, and 90 Degrees North or South for a polar region."
+				"{image:firmaciv:item/nav_clock/nav_clock_00 width:18 height:18 align:left}"
+				"You can hold &6Navigator's Timepiece&r to determine your &6Longitude&r. Remember that your Longitude is measured in Degrees East or West, meaning 0 Degrees at the Prime Meridian, and 360 Degrees for an identical climate."
+				"{image:firmaciv:item/barometer width:15 height:15 align:left}"
+				"Barometer, you can hold it to determine your Altitude. Remember that your Altitude is measured in distance from the Sea Level datum."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:sextant"
+			}
+			id: "42F115614DC103D7"
+			size: 2.0d
+			subtitle: "When you have copper? create first navigation tools - for a long time you may not have a map that will help you in your journeys - Learn to use it"
+			tasks: [
+				{
+					id: "57E79F0CBEFED878"
+					title: "done"
+					type: "checkmark"
+				}
+				{
+					id: "35DDDC1B8652ED64"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:sextant"
+					}
+					type: "item"
+				}
+				{
+					id: "7307A19F69C803E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:nav_clock"
+					}
+					type: "item"
+				}
+				{
+					id: "35A4A8E3066D456B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:barometer"
+					}
+					type: "item"
+				}
+				{
+					id: "5B52F0DA3947BC3B"
+					item: "firmaciv:firmaciv_compass"
+					type: "item"
+				}
+			]
+			title: "Navigation"
+			x: 2.1130952380952692d
+			y: -7.889880952380974d
+		}
+	]
+	title: "Survive"
+}

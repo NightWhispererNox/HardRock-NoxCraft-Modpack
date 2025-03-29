@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "minecraft:glow_berries"
+  },
+  "hunger": 1,
+  "saturation": 1,
+  "water": 10,
+  "decay_modifier": 2.5,
+  "fruit": 0.5
+}

@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "kubejs:nutrimix"
+  },
+  "hunger": 2,
+  "saturation": 0,
+  "decay_modifier": 3,
+  "protein": 1,
+  "vegetables": 1,
+  "fruits": 1,
+  "grain": 1
+}

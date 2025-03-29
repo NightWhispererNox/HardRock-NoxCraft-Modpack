@@ -1,0 +1,14 @@
+{
+    "type":"immersivegeology:industrial_sluice",
+    "input":{"item":"tfcorewashing:dirty_dust_copper"},
+    "amount_of_byproducts":4,
+    "byproducts":[
+        {"output":{"item":"tfcorewashing:pile_red_sand"},"chance":1.0},
+        {"output":{"item":"tfcorewashing:dirty_pile_copper"},"chance":0.50},
+        {"output":{"item":"tfcorewashing:dirty_pile_copper"},"chance":0.25},
+        {"output":{"item":"tfc:ore/topaz"},"chance":0.0025}
+    ],
+    "result":{"item":"tfc:powder/native_copper"},
+    "time":100,
+    "water":100
+}

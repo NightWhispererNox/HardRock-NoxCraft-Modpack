@@ -1,0 +1,11 @@
+
+["Block Config"]
+	#How much ticks(20 ticks = 1 second) each cycle goes?
+	"Silk Hive cycle ticks" = 2400.0
+	#Item that will be given from hive
+	"String Item ID" = "minecraft:string"
+	#Max number of items that hive can store
+	"Max Item store Silk Hive" = 16.0
+	#1.0 is 100%
+	"Chances of eggs droping from leaves" = 0.025
+

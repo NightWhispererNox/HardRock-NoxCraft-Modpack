@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/aluminum"},
+  "transitionalItem": {"item": "immersiveengineering:stick_aluminum"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "immersiveengineering:stick_aluminum"}],"results": [{"item": "immersiveengineering:stick_aluminum"}]},
+    {"type": "create:cutting","ingredients": [{"item": "immersiveengineering:stick_aluminum"}],"results": [{"item": "immersiveengineering:stick_aluminum"}]},
+    {"type": "create:cutting","ingredients": [{"item": "immersiveengineering:stick_aluminum"}],"results": [{"item": "immersiveengineering:stick_aluminum"}]},
+    {"type": "create:cutting","ingredients": [{"item": "immersiveengineering:stick_aluminum"}],"results": [{"item": "immersiveengineering:stick_aluminum"}]},
+    {"type": "create:cutting","ingredients": [{"item": "immersiveengineering:stick_aluminum"}],"results": [{"item": "immersiveengineering:stick_aluminum"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_aluminum","count": 5}    
+  ],
+  "loops": 1
+}
+

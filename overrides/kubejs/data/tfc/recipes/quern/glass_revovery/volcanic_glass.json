@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:volcanic_glass_bottle"
+  },
+  "result": {
+    "item": "tfc:volcanic_glass_batch",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "GHG",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "create_new_age:overcharged_iron_sheet"
+    },
+    "G": {
+      "item": "create_new_age:overcharged_golden_sheet"
+    },
+    "H": {
+      "item": "create_new_age:magnetite_block"
+    }
+  },
+  "result": {
+    "item": "create_new_age:layered_magnet"
+  },
+  "show_notification": true
+}

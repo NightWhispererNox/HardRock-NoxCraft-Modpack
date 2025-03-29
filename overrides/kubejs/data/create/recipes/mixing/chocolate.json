@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "firmalife:sweetener"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "tag": "firmalife:foods/chocolate"
+      }
+    },
+    {
+      "fluidTag": "tfc:milks",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "firmalife:chocolate",
+    "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}

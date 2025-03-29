@@ -1,0 +1,18 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"type": "tfc:heatable","min_temp": 650,"ingredient": {"item": "tfc:metal/ingot/copper"}},
+  "transitionalItem": {"item": "create:copper_nugget"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "create:copper_nugget"}],"results": [{"item": "create:copper_nugget"}]},
+    {"type": "create:cutting","ingredients": [{"item": "create:copper_nugget"}],"results": [{"item": "create:copper_nugget"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:copper_nugget"}],"results": [{"item": "create:copper_nugget"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:copper_nugget"}],"results": [{"item": "create:copper_nugget"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "create:copper_nugget"}],"results": [{"item": "create:copper_nugget"}]}
+    ],
+  "results": [
+    {"item": "firmaciv:copper_bolt","count":4,"chance": 120.0},
+    {"item": "tfc:metal/rods/copper","chance": 10.0},
+    {"item": "create:copper_nugget","chance": 5.0}
+  ],
+  "loops": 4
+}

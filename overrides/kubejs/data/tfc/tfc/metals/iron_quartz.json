@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "tier": 1,
+  "fluid": "kubejs:iron_quartz",
+  "melt_temperature": 930,
+  "specific_heat_capacity": 0.00857,
+  "ingots": {
+    "tag": "forge:ingots/iron_quartz"
+  },
+  "sheets": {
+    "tag": "forge:sheets/iron_quartz"
+  }
+}

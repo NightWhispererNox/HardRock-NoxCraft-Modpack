@@ -1,0 +1,32 @@
+{
+	"block.adpother.carbon": "Карбон",
+	"block.adpother.sulfur": "Сірка",
+	"block.adpother.dust": "Пил",
+	
+	"block.adpother.iron_filter_frame": "Залізна рама фільтру",
+	"block.adpother.gold_filter_frame": "Золота рама фільтру",
+	"block.adpother.diamond_filter_frame": "Діамантова рама фільтру",
+	"block.adpother.polluted_water": "Забруднена вода",
+	
+	"container.adpother.filter_frame": "Рама фільтру",
+	
+	"effect.adpother.respirator": "Респіра́тор",
+	
+	"fluid.adpother.polluted_water_still": "Забруднена вода",
+	"fluid.adpother.polluted_water_flowing": "Забруднена вода",
+	
+	"item.adpother.aerometer": "Дачик забруднення повітря",
+	"item.adpother.iron_vacuum_bag": "Залізний вакуумний контейнер",
+	"item.adpother.gold_vacuum_bag": "Золотий вакуумний контейнер",
+	"item.adpother.diamond_vacuum_bag": "Діамантовий вакуумний контейнер",
+	"item.adpother.iron_vacuum_tube": "Залізний вакуумний насос",
+	"item.adpother.gold_vacuum_tube": "Золотий вакуумний насос",
+	"item.adpother.diamond_vacuum_tube": "Діамантовий вакуумний насос",
+	"item.adpother.iron_respirator": "Залізний респіра́тор",
+	"item.adpother.gold_respirator": "Золотий респіра́тор",
+	"item.adpother.diamond_respirator": "Діамантовий респіра́тор",
+	"item.adpother.polluted_water_bucket": "Відро забрудненої води",
+	
+	"tooltip.adpother.storage_item.contents": "Повітряні фільтри:",
+	"tooltip.adpother.storage_item.capacity": "Насиченість"
+}

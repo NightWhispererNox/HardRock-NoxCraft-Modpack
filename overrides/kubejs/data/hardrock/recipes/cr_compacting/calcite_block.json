@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tfc:calcite"
+    },
+    {
+      "item": "tfc:calcite"
+    },
+    {
+      "item": "tfc:calcite"
+    },
+    {
+      "item": "tfc:calcite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:calcite"
+    }
+  ]
+}

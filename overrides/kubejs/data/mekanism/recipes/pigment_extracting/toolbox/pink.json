@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "create:pink_toolbox"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:pink",
+        "amount": 8
+    }
+}

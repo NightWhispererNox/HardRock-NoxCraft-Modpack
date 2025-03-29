@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"G#G",
+		"P#P",
+		"G#G"
+	],
+	"key": {
+		"#": {
+			"item": "createsifter:string_mesh"
+		},
+		"G": [
+			{"tag": "forge:rods/gold"},
+			{"tag": "forge:rods/rose_gold"},
+			{"tag": "forge:rods/brass"}],
+		"P": [
+			{"item": "kubejs:primitive_glass_pane"},
+			{"item": "minecraft:glass_pane"}]
+	},
+	"result": {
+		"item": "adpother:gold_filter_frame",
+		"count": 1
+	}
+}

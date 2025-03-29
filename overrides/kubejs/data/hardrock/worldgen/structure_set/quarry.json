@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hardrock:quarry",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 9976165,
+    "spacing": 400,
+    "separation": 75,
+    "type": "minecraft:random_spread"
+  }
+}

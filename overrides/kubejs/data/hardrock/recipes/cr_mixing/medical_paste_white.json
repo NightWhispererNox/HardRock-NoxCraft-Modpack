@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:bark_paste"
+    },
+    {
+      "item": "kubejs:medical_white_powder"
+    },
+    {
+      "tag": "forge:clay"
+    },
+    {
+      "item": "kubejs:cut_cattail"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:medical_paste",
+      "count": 4
+    }
+  ],
+  "processingTime": 300
+}

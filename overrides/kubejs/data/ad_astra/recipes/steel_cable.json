@@ -1,0 +1,14 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {"tag": "forge:plates/steel"},
+    {"item": "refinedstorage:cable"},
+    {"tag": "forge:plates/steel"}
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "ad_astra:steel_cable"
+    }
+  ]
+}

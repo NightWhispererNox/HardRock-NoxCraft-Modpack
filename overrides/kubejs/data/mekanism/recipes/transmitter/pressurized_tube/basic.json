@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "refinedstorage:cable"
+    },
+    {
+      "item": "kubejs:compressed_mesh"
+    },
+    {
+      "tag": "forge:glue"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "mekanism:basic_pressurized_tube",
+      "count": 1
+    }
+  ]
+}

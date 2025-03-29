@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/gold"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 900,
+      "fluid": "tfc:metal/gold",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 640,
+  "result": {
+    "tag": "forge:storage_blocks/gold"
+  }
+}

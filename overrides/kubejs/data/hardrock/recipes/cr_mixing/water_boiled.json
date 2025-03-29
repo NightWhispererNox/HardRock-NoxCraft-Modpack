@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "processingTime": 600,
+  "results": [
+    {
+      "fluid": "kubejs:boiled_water",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}

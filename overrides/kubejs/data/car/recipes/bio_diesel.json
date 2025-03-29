@@ -1,0 +1,23 @@
+{
+	"type": "createdieselgenerators:basin_fermenting",
+	"ingredients": [
+	  {
+		"fluid": "createaddition:seed_oil",
+		"amount": 125
+	  },
+	  {
+		"fluid": "immersiveengineering:ethanol",
+		"amount": 125
+	  }
+	],
+	"processingTime": 12000,
+	"results": [
+	  {
+		"fluid": "car:bio_diesel",
+		"amount": 200
+	  },
+	  {
+		"item": "pneumaticcraft:glycerol"
+	  }
+	]
+  }

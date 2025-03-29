@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tconstruct:cyan_clear_stained_glass_pane"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:cyan",
+        "amount": 8
+    }
+}

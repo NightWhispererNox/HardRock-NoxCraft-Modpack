@@ -1,0 +1,18 @@
+{
+  "Hud Texts": {
+    "Variables": {
+      "Name": "$player_name$",
+      "Health": "$player_health$",
+      "Max Health": "$player_max_health$",
+      "Armor": "$player_armor$",
+      "Food Level": "$player_food_level$",
+      "Food Saturation": "$player_food_saturation$",
+      "Air": "$player_air$",
+      "Height": "$player_height$",
+      "Width": "$player_width$",
+      "Ticks Frozen": "$player_ticks_frozen$",
+      "Game FPS": "$game_fps$",
+      "Game FPS Colored": "$game_fps_colored$"
+    }
+  }
+}

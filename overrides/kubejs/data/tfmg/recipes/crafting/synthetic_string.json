@@ -1,0 +1,15 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/plastic"},
+  "transitionalItem": {"item": "kubejs:sq_steelpipecr"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"tag": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"tag": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"tag": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"tag": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"tag": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"tag": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]}
+  ],
+  "results": [{"item": "tfmg:synthetic_string","count":6}],
+  "loops": 1
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "adpother:base/respirator",
+	"textures": {
+		"1": "block/gold_block"
+	}
+}

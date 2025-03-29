@@ -1,0 +1,7 @@
+{
+  "values": [
+    "create:fluid_tank",
+    "create:creative_fluid_tank",
+    "tfmg:steel_fluid_tank"
+  ]
+}

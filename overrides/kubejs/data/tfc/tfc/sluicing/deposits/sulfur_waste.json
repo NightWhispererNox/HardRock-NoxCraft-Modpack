@@ -1,0 +1,7 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "kubejs:sulfur_waste"
+  },
+  "loot_table": "tfc:sluices_gravel/deposits/sulfur_waste"
+}

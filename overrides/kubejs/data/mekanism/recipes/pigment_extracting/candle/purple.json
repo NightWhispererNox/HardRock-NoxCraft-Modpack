@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:candle/purple"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:purple",
+        "amount": 8
+    }
+}

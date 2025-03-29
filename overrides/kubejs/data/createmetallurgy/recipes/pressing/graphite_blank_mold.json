@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "createmetallurgy:graphite"},
+  "transitionalItem": {"item": "create:unprocessed_obsidian_sheet"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "create:unprocessed_obsidian_sheet"},{"fluid": "tfc:metal/steel","nbt": {},"amount": 250}],"results": [{"item": "create:unprocessed_obsidian_sheet"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:unprocessed_obsidian_sheet"}],"results": [{"item": "create:unprocessed_obsidian_sheet"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:unprocessed_obsidian_sheet"}],"results": [{"item": "create:unprocessed_obsidian_sheet"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:unprocessed_obsidian_sheet"}],"results": [{"item": "create:unprocessed_obsidian_sheet"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:unprocessed_obsidian_sheet"}],"results": [{"item": "create:unprocessed_obsidian_sheet"}]}
+  ],
+  "results": [{"item": "createmetallurgy:graphite_blank_mold"}],
+  "loops": 4
+}

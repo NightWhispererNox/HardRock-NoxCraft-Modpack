@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "tag": "forge:dusts/quartz"
+  },
+  "heat_capacity": 3.357,
+  "forging_temperature": 570,
+  "welding_temperature": 760
+}

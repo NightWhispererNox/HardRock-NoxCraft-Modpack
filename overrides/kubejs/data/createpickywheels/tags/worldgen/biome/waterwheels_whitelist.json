@@ -1,0 +1,20 @@
+{
+  "values": [
+    "#createpickywheels:waterwheels_boosted",
+    "tfc:plains",
+    "tfc:hills",
+    "tfc:lowlands",
+    "tfc:low_canyons",
+    "tfc:rolling_hills",
+    "tfc:badlands",
+    "tfc:inverted_badlands",
+    "tfc:plateau",
+    "tfc:canyons",
+    "tfc:mountains",
+    "tfc:old_mountains",
+    "tfc:oceanic_mountains",
+    "tfc:volcanic_mountains",
+    "tfc:volcanic_oceanic_mountains",
+    "tfc:shore"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "tfc:barrel_sealed",
+    "input_item": {
+        "ingredient": [
+            {
+                "item": "tfc:cut_sandstone/brown"
+            },
+            {
+                "item": "tfc:cut_sandstone/white"
+            },
+            {
+                "item": "tfc:cut_sandstone/black"
+            },
+            {
+                "item": "tfc:cut_sandstone/red"
+            },
+            {
+                "item": "tfc:cut_sandstone/yellow"
+            },
+            {
+                "item": "tfc:cut_sandstone/green"
+            },
+            {
+                "item": "tfc:cut_sandstone/pink"
+            }
+        ]
+    },
+    "input_fluid": {
+        "ingredient": "tfc:lye",
+        "amount": 25
+    },
+    "output_item": {
+        "item": "minecraft:cut_sandstone"
+    },
+    "duration": 1000
+}

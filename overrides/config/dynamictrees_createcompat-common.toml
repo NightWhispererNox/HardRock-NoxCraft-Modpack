@@ -1,0 +1,6 @@
+#Drop chance for the mechanical saw
+#Range: 0.0 ~ 1.0
+dropMultiplier = 1.0
+#Let the tree fall like got chopped by player
+simulateFall = false
+

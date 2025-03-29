@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "item": "tfc:fire_clay"
+    },
+    {
+      "item": "tfc:fire_clay"
+    },
+    {
+      "tag": "forge:gravel"
+    }
+  ],
+  "processingTime": 600,
+  "results": [
+    {
+      "item": "createbigcannons:casting_sand",
+      "count":2
+    }
+  ]
+}

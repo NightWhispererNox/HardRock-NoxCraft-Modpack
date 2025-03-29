@@ -1,0 +1,14 @@
+{
+  "oreChances": {
+    "entries": {
+      "tfc:ore/rich_native_gold": 0.2,
+      "tfc:ore/emerald": 0.05,
+      "tfc:ore/diamond": 0.05,
+      "tfc:ore/cinnabar": 0.15,
+      "tfc:ore/bituminous_coal": 0.2,
+      "tfc:ore/rich_hematite": 0.2,
+      "tfc:ore/lapis_lazuli": 0.15
+    },
+    "defaultBlock": "minecraft:coal_ore"
+  }
+}

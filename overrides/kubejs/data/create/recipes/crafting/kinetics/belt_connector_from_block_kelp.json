@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+    "item": "minecraft:dried_kelp_block"
+	},
+	"result": {
+		"item": "create:belt_connector"
+	}
+}

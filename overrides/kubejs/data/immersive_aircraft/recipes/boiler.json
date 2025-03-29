@@ -1,0 +1,16 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:chute"},
+  "transitionalItem": {"item": "create:gantry_shaft"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "create:fluid_tank"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "minecraft:blast_furnace"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "tfc:metal/sheet/copper"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "tfc:metal/sheet/copper"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "tfc:metal/sheet/copper"}],"results": [{"item": "create:gantry_shaft"}]}
+  ],
+  "results": [{"item": "immersive_aircraft:boiler"}],
+  "loops": 1
+}
+

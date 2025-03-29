@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " RC",
+    " S ",
+    "CR "
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "create:fluid_pipe"
+      }
+    ],
+    "S": [
+      {
+        "item": "create:smart_fluid_pipe"
+      }
+    ],
+    "R": [
+      {
+        "tag": "forge:sheets/wrought_iron"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:sturdy_pipes"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "immersiveengineering:wirecoil_electrum"},
+  "transitionalItem": {"item": "kubejs:sq_ins_elec"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_elec"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]},
+  {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_elec"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]},
+  {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_elec"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]},
+  {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_elec"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]}
+  ],
+  "results": [{"item": "immersiveengineering:wirecoil_electrum_ins"}],
+  "loops": 1
+}

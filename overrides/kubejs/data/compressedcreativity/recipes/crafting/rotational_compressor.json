@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:encased_fan"
+    },
+    {
+      "item": "pneumaticcraft:manual_compressor"
+    }
+  ],
+  "results": [
+    {
+      "item": "compressedcreativity:rotational_compressor"
+    }
+  ]
+}

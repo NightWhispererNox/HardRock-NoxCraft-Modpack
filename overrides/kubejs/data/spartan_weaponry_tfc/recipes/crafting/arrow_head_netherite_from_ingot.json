@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:item_exists",
+        "item": "mekanism:dust_netherite"
+      }
+    }
+  ],
+  "__comment__": "This file was created by htfc4",
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:arrow_head/iron"
+  },
+  "second_input": {
+    "tag": "forge:ingots/netherite"
+  },
+  "tier": 6,
+  "result": {
+    "item": "spartan_weaponry_tfc:netherite_arrow_head"
+  }
+}

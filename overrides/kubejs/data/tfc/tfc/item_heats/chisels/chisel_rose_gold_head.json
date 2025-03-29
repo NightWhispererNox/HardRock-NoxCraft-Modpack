@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "kubejs:chisel_rose_gold_head"
+  },
+  "heat_capacity": 1.429,
+  "forging_temperature": 576,
+  "welding_temperature": 768
+}

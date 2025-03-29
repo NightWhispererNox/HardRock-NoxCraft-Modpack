@@ -1,0 +1,18 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+		"type": "tfc:heatable",
+		"min_temp": 300,
+		"ingredient": {
+			"tag": "forge:ingots/lead"
+		}
+	},
+	"result": {
+		"item": "tfc_items:lead_rod",
+		"count": 2
+	},
+	"conditions": [ {
+		"type": "forge:mod_loaded",
+		"modid": "immersiveengineering"
+    } ]
+}

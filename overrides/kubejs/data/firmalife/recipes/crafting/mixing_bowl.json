@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "YXY"
+  ],
+  "key": {
+    "X": {
+      "tag": "tfc:lumber"
+    },
+    "Y": {
+      "item": "tfc:glue"
+    }
+  },
+  "result": {
+    "item": "firmalife:mixing_bowl"
+  }
+}

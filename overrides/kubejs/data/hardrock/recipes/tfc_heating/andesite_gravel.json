@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:rock/gravel/andesite"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:andesite_stone",
+    "amount": 25
+  },
+  "temperature": 930
+}

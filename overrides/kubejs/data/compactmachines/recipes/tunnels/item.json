@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:omnidirectional_hopper"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "tag": "forge:chests"
+    },
+    {
+      "item": "create:portable_storage_interface"
+    }
+  ],
+  "result": {
+    "item": "compactmachines:tunnel",
+    "count": 2,
+    "nbt": {
+      "definition": {
+        "id": "compactmachines:item"
+      }
+    }
+  }
+}

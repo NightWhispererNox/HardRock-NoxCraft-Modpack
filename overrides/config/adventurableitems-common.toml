@@ -1,0 +1,5 @@
+
+[AdventurableItems]
+	ItemsUsableInAdventureMode = []
+	AllowEveryItemUsingInAdventureMode = false
+

@@ -1,0 +1,250 @@
+{
+  "profession": "minecraft:cleric",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {"itemKey": "minecraft:gunpowder","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric/gunpowder"
+    },
+    {
+      "offer": {"itemKey": "tfc:silica_glass_bottle","amount": 1,"advancedNBTData": "{kjsRandomize:['glassType','silica'],fluid: {FluidName: 'kubejs:boiled_water', Amount: 500}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric/glass_bottle"
+    },
+    {
+      "offer": {"itemKey": "tfc:powder/soda_ash","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric/soda_ash"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:redstone","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric/redstone_dust"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "minecraft:music_disc_13","amount": 1},
+        {"itemKey": "minecraft:music_disc_cat","amount": 1},
+        {"itemKey": "minecraft:music_disc_blocks","amount": 1},
+        {"itemKey": "minecraft:music_disc_chirp","amount": 1},
+        {"itemKey": "minecraft:music_disc_far","amount": 1},
+        {"itemKey": "minecraft:music_disc_mall","amount": 1},
+        {"itemKey": "minecraft:music_disc_mellohi","amount": 1},
+        {"itemKey": "minecraft:music_disc_stal","amount": 1},
+        {"itemKey": "minecraft:music_disc_strad","amount": 1},
+        {"itemKey": "minecraft:music_disc_ward","amount": 1},
+        {"itemKey": "minecraft:music_disc_11","amount": 1},
+        {"itemKey": "minecraft:music_disc_wait","amount": 1},
+        {"itemKey": "minecraft:music_disc_otherside","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric/music_disc/common"
+    },
+    {
+      "offer": {"itemKey": "minecraft:spider_eye","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric/spider_eye"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:lapis_lazuli","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric/lapis_lazuli"
+    },
+    {
+      "offer": {"itemKey": "minecraft:glow_ink_sac","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric/glow_ink"
+    },
+    {
+      "offer": {"itemKey": "minecraft:sugar","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric/sugar"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:ore/sulfur","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric/sulfur_ore"
+    },
+    {
+      "offer": {"itemKey": "minecraft:prismarine_shard","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric/prismarine_shards"
+    },
+    {
+      "offer": {"itemKey": "minecraft:quartz","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric/nether_quartz"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:ender_pearl","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 8
+      },
+      "tradeExp": 120,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric/ender_pearl"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "minecraft:disc_fragment_5","amount": 2},
+        {"itemKey": "minecraft:disc_fragment_5","amount": 2},
+        {"itemKey": "minecraft:disc_fragment_5","amount": 2},
+        {"itemKey": "minecraft:disc_fragment_5","amount": 2},
+        {"itemKey": "minecraft:music_disc_relic","amount": 1},
+        {"itemKey": "alekiships:music_disc_pirate_crafting","amount": 1},
+        {"itemKey": "enlightened_end:sprog_music_disc","amount": 1},
+        {"itemKey": "supplementaries:music_disc_heave_ho","amount": 1},
+        {"itemKey": "twilightforest:music_disc_thread","amount": 1},
+        {"itemKey": "twilightforest:music_disc_findings","amount": 1},
+        {"itemKey": "twilightforest:music_disc_radiance","amount": 1},
+        {"itemKey": "twilightforest:music_disc_steps","amount": 1},
+        {"itemKey": "twilightforest:music_disc_motion","amount": 1},
+        {"itemKey": "twilightforest:music_disc_wayfarer","amount": 1},
+        {"itemKey": "twilightforest:music_disc_home","amount": 1},
+        {"itemKey": "twilightforest:music_disc_maker","amount": 1},
+        {"itemKey": "twilightforest:music_disc_superstitious","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 12
+      },
+      "tradeExp": 180,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric/music_disc/rare"
+    },
+    {
+      "offer": {"itemKey": "minecraft:experience_bottle","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric/experience_bottle"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "advancedtfctech:fleshing_machine",
+  "result": {
+    "stack": {
+      "item": "kubejs:hide_finish_m"
+    },
+    "modifiers": [
+      {
+        "type": "advancedtfctech:copy_tag",
+        "tag": "machine_made"
+      }
+    ]
+  },
+  "input": {
+    "item": "kubejs:hide_oiled_m"
+  },
+  "time": 150,
+  "energy": 3000
+}

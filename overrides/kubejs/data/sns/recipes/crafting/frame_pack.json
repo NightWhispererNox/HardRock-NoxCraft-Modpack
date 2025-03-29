@@ -1,0 +1,36 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "sns:reinforced_fabric"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "tag": "forge:leather/strip"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "tag": "forge:leather"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "sns:pack_frame"
+      },
+      "count": 1
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "sns:frame_pack"
+  }
+}

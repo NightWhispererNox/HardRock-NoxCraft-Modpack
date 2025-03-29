@@ -1,0 +1,13 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+            "item": "tfc:food/olive"
+        }
+    },
+    "result": {
+        "item": "tfc:olive_paste",
+        "count": 2
+    }
+}

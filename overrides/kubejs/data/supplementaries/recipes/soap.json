@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 1000
+      }
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "tfc:foods/raw_meats"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:soap",
+    "count": 6
+  }
+}

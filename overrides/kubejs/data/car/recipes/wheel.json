@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " WS",
+    "RIR",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "create:belt_connector"
+    },
+    "I": {
+      "tag": "forge:gears/aluminum"
+    },
+    "S": {
+      "tag": "vintageimprovements:springs/iron"
+    },
+    "R": {
+      "item": "kubejs:vulcanized_rubber"
+    }
+  },
+  "result": {
+    "item": "car:wheel",
+    "count": 1
+  }
+}

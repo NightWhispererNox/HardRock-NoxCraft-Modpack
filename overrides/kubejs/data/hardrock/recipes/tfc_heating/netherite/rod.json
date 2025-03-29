@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "vintageimprovements:netherite_rod"
+  },
+  "result_fluid": {
+    "fluid": "createmetallurgy:molten_netherite",
+    "amount": 50
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

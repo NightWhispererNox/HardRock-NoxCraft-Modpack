@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        " LR",
+        "GHL",
+        "RL "
+    ],
+    "key":{
+        "R":{"tag":"minecraft:buttons"},
+        "G":{"tag":"forge:glue"},
+        "H":{"tag":"forge:handle/long"},
+        "L":{"tag":"forge:string/plant"}
+    },
+    "result":{
+        "item":"spartanweaponry:wooden_quarterstaff"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:ceramic/unfired_large_vessel/light_gray"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:light_gray",
+        "amount": 8
+    }
+}

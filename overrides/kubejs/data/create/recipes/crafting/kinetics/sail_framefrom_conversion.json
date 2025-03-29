@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "S S",
+    "GSG"
+  ],
+  "key": {
+    "S": {
+      "tag": "tfc:lumber"
+    },
+    "G": {
+      "tag": "forge:glue"
+    }
+  },
+  "result": {
+    "item": "create:sail_frame"
+  }
+}

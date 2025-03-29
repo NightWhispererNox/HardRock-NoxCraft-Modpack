@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O#O",
+        "# #",
+        "O_O"
+    ],
+    "key": {
+        "#": {
+            "item": "immersive_aircraft:sail"
+        },
+        "O": {
+            "tag": "forge:rope"
+        },
+        "_": {
+            "tag": "tfc:barrels"
+        }
+    },
+    "result": {
+        "item": "breezy:hot_air_balloon",
+        "count": 1
+    }
+}

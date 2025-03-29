@@ -1,0 +1,27 @@
+{
+  "type": "treetap:tap_extract",
+  "log": {
+    "item": "tfc:wood/log/birch",
+    "item": "tfc:wood/log/sequoia",
+    "item": "tfc:wood/log/sycamore",
+    "item": "tfc:wood/log/hickory",
+    "item": "tfc:wood/log/ash"
+  },
+  "processing_time": 200,
+  "metal_result": {
+    "item": "kubejs:latex_bucket"
+  },
+  "wooden_result": {
+    "item": "tfc:wooden_bucket",
+    "nbt": "{fluid: {FluidName: \"kubejs:latex\", Amount: 1000}}"
+  },
+  "life_cycle": [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0],
+  "collect_bucket": true,
+  "fluid_color": "#ededed",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfc"
+    }
+  ]
+}

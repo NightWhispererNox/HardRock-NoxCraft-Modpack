@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfc_ie_addon"
+    }
+  ],
+  "type": "createoreexcavation:vein",
+  "amountMax": 25.0,
+  "amountMin": 8.0,
+  "biomeWhitelist": "tfc:is_vein",
+  "icon": {
+    "item": "tfc_ie_addon:ore/poor_uraninite"
+  },
+  "name": "{\"translate\":\"Uraninite vein\"}",
+  "placement": {
+    "salt": 148851669,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

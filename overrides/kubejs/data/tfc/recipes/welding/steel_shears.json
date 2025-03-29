@@ -1,0 +1,22 @@
+{
+    "conditions": [{"type": "forge:mod_loaded","modid": "tfchotornot"}],
+    "type":"tfc:advanced_shaped_crafting",
+    "pattern":[
+        "sX ",
+        "SNX",
+        "RSs"
+    ],
+    "key":{
+        "N":{"tag":"forge:rivets/steel"},
+        "X":{"item":"tfc:metal/knife_blade/steel"},
+        "R":{"tag":"forge:rings/steel"},
+        "s":{"tag":"forge:leather/string"},
+        "S":{"tag":"forge:handle/short"}
+    },
+    "result":{
+        "stack":{"item":"tfc:metal/shears/steel"},
+        "modifiers":["tfc:copy_forging_bonus"]
+    },
+    "input_row":0,
+    "input_column":1
+}

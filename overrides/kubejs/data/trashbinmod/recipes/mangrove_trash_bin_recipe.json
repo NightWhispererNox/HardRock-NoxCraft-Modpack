@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:wood/planks/mangrove_button"
+    },
+    "c": {
+      "item": "tfc:wood/barrel/mangrove"
+    },
+    "b": {
+      "item": "tfc:wood/planks/mangrove_trapdoor"
+    }
+  },
+  "result": {
+    "item": "trashbinmod:mangrove_trash_bin",
+    "count": 1
+  }
+}

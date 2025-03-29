@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:alloy",
+    "time":200,
+    "result":{"count":1,"base_ingredient":{"item":"securitycraft:reinforced_granite"}},
+    "input0":{"count":3,"base_ingredient":{"tag":"forge:gems/quartz"}},
+    "input1":{"item":"securitycraft:reinforced_diorite"}
+}

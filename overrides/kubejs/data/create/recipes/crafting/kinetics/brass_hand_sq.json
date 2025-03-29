@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:double_sheets/brass"},
+  "transitionalItem": {"item": "kubejs:sq_brasspipecr"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"item": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_brasspipecr"},{"tag": "forge:rods/brass"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]}
+    ],
+  "results": [{"item": "create:brass_hand","count":1}],
+  "loops": 2
+}

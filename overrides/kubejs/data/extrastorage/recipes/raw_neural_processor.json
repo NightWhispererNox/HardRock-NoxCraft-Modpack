@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "refinedstorage:processor_binding"
+    },
+    {
+      "tag": "forge:dusts/emerald"
+    },
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "tag": "forge:dusts/refined_obsidian"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "extrastorage:raw_neural_processor"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "lava",
+  "target_block": {
+    "blocks": [
+      "tfc:rock/gravel/basalt",
+      "tfc:rock/gravel/shale",
+      "tfc:rock/gravel/dolomite"
+    ]
+  },
+  "post": [
+      {
+          "type": "place",
+          "block": "minecraft:soul_sand"
+      }
+  ]
+}

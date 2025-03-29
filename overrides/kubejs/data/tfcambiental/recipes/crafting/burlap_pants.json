@@ -1,0 +1,24 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "tfc:burlap_cloth"
+      },
+      "count": 7
+    },
+    {
+      "ingredient": {
+        "tag": "forge:string"
+      },
+      "count": 5
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "tfcambiental:burlap_pants"
+  }
+}

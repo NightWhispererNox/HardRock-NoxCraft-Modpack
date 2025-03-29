@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    "TTT",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "create:belt_connector"
+    },
+    "T": {
+      "item": "car:medium_tank"
+    }
+  },
+  "result": {
+    "item": "car:large_tank",
+    "count": 1
+  }
+}

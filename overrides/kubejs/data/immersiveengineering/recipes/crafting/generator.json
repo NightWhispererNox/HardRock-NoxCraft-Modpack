@@ -1,0 +1,13 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:sheetmetals/steel"},
+    "transitionalItem": {"item": "create:gantry_shaft"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"tag": "forge:plates/electrum"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersiveengineering:component_steel"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersiveengineering:coil_mv"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:pressing","ingredients": [{"tag": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]}
+    ],
+    "results": [{"item": "immersiveengineering:generator"}],
+    "loops": 1
+  }

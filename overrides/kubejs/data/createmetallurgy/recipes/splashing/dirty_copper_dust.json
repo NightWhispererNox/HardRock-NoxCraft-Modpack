@@ -1,0 +1,30 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "forge:dirty_dusts/copper"
+    }
+  ],
+  "processingTime": 1200,
+  "results": [
+    {
+      "item": "tfcorewashing:dirty_pile_copper"
+    },
+    {
+      "chance": 0.75,
+      "item": "tfcorewashing:dirty_pile_copper"
+    },
+    {
+      "chance": 0.4,
+      "item": "tfcorewashing:dirty_pile_copper"
+    },
+    {
+      "chance": 0.15,
+      "item": "tfcorewashing:dirty_pile_copper"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:clay_ball"
+    }
+  ]
+}

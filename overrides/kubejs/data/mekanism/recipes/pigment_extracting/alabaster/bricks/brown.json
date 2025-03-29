@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:alabaster/bricks/brown"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:brown",
+        "amount": 8
+    }
+}

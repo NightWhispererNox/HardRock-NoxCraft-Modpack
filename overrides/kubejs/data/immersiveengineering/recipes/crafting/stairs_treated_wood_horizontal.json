@@ -1,0 +1,6 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":["s  ","ss "],
+    "key":{"s":{"item":"tfc_ie_addon:treated_wood_lumber"}},
+    "result":{"item":"immersiveengineering:stairs_treated_wood_horizontal"}
+}

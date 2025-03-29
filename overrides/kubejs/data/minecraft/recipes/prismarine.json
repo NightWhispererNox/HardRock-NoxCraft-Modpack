@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/prismarine"
+    },
+    {
+      "tag": "forge:dusts/prismarine"
+    },
+    {
+      "item": "tfc:fire_clay"
+    },
+    {
+      "tag": "forge:dusts/prismarine"
+    },
+    {
+      "tag": "forge:dusts/prismarine"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:prismarine"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "firmalife:vat",
+  "input_item": {
+    "ingredient": {
+      "tag": "forge:dusts/charcoal"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 1000
+  },
+  "output_fluid": {
+    "fluid": "kubejs:purified_water",
+    "amount": 1000
+  }
+}

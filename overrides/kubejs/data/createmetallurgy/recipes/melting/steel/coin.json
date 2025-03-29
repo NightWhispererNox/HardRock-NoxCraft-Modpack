@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:coins/steel"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:coins/steel"
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 25,
+      "fluid": "tfc:metal/steel"
+    }
+  ]
+}

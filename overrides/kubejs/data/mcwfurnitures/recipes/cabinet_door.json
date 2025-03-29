@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "LLS",
+        "LCR",
+        "LLS"                
+    ],
+    
+    "key":
+    { 
+        "C":
+        {
+            "tag": "forge:barrels"
+        },
+        "R":
+        {
+            "tag": "forge:rods/iron"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        "L":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnitures:cabinet_door",
+        "count": 1
+    }
+}
+
+

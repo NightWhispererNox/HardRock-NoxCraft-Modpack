@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "fluidTag": "forge:plantoil",
+      "amount": 10
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:biomass",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

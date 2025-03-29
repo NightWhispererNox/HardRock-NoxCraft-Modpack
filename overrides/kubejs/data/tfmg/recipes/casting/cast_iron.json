@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/cast_iron",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfc:metal/ingot/cast_iron"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "tfmg:cast_iron_block"
+    }
+
+  ]
+}

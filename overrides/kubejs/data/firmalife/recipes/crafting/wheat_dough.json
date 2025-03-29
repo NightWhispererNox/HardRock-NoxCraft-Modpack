@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file created by tfch",
+  "type": "firmalife:mixing_bowl",
+  "ingredients": [
+    {
+      "tag": "tfc:sweetener"
+    },
+    {
+      "item": "tfc:food/wheat_flour"
+    },
+    {
+      "item": "tfc:food/wheat_flour"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "firmalife:yeast_starter",
+    "amount": 1000
+  },
+  "output_item": {
+    "item": "firmalife:food/wheat_dough",
+    "count": 3
+  }
+}

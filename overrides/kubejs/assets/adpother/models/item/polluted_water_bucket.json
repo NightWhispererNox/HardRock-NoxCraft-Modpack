@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "adpother:item/polluted_water_bucket"
+	}
+}

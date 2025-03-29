@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "pneumaticcraft:salmon_tempura"
+  },
+  "hunger": 13,
+  "saturation": 3,
+  "decay_modifier": 0.8,
+  "grain": 2,
+  "protein": 2
+}

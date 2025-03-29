@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:ceramic/light_blue_unfired_vessel"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:light_blue",
+        "amount": 8
+    }
+}

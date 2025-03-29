@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age-alloying"
+	group: "4B506126B0B8AA84"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "tconstruct:seared_table"
+	id: "5F9A8BEBE8762B4F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44024F7CD1794DA5"]
+			description: ["Everything you need to know about alloying metals is on the ''Encyclopedia of Tinkering'' - You will produce more metals and metal alloys faster"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6B003676E78EE5D7"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			tasks: [{
+				id: "1FF026FC5A77946D"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			title: "Everything is here"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B003676E78EE5D7"]
+			description: ["First blocks of metal, faster crafting of bars and more efficiency overall"]
+			hide_until_deps_visible: true
+			icon: "tconstruct:seared_melter"
+			id: "5AE978CADC8BC927"
+			tasks: [
+				{
+					count: 8L
+					id: "5F964F8A85E57CBF"
+					item: "tconstruct:seared_brick"
+					title: "Seared Bricks"
+					type: "item"
+				}
+				{
+					id: "211FD5224DE25513"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "1D2A42B5611CC978"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "2AF2E11EAE9F9E2F"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "325EF7E0399D62C1"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "3EAB5A5AB781F6D2"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			title: "Melter"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AE978CADC8BC927"]
+			description: ["The ''Smelter'' is a multi-block structure that has a huge capacity and will help you do metal casting faster"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:smeltery_controller"
+				tag: {
+					texture: "tconstruct:seared_bricks"
+				}
+			}
+			id: "573BC5536BFA4E1E"
+			tasks: [
+				{
+					count: 16L
+					id: "78AE54B47F2757FC"
+					item: "tconstruct:seared_bricks"
+					title: "Seared Bricks"
+					type: "item"
+				}
+				{
+					id: "593C43F59EC31D98"
+					item: {
+						Count: 1b
+						id: "tconstruct:smeltery_controller"
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E81D1C356E1E1F1"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "5BAD85592E9F4F45"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "46F6394C551F5061"
+					item: {
+						Count: 1b
+						id: "tconstruct:seared_chute"
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Big Smeltery"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AE978CADC8BC927"]
+			description: ["All the Ingots , Gears, Rods you could want"]
+			hide_until_deps_visible: true
+			icon: "tconstruct:ingot_cast"
+			id: "626C843C159B45D1"
+			tasks: [
+				{
+					id: "0134F5EFCB7CAC4B"
+					item: "tconstruct:ingot_cast"
+					title: "Seared Bricks"
+					type: "item"
+				}
+				{
+					id: "28034B5EAE99A9B1"
+					item: "tconstruct:rod_cast"
+					type: "item"
+				}
+			]
+			title: "Cast Ingot"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"31522357EABCF399"
+				"626C843C159B45D1"
+			]
+			description: ["Anvil for new parts"]
+			hide_until_deps_visible: true
+			icon: "tconstruct:tinkers_anvil"
+			id: "6C6398963C23F988"
+			tasks: [{
+				icon: "tconstruct:tinkers_anvil"
+				id: "79EAC171BB30AEBD"
+				item: "tconstruct:tinkers_anvil"
+				type: "item"
+			}]
+			title: "Advanced Anvil"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AE978CADC8BC927"]
+			description: ["New tools ?"]
+			hide_until_deps_visible: true
+			icon: "tconstruct:pick_head_cast"
+			id: "31522357EABCF399"
+			tasks: [
+				{
+					id: "12AE17377BB78DA8"
+					item: "tconstruct:pick_head_cast"
+					type: "item"
+				}
+				{
+					id: "4A2F0E2600092316"
+					item: "tconstruct:small_axe_head_cast"
+					type: "item"
+				}
+				{
+					id: "27BA52A29DF9FB81"
+					item: "tconstruct:broad_blade_cast"
+					type: "item"
+				}
+			]
+			title: "Cast for tools"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C6398963C23F988"]
+			description: ["Do whatever you want. Tinker's Construct has unlimited possibilities for crafting tools and useful items"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:slime_chestplate"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							level: 1s
+							name: "tconstruct:overslime_friend"
+						}
+						{
+							level: 1s
+							name: "tconstruct:wings"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.4f
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 5
+					}
+					tic_stats: {
+						"tconstruct:armor": 0.0f
+						"tconstruct:attack_damage": 0.0f
+						"tconstruct:durability": 672.0f
+					}
+					tic_volatile_data: {
+						"tconstruct:elyta": 1b
+						"tconstruct:overslime_friend": 1b
+					}
+				}
+			}
+			id: "0E695620875E62F5"
+			tasks: [{
+				id: "6CC0ACE295215CCF"
+				item: {
+					Count: 1b
+					id: "tconstruct:plate_helmet"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+						tic_stats: {
+							"tconstruct:armor": 2.0f
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:durability": 330.0f
+							"tconstruct:knockback_resistance": 0.1f
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "You can do anything"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Age - Alloying"
+}

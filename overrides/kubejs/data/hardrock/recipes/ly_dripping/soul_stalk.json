@@ -1,0 +1,11 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "lava",
+  "target_block": "minecraft:soul_soil",
+  "post": [
+      {
+          "type": "place",
+          "block": "cold_sweat:soul_stalk"
+      }
+  ]
+}

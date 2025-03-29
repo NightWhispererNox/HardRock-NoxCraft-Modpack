@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:large_cogwheel"},
+  "transitionalItem": {"item": "create:andesite_scaffolding"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "create:andesite_scaffolding"},{"tag": "forge:plates/lead"}],"results": [{"item": "create:andesite_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:andesite_scaffolding"}],"results": [{"item": "create:andesite_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:andesite_scaffolding"},{"tag": "forge:plates/lead"}],"results": [{"item": "create:andesite_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:andesite_scaffolding"}],"results": [{"item": "create:andesite_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:andesite_scaffolding"},{"tag": "forge:plates/lead"}],"results": [{"item": "create:andesite_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:andesite_scaffolding"}],"results": [{"item": "create:andesite_scaffolding"}]}
+  ],
+  "results": [
+    {"item": "tfmg:lead_flywheel"}
+  ],
+  "loops": 1
+}

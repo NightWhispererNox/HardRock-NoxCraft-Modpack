@@ -1,0 +1,18 @@
+{
+    "type": "immersiveengineering:squeezer",
+    "input": {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+            "item": "tfc:food/olive"
+        }
+    },
+    "result": {
+        "item": "tfc:olive_paste",
+        "count": 2
+    },
+    "fluid": {
+        "fluid": "tfc:olive_oil",
+        "amount": 50
+    },
+    "energy": 6400
+}

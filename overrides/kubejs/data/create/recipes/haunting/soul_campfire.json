@@ -1,0 +1,11 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {"item": "tfc:stick_bundle"}
+  ],
+  "results": [
+    {
+      "item": "minecraft:soul_campfire"
+    }
+  ]
+}

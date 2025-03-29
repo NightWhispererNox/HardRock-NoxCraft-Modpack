@@ -1,0 +1,14 @@
+{
+	"type": "vintageimprovements:hammering",
+	"hammerBlows": 6,
+	"ingredients": [
+		{
+		  "tag": "forge:ingots/ostrum"
+		}
+	],
+	"results": [
+		{
+		  "item": "ad_astra:ostrum_plate"
+		}
+	]
+}

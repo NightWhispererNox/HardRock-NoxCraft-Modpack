@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersrespite:black_tea_leaves"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "kubejs:coffee_ground"
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "farmersdelight:minced_beef"}
+    }
+  ],
+  "result": {
+    "item": "farmersrespite:blazing_chili"
+  },
+  "experience": 0.35,
+  "cookingtime": 1600
+}

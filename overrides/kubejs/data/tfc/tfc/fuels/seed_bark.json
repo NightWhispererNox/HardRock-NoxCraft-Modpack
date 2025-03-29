@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "tag": "forge:seed_tree"
+    }
+  ],
+  "duration": 300,
+  "temperature": 250,
+  "purity": 0.7
+}

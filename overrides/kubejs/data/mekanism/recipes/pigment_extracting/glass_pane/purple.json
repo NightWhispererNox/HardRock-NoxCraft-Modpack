@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:purple_stained_glass_pane"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:purple",
+        "amount": 8
+    }
+}

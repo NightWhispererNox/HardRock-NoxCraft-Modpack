@@ -1,0 +1,12 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "minecraft:glass"},
+  "transitionalItem": {"item":"minecraft:glass"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item":"minecraft:glass"}],"results": [{"item": "minecraft:glass"}]},
+    {"type": "create:cutting","ingredients": [{"item":"minecraft:glass"}],"results": [{"item": "minecraft:glass"}]},
+    {"type": "create:cutting","ingredients": [{"item":"minecraft:glass"}],"results": [{"item": "minecraft:glass"}]}
+    ],
+  "results": [{"item": "create:framed_glass","count":1}],
+  "loops": 2
+}

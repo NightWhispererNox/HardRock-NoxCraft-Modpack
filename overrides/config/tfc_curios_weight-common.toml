@@ -1,0 +1,5 @@
+#Whether to calculate overweight effects checking Curios slots. Disables the whole purpose of this addon
+enable_curios_slots_weight_check = true
+#WIP. A list of slots to check in weight calculation.
+curios_slots = []
+

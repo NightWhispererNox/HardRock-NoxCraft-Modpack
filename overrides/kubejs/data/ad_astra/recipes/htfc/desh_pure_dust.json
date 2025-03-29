@@ -1,0 +1,9 @@
+{
+    "type":"mekanism:reaction",
+    "itemInput":{"ingredient":{"item":"kubejs:dust_desh"}},
+    "fluidInput":{"amount":100,"tag":"minecraft:waters"},
+    "gasInput":{"amount":100,"gas":"mekanism:sulfuric_acid"},
+    "duration":1200,
+    "itemOutput":{"item":"kubejs:dust_pure_desh"},
+    "gasOutput":{"gas":"mekanism:hydrogen","amount":50}
+}

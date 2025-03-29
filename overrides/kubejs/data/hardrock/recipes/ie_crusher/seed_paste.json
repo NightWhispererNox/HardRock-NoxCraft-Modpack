@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "kubejs:seed_paste",
+    "count": 4
+  },
+  "input": {
+    "tag": "forge:oil_seeds"
+  },
+  "energy": 800
+}

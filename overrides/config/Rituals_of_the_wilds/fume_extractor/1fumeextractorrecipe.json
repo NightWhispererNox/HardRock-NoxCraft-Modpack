@@ -1,0 +1,7 @@
+{
+  "Needed Item ID or Tag": "minecraft:poppy",
+  "Needed Fuel ID or Tag": "rituals_of_the_wilds:fumes_bottle",
+  "Result Item ID": "rituals_of_the_wilds:poppy_fumes",
+  "Particles ID": "minecraft:falling_water",
+  "Extracting time(In ticks)": 120
+}

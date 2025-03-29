@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:calcite"
+  },
+  "result": {
+    "item": "tfcorewashing:pile_white_sand",
+    "count": 1
+  }
+}

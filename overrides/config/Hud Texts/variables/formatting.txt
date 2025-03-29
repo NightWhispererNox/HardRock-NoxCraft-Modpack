@@ -1,0 +1,30 @@
+{
+  "Hud Texts Formatting": {
+    "Colors": {
+      "White": "$f$",
+      "Black": "$0$",
+      "Dark Gray": "$8$",
+      "Gray": "$7$",
+      "Dark Blue": "$1$",
+      "Blue": "$9$",
+      "Dark Green": "$2$",
+      "Green": "$a$",
+      "Dark Aqua": "$3$",
+      "Aqua": "$b$",
+      "Dark Red": "$4$",
+      "Red": "$c$",
+      "Dark Purple": "$5$",
+      "Light Purple": "$d$",
+      "Gold": "$6$",
+      "Yellow": "$e$"
+    },
+    "Formats": {
+      "Underline": "$u$",
+      "Bold": "$l$",
+      "Italic": "$o$",
+      "Strikethrough": "$m$",
+      "Mass": "$k$",
+      "Reset": "$r$"
+    }
+  }
+}

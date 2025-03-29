@@ -1,0 +1,27 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "minecraft:leaves"
+      },
+      "subtracted": [
+        {
+          "item": "minecraft:azalea_leaves"
+        },
+        {
+          "item": "minecraft:flowering_azalea_leaves"
+        }
+      ]
+    }
+  },
+  "input_fluid": {
+    "ingredient": "tfc:lye",
+    "amount": 25
+  },
+  "output_item": {
+    "item": "minecraft:azalea_leaves"
+  },
+  "duration": 1000
+}

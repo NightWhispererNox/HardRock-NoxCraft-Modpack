@@ -1,0 +1,7 @@
+{
+  "type":"immersiveengineering:metal_press",
+  "mold":"createmetallurgy:graphite_ingot_mold",
+  "result":{"item":"tfc:ceramic/unfired_brick"},
+  "input":{"item":"minecraft:clay_ball"},
+  "energy":2400
+}

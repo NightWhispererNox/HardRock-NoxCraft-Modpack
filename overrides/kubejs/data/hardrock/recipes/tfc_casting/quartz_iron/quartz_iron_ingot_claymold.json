@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:casting",
+  "mold": {
+    "item": "tfc:ceramic/ingot_mold"
+  },
+  "fluid": {
+    "ingredient": "kubejs:iron_quartz",
+    "amount": 100
+  },
+  "result": {
+    "item": "refinedstorage:quartz_enriched_iron"
+  },
+  "break_chance": 0.1
+}

@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "wf",
+        " f",
+        " s"
+    ],
+    "key":{
+        "w":{"item":"immersiveengineering:alu_wallmount"},
+        "f":{"item":"immersiveengineering:alu_fence"},
+        "s":{"item":"minecraft:stone_bricks"}
+    },
+    "result":{
+        "item":"immersiveengineering:alu_post"
+    }
+}

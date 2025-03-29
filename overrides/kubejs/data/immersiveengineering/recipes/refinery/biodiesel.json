@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:refinery",
+    "energy":80,
+    "input0":{"amount":4,"tag":"forge:plantoil"},
+    "input1":{"amount":6,"tag":"forge:ethanol"},
+    "result":{"amount":10,"fluid":"car:bio_diesel"}
+}

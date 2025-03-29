@@ -1,0 +1,209 @@
+{
+  "profession": "minecraft:cartographer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {"itemKey": "tfc:papyrus","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer/papyrus"
+    },
+    {
+      "offer": {"itemKey": "firmaciv:firmaciv_compass","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer/compass"
+    },
+    {
+      "offer": {"itemKey": "minecraft:black_dye","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer/black_dye"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "create:clipboard","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer/clipboard"
+    },
+    {
+      "offer": {"itemKey": "minecraft:map","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer/empty_map"
+    },
+    {
+      "offer": {"itemKey": "minecraft:spyglass","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer/spyglass"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/lamp/copper","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'tfc:tallow', Amount: 250}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer/copper_lamp"
+    },
+    {
+      "offer": {"itemKey": "tfc:wooden_bucket","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'tfc:tallow', Amount: 750}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer/tallow"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:candle_holder","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer/candle_holders"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:paper","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer/paper"
+    },
+    {
+      "offer": {"itemKey": "tfc:seeds/papyrus","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 4
+      },
+      "tradeExp": 20,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer/papyrus_seeds"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:antique_ink","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer/antique_ink"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/lamp/blue_steel","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'minecraft:lava', Amount: 250}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 8
+      },
+      "tradeExp": 120,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer/blue_steel_lamp"
+    },
+    {
+      "offer": {"itemKey": "map_atlases:atlas","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer/atlas"
+    }
+  ]
+}

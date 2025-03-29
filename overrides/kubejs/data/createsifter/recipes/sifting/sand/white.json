@@ -1,0 +1,34 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:sand/white"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:ore/small_sphalerite",
+      "chance": 0.02
+    },
+    {
+      "item": "tfc:ore/small_native_silver",
+      "chance": 0.01
+    },
+    {
+      "item": "tfc_ie_addon:mineral/quartz_shard",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:bone",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/opal",
+      "chance": 0.001
+    }
+  ],
+  "processingTime": 500
+}

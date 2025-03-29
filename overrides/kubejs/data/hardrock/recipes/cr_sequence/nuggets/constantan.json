@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/constantan"},
+  "transitionalItem": {"item": "vintageimprovements:constantan_rod"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:constantan_rod"}],"results": [{"item": "vintageimprovements:constantan_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:constantan_rod"}],"results": [{"item": "vintageimprovements:constantan_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:constantan_rod"}],"results": [{"item": "vintageimprovements:constantan_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:constantan_rod"}],"results": [{"item": "vintageimprovements:constantan_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:constantan_rod"}],"results": [{"item": "vintageimprovements:constantan_rod"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_constantan","count": 5}    
+  ],
+  "loops": 1
+}
+

@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/gold",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfc:metal/ingot/gold"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "minecraft:gold_block"
+    }
+
+  ]
+}

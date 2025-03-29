@@ -1,0 +1,30 @@
+{
+  "__comment__": "This file was automatically created by tfch",
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      [
+        {"item": "tfc:food/barley"},
+        {"item": "tfc:food/maize"},
+        {"item": "tfc:food/oat"},
+        {"item": "tfc:food/rye"},
+        {"item": "tfc:food/rice"},
+        {"item": "tfc:food/wheat"}
+      ],
+      {
+        "tag": "forge:tools/knives"
+      },
+      {
+        "tag": "tfc:seeds"
+      },
+      {
+        "tag": "tfc:plant/green"
+      }
+    ],
+    "result": {
+      "item": "kubejs:feed_hay",
+    "count": 6
+    }
+  }
+}

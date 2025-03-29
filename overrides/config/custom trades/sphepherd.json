@@ -1,0 +1,261 @@
+{
+  "profession": "minecraft:shepherd",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:brown_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:red_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:orange_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:yellow_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:lime_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:green_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:white_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:light_gray_dye',Amount:4000}}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd/dye_barrel/warmer_colors"
+    },
+    {
+      "offer": {"itemKey": "tfc:ceramic/spindle_head","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd/spindle_heads"
+    },
+    {
+      "offer": {"itemKey": "minecraft:white_banner","amount": 2,"advancedNBTData": "{kjsRandomize:['colorType','white']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd/banner"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:cyan_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:light_blue_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:blue_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:purple_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:magenta_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:pink_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:gray_dye',Amount:4000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:black_dye',Amount:4000}}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd/dye_barrel/colder_colors"
+    },
+    {
+      "offer": {"itemKey": "tfc:wool","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd/wool_loose"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:rustic_windmill_blade","amount": 1},
+        {"itemKey": "tfc:lattice_windmill_blade","amount": 1},
+        {"itemKey": "tfc:windmill_blade","amount": 1},
+        {"itemKey": "tfc:brown_windmill_blade","amount": 1},
+        {"itemKey": "tfc:red_windmill_blade","amount": 1},
+        {"itemKey": "tfc:orange_windmill_blade","amount": 1},
+        {"itemKey": "tfc:yellow_windmill_blade","amount": 1},
+        {"itemKey": "tfc:lime_windmill_blade","amount": 1},
+        {"itemKey": "tfc:green_windmill_blade","amount": 1},
+        {"itemKey": "tfc:cyan_windmill_blade","amount": 1},
+        {"itemKey": "tfc:light_blue_windmill_blade","amount": 1},
+        {"itemKey": "tfc:blue_windmill_blade","amount": 1},
+        {"itemKey": "tfc:purple_windmill_blade","amount": 1},
+        {"itemKey": "tfc:magenta_windmill_blade","amount": 1},
+        {"itemKey": "tfc:pink_windmill_blade","amount": 1},
+        {"itemKey": "tfc:light_gray_windmill_blade","amount": 1},
+        {"itemKey": "tfc:gray_windmill_blade","amount": 1},
+        {"itemKey": "tfc:black_windmill_blade","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 5,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd/tfc_windmill_blade"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/shears/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/shears/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd/iron_shears"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/barley_grain","amount": 6},
+        {"itemKey": "tfc:food/oat_grain","amount": 6},
+        {"itemKey": "tfc:food/rye_grain","amount": 6},
+        {"itemKey": "tfc:food/wheat_grain","amount": 6}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd/grain"
+    },
+    {
+      "offer": {"itemKey": "minecraft:white_bed","amount": 1,"advancedNBTData": "{kjsRandomize:['colorType','white']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd/bed"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "textile:seeds/cotton","amount": 4},
+        {"itemKey": "textile:seeds/flax","amount": 4}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd/textile_seeds"
+    },
+    {
+      "offer": {"itemKey": "tfc:wool_cloth","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd/wool_cloth"
+    },
+    {
+      "offer": {"itemKey": "minecraft:glow_ink_sac","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd/glow_ink"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:white_wool","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd/wool_blocks"
+    },
+    {
+      "offer": {"itemKey": "tfc:large_sheepskin_hide","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 2
+      },
+      "tradeExp": 50,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd/sheepskin_hide"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "supplementaries:soap_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "supplementaries:soap",
+      "count": 9
+    }
+  ],
+  "processingTime": 75
+}

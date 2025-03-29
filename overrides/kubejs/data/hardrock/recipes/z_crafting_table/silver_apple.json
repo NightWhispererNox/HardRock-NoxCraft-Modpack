@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "scs"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:fruits/apple"
+    },
+    "s": {
+      "item": "tfc:powder/native_silver"
+    }
+  },
+  "result": {
+    "item": "kubejs:silver_apple"
+  }
+}

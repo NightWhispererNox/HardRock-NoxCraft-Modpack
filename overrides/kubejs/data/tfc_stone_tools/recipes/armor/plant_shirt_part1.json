@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X ",
+    "SX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc_stone_tools:green_plant_fabric"
+    },
+    "S": {
+      "item": "tfc_stone_tools:plant_string"
+    }
+  },
+  "result": {
+    "item": "kubejs:plant_shirt_part1"
+  }
+}

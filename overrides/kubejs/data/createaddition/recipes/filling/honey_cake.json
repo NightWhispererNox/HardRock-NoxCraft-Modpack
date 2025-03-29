@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "createaddition:cake_base_baked"}
+    },
+    {
+      "fluidTag": "forge:honey",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:honey_cake"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+
+["Recipes AutoRegen"]
+	#Regenerates all mod recipes in alchemy cauldron(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Auto Regenerate Alchemy Cauldron recipes" = true
+	#Regenerates all mod basic ingredients in alchemy cauldron, catalyst grinder, fume extractor, distilation flask(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Auto Regenerate Ingredients possible to put in some blocks" = true
+	#Regenerates all mod recipes in drying rack(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Auto Regenerate Drying Rack recipes" = true
+	#Regenerates all mod recipes in mortar and pestle(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Mortal and Pestle recipes" = true
+	#Regenerates all mod recipes in catalyst grinder(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Catalyst Grinder recipes" = true
+	#Regenerates all mod recipes in distilation flask(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Distilation Flask recipes" = true
+	#Regenerates all mod recipes in rune scriber table(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Rune Scriber Table recipes" = true
+	#Regenerates all mod recipes in fume extractor(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Fume Extractor recipes" = true
+	#Regenerates all mod rituals(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Rituals" = true
+	#Regenerates all things that you can put in jars(Turn off only if you don't need ones that's by default in mod or if you want to edit it)
+	"Regenerate Items that you can put in jars" = true
+
+[Timers]
+	#Ticks(20 ticks = 1 second) needed to dry item that's on drying rack
+	"Drying Rack Time to Dry Item" = 4800.0
+	"Time for sacrifices to become zero" = 2400.0
+

@@ -1,0 +1,26 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/electrum"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_gear_mold"
+    },
+    {
+      "amount": 400,
+      "fluid": "tfc_ie_addon:metal/electrum",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 160,
+  "result": {
+    "tag": "forge:gears/electrum"
+  }
+}

@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "MAM",
+    " X "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:dusts/sulfur"
+    },
+    "A": {
+      "item": "tfmg:thermite_grenade"
+    },
+    "M": {
+      "item": "tfc:powder/sphalerite"
+    },
+    "X": {
+      "tag": "forge:gunpowder"
+    }
+  },
+  "result": {
+    "item": "tfmg:zinc_grenade"
+
+
+
+  }
+}

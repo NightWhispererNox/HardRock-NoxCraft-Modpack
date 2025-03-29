@@ -1,0 +1,16 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 1.0,
+  "amountMin": 0.15,
+  "biomeWhitelist": "tfc:is_vein",
+  "icon": {
+    "item": "tfc:ore/diamond"
+  },
+  "name": "{\"translate\":\"Rare Gems\"}",
+  "placement": {
+    "salt": 244884670,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

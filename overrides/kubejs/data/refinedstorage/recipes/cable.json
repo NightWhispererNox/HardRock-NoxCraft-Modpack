@@ -1,0 +1,39 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:wires/electrum"
+    },
+    {
+      "tag": "forge:wires/copper"
+    },
+    {
+      "tag": "forge:wires/aluminum"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "tinyredstone:tiny_redstone"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "tinyredstone:tiny_redstone"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "refinedstorage:cable",
+      "count": 1
+    }
+  ]
+}

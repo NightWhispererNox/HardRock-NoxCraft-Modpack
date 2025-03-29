@@ -1,0 +1,27 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:azalea_leaves"
+    },
+    {
+      "type": "forge:difference",
+      "base": {
+        "tag": "minecraft:flowers"
+      },
+      "subtracted": [
+        {
+          "item": "minecraft:flowering_azalea"
+        },
+        {
+          "item": "minecraft:flowering_azalea_leaves"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  ]
+}

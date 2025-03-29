@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:rods/rose_gold"
+  },
+  "result": {
+    "item": "kubejs:chisel_rose_gold_head",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

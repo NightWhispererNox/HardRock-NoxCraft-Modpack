@@ -1,0 +1,17 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_plate_mold"
+    },
+    {
+      "amount": 100,
+      "fluidTag": "forge:molten_plastic",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 160,
+  "result": {
+    "tag": "forge:plates/plastic"
+  }
+}

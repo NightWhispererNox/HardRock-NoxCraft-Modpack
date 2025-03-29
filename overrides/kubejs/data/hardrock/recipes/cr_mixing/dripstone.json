@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:limestone"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "processingTime": 1200,
+  "results": [
+    {
+      "item": "minecraft:dripstone_block",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "superheated"
+}

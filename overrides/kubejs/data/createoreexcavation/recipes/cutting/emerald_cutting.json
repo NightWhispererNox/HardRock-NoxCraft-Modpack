@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createoreexcavation:raw_emerald"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:gem/emerald"
+    },
+    {
+      "item": "tfc:gem/emerald",
+      "chance": 0.50
+    },
+    {
+      "item": "mekanism:dust_emerald",
+      "chance": 0.50
+    }
+  ]
+}

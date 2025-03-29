@@ -1,0 +1,17 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:overworld",
+  "icon": {
+    "item": "kubejs:mineral_water_bucket"
+  },
+  "name": "{\"translate\":\"Mineral Deep Water\"}",
+  "neverFinite": false,
+  "placement": {
+    "salt": 1195889325,
+    "separation": 8,
+    "spacing": 64
+  },
+  "priority": 0
+}

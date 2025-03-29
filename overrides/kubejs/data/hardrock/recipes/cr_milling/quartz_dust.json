@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_quartz",
+      "count": 1
+    },
+    {
+      "item": "mekanism:dust_quartz",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 100
+}

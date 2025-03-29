@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "firmalife:oven",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "createaddition:cake_base"
+    }
+  },
+  "result_item": {
+    "item": "createaddition:cake_base_baked"
+  },
+  "temperature": 200,
+  "duration": 1000
+}

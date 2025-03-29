@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:ceramic/pink_unfired_vessel"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:pink",
+        "amount": 8
+    }
+}

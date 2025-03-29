@@ -1,0 +1,21 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+
+    {
+      "item": "tfc_ie_addon:powder/bauxite"
+      },
+    {
+      "item": "minecraft:redstone"
+      }
+
+
+
+  ],
+  "results": [
+    {
+      "item": "tfmg:thermite_powder"
+    }
+  ]
+}

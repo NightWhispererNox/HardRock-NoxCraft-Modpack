@@ -1,0 +1,12 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_bullet_casing",
+    "result":{
+        "item":"immersiveengineering:empty_casing",
+        "count":1
+    },
+    "input":{
+        "tag":"forge:nuggets/copper"
+    },
+    "energy":2400
+}

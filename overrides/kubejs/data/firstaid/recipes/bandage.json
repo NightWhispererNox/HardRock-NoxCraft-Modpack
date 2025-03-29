@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "forge:fabric/fibers"
+      },
+      {
+        "tag": "forge:fabric/fibers"
+      },
+      {
+        "item": "kubejs:healing_paste"
+      }
+    ],
+    "result": {
+      "item": "firstaid:bandage"
+    }
+  }

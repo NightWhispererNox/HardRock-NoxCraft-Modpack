@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was created by tfch",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/copper",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:nuggets/copper"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/copper",
+    "amount": 10
+  },
+  "temperature": 1080,
+  "use_durability": true
+}

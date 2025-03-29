@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "mcwwindows:white_mosaic_glass"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:white",
+        "amount": 8
+    }
+}

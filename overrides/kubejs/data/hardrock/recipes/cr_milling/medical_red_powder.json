@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "tfc:plant/red"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:medical_red_powder",
+      "count": 2
+    },
+    {
+      "item": "kubejs:medical_red_powder",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 100
+}

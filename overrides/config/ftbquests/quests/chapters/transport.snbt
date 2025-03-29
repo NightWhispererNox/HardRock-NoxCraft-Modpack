@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "transport"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "tfcastikorcarts:animal_cart/douglas_fir"
+	id: "15BB1F9828561BF8"
+	images: [
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmaciv/"
+			dependency: "6C628F5FDAC11AF2"
+			height: 0.35d
+			hover: ["wiki Firma Civilization"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 1.6428571428571388d
+			y: -3.875d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmaciv/"
+			dependency: "1BC79A402028CFA7"
+			height: 0.35d
+			hover: ["wiki Firma Civilization"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43A3F6984C4136E3"]
+			description: [
+				"{image:kubejs:textures/item/slot_pocket.png width:25 height:25 align:1}"
+				"Your inventory is reduced. To bolster your item transport capacity, you need to upgrade with belt pouches, build contraptions, or use other techniques. The normal GUI has tabs for crafting, calendar, nutrition, climate, and the TFC guide"
+				""
+				"you can unlock a slot in your inventory with a special slot Pocket item"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "toolbelt:pouch"
+			id: "1BC79A402028CFA7"
+			tasks: [{
+				id: "7759D9E0D328D964"
+				title: "Inventory"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: ["Mules, horses, donkeys, and dogs are your friends. When you tame them they can be used as a transport method for you and your items."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:leather_horse_armor"
+			id: "31DCBF3AF6418810"
+			tasks: [{
+				id: "35BB6D897F664C20"
+				title: "First read"
+				type: "checkmark"
+			}]
+			title: "Animals"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6C628F5FDAC11AF2"]
+			description: [
+				"Ships can be used as a transport method through rivers and seas. They have a large carrying capacity."
+				""
+				"after breaking them down you will only get the materials they were made of"
+				"Therefore, build your large boats in places where you will want to travel long distances. Remember, you can only carry a kayak with you."
+				""
+				"large boats have a transport advantage you can put several chests on them you can transport animals large amounts of materials and items and even arm the state with cannons."
+				"However they require more time to build but it is always worth it"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "immersive_aircraft:warship"
+			id: "37CD056FF732365B"
+			tasks: [{
+				id: "502964E676720338"
+				title: "First read"
+				type: "checkmark"
+			}]
+			title: "Ships"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31DCBF3AF6418810"]
+			description: [
+				"Once you tame a beast of burden, you can use carts to transport even more items and over longer distances."
+				""
+				"Bring your horse to the cart and press ] to harness it."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfcastikorcarts:supply_cart/douglas_fir"
+			id: "45AB456467F976C2"
+			tasks: [
+				{
+					id: "5A056BF8535BCE78"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "astikorcarts:supply_cart"
+						}
+					}
+					title: "Any #astikorcarts:supply_cart"
+					type: "item"
+				}
+				{
+					id: "302BA04367BA552F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "astikorcarts:animal_cart"
+						}
+					}
+					title: "Any #astikorcarts:animal_cart"
+					type: "item"
+				}
+			]
+			title: "Carts"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: ["Rail is the fastest ground transport. It requires a lot of materials, but the transport options it opens are very rewarding."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:rail"
+			id: "5C7A721FD94CE50F"
+			tasks: [
+				{
+					id: "43B38F6A0E6EC709"
+					title: "First read"
+					type: "checkmark"
+				}
+				{
+					id: "7EBF354B9B72770E"
+					item: "railways:track_dark_oak"
+					type: "item"
+				}
+			]
+			title: "Rails"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: ["After crafting leather from animals, you can store excess tools in tool belts. It's a very useful belt."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "31234FC686AB4822"
+			tasks: [{
+				id: "4D55D2EB19746340"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0097A064CA27BE6E"]
+			description: ["After making leather from animals, you can create knapping sack or backpack. It will make survival and life much easier. Knapping Sack has 7 additional slots, backpack 16 slots for your carry items"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 16
+					}
+				}
+				id: "tfc_knapsacks:backpack"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 16
+					}
+				}
+			}
+			id: "73382D488CFC8161"
+			tasks: [
+				{
+					id: "03C17A5387904427"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 16
+							}
+						}
+						id: "tfc_knapsacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "1FF85C5800A17C93"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 7
+							}
+						}
+						id: "tfc_knapsacks:knapsack"
+					}
+					type: "item"
+				}
+			]
+			title: "Backpack"
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: [
+				"The canoe, kayak or raft is an easy first boat. Press Shift on the canoe icon in JEI to see how to craft it. "
+				""
+				"you can carry a kayak or raft with you, but you can't transport anything with it, a canoe is larger and can hold an additional chest. However, if broken, it will be destroyed."
+				""
+				"Remember also that you can connect boats with a rope, thus creating a procession of boats."
+				""
+				"{image:kubejs:textures/item/canoe.png width:30 height:30 align:1}"
+				""
+				"or click on the magnifying glass"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:canoe"
+			id: "6C628F5FDAC11AF2"
+			tasks: [{
+				id: "3BA729799559FE0D"
+				title: "Canoe"
+				type: "checkmark"
+			}]
+			title: "First boat"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: ["Large vessels can be carried on your back while still filled with items. It is heavy and has limited space, but it is something."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:ceramic/large_vessel"
+			id: "0097A064CA27BE6E"
+			tasks: [{
+				id: "4F9474932FF653A2"
+				item: "tfc:ceramic/large_vessel"
+				type: "item"
+			}]
+			title: "Vessel or backapck"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: ["You can cross long distances from great heights with a hang glider. It's a safer way to fall, and a fun way to move around. Be careful not to fly all the time, and don't fly for too long."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "090C3A3C2A94774B"
+			tasks: [{
+				id: "58B9667D6A630E09"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: ["With a full belly and strong legs, you can fly, but only in the age of steel. Dismount using your Dismount key."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "25E7CA7A6DFC055D"
+			tasks: [{
+				id: "7132A48759C26118"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["25E7CA7A6DFC055D"]
+			description: ["A slower, but smaller and more versatile version of the gyrodyne."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "270C1C44FD95CA52"
+			tasks: [{
+				id: "0E20674CF6699C93"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25E7CA7A6DFC055D"]
+			description: ["A large, fueled plane for traveling quickly between settlements."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "711AA982FD452BDF"
+			tasks: [{
+				id: "1C61A33266F78EE5"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25E7CA7A6DFC055D"]
+			description: ["A cute craft that requires no runway."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "1A7FA356B7A5606B"
+			tasks: [{
+				id: "7D0FE20FFB407427"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: [
+				"You can fly!"
+				"A hot air balloon will allow you to travel long distances and observe the surroundings from above, and it is both simple to build and available very early."
+				""
+				"the balloon moves thanks to the movement of warm air currents, it is not mechanically controlled, after reaching the appropriate height the currents change directions "
+				""
+				"To control the balloon you will need a ''Flint Steel'' or ''Firestarter'' as fire source and a supply of ''sand'' and ''shears''. When you want to go UP Use a fire source on the balloon when you want to go down Add sand to the basket. When there is too much sand Use scissors to remove it"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "breezy:hot_air_balloon"
+			id: "7DBF4535296CCC2D"
+			tasks: [
+				{
+					id: "4F5FE467C9CC4819"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:shears"
+						}
+					}
+					title: "Any #forge:shears"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2C333109D44BF2F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					title: "Any #forge:sand"
+					type: "item"
+				}
+				{
+					id: "777FAD546526D993"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "breezy:ignition_sources"
+						}
+					}
+					title: "Any #breezy:ignition_sources"
+					type: "item"
+				}
+			]
+			title: "Hot air baloon"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: [
+				""
+				"The spyglass is a very useful instrument for observing distant terrain and features, especially from ships traversing sea or sky."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:spyglass"
+			id: "4947E5D2E91CFAB4"
+			tasks: [{
+				id: "0468DB6132AC26E3"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			title: "Spyglass"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: [
+				"cars are useful vehicles powered by biosiesel."
+				""
+				"Their construction is labor-intensive, but later on it provides great opportunities for quick transport of materials and ground travel to other biomes."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rover"
+				tag: { }
+			}
+			id: "40161AE21F68D74D"
+			tasks: [
+				{
+					id: "053847B6ED1CB6ED"
+					item: "car:car_workshop"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3889DEE704381955"
+					item: { Count: 8, id: "car:car_workshop_outter" }
+					type: "item"
+				}
+				{
+					id: "5A84EB996B1B6314"
+					item: "car:gas_station"
+					type: "item"
+				}
+				{
+					id: "7BF9BDBBBE53E4A3"
+					item: "car:generator"
+					type: "item"
+				}
+			]
+			title: "Cars"
+			x: -1.0d
+			y: -8.0d
+		}
+	]
+	title: "Transport"
+}

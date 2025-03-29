@@ -1,0 +1,17 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "coffee_delight:coffee_flour"
+    }
+  ],
+  "result": {
+    "item": "farmersrespite:coffee"
+  },
+  "experience": 0.35,
+  "brewingtime": 1200,
+  "needwater": true
+}

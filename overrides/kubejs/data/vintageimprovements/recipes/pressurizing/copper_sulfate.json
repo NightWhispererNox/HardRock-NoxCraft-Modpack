@@ -1,0 +1,24 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"ingredients": [ 
+		{
+			"fluid": "mekanism:sulfuric_acid",
+			"amount": 200
+		},
+		{
+			"fluid": "minecraft:water",
+			"amount": 200
+		},
+		[
+			{"item": "tfcorewashing:briquet_copper"},
+			{"item": "tfcorewashing:briquet_malachite"},
+			{"item": "tfcorewashing:briquet_tetrahedrite"}
+		]
+	],
+	"results": [
+		{
+			"item": "vintageimprovements:copper_sulfate"
+		}
+	],
+	"processingTime": 800
+}

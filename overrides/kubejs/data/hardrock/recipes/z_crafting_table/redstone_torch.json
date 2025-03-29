@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "S"
+  ],
+  "key": {
+    "P": {"tag": "forge:dusts/redstone"},
+    "S": {"item": "tfc:torch"}
+  },
+  "result": {
+    "item": "minecraft:redstone_torch"
+  }
+}

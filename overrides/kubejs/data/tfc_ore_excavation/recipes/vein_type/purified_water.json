@@ -1,0 +1,17 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:overworld",
+  "icon": {
+    "item": "kubejs:purified_water_bucket"
+  },
+  "name": "{\"translate\":\"Purified Deep Water\"}",
+  "neverFinite": false,
+  "placement": {
+    "salt": 1195889345,
+    "separation": 8,
+    "spacing": 64
+  },
+  "priority": 0
+}

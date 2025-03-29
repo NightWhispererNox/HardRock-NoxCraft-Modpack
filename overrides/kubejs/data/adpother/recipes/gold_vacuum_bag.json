@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WSW",
+		"GCG",
+		"LLL"
+	],
+	"key": {
+		"G": {
+			"tag": "forge:plates/electrum"
+		},
+		"L": {
+			"tag": "forge:leather"
+		},
+		"S": {
+			"tag": "forge:glue"
+		},
+		"W": {
+			"tag": "minecraft:wool"
+		},
+		"C": {
+			"item": "tfcambiental:leather_apron"
+		}
+	},
+	"result": {
+		"item": "adpother:gold_vacuum_bag",
+		"count": 1
+	}
+}

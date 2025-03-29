@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "key":{
+        "I":{"item":"create_new_age:heat_pipe"},
+        "S":{"item":"mekanism:dynamic_tank"},
+        "T":{"item":"mekanism:basic_chemical_tank"}},
+    "pattern":[
+        "ISI",
+        "ITI",
+        "ISI"],
+    "result":{"item":"mekanismgenerators:fission_fuel_assembly"}
+}

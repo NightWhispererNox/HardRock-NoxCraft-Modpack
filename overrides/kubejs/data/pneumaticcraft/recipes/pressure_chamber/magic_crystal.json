@@ -1,0 +1,26 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "tfc:gem_powders"
+    },
+    {
+      "item": "beyond_earth:raw_ostrum"
+    },
+    {
+      "item": "beyond_earth:raw_desh"
+    },
+    {
+      "item": "beyond_earth:raw_calorite"
+    },
+    {
+      "item": "beyond_earth:ice_shard"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "kubejs:magic_crystal"
+    }
+  ]
+}

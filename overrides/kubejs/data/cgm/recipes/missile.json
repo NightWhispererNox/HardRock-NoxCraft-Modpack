@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:nuggets/steel","count": 12
+    },
+    {
+      "tag": "forge:wires/steel","count": 1
+    },
+    {
+      "item":"pneumaticcraft:pressure_tube","count": 1
+    }
+  ],
+  "result": {
+    "item": "cgm:missile"
+  }
+}

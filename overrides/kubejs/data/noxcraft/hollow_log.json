@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "w": {
+      "tag": "kubejs:scraped_bark"
+    },
+    "g": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    "gw",
+    "wg"
+  ],
+  "result": {
+    "item": "kubejs:hollow_log"
+  },
+  "show_notification": true
+}

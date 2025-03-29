@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:dirty_dust_malachite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/malachite"
+      },
+      {
+        "item": "tfcorewashing:pile_green_sand"
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_malachite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/diamond",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

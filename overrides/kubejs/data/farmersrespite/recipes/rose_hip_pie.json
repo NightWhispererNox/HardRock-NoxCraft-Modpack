@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a",
+    "x",
+    "O"
+  ],
+  "key": {
+    "a": {
+      "item": "farmersrespite:rose_hips"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "O": {
+      "type": "tfc:not_rotten","ingredient": {"item": "farmersdelight:pie_crust"}
+    }
+  },
+  "result": {
+    "item": "farmersrespite:rose_hip_pie"
+  }
+}

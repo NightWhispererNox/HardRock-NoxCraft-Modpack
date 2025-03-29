@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/steel"},
+  "transitionalItem": {"item": "tfc:metal/rod/steel"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/steel"}],"results": [{"item": "tfc:metal/rod/steel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/steel"}],"results": [{"item": "tfc:metal/rod/steel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/steel"}],"results": [{"item": "tfc:metal/rod/steel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/steel"}],"results": [{"item": "tfc:metal/rod/steel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/steel"}],"results": [{"item": "tfc:metal/rod/steel"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_steel","count": 5}    
+  ],
+  "loops": 1
+}
+

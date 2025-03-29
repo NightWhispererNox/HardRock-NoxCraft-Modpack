@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "immersive_aircraft:propeller"
+  },
+  "second_input": {
+    "item": "immersive_aircraft:propeller"
+  },
+  "tier": 0,
+  "result": {
+    "item": "ad_astra:engine_fan"
+  }
+}

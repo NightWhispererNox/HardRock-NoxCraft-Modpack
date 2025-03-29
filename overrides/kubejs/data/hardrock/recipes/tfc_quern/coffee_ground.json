@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "kubejs:coffee_beans_roasted"
+  },
+  "result": {
+    "item": "kubejs:coffee_ground",
+    "count": 1
+  }
+}

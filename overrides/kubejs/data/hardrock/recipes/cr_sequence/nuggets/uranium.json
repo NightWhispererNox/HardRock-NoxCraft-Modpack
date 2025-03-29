@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/uranium"},
+  "transitionalItem": {"item": "vintageimprovements:uranium_rod"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:uranium_rod"}],"results": [{"item": "vintageimprovements:uranium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:uranium_rod"}],"results": [{"item": "vintageimprovements:uranium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:uranium_rod"}],"results": [{"item": "vintageimprovements:uranium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:uranium_rod"}],"results": [{"item": "vintageimprovements:uranium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:uranium_rod"}],"results": [{"item": "vintageimprovements:uranium_rod"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_uranium","count": 5}    
+  ],
+  "loops": 1
+}
+

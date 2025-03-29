@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[
+        {
+            "chance":0.50,
+            "output":{
+                "count": 1,
+                "base_ingredient":{"item":"mekanism:bio_fuel"}
+            }
+        }
+    ],
+    "result":{
+        "count": 4,
+        "base_ingredient":{"item":"mekanism:bio_fuel"}
+    },
+    "input":{
+        "tag":"minecraft:leaves"
+    },
+    "energy":6000
+}

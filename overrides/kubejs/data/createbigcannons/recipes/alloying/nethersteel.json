@@ -1,0 +1,27 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 25,
+      "fluid": "tfc:metal/blue_steel",
+      "nbt": {}
+    },
+    {
+      "amount": 25,
+      "fluid": "tfc_ie_addon:metal/electrum",
+      "nbt": {}
+    },
+    {
+      "amount": 50,
+      "fluid": "createmetallurgy:molten_netherite",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "createbigcannons:molten_nethersteel"
+    }
+  ]
+}

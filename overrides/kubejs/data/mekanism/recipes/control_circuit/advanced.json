@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "mekanism:enriched/carbon"
+    },
+    {
+      "tag": "forge:circuits/basic"
+    },
+    {
+      "tag": "forge:alloys/advanced"
+    },
+    {
+      "tag": "forge:dyes/red"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  ]
+}

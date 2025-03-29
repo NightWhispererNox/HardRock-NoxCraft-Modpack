@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/aluminum"
+    },
+    "C": {
+      "item": "tfmg:aluminum_cogwheel"
+    }
+  },
+  "result": {
+    "item": "tfmg:large_aluminum_cogwheel"
+  }
+}

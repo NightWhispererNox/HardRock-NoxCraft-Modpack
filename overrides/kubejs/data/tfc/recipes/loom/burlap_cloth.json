@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by htfc4",
+  "type": "tfc:loom",
+  "ingredient": {
+    "ingredient": {"item": "tfc:jute_fiber"},"count": 6},
+  "result": {"item": "tfc:burlap_cloth"},
+  "steps_required": 12,
+  "in_progress_texture": "tfc:block/burlap"
+}

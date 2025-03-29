@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "item":  "minecraft:redstone"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 1000
+  },
+  "output_fluid": {
+    "fluid": "immersiveengineering:redstone_acid",
+    "amount": 1000
+  },
+  "duration": 7200
+}

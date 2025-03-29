@@ -1,0 +1,19 @@
+{
+  "type": "lychee:random_block_ticking",
+  "contextual": [
+    {
+      "type": "chance",
+      "chance": 0.65
+    }
+  ],
+  "post": [
+    {
+      "type": "explode",
+      "fire": true,
+      "block_interaction": "destroy",
+      "radius": 4,
+      "radius_step": 4
+    }
+  ],
+  "block_in": "create:blaze_burner"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:slag"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:slag"
+    }
+  ],
+  "processingTime": 400
+}

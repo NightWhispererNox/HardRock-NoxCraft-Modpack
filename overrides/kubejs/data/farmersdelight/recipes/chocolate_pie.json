@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "a",
+    "O"
+  ],
+  "key": {
+    "a": [
+      {
+        "item": "firmalife:food/dark_chocolate_blend"
+      },
+      {
+        "item": "firmalife:food/milk_chocolate_blend"
+      }
+    ],
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:chocolate_pie"
+  }
+}

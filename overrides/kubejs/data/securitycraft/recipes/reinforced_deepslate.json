@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:alloy",
+    "time":200,
+    "result":{"count":1,"base_ingredient":{"item":"securitycraft:reinforced_deepslate"}},
+    "input0":{"count":1,"base_ingredient":{"item":"securitycraft:reinforced_cobblestone"}},
+    "input1":{"item":"tfc:rock/smooth/basalt"}
+}

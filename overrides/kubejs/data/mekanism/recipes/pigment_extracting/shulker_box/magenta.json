@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:magenta_shulker_box"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:magenta",
+        "amount": 8
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I ",
+    "SI"
+  ],
+  "key": {
+    "I": {
+      "item": "kubejs:chisel_iron_head"
+    },
+    "S": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "car:wrench",
+    "count": 1
+  }
+}

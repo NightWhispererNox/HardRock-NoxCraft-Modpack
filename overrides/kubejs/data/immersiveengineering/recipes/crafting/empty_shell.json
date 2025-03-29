@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "pr",
+        " c"
+    ],
+    "key":{
+        "p":{"item":"minecraft:paper"},
+        "r":{"tag":"forge:dyes/red"},
+        "c":{"item":"immersiveengineering:empty_casing"}},
+    "result":{"item":"immersiveengineering:empty_shell","count":1}
+}

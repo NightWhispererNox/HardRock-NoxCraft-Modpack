@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "vintageimprovements:andesite_sheet"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:andesite_alloy",
+    "amount": 100
+  },
+  "temperature": 930
+}

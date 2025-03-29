@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "type": "tfc:heatable",
+    "min_temp": 920,
+    "ingredient": {
+      "tag": "forge:ingots/netherite"
+    }
+  },
+  "transitionalItem": {
+    "item": "kubejs:sq_rod"
+  },
+  "sequence": [
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "vintageimprovements:netherite_rod",
+      "count": 2
+    }
+  ],
+  "loops": 2
+}

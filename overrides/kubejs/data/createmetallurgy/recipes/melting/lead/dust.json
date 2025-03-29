@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/lead"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/lead"
+    }
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "tfc_ie_addon:metal/lead"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:double_ingots/steel","count": 2
+    },
+    {
+      "tag": "forge:double_sheets/steel","count": 1
+    },
+    {
+      "tag": "forge:plates/steel","count": 2
+    },
+    {
+      "tag": "forge:rods/steel","count": 2
+    },
+    {
+      "tag": "forge:nuggets/steel","count": 24
+    },
+    {
+      "tag": "forge:wires/steel","count": 4
+    },
+    {
+      "item":"immersiveengineering:gunpart_barrel"
+    }
+  ],
+  "result": {
+    "item": "cgm:rifle"
+  }
+}

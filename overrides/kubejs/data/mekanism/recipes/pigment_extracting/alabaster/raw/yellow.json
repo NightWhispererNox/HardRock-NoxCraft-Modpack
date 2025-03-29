@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:alabaster/raw/yellow"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:yellow",
+        "amount": 8
+    }
+}

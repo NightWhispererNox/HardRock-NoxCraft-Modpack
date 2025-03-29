@@ -1,0 +1,12 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create_sa:brass_helmet"},
+  "transitionalItem": {"item": "tfc:metal/unfinished_helmet/copper"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "tfc:metal/unfinished_helmet/copper"}, {"tag": "forge:glue"}],"results": [{"item": "tfc:metal/unfinished_helmet/copper"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfc:metal/unfinished_helmet/copper"}, {"tag": "forge:glass_panes"}],"results": [{"item": "tfc:metal/unfinished_helmet/copper"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfc:metal/unfinished_helmet/copper"}, {"tag": "forge:glue"}],"results": [{"item": "tfc:metal/unfinished_helmet/copper"}]}
+  ],
+  "results": [{"item": "create:copper_diving_helmet"}],
+  "loops": 2
+}

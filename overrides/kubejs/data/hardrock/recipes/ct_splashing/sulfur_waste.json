@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "kubejs:sulfur_waste"
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "item": "tfcorewashing:dirty_pile_sulfur",
+      "chance": 0.35
+    },
+    {
+      "item": "minecraft:yellow_dye",
+      "chance": 0.25
+    },
+    {
+      "item": "tfcorewashing:pile_yellow_sand",
+      "chance": 0.15
+    }
+  ]
+}

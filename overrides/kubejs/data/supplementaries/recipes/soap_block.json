@@ -1,0 +1,37 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "supplementaries:soap"
+    }
+  ],
+  "results": [
+    {
+      "item": "supplementaries:soap_block"
+    }
+  ]
+}

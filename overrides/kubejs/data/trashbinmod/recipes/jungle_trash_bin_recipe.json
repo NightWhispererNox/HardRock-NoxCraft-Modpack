@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:wood/planks/palm_button"
+    },
+    "c": {
+      "item": "tfc:wood/barrel/palm"
+    },
+    "b": {
+      "item": "tfc:wood/planks/palm_trapdoor"
+    }
+  },
+  "result": {
+    "item": "trashbinmod:jungle_trash_bin",
+    "count": 1
+  }
+}

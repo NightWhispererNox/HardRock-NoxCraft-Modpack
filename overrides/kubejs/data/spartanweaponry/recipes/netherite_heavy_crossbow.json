@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "RNR",
+        "NLW",
+        "RWX"
+    ],
+    "key":{
+        "R":{"tag":"forge:rings/black_steel"},
+        "N":{"tag":"forge:rivets/black_steel"},
+        "X":{"tag":"tfc:lumber"},
+        "L":{"item":"spartanweaponry:netherite_longbow"},
+        "W":{"tag":"forge:wires/netherite"}
+    },
+    "result":{"item":"spartanweaponry:netherite_heavy_crossbow"}
+}

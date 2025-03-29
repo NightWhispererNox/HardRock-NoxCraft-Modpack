@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc_ie_addon:metal/constantan",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "immersiveengineering:ingot_constantan"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "immersiveengineering:storage_constantan"
+    }
+
+  ]
+}

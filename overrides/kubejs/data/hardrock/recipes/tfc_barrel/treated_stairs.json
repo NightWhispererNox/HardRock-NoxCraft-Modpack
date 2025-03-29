@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "tag": "minecraft:wooden_stairs"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "immersiveengineering:creosote",
+    "amount": 150
+  },
+  "output_item": {
+    "item": "immersiveengineering:stairs_treated_wood_horizontal"
+  },
+  "duration": 8000
+}

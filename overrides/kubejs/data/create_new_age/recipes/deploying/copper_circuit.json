@@ -1,0 +1,24 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create_new_age:blank_circuit"},
+  "transitionalItem": {"item":"create_new_age:blank_circuit"},
+  "loops": 2,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_new_age:blank_circuit"},{"tag": "forge:wires/copper"}],
+      "results": [{"item": "create_new_age:blank_circuit"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_new_age:blank_circuit"},{"tag": "forge:wires/copper"}],
+      "results": [{"item": "create_new_age:blank_circuit"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_new_age:blank_circuit"},{"tag": "forge:glue"}],
+      "results": [{"item": "create_new_age:blank_circuit"}]
+    }
+  ],
+  "results": [{"item":  "create_new_age:copper_circuit" }]
+}

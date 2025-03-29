@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:nuggets/iron"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/cast_iron",
+    "amount": 10
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

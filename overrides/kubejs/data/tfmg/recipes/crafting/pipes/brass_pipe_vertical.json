@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/brass"},
+  "transitionalItem": {"item": "kubejs:sq_brasspipecr"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_brasspipecr"}],"results": [{"item": "kubejs:sq_brasspipecr"}]}
+  ],
+  "results": [{"item": "tfmg:brass_pipe","count":3}],
+  "loops": 1
+}

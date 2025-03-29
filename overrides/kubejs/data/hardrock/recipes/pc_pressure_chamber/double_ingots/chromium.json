@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "tag": "forge:ingots/chromium",
+      "count": 2
+    },
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "pressure": 4.2,
+  "results": [
+    {
+      "item": "firmalife:metal/double_ingot/chromium"
+    }
+  ]
+}

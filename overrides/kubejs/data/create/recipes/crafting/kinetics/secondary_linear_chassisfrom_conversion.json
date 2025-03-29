@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:linear_chassis"
+    },
+    {
+      "tag": "tfc:hammers"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:secondary_linear_chassis"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XIX",
+    "IMI",
+    "XIX"
+  ],
+  "key": {
+    "I": {
+      "item": "weather2:weather_item"
+    },
+    "M": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "X": {
+      "tag": "forge:rods/wrought_iron"
+    }
+  },
+  "result": {
+    "item": "weather2:weather_deflector"
+  }
+}

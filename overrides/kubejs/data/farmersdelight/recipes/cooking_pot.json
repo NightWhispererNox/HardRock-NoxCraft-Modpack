@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bwb",
+    "ipi"
+  ],
+  "key": {
+    "i": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "p": {
+      "item": "tfc:ceramic/pot"
+    },
+    "w": {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 1000
+      }
+    }
+  },
+  "result": {
+    "item": "farmersdelight:cooking_pot"
+  }
+}

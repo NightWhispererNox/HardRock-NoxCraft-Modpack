@@ -1,0 +1,29 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:rock/gravel/chalk"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:sand/white"
+    },
+    {
+      "item": "mekanism:nugget_osmium",
+      "chance": 0.12
+    },
+    {
+      "item": "refinedstorage:silicon",
+      "chance": 0.02
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.15
+    }
+  ],
+  "processingTime": 500
+}

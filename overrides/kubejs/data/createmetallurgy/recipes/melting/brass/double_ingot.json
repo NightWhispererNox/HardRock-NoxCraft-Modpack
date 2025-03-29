@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:double_ingots/brass"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:double_ingots/brass"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "tfc:metal/brass"
+    }
+  ]
+}

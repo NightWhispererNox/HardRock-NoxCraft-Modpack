@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "kubejs:compressed_sheet"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/wrought_iron",
+    "amount": 400
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

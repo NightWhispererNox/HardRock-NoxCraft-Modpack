@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" B ",
+		"TD ",
+		"RC "
+	],
+	"key": {
+		"D": {
+			"tag": "mekanism:enriched/diamond"
+		},
+		"T": {
+			"tag": "minecraft:buttons"
+		},
+		"B": [
+			{"tag": "forge:plates/blue_steel"},
+            {"tag": "forge:plates/red_steel"}
+		],
+		"C": {
+			"item": "minecraft:comparator"
+		},
+		"R": {
+			"item": "minecraft:repeater"
+		}
+	},
+	"result": {
+		"item": "adpother:diamond_vacuum_tube",
+		"count": 1
+	}
+}

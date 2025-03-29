@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:medical_paste"
+    },
+    {
+      "tag": "forge:canvas"
+    },
+    {
+      "tag": "forge:canvas"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:bandage"
+  }
+}

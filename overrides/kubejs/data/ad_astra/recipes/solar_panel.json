@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " s ",
+    "ofo"
+  ],
+  "key": {
+    "s": {
+      "item": "mekanismgenerators:solar_panel"
+    },
+    "c": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "o": {
+      "tag": "forge:plates/iron"
+    },
+    "f": {
+      "item": "pneumaticcraft:heat_frame"
+    }
+  },
+  "result": {
+    "item": "ad_astra:solar_panel",
+    "count": 1
+  }
+}

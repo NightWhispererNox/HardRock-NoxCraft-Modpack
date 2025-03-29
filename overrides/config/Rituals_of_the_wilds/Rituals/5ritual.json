@@ -1,0 +1,21 @@
+{
+  "Ritual Name": "Block Type Ritual: Light Area",
+  "Central Block ID or Tag": "rituals_of_the_wilds:moonlight_yr",
+  "Offhand Item ID or Tag": "minecraft:torch",
+  "Ritual Type": 2,
+  "Moon Stage Needed": false,
+  "Moon Stage": 0,
+  "Sacrifices needed": 0,
+  "Entity Near needed": false,
+  "Entity Near ID or Tag": "",
+  "Weather Type needed": 0,
+  "Ritual Difficulty Level": 0,
+  "Central Block Replacment Type": 2,
+  "Central Block Replacment ID": "minecraft:air",
+  "Fixed or Random Executions": false,
+  "Execute as player": false,
+  "Min/Fixed result command execution count": 1,
+  "Max command execution count": 1,
+  "Result command": "lightuparea",
+  "Info about result": "Will make 10 block area bright."
+}

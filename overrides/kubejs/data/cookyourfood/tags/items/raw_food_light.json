@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:potato",
+    "tfc:food/potato",
+    "minecraft:salmon",
+    "#forge:raw_poultry_cuts",
+    "#forge:dough",
+    "#forge:pasta",
+    "farmersrespite:coffee_berries",
+    "#tfc:foods/raw_meats"
+  ]
+}

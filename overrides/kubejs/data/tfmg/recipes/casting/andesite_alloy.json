@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "kubejs:andesite_alloy",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "create:andesite_alloy"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "create:andesite_alloy_block"
+    }
+
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " I",
+    "S "
+  ],
+  "key": {
+    "I": {
+      "item": "tfc_ie_addon:tool_head/ie_hammer"
+    },
+    "S": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "car:hammer",
+    "count": 1
+  }
+}

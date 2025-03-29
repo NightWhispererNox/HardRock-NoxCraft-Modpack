@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" B ",
+		"TG ",
+		"RC "
+	],
+	"key": {
+		"G": {
+			"item": "tfc:metal/tuyere/bronze"
+		},
+		"T": {
+			"tag": "minecraft:buttons"
+		},
+		"B": {
+			"tag": "forge:plates/electrum"
+		},
+		"C": {
+			"item": "minecraft:comparator"
+		},
+		"R": {
+			"item": "minecraft:repeater"
+		}
+	},
+	"result": {
+		"item": "adpother:gold_vacuum_tube",
+		"count": 1
+	}
+}

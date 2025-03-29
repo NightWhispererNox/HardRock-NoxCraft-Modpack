@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "i",
+        "w",
+        "c"],
+    "key":{
+        "i":{"tag":"forge:rods/aluminum"},
+        "w":{"item":"createaddition:gold_spool"},
+        "c":{"item":"minecraft:terracotta"}
+    },
+    "result":{"item":"immersiveengineering:connector_mv_relay"}
+}

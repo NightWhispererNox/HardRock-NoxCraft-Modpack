@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "ST"
+  ],
+  "key": {
+    "X": {
+      "item": "kubejs:plant_shirt_part1"
+    },
+    "T": {
+      "item": "kubejs:plant_shirt_part2"
+    },
+    "S": {
+      "item": "tfc_stone_tools:plant_string"
+    }
+  },
+  "result": {
+    "item": "tfc_stone_tools:plant_chestplate"
+  }
+}

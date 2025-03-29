@@ -1,0 +1,15 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "immersiveengineering:treated_wood_horizontal"},
+  "transitionalItem": {"item": "immersiveengineering:wooden_barrel"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:rods/steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]}
+  ],
+  "results": [{"item": "immersiveengineering:coil_hv"}],
+  "loops": 1
+}

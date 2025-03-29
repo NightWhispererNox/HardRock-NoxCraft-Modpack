@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "mekanism:basic_fluid_tank"},
+    "transitionalItem": {"item": "pneumaticcraft:small_tank"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:small_tank"}, {"item": "mekanism:alloy_infused"}],"results": [{"item": "pneumaticcraft:small_tank"}]},
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:small_tank"}, {"item": "kubejs:compressed_sheet"}],"results": [{"item": "pneumaticcraft:small_tank"}]},
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:small_tank"}, {"item": "mekanism:basic_fluid_tank"}],"results": [{"item": "pneumaticcraft:small_tank"}]},
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:small_tank"}, {"item": "kubejs:compressed_sheet"}],"results": [{"item": "pneumaticcraft:small_tank"}]},
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:small_tank"}, {"item": "mekanism:alloy_infused"}],"results": [{"item": "mekanism:advanced_fluid_tank"}]}
+    ],
+    "results": [{"item":"mekanism:advanced_fluid_tank"}],
+    "loops": 1
+}

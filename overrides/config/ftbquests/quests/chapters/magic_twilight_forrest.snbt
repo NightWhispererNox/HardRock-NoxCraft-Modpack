@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_twilight_forrest"
+	group: "4B506126B0B8AA84"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "44CF0786BB372D03"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44024F7CD1794DA5"]
+			description: [
+				"Start an adventure in another world - Maybe you will find something that will be useful or maybe it will just be a great adventure"
+				""
+				"You will have to look for special materials in different areas and make a magic item out of it that will open a portal. You will definitely come across it but only after completing the following chapters"
+				"Stone, Mechanical, Steel, Nuclear and space"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "twilightforest:guide"
+				}
+			}
+			id: "2D33A89CEBBCB943"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			tasks: [{
+				id: "377A3862720C698F"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Forest"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D33A89CEBBCB943"]
+			description: ["Build a portal to another dimension - Pour water into a 3x3 square and fill it with flowers - Throw in a Magic Crystal which you can craft from materials found on other planets"]
+			hide_until_deps_visible: true
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "6B4FEEB611B1C806"
+			tasks: [{
+				id: "2A97A3A9B7DD9A28"
+				item: "kubejs:magic_crystal"
+				type: "item"
+			}]
+			title: "Portal"
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "Magic Twilight Forrest"
+}

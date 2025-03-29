@@ -1,0 +1,25 @@
+{
+  "__comment__": "This file was automatically created by tfch",
+  "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "tag": "forge:bark"
+        },
+        {
+          "tag": "forge:tools/knives"
+        },
+        {
+          "tag": "forge:clay"
+        },
+        {
+          "tag": "forge:bark"
+        }
+      ],
+      "result": {
+        "item": "kubejs:bark_paste",
+        "count": 2
+      }
+    }
+  }

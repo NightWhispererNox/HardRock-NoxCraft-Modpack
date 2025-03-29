@@ -1,0 +1,25 @@
+{
+  "ingredient": [
+    "minecraft:milk",
+    "firmalife:yak_milk",
+    "firmalife:goat_milk"
+  ],
+  "thirst": 10,
+  "effects": [
+    {
+      "type": "minecraft:regeneration",
+      "duration": 300,
+      "chance": 0.50
+    },
+    {
+      "type": "minecraft:health_boost",
+      "duration": 300,
+      "chance": 0.15
+    }
+  ],
+  "food": {
+    "hunger": 0,
+    "saturation": 0,
+    "dairy": 1.0
+  }
+}

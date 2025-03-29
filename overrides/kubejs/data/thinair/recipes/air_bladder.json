@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "waterflasks:leather_flask"
+    },
+    "S": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    "LS"
+  ],
+  "result": {
+    "item": "thinair:air_bladder"
+  },
+  "show_notification": true
+}

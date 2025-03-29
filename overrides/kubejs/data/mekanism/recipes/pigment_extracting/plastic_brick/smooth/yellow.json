@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "pneumaticcraft:smooth_plastic_brick_yellow"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:yellow",
+        "amount": 8
+    }
+}

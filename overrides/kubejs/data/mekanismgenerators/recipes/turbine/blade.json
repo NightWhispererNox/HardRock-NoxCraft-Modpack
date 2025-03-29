@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_sheets/steel"
+  },
+  "result": {
+    "item": "mekanismgenerators:turbine_blade",
+    "count": 1
+  },
+  "tier": 1,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

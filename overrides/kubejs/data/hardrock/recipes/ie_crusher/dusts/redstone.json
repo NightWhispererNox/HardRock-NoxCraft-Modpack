@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[
+        {
+            "chance":0.50,
+            "output":{
+                "count": 2,
+                "base_ingredient":{"item":"minecraft:redstone"}
+            }
+        }
+    ],
+    "result":{
+        "count": 12,
+        "base_ingredient":{"item":"minecraft:redstone"}
+    },
+    "input":{
+        "item":"createoreexcavation:raw_redstone"
+    },
+    "energy":6000
+}

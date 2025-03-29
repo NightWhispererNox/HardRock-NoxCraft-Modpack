@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:oil_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:seed_paste",
+      "count": 2
+    },
+    {
+      "item": "kubejs:seed_paste",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/constantan"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:gears/constantan"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "tfc_ie_addon:metal/constantan"
+    }
+  ]
+}

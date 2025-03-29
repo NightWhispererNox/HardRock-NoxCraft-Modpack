@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/iron"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:gears/iron"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "tfc:metal/cast_iron"
+    }
+  ]
+}

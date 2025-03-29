@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "twilightforest:maze_wafer"
+  },
+  "hunger": 6,
+  "saturation": 3,
+  "decay_modifier": 0.25,
+  "protein": 2.0,
+  "vegetables": 2.0
+}

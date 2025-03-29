@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:candle/cyan"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:cyan",
+        "amount": 8
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WHW",
+        "HWH"
+    ],
+    "key": {
+        "H": {
+            "item": "immersiveengineering:treated_fence"
+        },
+        "W": {
+            "tag": "forge:wires/steel"
+        }
+    },
+    "result": {
+        "item": "immersiveengineering:razor_wire",
+        "count": 3
+    }
+}

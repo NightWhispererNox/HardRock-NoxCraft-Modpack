@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/zinc"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/zinc"
+    }
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "tfc:metal/zinc"
+    }
+  ]
+}

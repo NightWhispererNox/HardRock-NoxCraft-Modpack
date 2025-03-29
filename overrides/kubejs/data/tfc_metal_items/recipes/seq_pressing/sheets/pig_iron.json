@@ -1,0 +1,92 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "type": "tfc:heatable",
+    "min_temp": 920,
+    "ingredient": {
+      "tag": "forge:ingots/pig_iron"
+    }
+  },
+  "transitionalItem": {
+    "item": "tfc_metal_items:unknown_sheet"
+  },
+  "sequence": [
+    {
+      "type": "vintageimprovements:curving",
+      "ingredients": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc_metal_items:unknown_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "vintageimprovements:pig_iron_sheet"
+    }
+  ],
+  "loops": 3
+}

@@ -1,0 +1,37 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "tfc:foods/fruits"
+          }
+    },
+    {
+      "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "tfc:foods/cooked_meats"
+          }
+    },
+    {
+      "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "tfc:foods/vegetables"
+          }
+    },
+    {
+      "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "tfc:foods/grains"
+          }
+    },
+    {
+      "tag": "firmalife:sweetener"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:nutrimix"
+    }
+  ]
+}

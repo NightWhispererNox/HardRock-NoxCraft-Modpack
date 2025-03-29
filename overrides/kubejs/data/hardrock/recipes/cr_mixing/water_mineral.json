@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/salt"
+    },
+    [
+      {
+        "item": "tfc:powder/native_copper"
+      },
+      {
+        "item": "tfc:powder/malachite"
+      }
+    ],
+    [
+      {
+        "item": "tfcorewashing:chromium_powder"
+      },
+      {
+        "item": "tfc:powder/sphalerite"
+      }
+    ],
+    [
+      {
+        "item": "tfc:powder/hematite"
+      },
+      {
+        "item": "tfc:powder/limonite"
+      }
+    ],
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "fluid": "kubejs:mineral_water",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}

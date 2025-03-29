@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:mixer",
+    "energy":3200,
+    "fluid":{"amount":500,"fluid":"tfmg:liquid_concrete"},
+    "inputs":[
+        {"tag":"forge:rubber"},
+        {"item": "tfc:rock/gravel/basalt"},
+        {"item": "tfc:sand/black"}
+    ],
+    "result":{"amount":1250,"fluid":"tfmg:liquid_asphalt"}
+}

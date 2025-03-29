@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "domum_ornamentum:lime_floating_carpet"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:lime",
+        "amount": 8
+    }
+}

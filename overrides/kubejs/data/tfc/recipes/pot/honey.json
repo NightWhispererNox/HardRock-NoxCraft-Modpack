@@ -1,0 +1,31 @@
+{
+  "__comment__": "This file created by TFCH",
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+      "tag": "forge:raw_honey"
+    },
+    {
+      "tag": "forge:raw_honey"
+    },
+    {
+      "tag": "forge:raw_honey"
+    },
+    {
+      "tag": "forge:raw_honey"
+    },
+    {
+      "tag": "forge:raw_honey"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "firmalife:sugar_water",
+    "amount": 1000
+  },
+  "duration": 2000,
+  "temperature": 600,
+  "fluid_output": {
+    "fluid": "create:honey",
+    "amount": 1000
+  }
+}

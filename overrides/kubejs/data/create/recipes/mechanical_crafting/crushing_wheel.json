@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " HHH ",
+    "HAPAH",
+    "HPSPH",
+    "HAPAH",
+    " HHH "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "H": {
+      "tag": "tfc:rock/hardened"
+    }
+  },
+  "result": {
+    "item": "create:crushing_wheel",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "TCT",
+    " G "
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "tfmg:steel_fluid_tank"
+    },
+    "T": {
+      "tag": "tfc:tuyeres"
+    },
+    "G": [
+      {"item": "kubejs:primitive_glass_pane"},
+      {"item": "minecraft:glass_pane"}
+    ]
+  },
+  "result": {
+    "item": "create_mechanical_extruder:mechanical_extruder",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type":"createaddition:rolling",
+  "input": {
+    "type": "tfc:heatable",
+    "min_temp": 252,
+    "ingredient": {
+        "tag": "forge:rods/zinc"
+    }
+  },
+  "result": {
+    "item": "vintageimprovements:zinc_wire",
+    "count": 2
+  }
+}

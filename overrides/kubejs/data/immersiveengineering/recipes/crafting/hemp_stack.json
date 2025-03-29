@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " HH",
+        "HHH",
+        "HHH"
+    ],
+    "key": {
+        "H": {
+            "item": "immersiveengineering:hemp_fiber"
+        }
+    },
+    "result": {
+        "item": "kubejs:hemp_stack",
+        "count": 1
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "twilightforest:experiment_115"
+  },
+  "hunger": 6,
+  "saturation": 3,
+  "decay_modifier": 0.5,
+  "protein": 2.0,
+  "vegetables": 2.0
+}

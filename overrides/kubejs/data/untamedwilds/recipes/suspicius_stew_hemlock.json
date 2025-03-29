@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "minecraft:brown_mushroom"}
+    },
+    {
+      "tag": "tfc:herbal_grass"
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "minecraft:red_mushroom"}
+    }
+  ],
+  "result": {
+    "item": "untamedwilds:food_hemlock_stew"
+  },
+  "experience": 1.0,
+  "cookingtime": 2400
+}

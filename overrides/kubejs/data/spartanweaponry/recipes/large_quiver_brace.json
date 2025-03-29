@@ -1,0 +1,15 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag":"forge:plates/gold"},
+    "transitionalItem": {"item": "kubejs:sq_rod"},
+    "sequence": [
+      {"type": "create:filling","ingredients": [{"item": "kubejs:sq_rod"},{"fluidTag": "forge:molten_diamond_steel","nbt": {},"amount": 100}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type":"vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type":"vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "create:filling","ingredients": [{"item": "kubejs:sq_rod"},{"fluidTag": "minecraft:waters","nbt": {},"amount": 1000}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "vintageimprovements:polishing","speed_limits": 2,"ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "vintageimprovements:polishing","speed_limits": 2,"ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "spartanweaponry:large_quiver_brace"}]}
+    ],
+    "results": [{"item": "spartanweaponry:large_quiver_brace"}],
+    "loops": 1
+  }

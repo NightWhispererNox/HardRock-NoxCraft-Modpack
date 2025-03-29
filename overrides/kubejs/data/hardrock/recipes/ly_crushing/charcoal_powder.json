@@ -1,0 +1,21 @@
+{
+  "type": "lychee:block_crushing",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "tfc:powder/charcoal",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "falling_block": {
+    "tag": "forge:cobblestone"
+  },
+  "landing_block": {
+    "tag": "forge:cobblestone"
+  }
+}

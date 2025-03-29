@@ -1,0 +1,14 @@
+{
+  "type": "createoreexcavation:extracting",
+  "drill": {
+    "tag": "createoreexcavation:high_tier_drills"
+  },
+  "output": {
+    "amount": 200,
+    "fluid": "minecraft:lava"
+  },
+  "priority": 0,
+  "stress": 512,
+  "ticks": 40,
+  "vein_id": "tfc_ore_excavation:vein_type/lava"
+}

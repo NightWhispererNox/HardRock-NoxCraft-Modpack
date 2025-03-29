@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "A",
+    "B"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "tag": "forge:shears"
+    },
+    "B":
+    {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result":
+  {
+    "item": "cold_sweat:sewing_table",
+    "count": 1
+  }
+}

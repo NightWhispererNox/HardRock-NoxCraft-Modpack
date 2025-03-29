@@ -1,0 +1,18 @@
+{
+  "values": [
+    "create:fluid_pipe",
+    "create:encased_fluid_pipe",
+    "create:glass_fluid_pipe",
+    "create:mechanical_pump",
+    "create:smart_fluid_pipe",
+    "immersiveengineering:fluid_pipe",
+    "tfmg:steel_pipe",
+    "tfmg:cast_iron_pipe",
+    "tfmg:brass_pipe",
+    "tfmg:aluminum_pipe",
+    "tfmg:steel_smart_samart_pipe",
+    "tfmg:cast_iron_smart_samart_pipe",
+    "tfmg:brass_smart_samart_pipe",
+    "tfmg:aluminum_smart_samart_pipe"
+  ]
+}

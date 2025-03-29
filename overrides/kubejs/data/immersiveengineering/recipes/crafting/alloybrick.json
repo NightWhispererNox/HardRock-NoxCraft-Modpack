@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#M#",
+      "MSM",
+      "#M#"
+    ],
+    "key": {
+      "#": {
+        "tag": "forge:ingots/brick"
+      },
+      "M": {
+        "tag": "tfc:mortar"
+      },
+      "S": {
+        "tag": "forge:ingots/andesite_alloy"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:alloybrick",
+      "count": 1
+    }
+  }

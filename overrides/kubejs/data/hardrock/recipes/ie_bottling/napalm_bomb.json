@@ -1,0 +1,10 @@
+{
+    "type":"immersiveengineering:bottling_machine",
+    "fluid":{"amount":3000,"tag":"forge:napalm"},
+    "inputs":[
+        {"item":"immersiveengineering:metal_barrel"}
+    ],
+    "results":[
+        {"item":"tfmg:napalm_bomb"}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "untamedwilds:hide_gray"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "untamedwilds:hide_black"
+      },
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "untamedwilds:carpet_bigcat_snow_leopard",
+    "count": 6
+  }
+}

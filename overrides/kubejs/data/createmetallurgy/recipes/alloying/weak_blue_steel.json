@@ -1,0 +1,33 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 5,
+      "fluid": "tfc:metal/black_steel",
+      "nbt": {}
+    },
+    {
+      "amount": 2,
+      "fluid": "tfc:metal/steel",
+      "nbt": {}
+    },
+    {
+      "amount": 2,
+      "fluid": "tfc:metal/sterling_silver",
+      "nbt": {}
+    },
+    {
+      "amount": 1,
+      "fluid": "tfc:metal/bismuth_bronze",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "tfc:metal/weak_blue_steel"
+    }
+  ]
+}

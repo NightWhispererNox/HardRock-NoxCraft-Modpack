@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:secondary_linear_chassis"
+    },
+    {
+      "tag": "forge:glue"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:mechanical_bearing"
+    }
+  ]
+}

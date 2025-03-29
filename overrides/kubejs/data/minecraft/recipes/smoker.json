@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "XOX",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "X": {
+      "tag": "forge:stone_bricks"
+    },
+    "O": {
+      "item": "firmalife:oven_bottom"
+    }
+  },
+  "result": {
+    "item": "minecraft:smoker"
+  }
+}

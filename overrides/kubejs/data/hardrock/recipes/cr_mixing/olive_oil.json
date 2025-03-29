@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfc:jute_net"
+    },
+    {
+      "fluid": "tfc:olive_oil_water",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "tfc:olive_oil",
+      "amount": 50
+    },
+    {
+      "item": "tfc:dirty_jute_net"
+    }
+  ]
+}

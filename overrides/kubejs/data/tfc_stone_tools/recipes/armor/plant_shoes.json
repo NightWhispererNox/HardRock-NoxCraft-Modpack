@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SX"
+  ],
+  "key": {
+    "X": {
+      "item": "kubejs:plant_foot_bark_l"
+    },
+    "S": {
+      "item": "kubejs:plant_foot_bark_r"
+    }
+  },
+  "result": {
+    "item": "tfc_stone_tools:plant_boots"
+  }
+}

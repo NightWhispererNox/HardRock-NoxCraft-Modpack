@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "tag": "forge:gears/steel"
+    }
+  },
+  "result": {
+    "item": "tfmg:steel_cogwheel"
+  }
+}

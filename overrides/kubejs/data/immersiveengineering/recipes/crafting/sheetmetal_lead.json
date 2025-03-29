@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/lead"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_lead"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_lead"}, {"tag": "forge:plates/lead"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_lead"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_lead"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_lead"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_lead"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_lead"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_lead"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_lead"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_lead"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_lead"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_lead"}],
+    "loops": 1
+  }

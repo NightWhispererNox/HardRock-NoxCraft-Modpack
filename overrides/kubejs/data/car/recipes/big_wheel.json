@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " W ",
+    "WIW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "create:belt_connector"
+    },
+    "I": {
+      "item": "car:wheel"
+    }
+  },
+  "result": {
+    "item": "car:big_wheel",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    {
+      "item": "kubejs:compressed_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    }
+  ]
+}

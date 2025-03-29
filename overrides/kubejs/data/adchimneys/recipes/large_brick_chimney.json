@@ -1,0 +1,11 @@
+{
+  "type":"tfc:damage_inputs_shapeless_crafting",
+  "recipe":{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+      {"tag": "forge:stone_bricks"},
+      {"tag": "tfc:chisels"}
+    ],
+    "result":{"item":"adchimneys:large_brick_chimney"}
+  }
+}

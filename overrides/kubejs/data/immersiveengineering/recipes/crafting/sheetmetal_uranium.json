@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/uranium"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_uranium"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_uranium"}, {"tag": "forge:plates/uranium"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_uranium"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_uranium"}],
+    "loops": 1
+  }

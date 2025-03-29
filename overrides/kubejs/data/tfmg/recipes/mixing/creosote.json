@@ -1,0 +1,22 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tfmg:creosote",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "immersiveengineering:creosote",
+      "amount": 25
+    }, 
+    {
+      "item": "kubejs:pile_carbon_waste",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

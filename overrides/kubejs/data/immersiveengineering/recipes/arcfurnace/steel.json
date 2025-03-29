@@ -1,0 +1,21 @@
+{
+    "type":"immersiveengineering:arc_furnace",
+    "additives":[
+        {
+            "tag":"mekanism:enriched/carbon"
+        }
+    ],
+    "energy":204800,
+    "input":{
+        "tag":"forge:ingots/irons"
+    },
+    "results":[
+        {
+            "tag":"forge:ingots/steel"
+        }
+    ],
+    "slag":{
+        "tag":"forge:slag"
+    },
+    "time":400
+}

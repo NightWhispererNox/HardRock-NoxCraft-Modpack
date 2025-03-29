@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "tfc:scraped_hides"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "E",
+    "L"
+  ],
+  "result": {
+    "item": "totemic:drum"
+  },
+  "show_notification": true
+}

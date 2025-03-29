@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "S S",
+    "PSP"
+  ],
+  "key": {
+    "P": [
+      {"tag": "forge:rods/bronze"},
+      {"tag": "forge:rods/tin"},
+      {"tag": "forge:rods/zinc"},
+      {"tag": "forge:rods/aluminum"}
+    ],
+    "S": {
+      "tag": "forge:screws"
+    }
+  },
+  "result": {
+    "item": "sns:pack_frame"
+  }
+}

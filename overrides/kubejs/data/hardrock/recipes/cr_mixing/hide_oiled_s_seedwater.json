@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:hide_tanned_s"
+    },
+    {
+      "fluid": "kubejs:seed_oil_water",
+      "amount": 250
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "item": "kubejs:hide_oiled_s"
+    }
+  ]
+}

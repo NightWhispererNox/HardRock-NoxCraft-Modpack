@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "arrows"
+      ]
+    }
+  ],
+  "key": {
+    "H": {
+      "tag": "forge:arrow_head/primitive"
+    },
+    "T": {
+      "tag": "forge:arrow_tread"
+    },
+    "F": {
+      "tag": "forge:arrow_fletch"
+    },
+    "S": {
+      "tag": "forge:arrow_shaft/wooden"
+    }
+  },
+  "pattern": [
+    " TH",
+    " S ",
+    "FT "
+  ],
+  "result": {
+    "count": 1,
+    "item": "spartanweaponry:wooden_arrow"
+  }
+}

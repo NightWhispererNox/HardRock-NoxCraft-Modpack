@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "domum_ornamentum:green_brick_extra"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:green",
+        "amount": 8
+    }
+}

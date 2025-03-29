@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "domum_ornamentum:cyan_brick_extra"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:cyan",
+        "amount": 8
+    }
+}

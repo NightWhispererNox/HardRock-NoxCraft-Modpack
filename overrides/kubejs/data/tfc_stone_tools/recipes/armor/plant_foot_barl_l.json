@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X",
+    "SB"
+  ],
+  "key": {
+    "X": {
+      "item": "kubejs:plant_foot_l"
+    },
+    "S": {
+      "item": "tfc_stone_tools:plant_string"
+    },
+    "B": {
+      "tag": "forge:bark"
+    }
+  },
+  "result": {
+    "item": "kubejs:plant_foot_bark_l"
+  }
+}

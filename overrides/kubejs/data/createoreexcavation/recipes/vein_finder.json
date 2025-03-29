@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "create",
+  "pattern": [
+    "  m",
+    " h ",
+    "s  "
+  ],
+  "key": {
+    "m": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "h": {
+      "item": "tfc:metal/propick_head/wrought_iron"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "createoreexcavation:vein_finder"
+  }
+}

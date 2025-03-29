@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    " M "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:rods/chromium"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "item": "firmalife:drying_mat"
+    }
+  },
+  "result": {
+    "item": "firmalife:solar_drier"
+  }
+}

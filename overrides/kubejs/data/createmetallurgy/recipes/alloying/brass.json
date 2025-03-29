@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 9,
+      "fluid": "tfc:metal/copper",
+      "nbt": {}
+    },
+    {
+      "amount": 1,
+      "fluid": "tfc:metal/zinc",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "tfc:metal/brass"
+    }
+  ]
+}

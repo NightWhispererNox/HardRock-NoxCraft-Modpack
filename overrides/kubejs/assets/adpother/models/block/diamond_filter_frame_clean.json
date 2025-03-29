@@ -1,0 +1,6 @@
+{
+	"parent": "adpother:base/filter_frame",
+	"textures": {
+		"1": "block/diamond_block"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:rubber"
+    },
+    {
+      "item": "tfc:sand/black"
+    },
+    {
+      "item": "tfc:rock/gravel/basalt"
+    },
+    {
+      "fluid": "tfmg:liquid_concrete",
+      "nbt": {},
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tfmg:liquid_asphalt",
+      "nbt": {},
+      "amount": 1000
+    }
+  ]
+}

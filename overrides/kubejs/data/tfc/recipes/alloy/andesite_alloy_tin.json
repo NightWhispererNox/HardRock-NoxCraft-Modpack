@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:alloy",
+  "result": "tfc:andesite_alloy",
+  "contents": [
+    {
+      "metal": "tfc:andesite_stone",
+      "min": 0.88,
+      "max": 0.92
+    },
+    {
+      "metal": "tfc:tin",
+      "min": 0.08,
+      "max": 0.12
+    }
+  ]
+}

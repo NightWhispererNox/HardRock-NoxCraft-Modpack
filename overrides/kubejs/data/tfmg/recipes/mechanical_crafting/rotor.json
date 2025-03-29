@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " CCC ",
+    "CRARC",
+    "CASAC",
+    "CRARC",
+    " CCC "
+  ],
+  "key": {
+
+    "A": {
+      "tag": "forge:ingots/aluminum"
+    },
+
+    "C": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "S": {
+      "tag": "forge:gears/steel"
+    },
+    "R": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "tfmg:rotor"
+  },
+  "acceptMirrored": true
+}

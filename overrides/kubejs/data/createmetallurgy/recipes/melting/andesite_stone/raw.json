@@ -1,0 +1,16 @@
+{
+  "type": "createmetallurgy:melting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "tfc:rock/raw/andesite"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 70,
+      "fluid": "kubejs:andesite_stone"
+    }
+  ]
+}

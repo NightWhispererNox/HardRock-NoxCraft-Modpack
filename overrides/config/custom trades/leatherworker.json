@@ -1,0 +1,243 @@
+{
+  "profession": "minecraft:leatherworker",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:tannin',Amount:8000}}}}"},
+        {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:limewater',Amount:8000}}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker/processing_liquids"
+    },
+    {
+      "offer": {"itemKey": "tfc:small_raw_hide","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker/hide/small_raw"
+    },
+    {
+      "offer": {"itemKey": "textile:primitive_insulation","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker/primitive_insulation"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/shears/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/shears/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker/iron_shears"
+    },
+    {
+      "offer": {"itemKey": "lithiccoins:coin_purse","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker/coin_purse"
+    },
+    {
+      "offer": {"itemKey": "tfc:burlap_cloth","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker/burlap_cloth"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/knife/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/knife/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker/iron_knife"
+    },
+    {
+      "offer": {"itemKey": "tfc:medium_scraped_hide","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker/hide/medium_scraped"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "waterflasks:leather_flask","amount": 1,"advancedNBTData":"{Fluid: {FluidName: 'kubejs:boiled_water', Amount: 500}}"},
+        {"itemKey": "waterflasks:leather_flask","amount": 1,"advancedNBTData":"{Fluid: {FluidName: 'kubejs:herbal_water', Amount: 500}}"},
+        {"itemKey": "waterflasks:leather_flask","amount": 1,"advancedNBTData":"{Fluid: {FluidName: 'kubejs:purified_water', Amount: 500}}"},
+        {"itemKey": "waterflasks:leather_flask","amount": 1,"advancedNBTData":"{Fluid: {FluidName: 'kubejs:mineral_water', Amount: 500}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker/leather_flask"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "textile:linen_cloth","amount": 1},
+        {"itemKey": "textile:cotton_cloth","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker/insulating_cloth"
+    },
+    {
+      "offer": {"itemKey": "firmalife:plant/pineapple_bush","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 4
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker/pineapple_bushes"
+    },
+    {
+      "offer": {"itemKey": "advancedtfctech:fleshing_blades","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker/fleshing_blades"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:bellows","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker/bellows"
+    },
+    {
+      "offer": {"itemKey": "tfc:large_sheepskin_hide","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker/hide/large_sheepskin"
+    },
+    {
+      "offer": {"itemKey": "cold_sweat:chameleon_molt","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 8
+      },
+      "tradeExp": 120,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker/chameleon_molt"
+    }
+  ]
+}

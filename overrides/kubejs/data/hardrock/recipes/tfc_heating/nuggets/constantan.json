@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/constantan",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfc_ie_addon"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:nuggets/constantan"
+  },
+  "result_fluid": {
+    "fluid": "tfc_ie_addon:metal/constantan",
+    "amount": 10
+  },
+  "temperature": 1250
+}

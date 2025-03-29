@@ -1,0 +1,14 @@
+{
+  "type": "createoreexcavation:extracting",
+  "drill": {
+    "item": "createoreexcavation:netherite_drill"
+  },
+  "output": {
+    "amount": 250,
+    "fluid": "tfmg:crude_oil"
+  },
+  "priority": 0,
+  "stress": 512,
+  "ticks": 20,
+  "vein_id": "createoreexcavation:ore_vein_type/crude_oil"
+}

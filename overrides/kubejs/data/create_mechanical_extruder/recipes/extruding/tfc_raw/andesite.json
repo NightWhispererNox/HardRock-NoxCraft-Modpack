@@ -1,0 +1,20 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "ingredients": [
+
+    {
+      "fluid": "tfc:spring_water",
+      "amount": 1000
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "catalyst": {
+    "item": "tfc:rock/raw/andesite"
+  },
+  "result": {
+    "item": "tfc:rock/raw/andesite"
+  }
+}

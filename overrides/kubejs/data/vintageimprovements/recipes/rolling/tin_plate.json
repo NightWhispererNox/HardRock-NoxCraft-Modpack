@@ -1,0 +1,14 @@
+{
+  "type":"createaddition:rolling",
+  "input": {
+    "type": "tfc:heatable",
+    "min_temp": 184,
+    "ingredient": {
+        "tag": "forge:rods/tin"
+    }
+  },
+  "result": {
+    "item": "vintageimprovements:tin_wire",
+    "count": 2
+  }
+}

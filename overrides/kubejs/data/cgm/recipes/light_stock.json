@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:nuggets/iron","count": 24
+    },
+    {
+      "item":"pneumaticcraft:plastic","count": 4
+    },
+    {
+      "item": "minecraft:gray_wool","count": 6
+    }
+  ],
+  "result": {
+    "item": "cgm:light_stock"
+  }
+}

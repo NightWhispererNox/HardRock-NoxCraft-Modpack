@@ -1,0 +1,66 @@
+{
+	"__comment__": "This file was automatically created by mcresources",
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1,
+			"entries": [
+			  {
+				"type": "minecraft:item",
+				"name": "kubejs:shark_meat",
+				"functions": [
+				  {
+					"function": "minecraft:set_count",
+					"count": {
+					  "min": 8,
+					  "max": 16,
+					  "type": "minecraft:uniform"
+					}
+				  }
+				]
+			  }
+			]
+		},
+	  {
+		"name": "loot_pool",
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "untamedwilds:material_fat",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 4,
+				  "max": 8,
+				  "type": "minecraft:uniform"
+				}
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "loot_pool",
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 4,
+				  "max": 8,
+				  "type": "minecraft:uniform"
+				}
+			  }
+			]
+		  }
+		]
+	  }
+	]
+}

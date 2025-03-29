@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:mixer",
+    "energy":3200,
+    "fluid":{"amount":1000,"tag":"minecraft:waters"},
+    "inputs":[
+        {"tag":"forge:bitumen"},
+        {"tag":"forge:gravel"},
+        {"tag":"forge:sand"}
+    ],
+    "result":{"amount":2500,"fluid":"tfmg:liquid_asphalt"}
+}

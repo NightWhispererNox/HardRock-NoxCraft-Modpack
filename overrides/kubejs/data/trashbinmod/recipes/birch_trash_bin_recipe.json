@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:wood/planks/birch_button"
+    },
+    "c": {
+      "item": "tfc:wood/barrel/birch"
+    },
+    "b": {
+      "item": "tfc:wood/planks/birch_trapdoor"
+    }
+  },
+  "result": {
+    "item": "trashbinmod:birch_trash_bin",
+    "count": 1
+  }
+}

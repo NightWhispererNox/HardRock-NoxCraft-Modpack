@@ -1,0 +1,13 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "kubejs:spool_wire"},
+    "transitionalItem": {"item": "kubejs:sq_wire_copp"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_copp"}, {"item": "createaddition:copper_wire"}],"results": [{"item": "kubejs:sq_wire_copp"}]},
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_copp"}, {"item": "createaddition:copper_wire"}],"results": [{"item": "kubejs:sq_wire_copp"}]},
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_copp"}, {"item": "createaddition:copper_wire"}],"results": [{"item": "kubejs:sq_wire_copp"}]},
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_copp"}, {"item": "createaddition:copper_wire"}],"results": [{"item": "kubejs:sq_wire_copp"}]}
+    ],
+    "results": [{"item": "immersiveengineering:wirecoil_copper"}],
+    "loops": 1
+  }

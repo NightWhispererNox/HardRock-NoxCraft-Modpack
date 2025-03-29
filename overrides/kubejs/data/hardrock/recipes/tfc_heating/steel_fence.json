@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "immersiveengineering:steel_fence"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/steel",
+    "amount": 100
+  },
+  "temperature": 1540,
+  "use_durability": true
+}

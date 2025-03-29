@@ -1,0 +1,20 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "tfc:powder/flux"
+    },
+    {
+      "tag": "forge:plates/lead"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "tfmg:heavy_plate"
+    }
+  ]
+}

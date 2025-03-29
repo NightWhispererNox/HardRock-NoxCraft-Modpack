@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "tag": "forge:ingots/compressed_iron",
+      "count": 9
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:compressed_iron_block"
+    }
+  ]
+}

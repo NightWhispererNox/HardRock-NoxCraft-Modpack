@@ -1,0 +1,13 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "pneumaticcraft:pressure_chamber_wall"},
+    "transitionalItem": {"item": "pneumaticcraft:pressure_chamber_wall"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:pressure_chamber_wall"}, {"tag": "forge:circuits/basic"}],"results": [{"item": "pneumaticcraft:pressure_chamber_wall"}]},
+      {"type": "create:pressing","ingredients": [{"item": "pneumaticcraft:pressure_chamber_wall"}, {"item": "tfc:metal/double_sheet/black_steel"}],"results": [{"item": "pneumaticcraft:pressure_chamber_wall"}]},
+      {"type": "create:deploying","ingredients": [{"item": "pneumaticcraft:pressure_chamber_wall"}, {"tag": "forge:circuits/basic"}],"results": [{"item": "pneumaticcraft:pressure_chamber_wall"}]},
+      {"type": "create:pressing","ingredients": [{"item": "pneumaticcraft:pressure_chamber_wall"}, {"item": "tfc:metal/double_sheet/black_steel"}],"results": [{"item": "mekanism:teleporter_frame"}]}
+    ],
+    "results": [{"item":"mekanism:teleporter_frame"}],
+    "loops": 1
+}

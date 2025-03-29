@@ -1,0 +1,22 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "mekanism:hdpe_sheet",
+      "count": 2
+    },
+    {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    {
+      "item": "tfc:glue"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "mekanism:module_base"
+    }
+  ]
+}

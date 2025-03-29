@@ -1,0 +1,7 @@
+{
+  "type":"tfc:barrel_sealed",
+  "input_item":{"ingredient":{"item":"chalk:white_chalk"}},
+  "input_fluid":{"ingredient":"tfc:light_gray_dye","amount":25},
+  "output_item":{"item":"chalk:light_gray_chalk"},
+  "duration":2000
+}

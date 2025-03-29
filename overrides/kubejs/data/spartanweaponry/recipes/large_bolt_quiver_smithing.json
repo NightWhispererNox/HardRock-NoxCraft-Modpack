@@ -1,0 +1,36 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "spartanweaponry:quiver_compartment"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "spartanweaponry:medium_bolt_quiver"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "spartanweaponry:large_quiver_brace"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:string/leather"
+      },
+      "count": 4
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "spartanweaponry:large_bolt_quiver"
+  }
+}

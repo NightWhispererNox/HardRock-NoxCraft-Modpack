@@ -1,0 +1,21 @@
+{
+  "type": "lychee:block_crushing",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "minecraft:paper",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "htm:paper_pulp"
+    }
+  ],
+  "falling_block": {
+    "tag": "forge:cobblestone"
+  },
+  "landing_block": {
+    "tag": "forge:cobblestone"
+  }
+}

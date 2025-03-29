@@ -1,0 +1,18 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "untamedwilds:hide_ashen"
+      },
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "untamedwilds:carpet_ashen",
+    "count": 3
+  }
+}

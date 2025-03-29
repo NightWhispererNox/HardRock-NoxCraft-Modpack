@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:ingots/iron"},
+  "transitionalItem": {"item": "tfc:brick/quartzite"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "tfc:brick/quartzite"},{"fluid": "kubejs:quartz","nbt": {},"amount": 25}],"results": [{"item": "tfc:brick/quartzite"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfc:brick/quartzite"}],"results": [{"item": "tfc:brick/quartzite"}]},
+    {"type": "create:filling","ingredients": [{"item": "tfc:brick/quartzite"},{"fluid": "kubejs:quartz","nbt": {},"amount": 25}],"results": [{"item": "tfc:brick/quartzite"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfc:brick/quartzite"}],"results": [{"item": "tfc:brick/quartzite"}]}
+  ],
+  "results": [{"item": "refinedstorage:quartz_enriched_iron"}],
+  "loops": 2
+}

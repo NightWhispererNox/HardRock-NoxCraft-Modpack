@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:fluid_pipe"
+    },
+    {
+      "tag": "forge:foils/zinc"
+    }
+  ],
+  "results": [
+    {
+      "item": "copycats:copycat_fluid_pipe"
+    }
+  ]
+}

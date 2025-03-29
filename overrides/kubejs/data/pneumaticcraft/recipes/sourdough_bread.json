@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "pneumaticcraft:sourdough"
+      }
+    },
+  "result": "pneumaticcraft:sourdough_bread",
+  "experience": 0.35,
+  "cookingtime": 250
+}

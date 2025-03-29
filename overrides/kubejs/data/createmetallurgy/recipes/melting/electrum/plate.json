@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/electrum"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:plates/electrum"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "tfc_ie_addon:metal/electrum"
+    }
+  ]
+}

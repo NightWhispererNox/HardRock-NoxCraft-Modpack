@@ -1,0 +1,38 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "refinedstorage:silicon"},
+  "transitionalItem": {"item":"createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"},
+  "loops": 5,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"},{"tag": "forge:wires/aluminum"}],
+      "results": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"},{"tag": "forge:wires/electrum"}],
+      "results": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"},{"tag": "forge:wires/copper"}],
+      "results": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"},{"fluidTag": "forge:molten_glass","nbt": {},"amount": 100}],
+      "results": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}]
+    },
+    {
+      "type":"vintageimprovements:laser_cutting", "energy": 1000, "maxChargeRate": 50,
+      "ingredients": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}],
+      "results": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}]
+    },
+    {
+      "type": "create_new_age:energising", "energy_needed": 500,
+      "ingredients": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}],"results": [{"item": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"}]
+    }
+  ],
+  "results": [{"item":  "refinedstorage:cable","count":5}]
+}

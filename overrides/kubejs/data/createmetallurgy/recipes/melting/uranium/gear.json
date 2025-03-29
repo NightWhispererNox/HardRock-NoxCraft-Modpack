@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/uranium"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:gears/uranium"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "tfc_ie_addon:metal/uranium"
+    }
+  ]
+}

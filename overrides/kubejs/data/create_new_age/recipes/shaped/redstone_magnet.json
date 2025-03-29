@@ -1,0 +1,22 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"ingredients": [ 
+		{
+			"fluid": "mekanism:sulfuric_acid",
+			"amount": 1000
+		},
+		{
+			"fluid": "immersiveengineering:redstone_acid",
+			"amount": 1000
+		},
+		{
+			"item": "create_new_age:magnetite_block"
+		}
+	],
+	"results": [
+		{
+			"item": "create_new_age:redstone_magnet"
+		}
+	],
+	"processingTime": 2400
+}

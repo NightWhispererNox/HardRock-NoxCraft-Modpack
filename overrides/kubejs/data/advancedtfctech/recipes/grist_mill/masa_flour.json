@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "advancedtfctech:grist_mill",
+  "result": {
+    "stack": {
+      "item": "firmalife:food/masa_flour",
+      "count": 6
+    },
+    "modifiers": [
+      "tfc:copy_food"
+    ]
+  },
+  "input": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "firmalife:food/nixtamal"
+    }
+  },
+  "time": 80,
+  "energy": 6400
+}

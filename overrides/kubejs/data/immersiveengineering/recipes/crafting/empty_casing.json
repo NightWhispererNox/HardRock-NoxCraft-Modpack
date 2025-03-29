@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:nuggets/copper"
+  },
+  "tier": 3,
+  "result": {
+    "item": "immersiveengineering:empty_casing"
+  },
+  "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+  ]
+}

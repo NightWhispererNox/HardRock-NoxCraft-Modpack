@@ -1,0 +1,6 @@
+{
+	"parent": "adpother:base/aerometer",
+	"textures": {
+		"0": "forgeendertech:block/glass_broken"
+	}
+}

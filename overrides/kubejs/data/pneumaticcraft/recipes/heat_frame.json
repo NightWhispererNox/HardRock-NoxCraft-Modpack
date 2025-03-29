@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "B B",
+    "IGI"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:compressed_rod"
+    },
+    "I": {
+      "tag": "forge:plates/compressed_iron"
+    },
+    "G": {
+      "item": "pneumaticcraft:elevator_frame"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:heat_frame"
+  }
+}

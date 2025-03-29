@@ -1,0 +1,9 @@
+{
+  "tier":5,
+  "fluid":"kubejs:diamond_steel",
+  "melt_temperature":1485,
+  "specific_heat_capacity":0.00857,
+  "ingots":{"tag":"forge:ingots/diamond_steel"},
+  "double_ingots":{"tag":"forge:double_ingots/diamond_steel"},
+  "sheets":{"tag":"forge:sheets/diamond_steel"}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/saltpeter"
+    },
+    {
+      "tag": "forge:gunpowder"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "createbigcannons:nitropowder"
+    }
+  ]
+}

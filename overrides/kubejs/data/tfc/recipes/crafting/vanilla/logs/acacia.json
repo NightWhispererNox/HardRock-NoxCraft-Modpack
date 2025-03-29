@@ -1,0 +1,21 @@
+{
+    "__comment__": "by air!",
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "tfc:wood/log/acacia"
+            },
+            {
+                "tag": "tfc:chisels"
+            },
+            {
+                "tag": "tfc:saws"
+            }
+        ],
+        "result": {
+            "item": "minecraft:acacia_log"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "type":"tfc:anvil",
+    "input":{"tag":"forge:rods/copper"},
+    "result":{"item":"kubejs:copper_mechanisms"},
+    "tier":0,
+    "rules":["punch_last","hit_second_last","punch_third_last"]
+}

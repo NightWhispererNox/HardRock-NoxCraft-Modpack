@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:scraping",
+  "ingredient": {
+    "item": "untamedwilds:hide_tan"
+  },
+  "input_texture": "untamedwilds:item/hide/tan",
+  "output_texture": "tfc:item/hide/large/scraped",
+  "result": {
+    "item": "tfc:large_raw_hide",
+    "count": 1
+  }
+}

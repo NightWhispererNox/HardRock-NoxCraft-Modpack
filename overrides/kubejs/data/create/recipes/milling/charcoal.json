@@ -1,0 +1,22 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:powder/charcoal"
+    },
+    {
+      "item": "tfc:powder/charcoal",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:black_dye",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 200
+}

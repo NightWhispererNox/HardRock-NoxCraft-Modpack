@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "mcwwindows:yellow_curtain"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:yellow",
+        "amount": 8
+    }
+}

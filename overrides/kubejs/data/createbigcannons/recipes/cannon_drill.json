@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:mechanical_drill"
+    },
+    {
+      "item": "tfc:metal/chisel/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "createbigcannons:cannon_drill"
+    }
+  ]
+}

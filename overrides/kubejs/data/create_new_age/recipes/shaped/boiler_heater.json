@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "h": {
+      "item": "pneumaticcraft:heat_sink"
+    },
+    "p": {
+      "item": "tfc:steel_pipe"
+    },
+    "b": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    ".": {
+      "tag": "forge:rods/cast_iron"
+    },
+    "#": {
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "pattern": [
+    ".h.",
+    ".b.",
+    "p#p"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:heater"
+  },
+  "show_notification": true
+}

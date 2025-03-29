@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "pneumaticcraft:logistics_core"
+    },
+    "D": {
+      "tag": "forge:dyes/purple"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:logistics_frame_active_provider",
+    "count": 2
+  }
+}

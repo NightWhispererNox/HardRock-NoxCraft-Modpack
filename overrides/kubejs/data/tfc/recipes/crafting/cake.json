@@ -1,0 +1,11 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "createaddition:cake_base_baked"},
+  "transitionalItem": {"item": "createaddition:cake_base_baked"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "createaddition:cake_base_baked"}, {"fluid": "minecraft:milk","nbt": {},"amount": 500}],"results": [{"item": "createaddition:cake_base_baked"}]},
+    {"type": "create:deploying","ingredients": [{"item": "createaddition:cake_base_baked"}, {"item": "tfc:food/cranberry"}],"results": [{"item": "tfc:cake"}]}
+  ],
+  "results": [{"item": "tfc:cake"}],
+  "loops": 2
+}

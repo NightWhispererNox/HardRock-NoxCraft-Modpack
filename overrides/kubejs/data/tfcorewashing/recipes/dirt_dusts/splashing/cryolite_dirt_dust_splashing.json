@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:dirty_dust_cryolite"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "tfcorewashing:pile_white_sand"
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_cryolite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/diamond",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

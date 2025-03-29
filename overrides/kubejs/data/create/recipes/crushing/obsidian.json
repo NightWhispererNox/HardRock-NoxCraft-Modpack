@@ -1,0 +1,33 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian",
+      "chance": 0.60
+    },
+    {
+      "item": "create:powdered_obsidian",
+      "chance": 0.20
+    },
+    {
+      "item": "tfc_loot:obsidian_scrap"
+    },
+    {
+      "item": "tfc_loot:obsidian_scrap",
+      "chance": 0.50
+    },
+    {
+      "item": "tfc_loot:obsidian_scrap",
+      "chance": 0.10
+    }
+  ],
+  "processingTime": 1200
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "create:light_blue_toolbox"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:light_blue",
+        "amount": 8
+    }
+}

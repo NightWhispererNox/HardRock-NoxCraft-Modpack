@@ -1,0 +1,15 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "immersiveengineering:steel_scaffolding_standard"},
+  "transitionalItem": {"item": "create:gantry_shaft"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersive_aircraft:boiler"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "minecraft:blast_furnace"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersiveengineering:capacitor_lv"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersiveengineering:coil_lv"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "tfc:metal/double_sheet/steel"}],"results": [{"item": "create:gantry_shaft"}]}
+  ],
+  "results": [{"item": "immersive_aircraft:engine"}],
+  "loops": 1
+}

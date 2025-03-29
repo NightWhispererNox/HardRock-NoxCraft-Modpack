@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "spartanweaponry:pole",
+  "key": {
+    "#": {
+      "tag": "forge:wool/strip"
+    },
+    "|": {
+      "tag": "forge:handle/stick"
+    },
+    "G": {
+      "tag": "forge:glue"
+    }
+  },
+  "pattern": [
+    "#|",
+    "|G"
+  ],
+  "result": {
+    "item": "spartanweaponry:pole"
+  },
+  "show_notification": true
+}

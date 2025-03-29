@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "mekanism:enriched/diamond"
+    },
+    {
+      "tag": "forge:circuits/elite"
+    },
+    {
+      "tag": "forge:alloys/ultimate"
+    },
+    {
+      "tag": "forge:dyes/magenta"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  ]
+}

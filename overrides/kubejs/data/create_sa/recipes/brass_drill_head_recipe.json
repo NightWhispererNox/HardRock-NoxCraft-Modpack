@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "312",
+    "00 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/brass"
+    },
+    "1": {
+      "item": "create:andesite_alloy"
+    },
+    "2": {
+      "item": "immersiveengineering:drillhead_iron"
+    },
+    "3": {
+      "item": "tfc:brass_mechanisms"
+    }
+  },
+  "result": {
+    "item": "create_sa:brass_drill_head",
+    "count": 1
+  }
+}

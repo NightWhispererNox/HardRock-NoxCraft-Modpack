@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/steel"
+      }
+    }
+  ],
+  "type": "createmetallurgy:casting_in_basin",
+  "ingredients": [
+    {
+      "amount": 810,
+      "fluid": "tfc:metal/steel",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 320,
+  "result": {
+    "tag": "forge:storage_blocks/steel"
+  }
+}

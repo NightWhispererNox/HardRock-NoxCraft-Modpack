@@ -1,0 +1,24 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "sewingkit:wool_trim"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "tag": "forge:string"
+      },
+      "count": 4
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "tfc:wool_cloth"
+  }
+}

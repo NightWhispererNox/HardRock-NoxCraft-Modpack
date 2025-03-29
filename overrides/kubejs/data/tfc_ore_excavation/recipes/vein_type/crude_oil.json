@@ -1,0 +1,17 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 500.0,
+  "amountMin": 10.0,
+  "biomeWhitelist": "tfc:is_vein",
+  "icon": {
+    "item": "tfmg:crude_oil_bucket"
+  },
+  "name": "{\"translate\":\"Crude Oil\"}",
+  "neverFinite": false,
+  "placement": {
+    "salt": 1195889365,
+    "separation": 8,
+    "spacing": 64
+  },
+  "priority": 0
+}

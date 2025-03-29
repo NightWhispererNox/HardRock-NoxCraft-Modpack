@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "create:dough"
+  },
+  "hunger": 2,
+  "saturation": 0,
+  "decay_modifier": 2.5
+}

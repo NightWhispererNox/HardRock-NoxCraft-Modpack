@@ -1,0 +1,6 @@
+{
+	"parent": "adpother:base/aerometer",
+	"textures": {
+		"3": "block/yellow_wool"
+	}
+}

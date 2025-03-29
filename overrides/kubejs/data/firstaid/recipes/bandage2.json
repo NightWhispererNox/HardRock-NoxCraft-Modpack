@@ -1,0 +1,24 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "tag": "forge:cloth"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:healing_paste"
+      },
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "firstaid:bandage",
+    "count": 8
+  }
+}

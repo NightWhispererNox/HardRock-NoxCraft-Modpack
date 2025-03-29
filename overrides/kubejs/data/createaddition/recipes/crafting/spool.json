@@ -1,0 +1,12 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "immersiveengineering:slab_treated_wood_horizontal"},
+    "transitionalItem": {"item": "create:gantry_shaft"},
+    "sequence": [
+      {"type": "create:cutting","ingredients": [{"item": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:cutting","ingredients": [{"item": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]},
+      {"type": "create:cutting","ingredients": [{"item": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]}
+    ],
+    "results": [{"item": "createaddition:spool"}],
+    "loops": 1
+  }

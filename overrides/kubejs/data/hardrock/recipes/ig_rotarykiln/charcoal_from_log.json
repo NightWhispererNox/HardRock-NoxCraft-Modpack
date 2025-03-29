@@ -1,0 +1,7 @@
+{
+    "type":"immersivegeology:rotarykiln",
+    "energy":5600,
+    "input":{"tag":"tfc:firepit_logs"},
+    "result":{"item":"minecraft:charcoal", "count": 2},
+    "time":300
+}

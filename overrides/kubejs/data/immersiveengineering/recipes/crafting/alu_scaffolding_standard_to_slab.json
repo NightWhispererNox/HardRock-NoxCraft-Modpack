@@ -1,0 +1,18 @@
+{
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "immersiveengineering:alu_scaffolding_standard"
+            },
+            {
+                "tag": "tfc:saws"
+            }
+        ],
+        "result": {
+            "item": "immersiveengineering:slab_alu_scaffolding_standard",
+            "count": 2
+        }
+    }
+}

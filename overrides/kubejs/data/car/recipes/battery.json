@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:copper_casing"},
+  "transitionalItem": {"item": "tfmg:unfinished_gasoline_engine"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:unfinished_gasoline_engine"},{"tag": "forge:plates/lead"}],"results": [{"item": "tfmg:unfinished_gasoline_engine"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:unfinished_gasoline_engine"},{"tag": "forge:glue"}],"results": [{"item": "tfmg:unfinished_gasoline_engine"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:unfinished_gasoline_engine"},{"tag": "forge:paper"}],"results": [{"item": "tfmg:unfinished_gasoline_engine"}]},
+    {"type": "create:filling","ingredients": [{"item": "tfmg:unfinished_gasoline_engine"},{"fluidTag": "forge:sulfuric_acid","nbt": {},"amount": 500}],"results": [{"item": "tfmg:unfinished_gasoline_engine"}]}
+  ],
+  "results": [{"item": "car:battery"}
+  ],
+  "loops": 4
+}

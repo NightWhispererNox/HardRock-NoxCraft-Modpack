@@ -1,0 +1,34 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:sand/green"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:ore/small_malachite",
+      "chance": 0.03
+    },
+    {
+      "item": "tfc:ore/small_bismuthinite",
+      "chance": 0.02
+    },
+    {
+      "item": "tfc:ore/small_garnierite",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:bone",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/emerald",
+      "chance": 0.001
+    }
+  ],
+  "processingTime": 500
+}

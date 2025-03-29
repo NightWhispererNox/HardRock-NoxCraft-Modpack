@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "kubejs:reinforced_copper_sheet"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/copper",
+      "amount": 1600
+    },
+    "temperature": 1540
+  }

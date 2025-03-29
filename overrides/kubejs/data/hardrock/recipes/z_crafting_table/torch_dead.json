@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      [
+        {"item": "htm:plant_string"},
+        {"tag": "forge:canvas"}
+    ],
+      {
+        "tag": "forge:string"
+      },
+      {
+        "tag": "forge:rods/wooden"
+      }
+  ],
+  "result": {
+    "item": "tfc:dead_torch"
+  }
+}

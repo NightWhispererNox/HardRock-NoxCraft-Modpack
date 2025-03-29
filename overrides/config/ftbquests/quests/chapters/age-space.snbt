@@ -1,0 +1,460 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age-space"
+	group: "4B506126B0B8AA84"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_2_rocket"
+		tag: { }
+	}
+	id: "57AF21132C771E1F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37A2C4E7CC0BFF40"]
+			description: [
+				"Your technological development allows you to build a space rocket and go into space for new resources and materials. Unlock the ???????? final adventure. "
+				"You will be forced to visit the planets of our solar system and find one of the materials that will unlock the final era"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "692959898792266C"
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "102AF537545ED7BB"
+				type: "checkmark"
+			}]
+			title: "Space - final frontier"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["692959898792266C"]
+			description: ["NASA workbench will allow you to build space rockets and all the devices and components needed to travel into space"]
+			hide_until_deps_visible: true
+			id: "265426C1E83303E4"
+			tasks: [{
+				id: "11E5B82653FF6208"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2936FA1BDF10366A"]
+			description: [
+				"Space clothing will allow you to survive in unfavorable conditions on other planets"
+				""
+				"Don't forget to take your oxygen supply with you until you build a mini habitat"
+				"In which you must secure the access"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FA28AD6BCBDE8F7"
+			tasks: [
+				{
+					id: "5B42B459BEF61E22"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "103BC6A4651194C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6161F2C6EE85D65C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A8B9E4C2BB45E32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Space Suit"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["265426C1E83303E4"]
+			description: ["Oxygen loader obtains oxygen from surrounding green trees"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:oxygen_loader"
+			id: "2936FA1BDF10366A"
+			tasks: [{
+				id: "707C85BFAA6703F6"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["265426C1E83303E4"]
+			description: ["The Rocket Launchpad is the ground from which your rockets will launch"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:launch_pad"
+			id: "0F74FC17D8A5B179"
+			tasks: [{
+				count: 9L
+				id: "3743D8FD1DEDD185"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0F74FC17D8A5B179"
+				"6FA28AD6BCBDE8F7"
+				"513903D4C382770A"
+			]
+			description: [
+				"A type 1 rocket will allow you to travel to outer space for the first time"
+				""
+				"Do not forget about supplies in space. There is nothing to eat. Don't expect this trip to be easy, the planets may be inhabited"
+				""
+				"Search for new materials"
+				"Find Desh"
+				"{image:ad_astra:item/raw_desh width:15 height:15 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "4BD5C27544462B5F"
+			shape: "pentagon"
+			size: 1.6d
+			tasks: [{
+				id: "5859CA60B1B857E4"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Rocket Tier 1"
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["265426C1E83303E4"]
+			description: [
+				"The bike will allow you to quickly move around the new planet and thus find materials to build new items needed for further space travel"
+				""
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rover"
+				tag: { }
+			}
+			id: "3E86E1B551E0A1AC"
+			tasks: [{
+				id: "0C716FE3130BFFA8"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BD5C27544462B5F"]
+			description: ["You will need these materials to make a new rocket"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:desh_fluid_pipe"
+			id: "2E9090AEA16B3AEB"
+			tasks: [
+				{
+					id: "02F84289FD46E018"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "6CD8B10260C01FDE"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			title: "Desh Materials"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E9090AEA16B3AEB"]
+			description: [
+				"A type 2 rocket will allow you to fly further to another planet"
+				""
+				"Do not forget about supplies in space. There is nothing to eat"
+				""
+				"Search for new materials"
+				"Find Ostrum"
+				"{image:ad_astra:item/raw_ostrum width:15 height:15 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "2CE5883EDF7F47F3"
+			shape: "pentagon"
+			size: 1.6d
+			tasks: [{
+				id: "2020E19C13230C8D"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.4d
+			y: -0.8d
+		}
+		{
+			dependencies: ["2CE5883EDF7F47F3"]
+			description: ["You will need these materials to make a new rocket"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:ostrum_fluid_pipe"
+			id: "4EA9D7CB7F844B01"
+			tasks: [
+				{
+					id: "18BF5660940C5049"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+				{
+					id: "718D13BA6EB1AAAF"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			title: "Ostrum Materials"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EA9D7CB7F844B01"]
+			description: [
+				"A type 3 rocket will allow you to fly further to another planet"
+				""
+				"Do not forget about supplies in space. There is nothing to eat"
+				""
+				"Search for new materials"
+				"Find Calorite"
+				"{image:ad_astra:item/raw_calorite width:15 height:15 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "796C7F3F1B0D5AF8"
+			shape: "pentagon"
+			size: 1.6d
+			tasks: [{
+				id: "27A5E7A7BE4ACF75"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["796C7F3F1B0D5AF8"]
+			description: ["You will need these materials to make a new rocket"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:calorite_panel"
+			id: "1BC965DFE6A9E6B2"
+			tasks: [
+				{
+					id: "545C0B2BEBA1BD9B"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "67A898CF5D6DF2B1"
+					item: "ad_astra:calorite_plate"
+					type: "item"
+				}
+			]
+			title: "Calorite Materials"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BC965DFE6A9E6B2"]
+			description: [
+				"A type 4 rocket will allow you to fly further to another planet"
+				""
+				"Do not forget about supplies in space. There is nothing to eat"
+				""
+				"Search for new materials"
+				"Find Ostrum"
+				"{image:ad_astra:item/raw_ostrum width:15 height:15 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "36E7C613622A826B"
+			shape: "pentagon"
+			size: 1.6d
+			tasks: [{
+				id: "311BEFFE833DFE9D"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.4d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"2E9090AEA16B3AEB"
+				"1BC965DFE6A9E6B2"
+				"4EA9D7CB7F844B01"
+				"3605BD83AD3A142D"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"You have discovered all the necessary materials to craft a magical item that opens a portal to a vast world of adventures"
+				""
+				"This is not the end of the adventure, it may turn out to be only the beginning"
+			]
+			hide_until_deps_visible: true
+			icon: "kubejs:magic_crystal"
+			id: "44024F7CD1794DA5"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Unlocks Final Chapter"
+			tasks: [
+				{
+					id: "14456FE47558B4C0"
+					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "13FC68491435EC28"
+					item: "kubejs:magic_crystal"
+					type: "item"
+				}
+			]
+			title: "Magical Crystal"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["36E7C613622A826B"]
+			description: ["This will be the last element to craft a magic item"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:ice_shard"
+			id: "3605BD83AD3A142D"
+			tasks: [{
+				id: "440EBBF3A09B85AF"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			title: "Ice shard"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["265426C1E83303E4"]
+			description: [
+				"If you have discovered how to make rocket fuel - Join the next era - The conquest of space"
+				""
+			]
+			hide_until_deps_visible: true
+			icon: "mekanismgenerators:fusion_fuel_bucket"
+			id: "513903D4C382770A"
+			subtitle: "Unlock one step - Age Space"
+			tasks: [{
+				id: "33AC0352A91879A6"
+				item: "ad_astra:fuel_bucket"
+				title: "Rocket Fuel"
+				type: "item"
+			}]
+			title: "Rocket Fuel"
+			x: 5.5d
+			y: -1.5d
+		}
+	]
+	title: "Age - Space"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "map_atlases:crafting_atlas",
+  "ingredients": [
+    {
+      "item": "firmaciv:sextant"
+    },
+    {
+      "item": "firmaciv:nav_clock"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ]
+}

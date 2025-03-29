@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      " ea",
+      "gpe",
+      "cg "
+    ],
+    "key": {
+      "e": {
+        "item": "irons_spellbooks:arcane_essence"
+      },
+      "c": {
+        "item": "tfc_metal_tools:bronze_pommel"
+      },
+      "g": {
+        "item": "tfc_items:gold_ring"
+      },
+      "p": {
+        "item": "spartanweaponry:pole"
+      },
+      "a": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "irons_spellbooks:artificer_cane",
+      "count": 1
+    }
+  }

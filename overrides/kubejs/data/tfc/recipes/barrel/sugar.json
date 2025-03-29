@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "tag": "forge:sugar_source"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 250
+  },
+  "output_item": {
+    "item": "kubejs:sugar_mass"
+  },
+  "duration": 8000
+}

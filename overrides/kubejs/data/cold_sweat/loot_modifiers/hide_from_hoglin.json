@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/hoglin"
+    }
+  ],
+  "additions": [
+    {
+      "item": "minecraft:bone",
+      "count":
+      {
+        "min": 1,
+        "max": 2
+      },
+      "weight": 1
+    }
+  ],
+  "removals": [
+    "minecraft:leather"
+  ],
+  "type": "cold_sweat:mob_drops"
+}

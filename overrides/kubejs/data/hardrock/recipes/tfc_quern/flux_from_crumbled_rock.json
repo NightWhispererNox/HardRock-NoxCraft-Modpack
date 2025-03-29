@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "kubejs:crumbled_rock"
+  },
+  "result": {
+    "item": "tfc:powder/flux",
+    "count": 1
+  }
+}

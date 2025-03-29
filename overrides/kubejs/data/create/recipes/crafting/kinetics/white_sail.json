@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:sail_frame"
+    },
+    {
+      "item": "sewingkit:wool_roll"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:white_sail"
+    }
+  ]
+}

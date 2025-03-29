@@ -1,0 +1,12 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods"},
+  "transitionalItem": {"item": "create:gantry_shaft"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersiveengineering:hemp_fabric"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "immersiveengineering:hemp_fabric"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:gantry_shaft"}],"results": [{"item": "create:gantry_shaft"}]}
+    ],
+  "results": [{"item": "immersiveengineering:strip_curtain"}],
+  "loops": 2
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:hide_tanned_m"
+    },
+    {
+      "fluidTag": "forge:plantoil",
+      "amount": 200
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "item": "kubejs:hide_oiled_m"
+    }
+  ]
+}

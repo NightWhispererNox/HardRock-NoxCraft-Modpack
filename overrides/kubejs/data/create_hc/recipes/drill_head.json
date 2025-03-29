@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SC ",
+    "CA ",
+    "  D"
+  ],
+  "key": {
+    "S": {
+      "tag": "tfc:brass_mechanisms"
+    },
+    "C": {
+      "tag": "forge:plates/iron"
+    },
+    "A": {
+      "tag": "forge:cogwheel_small"
+    },
+    "D": {
+      "item": "immersiveengineering:drillhead_iron"
+    }
+  },
+  "result": {
+    "item": "create_hc:drill_head"
+  }
+}

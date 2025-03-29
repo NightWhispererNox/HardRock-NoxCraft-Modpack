@@ -1,0 +1,7 @@
+{
+  "Needed Item ID or Tag": "rituals_of_the_wilds:white_crystal_shard",
+  "Result Item ID": "rituals_of_the_wilds:white_crystal_dust",
+  "Give Fixed Amount": true,
+  "Min/Fixed Give amount": 1,
+  "Max Give amount": 1
+}

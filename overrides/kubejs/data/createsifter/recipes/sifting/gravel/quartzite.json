@@ -1,0 +1,33 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:rock/gravel/quartzite"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:sand/white"
+    },
+    {
+      "item": "mekanism:fluorite_gem",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.02
+    },
+    {
+      "item": "refinedstorage:silicon",
+      "chance": 0.02
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.15
+    }
+  ],
+  "processingTime": 500
+}

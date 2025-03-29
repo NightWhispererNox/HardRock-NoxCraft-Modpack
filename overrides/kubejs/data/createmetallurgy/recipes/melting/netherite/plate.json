@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/netherite"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:plates/netherite"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "createmetallurgy:molten_netherite"
+    }
+  ]
+}

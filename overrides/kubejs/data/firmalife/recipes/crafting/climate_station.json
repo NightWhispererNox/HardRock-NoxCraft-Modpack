@@ -1,0 +1,31 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "YOY",
+    "BMB"
+  ],
+  "key": {
+    "Y": {
+      "tag": "forge:2panes"
+    },
+    "C": {
+      "tag": "tfc:workbenches"
+    },
+    "O": [
+      {
+        "item": "adchimneys:stone_pump"
+      }
+    ],
+    "B": {
+      "tag": "tfc:lumber"
+    },
+    "M": {
+      "item": "kubejs:copper_mechanisms"
+    }
+  },
+  "result": {
+    "item": "firmalife:climate_station"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/electrum"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_electrum"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_electrum"}, {"tag": "forge:plates/electrum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_electrum"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_electrum"}],
+    "loops": 1
+  }

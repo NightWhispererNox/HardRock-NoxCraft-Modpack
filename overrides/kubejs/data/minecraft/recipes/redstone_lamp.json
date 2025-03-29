@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " r ",
+        "rlr",
+        " r "
+    ],
+    "key": {
+        "r": {
+            "tag": "forge:dusts/redstone"
+        },
+        "l": {
+            "item": "supplementaries:blackstone_lamp"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone_lamp"
+    }
+}

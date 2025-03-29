@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "twilightforest:meef_stroganoff"
+  },
+  "hunger": 12,
+  "saturation": 8,
+  "decay_modifier": 0.75,
+  "protein": 6.0,
+  "vegetables": 2.0
+}

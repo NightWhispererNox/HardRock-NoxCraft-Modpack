@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:anvil",
+  "input": [
+    {
+      "tag": "forge:rods/blue_steel"
+    },
+    {
+      "tag": "forge:rods/red_steel"
+    }
+  ],
+  "result": {
+    "item": "kubejs:chisel_blue_steel_head",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

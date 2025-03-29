@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":["i","r","b"],
+    "key":{
+        "i":{"tag":"forge:rods/rose_gold"},
+        "r":{"item":"immersiveengineering:wirecoil_redstone"},
+        "b":{"item":"minecraft:white_terracotta"}
+    },
+    "result":{"item":"immersiveengineering:connector_redstone"}
+}

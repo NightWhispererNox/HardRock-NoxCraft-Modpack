@@ -1,0 +1,6 @@
+{
+  "type":"mekanism:combining",
+  "mainInput":{"amount":8,"ingredient":{"tag": "forge:dusts/glowstone"}},
+  "extraInput":{"ingredient":{"tag": "forge:pellets/antimatter"}},
+  "output":{"item":"minecraft:glowstone"}
+}

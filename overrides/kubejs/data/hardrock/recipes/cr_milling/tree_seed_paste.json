@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:seed_tree"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:tree_seed_paste",
+      "count": 2
+    },
+    {
+      "item": "kubejs:tree_seed_paste",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 100
+}

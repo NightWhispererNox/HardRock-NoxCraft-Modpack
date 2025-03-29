@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:large_cogwheel"},
+  "transitionalItem": {"item": "create:brass_scaffolding"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "create:brass_scaffolding"},{"tag": "forge:plates/brass"}],"results": [{"item": "create:brass_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:brass_scaffolding"}],"results": [{"item": "create:brass_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:brass_scaffolding"},{"tag": "forge:plates/brass"}],"results": [{"item": "create:brass_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:brass_scaffolding"}],"results": [{"item": "create:brass_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:brass_scaffolding"},{"tag": "forge:plates/brass"}],"results": [{"item": "create:brass_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:brass_scaffolding"}],"results": [{"item": "create:brass_scaffolding"}]}
+  ],
+  "results": [
+    {"item": "create:flywheel"}
+  ],
+  "loops": 1
+}

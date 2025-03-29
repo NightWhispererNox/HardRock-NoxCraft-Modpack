@@ -1,0 +1,7 @@
+{
+    "type":"mekanism:nucleosynthesizing",
+    "itemInput":{"ingredient":{"tag":"forge:dusts/sulfur"}},
+    "gasInput":{"amount":1,"gas":"mekanism:antimatter"},
+    "output":{"item":"kubejs:fuel_component"},
+    "duration":200
+}

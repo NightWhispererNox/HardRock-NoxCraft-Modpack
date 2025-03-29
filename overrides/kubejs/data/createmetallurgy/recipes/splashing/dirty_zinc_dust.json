@@ -1,0 +1,30 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "forge:dirty_dusts/zinc"
+    }
+  ],
+  "processingTime": 1200,
+  "results": [
+    {
+      "item": "tfcorewashing:dirty_pile_sphalerite"
+    },
+    {
+      "chance": 0.75,
+      "item": "tfcorewashing:dirty_pile_sphalerite"
+    },
+    {
+      "chance": 0.4,
+      "item": "tfcorewashing:dirty_pile_sphalerite"
+    },
+    {
+      "chance": 0.15,
+      "item": "tfcorewashing:dirty_pile_sphalerite"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

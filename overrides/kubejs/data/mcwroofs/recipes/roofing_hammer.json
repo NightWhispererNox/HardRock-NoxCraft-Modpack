@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        " h ",
+        "s  "
+        ],
+    "key":{
+        "s":{"item":"minecraft:stick"},
+        "h":{"item":"tfc_ie_addon:tool_head/ie_hammer"}},
+    "result":{"item":"mcwroofs:roofing_hammer"}
+}

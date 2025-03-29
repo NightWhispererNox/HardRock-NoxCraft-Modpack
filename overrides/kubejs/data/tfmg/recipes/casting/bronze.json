@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/bronze",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfc:metal/ingot/bronze"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "mekanism:block_bronze"
+    }
+
+  ]
+}

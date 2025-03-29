@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:copper_casing"
+    },
+    {
+      "item": "pneumaticcraft:air_grate_module"
+    }
+  ],
+  "results": [
+    {
+      "item": "compressedcreativity:air_blower"
+    }
+  ]
+}

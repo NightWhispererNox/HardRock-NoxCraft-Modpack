@@ -1,0 +1,34 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    },
+    {
+      "item": "tinycoal:tinycharcoal"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ]
+}

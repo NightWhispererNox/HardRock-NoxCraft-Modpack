@@ -1,0 +1,22 @@
+{
+    "conditions": [{"type": "forge:mod_loaded","modid": "tfchotornot"}],
+    "type":"tfc:advanced_shaped_crafting",
+    "pattern":[
+        "sX ",
+        "SNX",
+        "RSs"
+    ],
+    "key":{
+        "N":{"tag":"forge:rivets/black_bronze"},
+        "X":{"item":"tfc:metal/knife_blade/black_bronze"},
+        "R":{"tag":"forge:rings/black_bronze"},
+        "s":{"tag":"forge:leather/string"},
+        "S":{"tag":"forge:handle/short"}
+    },
+    "result":{
+        "stack":{"item":"tfc:metal/shears/black_bronze"},
+        "modifiers":["tfc:copy_forging_bonus"]
+    },
+    "input_row":0,
+    "input_column":1
+}

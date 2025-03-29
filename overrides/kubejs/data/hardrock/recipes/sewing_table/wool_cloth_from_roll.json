@@ -1,0 +1,17 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "sewingkit:wool_roll"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "tfc:wool_cloth",
+    "count": 4
+  }
+}

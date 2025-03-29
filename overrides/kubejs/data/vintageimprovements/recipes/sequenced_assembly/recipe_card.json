@@ -1,0 +1,41 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:plates/brass"},
+  "transitionalItem": {"item": "vintageimprovements:incomplete_recipe_card"},
+  "results": [{"item": "vintageimprovements:recipe_card"}],
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "vintageimprovements:incomplete_recipe_card"},{"item": "minecraft:redstone"}],
+      "results": [{"item": "vintageimprovements:incomplete_recipe_card"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "vintageimprovements:incomplete_recipe_card"},{"item": "minecraft:redstone"}],
+      "results": [{"item": "vintageimprovements:incomplete_recipe_card"}]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [{"item": "vintageimprovements:incomplete_recipe_card"}],
+      "results": [{"item": "vintageimprovements:incomplete_recipe_card"}]
+    },
+    {
+      "type":"vintageimprovements:laser_cutting","energy": 2000, "maxChargeRate": 100,
+      "ingredients": [{"item": "vintageimprovements:incomplete_recipe_card"}],
+      "results": [{"item": "vintageimprovements:incomplete_recipe_card"}]
+    },
+    {
+      "type": "vintageimprovements:polishing",
+        "speed_limits": 1,
+      "ingredients": [{"item": "vintageimprovements:incomplete_recipe_card"}],
+      "results": [{"item": "vintageimprovements:incomplete_recipe_card"}]
+    },
+    {
+      "type": "vintageimprovements:polishing",
+        "speed_limits": 1,
+      "ingredients": [{"item": "vintageimprovements:incomplete_recipe_card"}],
+      "results": [{"item": "vintageimprovements:incomplete_recipe_card"}]
+    }
+  ]  
+}

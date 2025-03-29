@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:gems/quartz"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "mekanism:dust_quartz"
+    },
+    {
+      "item": "mekanism:dust_quartz",
+      "chance": 0.25
+    }
+  ]
+}

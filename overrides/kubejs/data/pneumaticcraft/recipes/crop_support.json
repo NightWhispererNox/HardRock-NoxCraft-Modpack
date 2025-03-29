@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:rods/compressed_iron"
+  },
+  "result": {
+    "item": "pneumaticcraft:crop_support"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "bend_second_last"
+  ]
+}

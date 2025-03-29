@@ -1,0 +1,32 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+      "tag": "tfc:herbal_grass"
+    },
+    {
+      "tag": "tfc:herbal_grass"
+    },
+    {
+      "tag": "tfc:herbal_grass"
+    },
+    {
+      "tag": "tfc:herbal_grass"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "minecraft:water",
+    "amount": 1000
+  },
+  "duration": 3000,
+  "temperature": 600,
+  "fluid_output": {
+    "fluid": "kubejs:herbal_water",
+    "amount": 1000
+  },
+  "item_output": [
+    {
+      "item": "kubejs:boiled_grass"
+    }
+  ]
+}

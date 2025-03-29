@@ -1,0 +1,21 @@
+{
+  "type": "tfc:extra_products_shapeless_crafting",
+  "extra_products": [
+    {
+      "item": "tfc:metal/ingot/brass",
+      "count": 8
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "create_sa:brass_cube"
+      }
+    ],
+    "result": {
+      "item": "minecraft:netherite_ingot",
+    "count": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluidTag": "forge:sulfuric_acid",
+      "amount": 500
+    },
+    {
+      "item": "tfc:powder/sphalerite"
+    }
+
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "tfmg:zinc_sulfate"
+
+    }
+  ]
+}

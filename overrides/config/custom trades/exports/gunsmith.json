@@ -1,0 +1,287 @@
+{
+  "profession": "immersiveengineering:gunsmith",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "immersiveengineering:empty_casing",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "immersiveengineering:empty_shell",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:wooden_grip",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:blueprint",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{blueprint:\"bullet\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:casull",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:buckshot",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:gunpart_drum",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{generatePerks:1b,perks:{luck:-0.1d,noise:0.33d}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 29,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:gunpart_drum",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{generatePerks:1b,perks:{cooldown:0.58d,luck:-1.95d}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:flare",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:blueprint",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{blueprint:\"specialBullet\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:gunpart_barrel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{generatePerks:1b,perks:{cooldown:0.72d,luck:-1.87d}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:silver",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:he",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:gunpart_hammer",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{generatePerks:1b,perks:{luck:-0.08000000000000007d}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 17,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:gunpart_barrel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{generatePerks:1b,perks:{luck:0.08d,noise:0.29d}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 27,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:gunpart_hammer",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{generatePerks:1b,perks:{luck:0.5199999999999999d}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 19,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

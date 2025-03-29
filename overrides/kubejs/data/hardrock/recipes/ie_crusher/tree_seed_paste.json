@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "kubejs:tree_seed_paste",
+    "count": 4
+  },
+  "input": {
+    "tag": "forge:seed_tree"
+  },
+  "energy": 800
+}

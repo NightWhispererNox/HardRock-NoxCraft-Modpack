@@ -1,0 +1,17 @@
+{
+    "type":"immersiveengineering:arc_furnace",
+    "additives":[],
+    "energy":51200,
+    "input":{
+        "tag":"forge:dusts/iron"
+    },
+    "results":[
+        {
+            "item":"minecraft:iron_ingot"
+        }
+    ],
+    "slag":{
+        "tag":"forge:slag"
+    },
+    "time":120
+}

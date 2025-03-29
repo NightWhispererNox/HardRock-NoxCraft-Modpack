@@ -1,0 +1,12 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[],
+    "result":{
+        "count": 1,
+        "base_ingredient":{"item": "tfmg:coal_coke_dust"}
+    },
+    "input":{
+        "tag": "forge:dusts/coal_coke"
+    },
+    "energy":1200
+}

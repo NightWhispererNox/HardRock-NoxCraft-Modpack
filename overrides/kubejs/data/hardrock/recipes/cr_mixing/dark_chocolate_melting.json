@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "firmalife:food/dark_chocolate"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "fluid": "tfcchannelcasting:dark_chocolate",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated"
+}

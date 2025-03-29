@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "type": "tfc:heatable",
+    "min_temp": 750,
+    "ingredient": {
+      "tag": "forge:ingots/uranium"
+    }
+  },
+  "transitionalItem": {
+    "item": "kubejs:sq_rod"
+  },
+  "sequence": [
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:sq_rod"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc_items:uranium_rod",
+      "count": 2
+    }
+  ],
+  "loops": 2
+}

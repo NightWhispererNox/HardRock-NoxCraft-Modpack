@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+    "item": "kubejs:vulcanized_rubber"
+	},
+	"result": {
+		"item": "create:belt_connector",
+    "count": 5
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by tfch",
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+  "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "forge:seed_tree"
+      },
+      {
+        "tag": "forge:tools/knives"
+      }
+    ],
+    "result": {
+      "item": "animaltrap:small_animals_bait",
+      "count": 1
+    }
+  }
+}

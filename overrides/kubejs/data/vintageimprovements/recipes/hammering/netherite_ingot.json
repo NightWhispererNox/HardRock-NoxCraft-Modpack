@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintageimprovements"
+    },
+    {
+      "value":{
+        "tag": "forge:ingots/netherite",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "vintageimprovements:hammering",
+	"hammerBlows": 10,
+	"ingredients": [
+	  {
+	    "type": "tfc:heatable",
+	    "min_temp": 920,
+	    "ingredient": {
+	      "tag": "forge:ingots/netherite"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "vintageimprovements:netherite_sheet"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "Hud Texts Config": {
+    "General": {
+      "Description 1": "The Hud Texts should be enabled by default?",
+      "Enabled": false,
+      "Description 2": "Here you can disable/enable the chat messages which appears when a player joins to the world.",
+      "Send": false
+    },
+    "Ui": {
+      "Example": {
+        "Description 1": "Here you can disable the actual text lines.",
+        "Enabled": true,
+        "Description 2": "Here you can configure what to display, you can use Variables which added by our other mods or the default ones. You can found the variables here: \"/config/Hud Texts/variables\" and you can set icons for each individual line, you can use minecraft textures or mod(s) textures.",
+        "Description 2 Help": "If you need help with the textures you can use this website: https://mcreator.net/wiki/obtaining-minecraft-textures",
+        "Line1 Icon": "minecraft:textures/item/diamond.png",
+        "Line1": "Player name: $player_name$",
+        "Line2 Icon": "",
+        "Line2": "$b$$l$Health: $c$$l$player_health$",
+        "Line3 Icon": "",
+        "Line3": "$b$$l$Armor: $f$$l$$player_armor$",
+        "Description 3": "Here you can move the actual text lines if you want.",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Description 4": "Here you can set an item and only shows the actual text if the player has this item.",
+        "Item": "minecraft:diamond_block"
+      },
+      "Top Left": {
+        "Enabled": true,
+        "Line1 Icon": "",
+        "Line1": "Player Days: $b$$player_days$",
+        "Line2 Icon": "",
+        "Line2": "Server Days: $b$$server_days$",
+        "Line3 Icon": "",
+        "Line3": "",
+        "Additional X": 0,
+        "Additional Y": 1,
+        "Item": ""
+      },
+      "Top Middle": {
+        "Enabled": false,
+        "Line1 Icon": "minecraft:textures/item/compass_15.png",
+        "Line1": "$f$X: $6$$x$ $7$| $f$Y: $6$$y$ $7$| $f$Z: $6$$z$",
+        "Line2 Icon": "",
+        "Line2": "",
+        "Line3 Icon": "",
+        "Line3": "",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      },
+      "Top Right": {
+        "Enabled": false,
+        "Line1 Icon": "",
+        "Line1": "",
+        "Line2 Icon": "",
+        "Line2": "",
+        "Line3 Icon": "",
+        "Line3": "",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      },
+      "Center Left": {
+        "Enabled": false,
+        "Line1 Icon": "",
+        "Line1": "",
+        "Line2 Icon": "",
+        "Line2": "",
+        "Line3 Icon": "",
+        "Line3": "",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      },
+      "Center Right": {
+        "Enabled": false,
+        "Line1 Icon": "minecraft:textures/item/paper.png",
+        "Line1": "Name: $e$$player_name$",
+        "Line2 Icon": "minecraft:textures/item/iron_chestplate.png",
+        "Line2": "Health: $c$$player_health$$4$/$c$$player_max_health$ $f$Armor: $9$$player_armor$",
+        "Line3 Icon": "minecraft:textures/item/apple.png",
+        "Line3": "Food: �6$player_food_level$",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      },
+      "Bottom Left": {
+        "Enabled": false,
+        "Line1 Icon": "",
+        "Line1": "",
+        "Line2 Icon": "",
+        "Line2": "",
+        "Line3 Icon": "minecraft:textures/item/skull_banner_pattern.png",
+        "Line3": "Death Counts: $c$$death_count$",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      },
+      "Bottom Middle": {
+        "Enabled": false,
+        "Line1 Icon": "",
+        "Line1": "",
+        "Line2 Icon": "",
+        "Line2": "",
+        "Line3 Icon": "",
+        "Line3": "",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      },
+      "Bottom Right": {
+        "Enabled": false,
+        "Line1 Icon": "",
+        "Line1": "Thank you for using our $b$$l$Hud Texts $r$mod!",
+        "Line2 Icon": "",
+        "Line2": "For config: $6$INSTALL\\config\\",
+        "Line3 Icon": "",
+        "Line3": "For Variables: $6$INSTALL\\config\\Hud Texts\\variables",
+        "Additional X": 0,
+        "Additional Y": 0,
+        "Item": ""
+      }
+    },
+    "Config Version": {
+      "Config Version": "3.2"
+    }
+  }
+}

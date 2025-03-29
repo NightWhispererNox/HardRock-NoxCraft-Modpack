@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "firmalife:oven",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/potato"
+    }
+  },
+  "result_item": {
+    "item": "tfc:food/baked_potato"
+  },
+  "temperature": 200,
+  "duration": 1000
+}

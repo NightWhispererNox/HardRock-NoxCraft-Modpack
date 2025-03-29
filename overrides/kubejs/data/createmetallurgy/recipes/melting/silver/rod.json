@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/silver"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:rods/silver"
+    }
+  ],
+  "processingTime": 120,
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "tfc:metal/silver"
+    }
+  ]
+}

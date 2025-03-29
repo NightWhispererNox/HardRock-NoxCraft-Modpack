@@ -1,0 +1,35 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:double_ingots/steel","count": 1
+    },
+    {
+      "tag": "forge:double_sheets/steel","count": 2
+    },
+    {
+      "tag": "forge:plates/steel","count": 4
+    },
+    {
+      "tag": "forge:rods/steel","count": 6
+    },
+    {
+      "tag": "forge:nuggets/steel","count": 6
+    },
+    {
+      "tag": "forge:wires/steel","count": 1
+    },
+    {
+      "item":"pneumaticcraft:pressure_tube","count": 1
+    },
+    {
+      "item": "minecraft:redstone","count": 4
+    },
+    {
+      "tag": "forge:dyes/red","count": 1
+    }
+  ],
+  "result": {
+    "item": "cgm:bazooka"
+  }
+}

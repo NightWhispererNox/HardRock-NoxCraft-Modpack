@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/grouse"
+      }
+    },
+  "result": "tfc:food/cooked_grouse",
+  "experience": 0.35,
+  "cookingtime": 250
+}

@@ -1,0 +1,25 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "advancedtfctech:beamhouse",
+  "result": {
+    "stack": {
+      "item": "kubejs:hide_oiled_m",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "advancedtfctech:double_if_has_tag",
+        "tag": "machine_made"
+      }
+    ]
+  },
+  "input": {
+    "item": "kubejs:hide_tanned_m"
+  },
+  "fluid": {
+    "tag": "forge:plantoil",
+    "amount": 200
+  },
+  "time": 300,
+  "energy": 6000
+}

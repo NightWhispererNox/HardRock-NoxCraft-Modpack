@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "type": "tfc:climate",
+    "salt": 10387312,
+    "separation": 20,
+    "spacing": 200,
+	  "climate": {
+	  	"min_temperature": -15,
+	  	"max_temperature": 0,
+	  	"max_rainfall": 400,
+      "min_forest": "normal"
+	  }
+  },
+  "structures": [
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 1
+    }
+  ]
+}

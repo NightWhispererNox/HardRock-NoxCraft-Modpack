@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "PNW",
+        "NLX",
+        "WX "
+    ],
+    "key":{
+        "N":{"tag":"forge:rivets/black_steel"},
+        "X":{"tag":"forge:bow_part/chord/primitive"},
+        "L":{"tag":"forge:bow_part/limb"},
+        "W":{"tag":"forge:wires/netherite"},
+        "P":{"tag":"forge:plates/netherite"}
+    },
+    "result":{"item":"spartanweaponry:netherite_longbow"}
+}

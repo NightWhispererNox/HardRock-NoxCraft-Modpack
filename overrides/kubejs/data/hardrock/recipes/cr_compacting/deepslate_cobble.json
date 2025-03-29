@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    [
+      {
+        "tag": "forge:dusts/charcoal"
+      },
+      {
+        "tag": "forge:dusts/coal"
+      }
+    ],
+    [
+      {
+        "tag": "forge:dusts/charcoal"
+      },
+      {
+        "tag": "forge:dusts/coal"
+      }
+    ],
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}

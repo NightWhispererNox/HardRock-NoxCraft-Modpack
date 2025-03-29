@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "tag": "tfc:rock/chiseled_bricks",
+      "count": 4
+    },
+    {
+      "tag": "forge:ingots/lead"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "compactmachines:wall"
+    }
+  ]
+}

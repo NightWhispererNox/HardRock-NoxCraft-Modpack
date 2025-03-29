@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/gold"},
+  "transitionalItem": {"item": "tfc:metal/rod/gold"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/gold"}],"results": [{"item": "tfc:metal/rod/gold"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/gold"}],"results": [{"item": "tfc:metal/rod/gold"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/gold"}],"results": [{"item": "tfc:metal/rod/gold"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/gold"}],"results": [{"item": "tfc:metal/rod/gold"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/gold"}],"results": [{"item": "tfc:metal/rod/gold"}]}
+  ],
+  "results": [
+    {"item": "minecraft:gold_nugget","count": 5}    
+  ],
+  "loops": 1
+}
+

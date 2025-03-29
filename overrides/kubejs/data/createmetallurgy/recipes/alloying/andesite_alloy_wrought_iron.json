@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 9,
+      "fluid": "kubejs:andesite_stone",
+      "nbt": {}
+    },
+    {
+      "amount": 1,
+      "fluid": "tfc:metal/wrought_iron",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 120,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "kubejs:andesite_alloy"
+    }
+  ]
+}

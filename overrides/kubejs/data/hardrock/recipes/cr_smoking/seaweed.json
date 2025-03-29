@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/fresh_seaweed"
+      }
+    },
+  "result": "tfc:food/dried_seaweed",
+  "experience": 0.15,
+  "cookingtime": 250
+}

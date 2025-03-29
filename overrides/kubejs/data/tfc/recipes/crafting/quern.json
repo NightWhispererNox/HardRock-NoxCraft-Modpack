@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "YY "
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:smooth_stone"
+    },
+    "Y": {
+      "tag": "tfc:rock/raw"
+    }
+  },
+  "result": {
+    "item": "tfc:quern"
+  }
+}

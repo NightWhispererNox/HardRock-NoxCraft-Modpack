@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:gray_shulker_box"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:gray",
+        "amount": 8
+    }
+}

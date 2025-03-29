@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/compressed_iron"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  ],
+  "processingTime": 280,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "tfc:metal/wrought_iron"
+    }
+  ]
+}

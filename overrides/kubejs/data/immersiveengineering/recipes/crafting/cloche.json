@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":["geg","g g","wcw"],
+    "key":{
+        "g":{"tag":"forge:glass"},
+        "w":{"tag":"forge:treated_wood"},
+        "e":{"item":"immersiveengineering:light_bulb"},
+        "c":{"item":"mekanism:module_farming_unit"}},
+    "result":{"item":"immersiveengineering:cloche"}
+}

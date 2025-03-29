@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": "tfc:dirt/loam",
+  "model_stages": [
+    "tfc:item/pan/cassiterite/basalt_full"
+  ],
+  "loot_table": "tfc:panning/deposits/sandy_loam"
+}

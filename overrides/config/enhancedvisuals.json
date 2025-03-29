@@ -1,0 +1,18 @@
+{
+  "messages": {
+    "deathMessages": [
+      "TerrafirmaCraft HardRock is hard world - try again.",
+      "Don\u0027t do it again - be careful next time.",
+      "Do you really want to respawn? think of it again.",
+      "Life is hard. TerraFirmaCraft HardRock too - Deal with it!",
+      "You are dead ... wait you already know that.",
+      "something went wrong and hardrock doesn\u0027t forgive that!",
+      "Should have shot back first...",
+      "Yep, that\u0027s messed up...",
+      "you have fallen, now Rise - it\u0027s not over yet!",
+      "I think you dropped something.",
+      "Time for a break?"
+    ],
+    "enabled": true
+  }
+}

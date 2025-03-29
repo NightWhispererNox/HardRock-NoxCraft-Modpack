@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "forge:nuggets/constantan"
+  },
+  "heat_capacity": 0.7,
+  "forging_temperature": 450,
+  "welding_temperature": 600
+}

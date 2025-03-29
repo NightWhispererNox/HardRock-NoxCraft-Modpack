@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:fluid_pipe"},
+  "transitionalItem": {"item":"tfc:metal/rod/copper"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"item":"tfc:metal/rod/copper"}],"results": [{"item":"tfc:metal/rod/copper"}]},
+    {"type": "create:pressing","ingredients": [{"item":"tfc:metal/rod/copper"}],"results": [{"item":"tfc:metal/rod/copper"}]},
+    {"type": "createaddition:rolling","ingredients": [{"item":"tfc:metal/rod/copper"}],"results": [{"item":"tfc:metal/rod/copper"}]},
+    {"type": "create:pressing","ingredients": [{"item":"tfc:metal/rod/copper"}],"results": [{"item":"tfc:metal/rod/copper"}]}
+    ],
+  "results": [{"item": "firmalife:copper_pipe","count":3}],
+  "loops": 3
+}

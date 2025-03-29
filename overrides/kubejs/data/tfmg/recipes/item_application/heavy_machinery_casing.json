@@ -1,0 +1,17 @@
+
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "tfmg:steel_casing"
+    },
+    {
+      "tag": "forge:heavy_sheets/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:heavy_machinery_casing"
+    }
+  ]
+}

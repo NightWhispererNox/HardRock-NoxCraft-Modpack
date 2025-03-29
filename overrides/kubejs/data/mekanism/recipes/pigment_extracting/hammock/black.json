@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "comforts:hammock_black"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:black",
+        "amount": 8
+    }
+}

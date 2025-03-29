@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "tag": "forge:eggs"
+  },
+  "hunger": 2,
+  "decay_modifier": 0.25,
+  "protein": 1.0,
+  "dairy": 0.25
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " t",
+    "s "
+  ],
+  "key": {
+    "s": [
+      {"item": "minecraft:stick"},
+      {"item": "immersiveengineering:stick_treated"}
+    ],
+    "t": {
+      "item": "kubejs:chisel_compressed_iron_head"
+    }
+  },
+  "result": {
+    "item": "chiselsandbits:chisel_netherite"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "csc",
+        "bxb",
+        "cmc"
+    ],
+    "key":{
+        "c":{"tag":"forge:ingots/nether_brick"},
+        "s":{"tag":"forge:slimeballs"},
+        "b":{"tag":"tfc:mortar"},
+        "x":{"item":"immersiveengineering:cokebrick"},
+        "m":{"item":"minecraft:magma_cream"}
+    },
+    "result":{"item":"immersiveengineering:blastbrick","count":1}
+}

@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/iron"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/iron"
+    }
+  ],
+  "processingTime": 360,
+  "results": [
+    {
+      "amount": 900,
+      "fluid": "tfc:metal/cast_iron"
+    }
+  ]
+}

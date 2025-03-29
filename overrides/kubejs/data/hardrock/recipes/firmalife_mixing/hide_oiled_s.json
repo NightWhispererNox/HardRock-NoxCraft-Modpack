@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file created by tfch",
+  "type": "firmalife:mixing_bowl",
+  "ingredients": [
+    {
+      "item": "kubejs:hide_tanned_s"
+    },
+    {
+      "item": "kubejs:hide_tanned_s"
+    },
+    {
+      "item": "kubejs:hide_tanned_s"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "tfc:olive_oil_water",
+    "amount": 1000
+  },
+  "output_item": {
+    "item": "kubejs:hide_oiled_s",
+    "count": 3
+  }
+}

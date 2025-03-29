@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "tfmg:cast_iron_fluid_valve"
+    },
+    {
+      "item": "create:electron_tube"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:cast_iron_smart_fluid_pipe"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Ritual Name": "Recipe Type Ritual: Shadow Ink Bottle",
+  "Central Block ID or Tag": "rituals_of_the_wilds:ash_feoh",
+  "Offhand Item ID or Tag": "rituals_of_the_wilds:empty_ink_bottle",
+  "Ritual Type": 1,
+  "Moon Stage Needed": true,
+  "Moon Stage": 4,
+  "Sacrifices needed": 0,
+  "Entity Near needed": false,
+  "Entity Near ID or Tag": "",
+  "Weather Type needed": 0,
+  "Ritual Difficulty Level": 0,
+  "Central Block Replacment Type": 2,
+  "Central Block Replacment ID": "minecraft:air",
+  "Fixed or Random Amount": false,
+  "Min/Fixed result item give count": 1,
+  "Max result item give count": 1,
+  "Result item ID": "rituals_of_the_wilds:shadow_ink_bottle"
+}

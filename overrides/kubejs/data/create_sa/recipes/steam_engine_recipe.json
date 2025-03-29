@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/brass"
+  },
+  "transitionalItem": {
+    "item": "create_sa:incomplete_steam_engine"
+  },
+  "sequence": [
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "create_sa:incomplete_steam_engine"}],
+      "results": [{"item": "create_sa:incomplete_steam_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_steam_engine"},{"tag": "forge:rods/brass"}],
+      "results": [{"item": "create_sa:incomplete_steam_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_steam_engine"},{"tag": "forge:rings/brass"}],
+      "results": [{"item": "create_sa:incomplete_steam_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_steam_engine"},{"tag": "forge:springs/electrum"}],
+      "results": [{"item": "create_sa:incomplete_steam_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_steam_engine"},{"tag": "forge:screws/handful/copper"}],
+      "results": [{"item": "create_sa:incomplete_steam_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_steam_engine"},{"item": "tfmg:screwdriver"}],
+      "results": [{"item": "create_sa:incomplete_steam_engine"}]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_sa:steam_engine",
+      "chance": 120.0
+    },
+    {
+      "item": "tfc:metal/sheet/brass",
+      "chance": 8.0
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 4.0
+    }
+  ],
+  "loops": 3
+}

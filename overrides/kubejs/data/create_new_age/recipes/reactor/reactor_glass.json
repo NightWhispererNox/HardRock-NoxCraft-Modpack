@@ -1,0 +1,15 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mekanismgenerators:reactor_glass"
+    }
+  ],
+  "processingTime": 1200,
+  "results": [
+    {
+      "item": "create_new_age:reactor_glass"
+    }
+  ]
+}
+

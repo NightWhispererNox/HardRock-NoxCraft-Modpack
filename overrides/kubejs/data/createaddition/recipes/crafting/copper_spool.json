@@ -1,0 +1,13 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "createaddition:spool"},
+    "transitionalItem": {"item": "kubejs:sq_spool_copper"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_spool_copper"}, {"tag": "forge:wires/copper"}],"results": [{"item": "kubejs:sq_spool_copper"}]},
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_spool_copper"}, {"tag": "forge:wires/copper"}],"results": [{"item": "kubejs:sq_spool_copper"}]},
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_spool_copper"}, {"tag": "forge:wires/copper"}],"results": [{"item": "kubejs:sq_spool_copper"}]},
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_spool_copper"}, {"tag": "forge:wires/copper"}],"results": [{"item": "kubejs:sq_spool_copper"}]}
+    ],
+    "results": [{"item": "createaddition:copper_spool"}],
+    "loops": 1
+  }

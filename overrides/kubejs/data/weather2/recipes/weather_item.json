@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "D"
+  ],
+  "key": {
+    "D": [
+      {
+        "tag": "tfc:gem_powders"
+      },
+      {
+        "tag": "forge:dusts/redstone"
+      }
+    ],
+    "I": {
+      "item": "tfc:brass_mechanisms"
+    }
+  },
+  "result": {
+    "item": "weather2:weather_item"
+  }
+}

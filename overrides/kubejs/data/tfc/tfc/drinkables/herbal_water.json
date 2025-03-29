@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    "kubejs:herbal_water"
+  ],
+  "thirst": 20,
+  "effects": [
+    {
+      "type": "minecraft:speed",
+      "duration": 2400,
+      "chance": 0.30
+    }
+  ]
+}

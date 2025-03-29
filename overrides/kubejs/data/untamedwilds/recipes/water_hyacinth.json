@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "tfc:plant/goldenrod"
+    },
+    {
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:harming"
+      },
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "untamedwilds:flora_water_hyacinth_item"
+    }
+  ]
+}

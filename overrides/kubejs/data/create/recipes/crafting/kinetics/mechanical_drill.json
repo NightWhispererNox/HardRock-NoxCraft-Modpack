@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:gearbox"
+    },
+    {
+      "item": "immersiveengineering:drillhead_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:mechanical_drill"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:bicoals"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_coal"
+    },
+    {
+      "item": "mekanism:dust_coal",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:gray_dye",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten","ingredient": {"tag": "tfc:foods/apples"}
+    },
+    {
+      "fluidTag": "forge:honey",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "create:honeyed_apple"
+    }
+  ]
+}

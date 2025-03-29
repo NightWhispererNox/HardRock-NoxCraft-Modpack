@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/gran_feline"
+      }
+    },
+  "result": "tfc:food/cooked_gran_feline",
+  "experience": 0.35,
+  "cookingtime": 250
+}

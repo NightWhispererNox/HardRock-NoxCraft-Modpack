@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "minecraft:mutton"
+      }
+    },
+  "result": "tfc:food/cooked_mutton",
+  "experience": 0.35,
+  "cookingtime": 250
+}

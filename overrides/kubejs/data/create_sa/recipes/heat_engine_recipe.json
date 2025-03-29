@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/andesite"
+  },
+  "transitionalItem": {
+    "item": "create_sa:incomplete_heat_engine"
+  },
+  "sequence": [
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "create_sa:incomplete_heat_engine"}],
+      "results": [{"item": "create_sa:incomplete_heat_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_heat_engine"},{"tag": "forge:rods/zinc"}],
+      "results": [{"item": "create_sa:incomplete_heat_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_heat_engine"},{"tag": "forge:rings/copper"}],
+      "results": [{"item": "create_sa:incomplete_heat_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_heat_engine"},{"tag": "forge:springs/copper"}],
+      "results": [{"item": "create_sa:incomplete_heat_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_heat_engine"},{"tag": "forge:screws/handful/copper"}],
+      "results": [{"item": "create_sa:incomplete_heat_engine"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create_sa:incomplete_heat_engine"},{"item": "tfmg:screwdriver"}],
+      "results": [{"item": "create_sa:incomplete_heat_engine"}]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_sa:heat_engine",
+      "chance": 120.0
+    },
+    {
+      "item": "create:zinc_nugget",
+      "chance": 8.0
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 4.0
+    }
+  ],
+  "loops": 3
+}

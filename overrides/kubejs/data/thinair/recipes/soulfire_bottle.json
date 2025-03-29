@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "tag": "forge:dusts/charcoal"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "S": {
+      "item": "cold_sweat:soul_sprout"
+    }
+  },
+  "pattern": [
+    " C ",
+    "GSG",
+    "GGG"
+  ],
+  "result": {
+    "count": 5,
+    "item": "thinair:soulfire_bottle"
+  }
+}

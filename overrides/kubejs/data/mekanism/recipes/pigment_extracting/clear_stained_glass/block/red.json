@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tconstruct:red_clear_stained_glass"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:red",
+        "amount": 8
+    }
+}

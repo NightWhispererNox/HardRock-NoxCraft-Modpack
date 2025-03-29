@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "tag": "forge:ethanol_source"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "item": "kubejs:seed_biomass"
+    },
+    {
+      "fluid": "immersiveengineering:ethanol",
+      "amount": 20
+    }
+  ]
+}

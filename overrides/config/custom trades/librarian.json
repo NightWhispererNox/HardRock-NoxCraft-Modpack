@@ -1,0 +1,218 @@
+{
+  "profession": "minecraft:librarian",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {"itemKey": "minecraft:name_tag","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian/name_tags"
+    },
+    {
+      "offer": {"itemKey": "minecraft:writable_book","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian/book_and_quill"
+    },
+    {
+      "offer": {"itemKey": "minecraft:feather","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian/feathers"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:silica_glass_batch","amount": 24,"advancedNBTData": "{kjsRandomize:['glassType','silica']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian/glass_batches"
+    },
+    {
+      "offer": {"itemKey": "minecraft:string","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian/string"
+    },
+    {
+      "offer": {"itemKey": "minecraft:ink_sac","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian/ink_sacs"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/lamp/wrought_iron","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'tfc:tallow', Amount: 250}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian/wrought_iron_lamp"
+    },
+    {
+      "offer": {"itemKey": "tfc:wooden_bucket","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'tfc:olive_oil', Amount: 500}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian/olive_oil"
+    },
+    {
+      "offer": {"itemKey": "tfc:candle","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian/candles"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "minecraft:glass","amount": 4},
+        {"itemKey": "minecraft:glass_pane","amount": 12}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian/glass"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "minecraft:painting","amount": 2,"advancedNBTData": "{EntityTag: {variant: \"tfc:lake\"},display:{Lore:['{\"text\":\"The specific variant will unfortunately get reset\",\"color\":\"white\",\"italic\":false}','{\"text\":\"when the painting is broken\",\"color\":\"white\",\"italic\":false}']}}"},
+        {"itemKey": "minecraft:painting","amount": 2,"advancedNBTData": "{EntityTag: {variant: \"tfc:golden_field\"},display:{Lore:['{\"text\":\"The specific variant will unfortunately get reset\",\"color\":\"white\",\"italic\":false}','{\"text\":\"when the painting is broken\",\"color\":\"white\",\"italic\":false}']}}"},
+        {"itemKey": "minecraft:painting","amount": 2,"advancedNBTData": "{EntityTag: {variant: \"tfc:hot_spring\"},display:{Lore:['{\"text\":\"The specific variant will unfortunately get reset\",\"color\":\"white\",\"italic\":false}','{\"text\":\"when the painting is broken\",\"color\":\"white\",\"italic\":false}']}}"},
+        {"itemKey": "minecraft:painting","amount": 2,"advancedNBTData": "{EntityTag: {variant: \"tfc:volcano\"},display:{Lore:['{\"text\":\"The specific variant will unfortunately get reset\",\"color\":\"white\",\"italic\":false}','{\"text\":\"when the painting is broken\",\"color\":\"white\",\"italic\":false}']}}"},
+        {"itemKey": "minecraft:painting","amount": 2,"advancedNBTData": "{EntityTag: {variant: \"tfc:supports\"},display:{Lore:['{\"text\":\"The specific variant will unfortunately get reset\",\"color\":\"white\",\"italic\":false}','{\"text\":\"when the painting is broken\",\"color\":\"white\",\"italic\":false}']}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian/paintings"
+    },
+    {
+      "offer": {"itemKey": "minecraft:clock","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian/clock"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/lamp/blue_steel","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'minecraft:lava', Amount: 250}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 8
+      },
+      "tradeExp": 120,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian/blue_steel_lamp"
+    },
+    {
+      "offer": {"itemKey": "tfc:metal/ingot/brass","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 8
+      },
+      "tradeExp": 50,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian/brass_ingots"
+    }
+  ]
+}

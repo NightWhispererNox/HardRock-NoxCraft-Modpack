@@ -1,0 +1,8 @@
+{
+  "type":"immersiveengineering:refinery",
+  "result":{"fluid":"ad_astra:fuel","amount":25},
+  "catalyst":{"item":"kubejs:fuel_component"},
+  "input0":{"tag":"forge:napalm","amount":10},
+  "input1":{"tag":"forge:gasoline","amount":15},
+  "energy":80
+}

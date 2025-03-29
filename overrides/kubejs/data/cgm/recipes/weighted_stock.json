@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:rods/steel","count": 3
+    },
+    {
+      "tag": "forge:nuggets/steel","count": 16
+    },
+    {
+      "tag": "minecraft:wool","count": 4
+    },
+    {
+      "item":"pneumaticcraft:plastic","count": 2
+    }
+  ],
+  "result": {
+    "item": "cgm:weighted_stock"
+  }
+}

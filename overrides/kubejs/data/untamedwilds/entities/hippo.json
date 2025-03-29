@@ -1,0 +1,36 @@
+{
+  "name":"hippo",
+  "breeding":"EARLY_SUMMER",
+  "growing_time":8,
+  "offspring":1,
+  "activityType":"cathemeral",
+  "favourite_food":"untamedwilds:flora_water_hyacinth_item",
+  "sounds":{
+    "ambient":"untamedwilds:entity.hippo.ambient",
+    "hurt":"minecraft:entity.cow.hurt",
+    "death":"minecraft:entity.cow.death"
+  },
+  "species":[
+    {
+      "name":"common",
+      "variant":0,
+      "scale":1.2,
+      "rarity":1,
+      "skins":30,
+      "flags":{
+
+      },
+      "spawnBiomes":[
+        [
+          "tag|is_river"
+        ],
+        [
+          "tag|is_lake"
+        ],
+        [
+          "tag|is_swamp"
+        ]
+      ]
+    }
+  ]
+}

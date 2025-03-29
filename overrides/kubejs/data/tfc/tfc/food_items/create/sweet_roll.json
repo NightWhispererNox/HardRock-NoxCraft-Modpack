@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "create:sweet_roll"
+  },
+  "hunger": 6,
+  "saturation": 1,
+  "decay_modifier": 1.5,
+  "grain": 2,
+  "diary": 2
+}

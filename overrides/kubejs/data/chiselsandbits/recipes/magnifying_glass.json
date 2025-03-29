@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  t",
+    "ls ",
+    " l "
+  ],
+  "key": {
+    "s": {
+      "item": "artisanal:metal/magnifying_glass_frame/tin"
+    },
+    "l": {
+      "item": "sewingkit:leather_strip"
+    },
+    "t": {
+      "item": "tfc:lens"
+    }
+  },
+  "result": {
+    "item": "chiselsandbits:magnifying_glass"
+  }
+}

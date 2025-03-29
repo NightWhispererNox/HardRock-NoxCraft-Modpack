@@ -1,0 +1,12 @@
+{
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "tag": "forge:double_ingots/wrought_iron"
+  },
+  "results": [
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  ],
+  "loss_rate": 33
+}

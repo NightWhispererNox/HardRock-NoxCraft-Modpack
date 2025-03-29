@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:asphalt"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "tfmg:liquid_asphalt",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 640,
+  "result": {
+    "item": "car:asphalt"
+  }
+}

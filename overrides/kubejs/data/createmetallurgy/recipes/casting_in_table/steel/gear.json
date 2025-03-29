@@ -1,0 +1,26 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/steel"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_gear_mold"
+    },
+    {
+      "amount": 400,
+      "fluid": "tfc:metal/steel",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 360,
+  "result": {
+    "tag": "forge:gears/steel"
+  }
+}

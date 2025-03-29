@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "twilightforest:raw_meef"
+    }
+  },
+  "result": "twilightforest:cooked_meef",
+  "experience": 0.3,
+  "cookingtime": 100
+}

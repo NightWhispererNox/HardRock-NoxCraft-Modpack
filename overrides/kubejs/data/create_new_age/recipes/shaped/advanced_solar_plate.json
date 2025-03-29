@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "|": {
+      "item": "create_new_age:basic_solar_heating_plate"
+    },
+    ".": {
+      "tag": "forge:rods/cast_iron"
+    },
+    "#": {
+      "item": "create_new_age:heat_pipe"
+    },
+    "p": {
+      "item": "firmalife:reinforced_glass"
+    },
+    "b": {
+      "item": "create_new_age:fluxuated_magnetite"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "#|#",
+    ".b."
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:advanced_solar_heating_plate"
+  },
+  "show_notification": true
+}

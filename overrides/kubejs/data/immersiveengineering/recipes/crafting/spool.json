@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+		    "item": "kubejs:spool_wire"
+		}
+	],
+	"result":{
+		"item": "createaddition:spool",
+		"count": 1
+	}
+}

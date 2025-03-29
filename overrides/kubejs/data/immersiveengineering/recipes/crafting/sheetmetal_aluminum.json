@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/aluminum"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_aluminum"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_aluminum"}, {"tag": "forge:plates/aluminum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_aluminum"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_aluminum"}],
+    "loops": 1
+  }

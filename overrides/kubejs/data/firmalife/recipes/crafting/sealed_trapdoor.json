@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YY",
+    "XX"
+  ],
+  "key": {
+    "Y": {
+      "tag": "forge:rods/copper"
+    },
+    "X": {
+      "item": "firmalife:sealed_bricks"
+    }
+  },
+  "result": {
+    "item": "firmalife:sealed_trapdoor"
+  }
+}

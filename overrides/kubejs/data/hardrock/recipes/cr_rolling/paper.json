@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+		"item": "kubejs:pulp_paper"
+	},
+	"result": {
+		"item": "minecraft:paper"
+	}
+}

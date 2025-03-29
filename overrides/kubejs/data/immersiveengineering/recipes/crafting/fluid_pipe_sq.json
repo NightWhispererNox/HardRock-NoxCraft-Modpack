@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/wrought_iron"},
+  "transitionalItem": {"item": "kubejs:sq_fluidpipeie"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_fluidpipeie"}],"results": [{"item": "kubejs:sq_fluidpipeie"}]},
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_fluidpipeie"}],"results": [{"item": "kubejs:sq_fluidpipeie"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_fluidpipeie"}],"results": [{"item": "kubejs:sq_fluidpipeie"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_fluidpipeie"}],"results": [{"item": "kubejs:sq_fluidpipeie"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_fluidpipeie"}],"results": [{"item": "kubejs:sq_fluidpipeie"}]}
+  ],
+  "results": [{"item": "immersiveengineering:fluid_pipe","count":2}],
+  "loops": 1
+}

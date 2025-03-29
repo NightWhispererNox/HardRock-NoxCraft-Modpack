@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[
+        {
+            "chance":0.50,
+            "output":{
+                "count": 1,
+                "base_ingredient":{"item":"tfc:powder/emerald"}
+            }
+        }
+    ],
+    "result":{
+        "count": 3,
+        "base_ingredient":{"item":"tfc:powder/emerald"}
+    },
+    "input":{
+        "item":"tfc:ore/emerald"
+    },
+    "energy":6000
+}

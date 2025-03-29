@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "mekanism:mekasuit_boots"},
+  "transitionalItem": {"item": "kubejs:un_casing"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluidTag": "forge:molten_plastic","nbt": {},"amount": 25}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "mekanism:hdpe_sheet"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluidTag": "forge:molten_plastic","nbt": {},"amount": 25}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "mekanism:hdpe_sheet"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "mekanism:enriched_refined_obsidian"}],"results": [{"item": "kubejs:un_casing"}]}
+  ],
+  "results": [{"item": "ad_astra:space_boots"}],
+  "loops": 1
+}

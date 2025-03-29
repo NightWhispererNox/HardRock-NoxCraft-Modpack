@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "mekanismgenerators:turbine_casing"
+    },
+    {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanismgenerators:turbine_valve"
+    }
+  ]
+}

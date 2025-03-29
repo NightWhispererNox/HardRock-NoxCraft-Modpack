@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      [
+        {
+            "tag": "forge:sand"
+        },
+        {
+            "tag": "forge:dead_coral_block"
+        }
+    ],
+      {
+        "fluid": "tfc:limewater",
+        "nbt": {},
+        "amount": 100
+      }
+    ],
+    "processingTime": 800,
+    "results": [
+      {
+        "item": "tfc:mortar",
+        "count": 16
+      }
+    ]
+  }

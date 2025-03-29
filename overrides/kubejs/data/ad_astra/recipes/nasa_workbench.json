@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "d v v d",
+    "w w w w",
+    "w w w w",
+    "ufufufu",
+    "cxuruxc",
+    "uexpxeu",
+    " fcmcf "
+  ],
+  "key": {
+    "v": {"item": "pneumaticcraft:assembly_laser"},
+    "w": {"item": "pneumaticcraft:pressure_chamber_wall"},
+    "d": {"item": "pneumaticcraft:assembly_drill"},
+    "u": {"item": "immersiveengineering:sheetmetal_constantan"},
+    "e": {"item": "immersiveengineering:heavy_engineering"},
+    "p": {"item": "pneumaticcraft:programmable_controller"},
+    "r": {"item": "refinedstorage:portable_grid"},
+    "x": {"item": "refinedstorage:crafter"},
+    "m": {"item": "refinedstorage:disk_manipulator"},
+    "c": {"item": "mekanism:induction_casing"},
+    "f": {"item": "mekanismgenerators:fusion_reactor_frame"}
+  },
+  "result": {
+    "item": "ad_astra:nasa_workbench"
+  },
+  "acceptMirrored": false
+}

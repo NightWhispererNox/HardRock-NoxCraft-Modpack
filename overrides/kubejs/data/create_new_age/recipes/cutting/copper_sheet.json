@@ -1,0 +1,21 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:wires/copper"},
+  "transitionalItem": {"item": "kubejs:sq_wire"},
+  "sequence": [
+    {
+      "type": "create_new_age:energising", "energy_needed": 250,
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    }
+  ],
+  "results": [{"item": "create_new_age:copper_wire"}],
+  "loops": 3
+}

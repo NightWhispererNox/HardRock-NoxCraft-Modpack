@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:large_cogwheel"},
+  "transitionalItem": {"item": "tfmg:aluminum_scaffolding"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:aluminum_scaffolding"},{"tag": "forge:plates/aluminum"}],"results": [{"item": "tfmg:aluminum_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfmg:aluminum_scaffolding"}],"results": [{"item": "tfmg:aluminum_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:aluminum_scaffolding"},{"tag": "forge:plates/aluminum"}],"results": [{"item": "tfmg:aluminum_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfmg:aluminum_scaffolding"}],"results": [{"item": "tfmg:aluminum_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:aluminum_scaffolding"},{"tag": "forge:plates/aluminum"}],"results": [{"item": "tfmg:aluminum_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfmg:aluminum_scaffolding"}],"results": [{"item": "tfmg:aluminum_scaffolding"}]}
+  ],
+  "results": [
+    {"item": "tfmg:aluminum_flywheel"}
+  ],
+  "loops": 1
+}

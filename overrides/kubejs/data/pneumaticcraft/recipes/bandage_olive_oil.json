@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": [
+      {
+        "tag": "forge:cloth"
+      }
+    ]
+  },
+  "input_fluid": {
+    "ingredient": "tfc:olive_oil",
+    "amount": 50
+  },
+  "output_item": {
+    "item": "pneumaticcraft:bandage",
+    "count": 8
+  },
+  "duration": 4000
+}

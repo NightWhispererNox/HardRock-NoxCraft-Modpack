@@ -1,0 +1,34 @@
+{
+	"block.adpother.carbon": "Carbon",
+	"block.adpother.sulfur": "Sulfur",
+	"block.adpother.dust": "Dust",
+	
+	"block.adpother.iron_filter_frame": "Basic Filter Frame",
+	"block.adpother.gold_filter_frame": "Advanced Filter Frame",
+	"block.adpother.diamond_filter_frame": "Elite Filter Frame",
+	"block.adpother.polluted_water": "Polluted Water",
+	
+	"container.adpother.filter_frame": "Filter Frame",
+	
+	"effect.adpother.respirator": "Respirator",
+	
+	"fluid.adpother.polluted_water_still": "Polluted Water",
+	"fluid.adpother.polluted_water_flowing": "Polluted Water",
+
+	"gui.adpother.filter_frame.output_size": "By-product output side",
+	
+	"item.adpother.aerometer": "Aerometer",
+	"item.adpother.iron_vacuum_bag": "Basic Vacuum Bag",
+	"item.adpother.gold_vacuum_bag": "Advanced Vacuum Bag",
+	"item.adpother.diamond_vacuum_bag": "Elite Vacuum Bag",
+	"item.adpother.iron_vacuum_tube": "Basic Vacuum Tube",
+	"item.adpother.gold_vacuum_tube": "Advanced Vacuum Tube",
+	"item.adpother.diamond_vacuum_tube": "Elite Vacuum Tube",
+	"item.adpother.iron_respirator": "Basic Respirator",
+	"item.adpother.gold_respirator": "Advanced Respirator",
+	"item.adpother.diamond_respirator": "Elite Respirator",
+	"item.adpother.polluted_water_bucket": "Polluted Water Bucket",
+	
+	"tooltip.adpother.storage_item.contents": "Filters:",
+	"tooltip.adpother.storage_item.capacity": "Capacity"
+}

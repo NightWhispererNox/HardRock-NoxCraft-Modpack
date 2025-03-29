@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc_loot:obsidian_scrap"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "processingTime": 500
+}

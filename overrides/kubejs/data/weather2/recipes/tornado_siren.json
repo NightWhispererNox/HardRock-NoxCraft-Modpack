@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LXL",
+    "XDX",
+    "LXL"
+  ],
+  "key": {
+    "D": {
+      "item": "rsgauges:industrial_alarm_siren"
+    },
+    "X": {
+      "tag": "forge:rods/cast_iron"
+    },
+    "L": {
+      "tag": "tfc:lumber"
+    }
+  },
+  "result": {
+    "item": "weather2:tornado_siren"
+  }
+}

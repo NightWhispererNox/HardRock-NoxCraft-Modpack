@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "tfc:sweetener"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "firmalife:food/cocoa_powder"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "firmalife:food/cocoa_powder"
+      }
+    },
+    {
+      "amount": 1000,
+      "fluidTag": "tfc:milks",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "firmalife:food/dark_chocolate_blend",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

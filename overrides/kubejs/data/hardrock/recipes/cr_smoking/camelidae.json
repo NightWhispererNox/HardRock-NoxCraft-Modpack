@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/camelidae"
+      }
+    },
+  "result": "tfc:food/cooked_camelidae",
+  "experience": 0.35,
+  "cookingtime": 250
+}

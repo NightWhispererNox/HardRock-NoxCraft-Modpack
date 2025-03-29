@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    "bcb",
+    "faf",
+    "bbb"
+  ],
+  "key": {
+    "c": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "b": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "f": {
+      "item": "fluxnetworks:flux_dust"
+    },
+    "a": {
+      "item": "mekanism:module_charge_distribution_unit"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_controller"
+  }
+}

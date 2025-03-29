@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:plates/aluminum","count": 1
+    },
+    {
+      "item": "tfc:silk_cloth","count": 4
+    },
+    {
+      "tag": "minecraft:wool","count": 2
+    }
+  ],
+  "result": {
+    "item": "cgm:silencer"
+  }
+}

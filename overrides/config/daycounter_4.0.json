@@ -1,0 +1,124 @@
+{
+  "Day Counter Config": {
+    "Help": {
+      "Color Codes": "https://cdn.modrinth.com/data/sgFIOK5w/images/0f4a0e5a3c73f7d095421ee496236b5c9afacc05.png",
+      "For the Title text": "https://minecraft.tools/en/tellraw.php?tellraw\u003dWelcome%20to%20Minecraft%20Tools\u0026selector\u003d%40a"
+    },
+    "Ui": {
+      "New Day Text": {
+        "Description": "You can choose how to display the new day text. You can choose between: title, subtitle, chat, actionbar, disabled",
+        "Display": "title"
+      },
+      "Disabled Feature Text": {
+        "Description": "You can enable or disable the this feature is disabled text.",
+        "Enable": true
+      }
+    },
+    "Sound": {
+      "Sound Effect": {
+        "Description": "You can enable or disable the sound effect on new day",
+        "Enable": true
+      }
+    },
+    "Block": {
+      "Calendar Block": {
+        "Description": "You can enable or disable the calendar block or change the block to a other one.",
+        "Enable": true,
+        "Block": "ags_day_counter:calendar"
+      }
+    },
+    "Item": {
+      "Calendar Item": {
+        "Description": "You can enable or disable the right click with calendar item.",
+        "Enable": true,
+        "Item": "ags_day_counter:calendar_item"
+      },
+      "Lore": {
+        "Description": "You can disable or customize the item lore here.",
+        "Enable": true,
+        "Line 1": "$5$Player Days: $b$$player_days$",
+        "Line 2": "$4$Server Days: $b$$server_days$"
+      }
+    },
+    "Days": {
+      "Description": "You can choose which day(s) to show on texts and which day should the system watch for the Rewards. You can choose between: player, server",
+      "Display": "server"
+    },
+    "Advancements": {
+      "Description": "You can enable or disable the advancements.",
+      "Enable": true
+    },
+    "Rewards": {
+      "Reward (EXAMPLE)": {
+        "Description 1": "Here you can set at which Day should the reward trigger.",
+        "Day": 0,
+        "Description 2": "Here you can set a Chat Message that will be send to the player.",
+        "Message": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$Congratulations for reaching this specific day!",
+        "Description 3": "Here you can set a Command that will be triggered. Available variables: $player$",
+        "Command": "efeffect give $player$ minecraft:glowing infinitefect give player$ minecraft:glowing infinite",
+        "Description 4": "Here you can set an EXP amount that will be given to the player.",
+        "EXP": 300,
+        "Description 5": "Here you can set an Item that will be given to the player.",
+        "Item": "minecraft:diamond_block",
+        "Description 6": "Here you can set the Amount of the Item what will be given to the player.",
+        "Item Count": 25
+      },
+      "Reward 1": {
+        "Day": 0,
+        "Message": "",
+        "Command": "",
+        "EXP": 0,
+        "Item": "",
+        "Item Count": 0
+      },
+      "Reward 2": {
+        "Day": 0,
+        "Message": "",
+        "Command": "",
+        "EXP": 0,
+        "Item": "",
+        "Item Count": 0
+      },
+      "Reward 3": {
+        "Day": 0,
+        "Message": "",
+        "Command": "",
+        "EXP": 0,
+        "Item": "",
+        "Item Count": 0
+      },
+      "Reward 4": {
+        "Day": 0,
+        "Message": "",
+        "Command": "",
+        "EXP": 0,
+        "Item": "",
+        "Item Count": 0
+      },
+      "Reward 5": {
+        "Day": 0,
+        "Message": "",
+        "Command": "",
+        "EXP": 0,
+        "Item": "",
+        "Item Count": 0
+      }
+    },
+    "Texts": {
+      "Description": "You can customize the texts here. Every text except Title Text what use JSON is using normal color codes.",
+      "Title Text": "[\"\",{\"text\":\"$day$\",\"bold\":true,\"color\":\"gold\"},{\"text\":\". Day\",\"bold\":true}] ",
+      "Disabled Feature Text": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$This feature is $c$$l$disabled $f$in the config!",
+      "Chat show day(s) Text": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$This the $b$$l$$day$$f$. Day!",
+      "Command add (player)": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$You have added $b$$l$$day$$f$ day(s) to $6$$l$$player$ $f$day(s). Now: $e$$newday$",
+      "Command add (server)": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$You have added $b$$l$$day$$f$ day(s) to $6$$l$SERVER $f$day(s). Now: $e$$newday$",
+      "Command set (player)": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$You set $b$$l$$day$$f$ day(s) of $6$$l$$player$ $f$day(s).",
+      "Command set (server)": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$You set $b$$l$$day$$f$ day(s) of $6$$l$SERVER $f$day(s).",
+      "Command reset (player)": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$You resetted $6$$l$$player$ $f$day(s).",
+      "Command reset (server)": "$6$$l$[$b$$l$Day Counter$6$$l$] $f$You resetted $6$$l$SERVER $f$day(s)."
+    },
+    "Config Version": {
+      "Description": "Don\u0027t touch this!",
+      "Config Version": "4.0"
+    }
+  }
+}

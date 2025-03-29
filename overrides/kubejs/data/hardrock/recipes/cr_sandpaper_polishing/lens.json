@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "kubejs:frosted_lens"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:lens"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "immersiveengineering:treated_wood_horizontal"},
+  "transitionalItem": {"item": "immersiveengineering:wooden_barrel"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:plates/aluminum"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:filling","ingredients": [{"item": "immersiveengineering:wooden_barrel"},{"fluid": "immersiveengineering:redstone_acid","nbt": {},"amount": 500}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:ingots/hop_graphite"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:treated_wood"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]}
+  ],
+  "results": [{"item": "immersiveengineering:capacitor_hv"}],
+  "loops": 2
+}

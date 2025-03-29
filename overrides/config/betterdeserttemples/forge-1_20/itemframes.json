@@ -1,0 +1,31 @@
+{
+  "armouryItems": {
+    "entries": {
+      "tfc:metal/shield/bronze": 0.1,
+      "minecraft:name_tag": 0.05,
+      "minecraft:arrow": 0.05,
+      "tfc:metal/axe/bronze": 0.1,
+      "tfc:metal/sword/bronze": 0.05,
+      "tfc:metal/axe/copper": 0.05,
+      "tfc:metal/sword/wrought_iron": 0.05,
+      "minecraft:bow": 0.1
+    },
+    "defaultItem": "air"
+  },
+  "storageItems": {
+    "entries": {
+      "tfc:cake": 0.1,
+      "tfc:food/barley_bread": 0.2,
+      "tfc:food/potato": 0.2,
+      "minecraft:rabbit_foot": 0.01,
+      "firmalife:jar/honey": 0.1,
+      "firmalife:seeds/red_grape": 0.025,
+      "minecraft:cookie": 0.1,
+      "tfc:seeds/beet": 0.025,
+      "tfc:seeds/wheat": 0.025,
+      "firmalife:seeds/white_grape": 0.025,
+      "minecraft:slime_ball": 0.05
+    },
+    "defaultItem": "air"
+  }
+}

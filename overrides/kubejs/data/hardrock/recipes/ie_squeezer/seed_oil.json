@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:squeezer",
+    "result":{"item":"kubejs:seed_biomass"},
+    "fluid":{"fluid":"createaddition:seed_oil","amount":125},
+    "input":{"tag": "forge:oil_seeds"},
+    "energy":6400
+}

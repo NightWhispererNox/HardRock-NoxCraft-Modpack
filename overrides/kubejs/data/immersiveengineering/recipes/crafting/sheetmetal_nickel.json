@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/nickel"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_nickel"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_nickel"}, {"tag": "forge:plates/nickel"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_nickel"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_nickel"}],
+    "loops": 1
+  }

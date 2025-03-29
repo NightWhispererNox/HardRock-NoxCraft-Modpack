@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "compressedcreativity:mesh_splashing_frozen"
+  },
+  "result": {
+    "item": "compressedcreativity:mesh_splashing"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "ingredients": [
+    {
+      "amount": 900,
+      "fluid": "tfc:metal/zinc",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 320,
+  "result": {
+    "item": "immersivegeology:storage_block_zinc"
+  }
+}

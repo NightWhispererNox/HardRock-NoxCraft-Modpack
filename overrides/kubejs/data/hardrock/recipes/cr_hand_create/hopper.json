@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "woodenhopper:wooden_hopper"
+    },
+    {
+      "tag": "forge:double_sheets/wrought_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:hopper"
+    }
+  ]
+}

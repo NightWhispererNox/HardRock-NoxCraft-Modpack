@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "immersiveengineering:slab_alu_scaffolding_standard",
+      "count": 2
+    },
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "immersiveengineering:alu_scaffolding_standard"
+    }
+  ]
+}

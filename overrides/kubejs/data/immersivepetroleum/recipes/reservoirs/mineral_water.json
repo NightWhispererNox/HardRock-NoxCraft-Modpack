@@ -1,0 +1,19 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "kubejs:mineral_water",
+  "fluidminimum": 500000,
+  "fluidcapacity": 1000000,
+  "fluidtrace": 6,
+  "weight": 30,
+  "dimensions": {
+    "isBlacklist": false,
+    "list": [
+      "minecraft:overworld"
+    ]
+  },
+  "biomes": {
+    "isBlacklist": true,
+    "list": []
+  },
+  "name": "aquifer"
+}

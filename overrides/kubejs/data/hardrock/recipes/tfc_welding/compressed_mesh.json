@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:wires/compressed_iron"
+  },
+  "second_input": {
+    "tag": "forge:wires/compressed_iron"
+  },
+  "tier": 5,
+  "result": {
+    "item": "kubejs:compressed_mesh",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "tfc:climate",
+    "salt": 10387312,
+    "separation": 20,
+    "spacing": 120,
+	  "climate": {
+	  	"min_temperature": 18,
+	  	"mia_temperature": 27,
+	  	"max_rainfall": 400
+	  }
+  },
+  "structures": [
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 1
+    }
+  ]
+}

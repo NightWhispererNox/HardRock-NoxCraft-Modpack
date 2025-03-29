@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/copper"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_copper"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_copper"}, {"tag": "forge:plates/copper"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_copper"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_copper"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_copper"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_copper"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_copper"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_copper"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_copper"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_copper"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_copper"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_copper"}],
+    "loops": 1
+  }

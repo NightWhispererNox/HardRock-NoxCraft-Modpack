@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c",
+    "C"
+  ],
+  "key": {
+    "c": {
+      "item": "firmaciv:sextant"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "breezy:gust_gauge",
+    "count": 1
+  }
+}

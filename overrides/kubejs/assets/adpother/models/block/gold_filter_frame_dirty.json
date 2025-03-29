@@ -1,0 +1,7 @@
+{
+	"parent": "adpother:base/filter_frame",
+	"textures": {
+		"1": "block/gold_block",
+		"2": "block/gray_stained_glass"
+	}
+}

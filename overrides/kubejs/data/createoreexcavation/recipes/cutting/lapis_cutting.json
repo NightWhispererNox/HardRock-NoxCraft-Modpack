@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfc:ore/lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:gem/lapis_lazuli"
+    },
+    {
+      "item": "tfc:powder/lapis_lazuli",
+      "chance": 0.50
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "chance": 0.50
+    }
+  ]
+}

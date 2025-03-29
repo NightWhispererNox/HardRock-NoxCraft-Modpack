@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "kubejs:pile_carbon_waste"
+    }
+  },
+  "result": {
+    "item": "tinycoal:tinycoal"
+  }
+}

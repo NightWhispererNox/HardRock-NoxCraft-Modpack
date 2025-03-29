@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    " X"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:fishing_rods"
+    },
+    "X": {
+      "item": "minecraft:warped_fungus"
+    }
+  },
+  "result": {
+    "item": "minecraft:warped_fungus_on_a_stick"
+  }
+}

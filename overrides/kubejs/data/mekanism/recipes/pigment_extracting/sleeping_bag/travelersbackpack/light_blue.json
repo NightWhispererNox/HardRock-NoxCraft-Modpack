@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "travelersbackpack:light_blue_sleeping_bag"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:light_blue",
+        "amount": 8
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "firmalife:vat",
+  "input_item": {
+    "ingredient": {
+      "tag": "forge:raw_honey"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "firmalife:sugar_water",
+    "amount": 250
+  },
+  "output_fluid": {
+    "fluid": "tconstruct:honey",
+    "amount": 250
+  }
+}

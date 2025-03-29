@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:string/plant"
+    },
+    "S": {
+      "tag": "forge:canvas"
+    }
+  },
+  "result": {
+    "item": "sns:straw_basket"
+  }
+}

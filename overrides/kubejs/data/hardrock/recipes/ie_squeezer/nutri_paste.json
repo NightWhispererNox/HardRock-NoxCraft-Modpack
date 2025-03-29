@@ -1,0 +1,13 @@
+{
+    "type":"immersiveengineering:squeezer",
+    "fluid":{"fluid":"mekanism:nutritional_paste","amount":100},
+    "input":[
+        {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+            "item": "kubejs:nutrimix"
+        }
+        }
+    ],
+    "energy":6400
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "R",
+    "Z"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:cyan_stained_glass_pane"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "Z": {
+      "tag": "forge:sheets/zinc"
+    }
+  },
+  "result": {
+    "item": "compactmachines:personal_shrinking_device"
+  }
+}

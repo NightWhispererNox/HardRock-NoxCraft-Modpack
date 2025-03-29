@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:wooden_bracket"
+    },
+    {
+      "tag": "forge:sheets/cast_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:metal_bracket"
+    }
+  ]
+}

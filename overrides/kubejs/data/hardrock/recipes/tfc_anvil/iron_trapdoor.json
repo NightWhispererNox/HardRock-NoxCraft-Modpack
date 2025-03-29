@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:sheets/wrought_iron"
+  },
+  "result": {
+    "item": "minecraft:iron_trapdoor"
+  },
+  "tier": 3,
+  "rules": [
+    "draw_any",
+    "punch_last",
+    "punch_not_last"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "forge:nuggets/tin"
+  },
+  "heat_capacity": 0.420,
+  "forging_temperature": 138,
+  "welding_temperature": 184
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "railways:internal/plates/iron_plates"
+    },
+    "+": {
+      "item": "create:chute"
+    },
+    "c": {
+      "item": "immersiveengineering:fluid_pipe"
+    }
+  },
+  "pattern": [
+    " + ",
+    "#c#"
+  ],
+  "result": {
+    "item": "railways:smokestack_coalburner"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,52 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "sewingkit",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "type": "toolbelt:enable_sewing_crafting"
+        }
+      ],
+      "recipe": {
+        "type": "sewingkit:sewing",
+        "materials": [
+          {
+            "ingredient": {
+              "item": "sewingkit:leather_sheet"
+            },
+            "count": 5
+          },
+          {
+            "ingredient": {
+              "tag": "forge:nuggets/gold"
+            },
+            "count": 1
+          },
+          {
+            "ingredient": {
+              "tag": "tfc:gem_powders/slot"
+            },
+            "count": 1
+          },
+          {
+            "ingredient": {
+              "tag": "forge:string/strong"
+            },
+            "count": 2
+          }
+        ],
+        "tool": {
+          "type": "sewingkit:tool_ingredient",
+          "tool_type": "sewingkit_sew"
+        },
+        "result": {
+          "item": "kubejs:slot_pocket"
+        }
+      }
+    }
+  ]
+}

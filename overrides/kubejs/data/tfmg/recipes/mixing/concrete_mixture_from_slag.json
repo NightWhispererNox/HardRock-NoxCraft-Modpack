@@ -1,0 +1,23 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfmg:slag"
+    },
+    {
+      "tag": "forge:gravel"
+    },
+    {
+      "item": "tfmg:cement"
+    }
+
+  ],
+  "results": [
+    {
+      "count": 12,
+      "item": "tfmg:concrete_mixture"
+
+    }
+  ]
+}

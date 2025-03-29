@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:sheets/wrought_iron"
+  },
+  "tier": 3,
+  "result": {
+    "item": "adchimneys:pipe",
+    "count":2
+  },
+  "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+  ]
+}

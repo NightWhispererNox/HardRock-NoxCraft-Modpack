@@ -1,0 +1,9 @@
+{
+	"type": "createaddition:liquid_burning",
+	"input": {
+		"fluidTag": "tfc:olive_oil",
+		"amount": 1000
+	},
+	"burnTime": 14400,
+	"superheated": false
+}

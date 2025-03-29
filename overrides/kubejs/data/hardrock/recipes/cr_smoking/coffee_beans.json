@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "farmersrespite:coffee_beans"
+  },
+  "result": "kubejs:coffee_beans_roasted",
+  "experience": 0.35,
+  "cookingtime": 200
+}

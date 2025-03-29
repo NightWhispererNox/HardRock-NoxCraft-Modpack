@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "kubejs:spool_wire"},
+  "transitionalItem": {"item": "kubejs:sq_wire_steel"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_steel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "kubejs:sq_wire_steel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_steel"}, {"tag": "forge:wires/aluminum"}],"results": [{"item": "kubejs:sq_wire_steel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_steel"}, {"tag": "forge:wires/steel"}],"results": [{"item": "kubejs:sq_wire_steel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_steel"}, {"tag": "forge:wires/aluminum"}],"results": [{"item": "kubejs:sq_wire_steel"}]}
+  ],
+  "results": [{"item": "immersiveengineering:wirecoil_steel"}],
+  "loops": 1
+}

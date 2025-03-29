@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tfmg:steel_pipe"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:industrial_pipe",
+      "count": 3
+    }
+  ],
+  "processingTime": 50
+}

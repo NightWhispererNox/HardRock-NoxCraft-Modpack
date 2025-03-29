@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "forge:nuggets/electrum"
+  },
+  "heat_capacity": 0.8,
+  "forging_temperature": 540,
+  "welding_temperature": 720
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZSZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:rods/zinc"
+    },
+    "S": {
+      "item": "createsifter:string_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:zinc_mesh",
+    "count": 1
+  }
+}

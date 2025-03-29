@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "kubejs:shark_meat"
+      }
+    },
+  "result": "kubejs:shark_cooked_meat",
+  "experience": 0.35,
+  "cookingtime": 250
+}

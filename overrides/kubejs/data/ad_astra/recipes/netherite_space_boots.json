@@ -1,0 +1,23 @@
+{
+  "group": "ad_astra",
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:plates/ostrum"
+    },
+    "D": {
+      "tag": "forge:plates/desh"
+    },
+    "N": {
+      "item": "ad_astra:space_boots"
+    }
+  },
+  "pattern": [
+    " N ",
+    "D D",
+    "# #"
+  ],
+  "result": {
+    "item": "ad_astra:netherite_space_boots"
+  }
+}

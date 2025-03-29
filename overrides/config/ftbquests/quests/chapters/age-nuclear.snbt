@@ -1,0 +1,1361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age-nuclear"
+	group: "4B506126B0B8AA84"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "tfc:metal/rod/bismuth_bronze"
+	}
+	id: "1266E52CD9D4503A"
+	images: [
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Fusion_Reactor"
+			dependency: "000000000000090A"
+			height: 0.35d
+			hover: ["wiki Mekanism"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Industrial_Turbine"
+			dependency: "000000000000093F"
+			height: 0.35d
+			hover: ["wiki Mekanism"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Fusion_Reactor"
+			dependency: "000000000000093F"
+			height: 0.35d
+			hover: ["wiki Mekanism"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter"
+			dependency: "0000000000000938"
+			height: 0.35d
+			hover: ["wiki Mekanism"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 2.5d
+			y: -10.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01EEA610B8226679"]
+			dependency_requirement: "one_completed"
+			description: [
+				""
+				"With the discovery of uranium, you start a new nuclear era. A lot of new machines and technologies that will allow for faster production and more efficiency. But be careful with uranium, if you pollute your world you will have to move away from your home"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:raw_uranium"
+			id: "68F46344FDCA4DAE"
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "6BAEF947486634D8"
+				type: "checkmark"
+			}]
+			title: "Age of Nuclear"
+			x: -1.6d
+			y: 0.8d
+		}
+		{
+			dependencies: ["000000000000093F"]
+			description: [
+				"Radioactive Waste Barrels are used to store radioactive materials."
+				""
+				"They delete their contents at a rate of 1 mB per minute."
+				""
+				"You can store 512B in it."
+			]
+			hide_until_deps_visible: true
+			id: "00000000000008CE"
+			size: 0.75d
+			tasks: [{
+				id: "00000000000008CF"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: -0.375d
+			y: -5.625d
+		}
+		{
+			dependencies: ["000000000000093F"]
+			description: ["The Hazmat Suit protects the player from Radiation."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "mekanism:hazmat_gown"
+			}
+			id: "0000000000000892"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0000000000000893"
+					item: {
+						Count: 1
+						id: "mekanism:hazmat_mask"
+						tag: {
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000894"
+					item: {
+						Count: 1
+						id: "mekanism:hazmat_gown"
+						tag: {
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000895"
+					item: {
+						Count: 1
+						id: "mekanism:hazmat_pants"
+						tag: {
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000896"
+					item: {
+						Count: 1
+						id: "mekanism:hazmat_boots"
+						tag: {
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Suit"
+			x: 2.25d
+			y: -5.625d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: [
+				"The Induction Matrix is a highly configurable multi-block energy storage structure."
+				""
+				"The Induction Matrix will only form if the cell structure is a rectangular prism 16x16x16 or smaller and the casing structure is a rectangular prism 18x18x18 or smaller."
+				""
+				"The inside of the cube can be filled with either Induction Providers, Induction Cells or air blocks."
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:induction_port"
+			id: "0000000000000930"
+			tasks: [
+				{
+					count: 34L
+					id: "0000000000000931"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000932"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "73F34EBB5B866E32"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "081AA2BA5E10DF5C"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
+			title: "Induction Matrix"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Thermal Evaporation Plant is a multiblock structure with the purpose of converting Water to Brine, which can be further converted to Lithium by the use of a second Thermal Evaporation Plant."
+				""
+				"The structure has a 4 by 4 block base with a height of 3 blocks to a maximum height of 18."
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "0000000000000933"
+			tasks: [
+				{
+					count: 217L
+					id: "0000000000000935"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "0000000000000936"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000937"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7697F26F778AEFE7"
+					item: "mekanism:dust_lithium"
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Plant"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000000090A"]
+			description: [
+				"The Fission Reactor is a multiblock structure that generates massive amounts of heat but does not produce power on its own."
+				""
+				"The structure must be a cuboid of minimum outside size 3x4x3 (along X, Y and Z), up to 18x18x18."
+			]
+			hide_until_deps_visible: true
+			icon: "mekanismgenerators:control_rod_assembly"
+			id: "000000000000093F"
+			tasks: [
+				{
+					count: 62L
+					id: "0000000000000940"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0000000000000941"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0000000000000942"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					count: 31L
+					id: "0000000000000943"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "0000000000000944"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000945"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: 1.0d
+			y: -5.625d
+		}
+		{
+			dependencies: ["000000000000093F"]
+			description: ["The Industrial Turbine is a multiblock generator used to produce energy if supplied with big quantities of Steam."]
+			hide_until_deps_visible: true
+			icon: "mekanismgenerators:rotational_complex"
+			id: "1A8E113CE242F980"
+			tasks: [
+				{
+					count: 94L
+					id: "7EFCED42F0F8B232"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BE66A55A545E92B"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					count: 58L
+					id: "103D62E0B9F1777B"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5A5D1360FD87D4C6"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6834398CA5E8ECA7"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "7F73B383D5C57D58"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5DD421965D839417"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "550DDE90DEBC18A3"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "13BE0830AEB5604C"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "3D4B379D1B996E84"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+			]
+			title: "Turbine"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["000000000000093F"]
+			description: [
+				"The Fusion Reactor is a multiblock structure that allows for variable input rates of 3 types of fuel: Deuterium, Tritium and D-T Fuel."
+				""
+				"The Fusion Reactor will not start on its own."
+				"It requires an outside burst of energy from a charged Laser Amplifier and a small amount of D-T Fuel to begin the fusion process."
+				"Once the reaction is jump started, it will begin consuming supplied Deuterium and Tritium, creating plasma and generating power."
+			]
+			hide_until_deps_visible: true
+			icon: "mekanismgenerators:fusion_reactor_port"
+			id: "0000000000000938"
+			tasks: [
+				{
+					id: "0000000000000939"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "000000000000093A"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "000000000000093B"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "000000000000093C"
+					item: "mekanismgenerators:fusion_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000093D"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "000000000000093E"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "000000000000094A"
+					item: {
+						Count: 1
+						id: "mekanismgenerators:hohlraum"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 10L
+										gasName: "mekanismgenerators:fusion_fuel"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0000000000000938"]
+			description: ["The Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas,"]
+			hide_until_deps_visible: true
+			icon: "mekanism:supercharged_coil"
+			id: "000000000000094B"
+			tasks: [
+				{
+					count: 92L
+					id: "000000000000094C"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 118L
+					id: "000000000000094D"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "000000000000094E"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "000000000000094F"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			title: "Supercritical Phase Shifter"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0000000000000914"]
+			description: ["The Chemical Dissolution Chamber turns raw ores into slurry or Fluorite and Hydrofluoric Acid using Sulfuric Acid."]
+			hide_until_deps_visible: true
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "0000000000000902"
+			tasks: [
+				{
+					id: "0000000000000903"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "1B1FE9FB64A84396"
+					item: "mekanism:fluorite_gem"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Chemical Washer turns Slurry into Clean Slurry using Water."
+				"- The efficiency of processing raw ores increases x5"
+			]
+			hide_until_deps_visible: true
+			id: "0000000000000904"
+			tasks: [{
+				id: "0000000000000905"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000916"]
+			description: [
+				"The Chemical Infuser combines or reacts to two gases to create another gas."
+				"Uranium hexafluoride"
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:chemical_infuser"
+			id: "0000000000000910"
+			tasks: [
+				{
+					id: "0000000000000911"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					id: "11F6DED7325E3EB4"
+					item: "mekanism:uranium_hexafluoride_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: ["The Pressurized Reaction Chamber is used primarily to create Substrate, HDPE Pellets, Ethylene, Sulfur."]
+			hide_until_deps_visible: true
+			icon: "mekanism:pressurized_reaction_chamber"
+			id: "000000000000090C"
+			tasks: [
+				{
+					id: "000000000000090D"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					id: "1DF130A02DA309D9"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+				{
+					id: "6617F49CA7696DC4"
+					item: "mekanism:hdpe_pellet"
+					type: "item"
+				}
+				{
+					id: "671EA94ECF5D9375"
+					item: "tfc:powder/sulfur"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Purification Chamber uses oxygen to refine Ores and shards into clumps."
+				"- The efficiency of processing raw ores increases x3"
+			]
+			hide_until_deps_visible: true
+			id: "00000000000008EA"
+			tasks: [{
+				id: "00000000000008EB"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000933"]
+			description: [
+				"The Chemical Crystallizer turns Clean Slurry into Crystals and Lithium into Lithium Dust."
+				""
+				"You can turn Antimatter into Antimatter Pellet."
+			]
+			hide_until_deps_visible: true
+			id: "0000000000000906"
+			tasks: [{
+				id: "0000000000000907"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards."
+				"- The efficiency of processing raw ores increases x4"
+			]
+			hide_until_deps_visible: true
+			id: "000000000000090E"
+			tasks: [{
+				id: "000000000000090F"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Enrichment Chamber is used to turn Coal or Charcoal into Compressed Carbon, Redstone into Compressed Redstone, Diamond into Compressed Diamond and Refined Obsidian Dust into Compressed Obsidian, all for use in the Metallurgic Infuser."
+				"However, the most important thing we will obtain is Yellow Cake, an intermediate product for the production of energy in the fission reactor"
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:enrichment_chamber"
+			id: "00000000000008EE"
+			tasks: [
+				{
+					id: "00000000000008EF"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "433F1A72DC8E4182"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A4B9895D57A34E4"]
+			description: ["The Antiprotonic Nucleosynthesizer is used to transform an item into another using Antimatter."]
+			hide_until_deps_visible: true
+			id: "00000000000008E2"
+			tasks: [{
+				id: "00000000000008E3"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["00000000000008C1"]
+			description: ["In this basic QIO Drive, you can store 16k items for 128 different types."]
+			hide_until_deps_visible: true
+			id: "00000000000008C4"
+			tasks: [{
+				id: "00000000000008C5"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0000000000000948"]
+			description: ["QIO is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game."]
+			hide_until_deps_visible: true
+			icon: "mekanism:qio_drive_array"
+			id: "00000000000008C1"
+			tasks: [
+				{
+					id: "00000000000008C2"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "00000000000008C3"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["000000000000090C"]
+			description: ["Get a stack of HDPE Sheet using Ethylene, Substrate and Oxygen."]
+			hide_until_deps_visible: true
+			id: "00000000000008CC"
+			tasks: [{
+				count: 32L
+				id: "00000000000008CD"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			title: "HDPE Sheet"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000008F6"]
+			description: [
+				"Obtain a Polonium Pellet using a Pressurized Reaction Chamber with Water, Polonium and Fluorite Dust."
+				""
+				"Be aware that this process creates Spent Nuclear Waste."
+			]
+			hide_until_deps_visible: true
+			id: "0000000000000948"
+			tasks: [{
+				id: "0000000000000949"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0000000000000948"]
+			description: ["The Modification Station is used for applying modular upgrades to the Meka-Suit in exchange for energy."]
+			hide_until_deps_visible: true
+			id: "36D86F3E65554DF4"
+			tasks: [{
+				id: "456D3AAF058435EE"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["000000000000093F"]
+			description: ["The Solar Neutron Activator directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."]
+			id: "00000000000008F6"
+			tasks: [{
+				id: "00000000000008F7"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00000000000008CC"]
+			hide_until_deps_visible: true
+			id: "4F1F15BEC0AB428B"
+			tasks: [{
+				id: "4171D45EBC771DBE"
+				item: {
+					Count: 1
+					id: "mekanism:hdpe_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00000000000008C1"]
+			description: ["QIO Importers are attached to a block with inventory and wirelessly transmit their contents to a drive array. The importer must be set to the same frequency as the drive array."]
+			hide_until_deps_visible: true
+			id: "00000000000008DC"
+			tasks: [
+				{
+					id: "00000000000008DD"
+					item: "mekanism:qio_importer"
+					type: "item"
+				}
+				{
+					id: "00000000000008DE"
+					item: "mekanism:qio_exporter"
+					type: "item"
+				}
+				{
+					id: "00000000000008DF"
+					item: "mekanism:qio_redstone_adapter"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F1F15BEC0AB428B"]
+			description: ["Applies an HDPE Reinforced Elytra to the MekaSuit."]
+			hide_until_deps_visible: true
+			id: "0911324582B6823E"
+			tasks: [{
+				id: "5CF64C0FB8E8C5A7"
+				item: "mekanism:module_elytra_unit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00000000000008F0"]
+			description: ["Collect 8 ingots of each from the Osmium Compressor."]
+			hide_until_deps_visible: true
+			id: "022B48C17014A9F7"
+			tasks: [
+				{
+					count: 8L
+					id: "073FB78E25F6D0F7"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "79AE4BF61B2BDCB0"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+			]
+			title: "Refined Ingots"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29DAB5A71797C328"]
+			description: ["The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."]
+			hide_until_deps_visible: true
+			id: "00000000000008F0"
+			tasks: [{
+				id: "00000000000008F1"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000910"]
+			description: ["The Isotopic Centrifuge is used with a Fission Reactor, wither processing Uranium Hexafluoride into Fissile Fuel, OR processing Nuclear Waste into Plutonium. "]
+			hide_until_deps_visible: true
+			id: "000000000000090A"
+			tasks: [{
+				id: "000000000000090B"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			hide_until_deps_visible: true
+			id: "29DAB5A71797C328"
+			tasks: [{
+				id: "6C567E0B9F27FB11"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000008EE"]
+			description: [
+				"The Chemical Oxidizer is used for making gases from materials."
+				"-> You need Uranium oxide"
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:chemical_oxidizer"
+			id: "0000000000000916"
+			tasks: [
+				{
+					id: "0000000000000917"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "656284B935E30735"
+					item: "mekanism:uranium_oxide_bucket"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000008EE"]
+			description: ["The Rotary Condensentrator is used for converting substances between liquid and gaseous forms at a rate of 1:1."]
+			hide_until_deps_visible: true
+			id: "0000000000000914"
+			tasks: [{
+				id: "0000000000000915"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000008EE"]
+			description: [
+				"The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds."
+				"You can obtain, for example, oxygen and hydrogen from water."
+			]
+			hide_until_deps_visible: true
+			id: "00000000000008FE"
+			tasks: [{
+				id: "00000000000008FF"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: ["The Quantum Entangloporter is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "00000000000008F8"
+			tasks: [{
+				count: 2L
+				id: "00000000000008F9"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"Robit is Mekanism's mechanical companion."
+				"He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "74BCE9E73DCDF3E0"
+			tasks: [{
+				id: "22A87938CC3C9A37"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Dosimeter show you the Radiation Dose you have."
+				""
+				"The Geiger Counter show you the Radiation Exposure you have."
+				""
+				"The Configuration card can be used to copy side configurations from one machine to another machine of the same type."
+				""
+				"Cardboard Box is used for boxing up other blocks to move them, preserving the inventory while being moved."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "00000000000008B5"
+			shape: "circle"
+			tasks: [
+				{
+					id: "00000000000008B6"
+					item: "mekanism:dosimeter"
+					type: "item"
+				}
+				{
+					id: "5CE2FDA91AE62C6A"
+					item: "mekanism:geiger_counter"
+					type: "item"
+				}
+				{
+					id: "4EC635AF800457AC"
+					item: "mekanism:configuration_card"
+					type: "item"
+				}
+				{
+					id: "5BE3A58AA9880260"
+					item: "mekanism:cardboard_box"
+					type: "item"
+				}
+			]
+			title: "Mekanism Stuff"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: [
+				"The Speed Upgrade makes them process items faster."
+				"The Energy Upgrade increases the power capacity of a Mekanism machine, as well as reduce its power consumption per tick."
+				"The Filter Upgrade separates Water from Heavy Water. Its only use is in the Electric Pump."
+				"The Muffling Upgrade reduces noise from Mekanism machinery."
+				"The Gas Upgrade increases the efficiency of gas-based Mekanism machinery."
+				"The Anchor Upgrade ensures that a Mekanism machine block stays chunkloaded."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "00000000000008DA"
+			tasks: [
+				{
+					id: "00000000000008DB"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "31BA000021171CE8"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					id: "4641C869EB874FD3"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+				{
+					id: "2D1C8C1A3DFF5697"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+				{
+					id: "578AB692CA818E7E"
+					item: "mekanism:upgrade_gas"
+					type: "item"
+				}
+				{
+					id: "0B7247C5F33209BD"
+					item: "mekanism:upgrade_anchor"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: ["The Gas-Burning Generator creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."]
+			hide_until_deps_visible: true
+			id: "000000000000092C"
+			tasks: [{
+				id: "000000000000092D"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: [
+				"The Wind Generator is used to passively generate energy with wind."
+				""
+				"The highest you go, the more energy you can get."
+			]
+			hide_until_deps_visible: true
+			id: "0000000000000928"
+			tasks: [{
+				id: "0000000000000929"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68F46344FDCA4DAE"]
+			description: ["The New Era allows for other ways to generate electricity"]
+			hide_until_deps_visible: true
+			id: "08EA1793E35C9E60"
+			tasks: [{
+				id: "5CD21B84DFF951A0"
+				title: "Basic Power Stuff"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: ["The Bio-Generators produce electricity from Bio Fuel."]
+			hide_until_deps_visible: true
+			id: "000000000000092A"
+			tasks: [{
+				id: "000000000000092B"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: ["The Solar Generator harnesses sunlight to create power. Use it on mining dimension."]
+			hide_until_deps_visible: true
+			id: "0000000000000924"
+			tasks: [{
+				id: "0000000000000925"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: ["The Heat Generator converts heat energy into power."]
+			hide_until_deps_visible: true
+			id: "000000000000092E"
+			tasks: [{
+				id: "000000000000092F"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000924"]
+			description: ["The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator. Construction of an Advanced Solar Generator requires four Solar Generators, but it produces six times the power of its smaller counterpart."]
+			hide_until_deps_visible: true
+			id: "0000000000000926"
+			tasks: [{
+				id: "0000000000000927"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000948"]
+			description: ["Mekasuit is an advanced armor that will protect you from most threats"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "mekanism:mekasuit_bodyarmor"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			id: "397EC47190CFD4D8"
+			tasks: [
+				{
+					id: "0F0CC6F5AEC61AD5"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "74E6E3BC9639CC06"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "56D0979DB72C814F"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "2C18A134E4BA00EE"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "Meka Suits powered"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0000000000000948"]
+			description: ["Energy Unit gives your MekaSuite armor upgrades"]
+			hide_until_deps_visible: true
+			icon: "mekanism:module_jetpack_unit"
+			id: "27EFB41933784BCB"
+			tasks: [{
+				id: "12C233E5D23B1F5F"
+				item: "mekanism:module_energy_unit"
+				type: "item"
+			}]
+			title: "Meka Suits powered"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0000000000000948"]
+			description: ["Meka tool is an advanced device useful in every situation"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "mekanism:meka_tool"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			id: "107DA0BD545A710D"
+			tasks: [
+				{
+					id: "522D23D740037E38"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "53089BC64CC46250"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "06300EEA4A52919D"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "2AD177D71A275855"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "Meka Tool"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000904"]
+			description: [
+				"Crystalizer turns slurry into 5 crystals ores"
+				"The efficiency of obtaining raw materials is even greater, up to five times"
+			]
+			hide_until_deps_visible: true
+			id: "64DA37CD766D9E81"
+			tasks: [{
+				id: "25CE4AE177900F9E"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000094B"]
+			description: [
+				"Creating antimatter will allow you to enter the era of space conquest"
+				""
+			]
+			hide_until_deps_visible: true
+			id: "4A4B9895D57A34E4"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Unlocks Space Ages"
+			tasks: [{
+				id: "37A2C4E7CC0BFF40"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["08EA1793E35C9E60"]
+			description: [
+				"Flux Dust is the basic material in creating wireless electrical connections"
+				"This will facilitate the work and distribution of FE"
+			]
+			hide_until_deps_visible: true
+			icon: "fluxnetworks:flux_dust"
+			id: "02D72792518B0869"
+			tasks: [
+				{
+					id: "4780E1D70B80B9A9"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "7EA3C274E4E29049"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "5CB02B5F3D3284DC"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+			]
+			title: "Flux composite"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02D72792518B0869"]
+			description: [
+				"The flux controller threshold is the heart of our system, it will control all FE that we direct to it"
+				"- Flux plug - FE ''in'' System Flux"
+				"- Flux point - FE ''out'' System Flux, will power machines "
+				"- Flux storage - Energy storage"
+			]
+			hide_until_deps_visible: true
+			id: "438362F4E701F674"
+			tasks: [
+				{
+					id: "670BF8863AAB1C46"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+				{
+					id: "2DDF7DE81BB4365A"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "7EA3363F1AD91A03"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "61A4FDFA27248FA6"
+					item: "fluxnetworks:basic_flux_storage"
+					type: "item"
+				}
+			]
+			title: "Flux"
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["022B48C17014A9F7"]
+			description: ["Digital Miner is a machine for automatic extraction of metals and minerals from underground - It needs a lot of energy but it will automate the extraction of raw materials"]
+			hide_until_deps_visible: true
+			icon: "mekanism:digital_miner"
+			id: "68DAEC03700BA513"
+			tasks: [{
+				id: "203B39702F058E09"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Auto Miner"
+			x: 5.0d
+			y: -2.0d
+		}
+	]
+	title: "Age - Nuclear"
+}

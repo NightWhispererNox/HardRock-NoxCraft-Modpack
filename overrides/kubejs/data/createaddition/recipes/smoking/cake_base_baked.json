@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "createaddition:cake_base"
+      }
+    },
+  "result": "createaddition:cake_base_baked",
+  "experience": 0.0,
+  "cookingtime": 250
+}

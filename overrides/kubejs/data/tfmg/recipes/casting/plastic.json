@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluidTag": "forge:molten_plastic",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfmg:plastic_sheet"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "tfmg:plastic_block"
+    }
+
+  ]
+}

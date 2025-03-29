@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "minecraft:glass"},
+  "transitionalItem": {"item": "create:vertical_framed_glass"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "create:vertical_framed_glass"},{"tag": "forge:rods/aluminum"}],"results": [{"item": "create:vertical_framed_glass"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:vertical_framed_glass"},{"item": "minecraft:glass"}],"results": [{"item": "create:vertical_framed_glass"}]},
+    {"type": "create:filling","ingredients": [{"item": "create:vertical_framed_glass"},{"fluidTag": "forge:molten_glass","nbt": {},"amount": 500}],"results": [{"item": "create:vertical_framed_glass"}]}
+  ],
+  "results": [{"item": "car:tank"}
+  ],
+  "loops": 4
+}

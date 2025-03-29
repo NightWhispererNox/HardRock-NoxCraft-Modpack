@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "domum_ornamentum:white_brick_extra"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:white",
+        "amount": 8
+    }
+}

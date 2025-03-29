@@ -1,0 +1,101 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": [
+    {
+      "item": "sewingkit:leather_sheet"
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_sa:incomplete_book"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_book"
+        },
+        {
+          "tag": "forge:glue"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_book"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_book"
+        },
+        {
+          "tag": "forge:paper"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_book"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_book"
+        },
+        {
+          "tag": "forge:paper"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_book"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_book"
+        },
+        {
+          "tag": "forge:paper"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_book"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_book"
+        },
+        {
+          "item": "sewingkit:leather_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_book"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:book",
+      "count": 2,
+      "chance": 100.0
+    }
+  ],
+  "loops": 1
+}

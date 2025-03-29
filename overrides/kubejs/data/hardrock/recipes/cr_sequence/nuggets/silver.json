@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/silver"},
+  "transitionalItem": {"item": "tfc:metal/rod/silver"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/silver"}],"results": [{"item": "tfc:metal/rod/silver"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/silver"}],"results": [{"item": "tfc:metal/rod/silver"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/silver"}],"results": [{"item": "tfc:metal/rod/silver"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/silver"}],"results": [{"item": "tfc:metal/rod/silver"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/silver"}],"results": [{"item": "tfc:metal/rod/silver"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_silver","count": 5}    
+  ],
+  "loops": 1
+}
+

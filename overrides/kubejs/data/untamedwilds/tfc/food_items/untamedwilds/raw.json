@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "ingredient": [
+    {"item": "untamedwilds:food_bear_raw"},
+    {"item": "untamedwilds:food_turtle_raw"},
+    {"item": "untamedwilds:food_pachyderm_raw"},
+    {"item": "kubejs:shark_meat"}
+  ],
+  "hunger": 4,
+  "saturation": 0,
+  "decay_modifier": 2,
+  "protein": 1.5
+}

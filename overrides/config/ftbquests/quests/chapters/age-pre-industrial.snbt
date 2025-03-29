@@ -1,0 +1,4600 @@
+{
+	autofocus_id: "13C6B5603AB4A496"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age-pre-industrial"
+	group: "4B506126B0B8AA84"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "tfc:stone/axe/sedimentary"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3B61B0D5BBB6B4C9"
+	images: [
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/composter"
+			dependency: "1B85F7093AC663D7"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 31.125d
+			y: 2.625d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmalife/cellar.html"
+			dependency: "4285296DE20480FA"
+			height: 0.35d
+			hover: ["wiki FirmaLife"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 43.083333333333336d
+			y: -8.285714285714285d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide"
+			dependency: "1BC79A402028CFA7"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 28.153571428571432d
+			y: -2.9250000000000043d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmalife/ovens.html"
+			dependency: "2DB43046BD0FCBD6"
+			height: 0.35d
+			hover: ["wiki FirmaLife"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 34.625d
+			y: 0.625d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmalife/beekeeping.html"
+			dependency: "1124CE75F3E2D185"
+			height: 0.35d
+			hover: ["wiki FirmaLife"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 43.119047619047606d
+			y: -5.75d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/getting_started/pit_kiln.html"
+			dependency: "2DB43046BD0FCBD6"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 36.125d
+			y: -1.375d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/getting_started/finding_ores.html"
+			dependency: "6FCF5A9819C15FCA"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 41.625d
+			y: 3.125d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/getting_started/building_materials.html"
+			dependency: "2DB43046BD0FCBD6"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 32.675d
+			y: 0.4250000000000007d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/getting_started/primitive_anvils.html"
+			dependency: "30C84DB4AB1BEBDB"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 46.28571428571428d
+			y: 1.1607142857142847d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/animal_husbandry.html"
+			dependency: "6E4AFEEE95DF99A8"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 25.089285714285715d
+			y: 1.1785714285714306d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/blast_furnace.html"
+			dependency: "4B6471BDD35D04F0"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 56.994047619047606d
+			y: 3.1309523809523725d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/bloomery.html"
+			dependency: "26515677B3118AEA"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 51.56547619047618d
+			y: 3.1130952380952337d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/charcoal_pit.html"
+			dependency: "52D289D761CD3327"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 36.095238095238095d
+			y: -5.571428571428569d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/charcoal_forge.html"
+			dependency: "2544BAE1DA34AFA7"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 37.595238095238095d
+			y: -5.571428571428569d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/crops.html"
+			dependency: "1B85F7093AC663D7"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 27.089285714285715d
+			y: 1.1785714285714306d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/crucible.html"
+			dependency: "650BB600A046C4E9"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 45.99880952380953d
+			y: 3.1559523809523924d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/pot.html"
+			dependency: "52D289D761CD3327"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 38.125d
+			y: 1.125d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/lamps.html"
+			dependency: "7DE2F9F13666E668"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 29.0d
+			y: -8.5d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/sandwiches.html"
+			dependency: "333CDC2BBF41A474"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 34.625d
+			y: 4.125d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/support_beams.html"
+			dependency: "33DCE04D03E2B0E2"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 36.125d
+			y: -2.875d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/getting_started/primitive_alloys.html"
+			dependency: "0A5504B2E07129CE"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 49.25595238095237d
+			y: 3.0416666666666785d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/sluices.html"
+			dependency: "1124CE75F3E2D185"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 45.57738095238095d
+			y: -2.8392857142857295d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/anvils.html"
+			dependency: "1C968E0159A0C714"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 49.56547619047618d
+			y: 1.1130952380952337d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmalife/planters.html"
+			dependency: "6BB8281464F3DD68"
+			height: 0.35d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 44.9047619047619d
+			y: -8.214285714285715d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmalife/greenhouse.html"
+			dependency: "4285296DE20480FA"
+			height: 0.35d
+			hover: ["wiki FirmaLife"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 44.86904761904762d
+			y: -6.75d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/firmalife/herbs_and_spices.html"
+			dependency: "35A0FD7BE9CC7EFF"
+			height: 0.35d
+			hover: ["wiki FirmaLife"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.35d
+			x: 31.19642857142857d
+			y: 4.285714285714285d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DFD612BF8EF6367"]
+			description: [
+				"you can use the rocks you found around you to build the first tool heads"
+				"{image:tfc:textures/item/loose_rock/chalk.png width:15 height:15 align:1}"
+				"Find a hardened raw stone and then pound the rock until you get the tool head."
+				""
+				"precise knapping is possible when you have chisel and leather in your equipment"
+				""
+				"from a ''long stick'' or ''pole'' you can create a Wooden Canes that will help you travel through grass and in winter through snow, two welded iron rods are a Metal Canes"
+				""
+				"{image:tfccanes:item/refined_walking_cane width:20 height:20 align:center}"
+			]
+			hide_until_deps_complete: true
+			icon: "tfc:rock/hardened/quartzite"
+			id: "4D412159C87AA1A0"
+			tasks: [
+				{
+					id: "5AFA90D2C2C8BFAA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:head_axe/stone"
+						}
+					}
+					title: "stone head axe"
+					type: "item"
+				}
+				{
+					id: "4A70F181748E4BAC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:head_shovel/stone"
+						}
+					}
+					title: "stone head shovel"
+					type: "item"
+				}
+				{
+					id: "28184AFA43EB2C7A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:head_knifes/stone"
+						}
+					}
+					title: "stone head knife"
+					type: "item"
+				}
+				{
+					id: "1ADBFA1796353812"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:head_javelin/stone"
+						}
+					}
+					title: "stone head javelin"
+					type: "item"
+				}
+				{
+					id: "7AB931CE05EF3A31"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:head_hoe/stone"
+						}
+					}
+					title: "stone head hoe"
+					type: "item"
+				}
+				{
+					id: "372CCE8E728B83FB"
+					item: {
+						Count: 1
+						id: "tfc_items:long_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Knapping System"
+			x: 30.625d
+			y: -2.375d
+		}
+		{
+			dependencies: ["4D412159C87AA1A0"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Use the crafted tool head in the crafting grid. Add two ligament [raw plant strings] to create a stone knife."
+				"{image:tfc:textures/item/stone/knife_head.png width:15 height:15 align:1}"
+				""
+				"alternatively, it can craft a knife from flint or bone"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "tfc:stone/knife/igneous_extrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FC34418C3A532C4"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "6F9E047273123A5F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:knifes/stone"
+						}
+					}
+					title: "Any #forge:knifes/stone"
+					type: "item"
+				}
+				{
+					id: "25FD83995A59DD46"
+					item: {
+						Count: 1
+						id: "htm:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49B798246D73282B"
+					item: {
+						Count: 1
+						id: "htm:bone_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stone Knife"
+			x: 32.125d
+			y: -4.375d
+		}
+		{
+			dependencies: ["4D412159C87AA1A0"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone axe."
+				""
+				"an alternative to the axe can be a hatchet, for the construction of which you need flint"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "tfc:stone/axe/metamorphic"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "405C29535CFEC9B8"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "7A0B557D8E3A6E37"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:axes/stone"
+						}
+					}
+					title: "stone axe"
+					type: "item"
+				}
+				{
+					id: "44940B8F90907103"
+					item: {
+						Count: 1
+						id: "htm:hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stone Axe"
+			x: 32.625d
+			y: -2.375d
+		}
+		{
+			dependencies: ["4D412159C87AA1A0"]
+			dependency_requirement: "one_completed"
+			description: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone shovel."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "tfc:stone/shovel/igneous_intrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2DBF3055A06275F6"
+			tasks: [{
+				id: "473715A783D4B5A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shovels/stone"
+					}
+				}
+				title: "Stone shovel"
+				type: "item"
+			}]
+			title: "Stone Shovel"
+			x: 32.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["4D412159C87AA1A0"]
+			dependency_requirement: "one_completed"
+			description: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone javelin."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "tfc:stone/javelin/igneous_intrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BC58239A8706187"
+			tasks: [{
+				id: "5498F51BD40ECF2E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:javelins/stone"
+					}
+				}
+				title: "Any #forge:javelins/stone"
+				type: "item"
+			}]
+			title: "Stone Javelin"
+			x: 30.625d
+			y: -4.375d
+		}
+		{
+			dependencies: ["4D412159C87AA1A0"]
+			dependency_requirement: "one_completed"
+			description: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone hoe."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "tfc:stone/hoe/igneous_intrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73296BC5B8AD845D"
+			tasks: [{
+				id: "2038281730CEC91C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hoes/stone"
+					}
+				}
+				title: "Stone hoe"
+				type: "item"
+			}]
+			title: "Stone Hoe"
+			x: 30.625d
+			y: 0.125d
+		}
+		{
+			dependencies: ["405C29535CFEC9B8"]
+			description: [
+				"Cut down a tree to get logs."
+				""
+				"You will be hurt if you attempt to punch trees, so use an axe or hatchet."
+				""
+				"Wood can be stacked on the ground. When holding a log, Shift + right click."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/log/oak"
+			id: "0D9AB19AC9858CD5"
+			tasks: [{
+				id: "7B5611D9934A6677"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "logs"
+				type: "item"
+			}]
+			title: "Logs"
+			x: 34.125d
+			y: -2.375d
+		}
+		{
+			dependencies: ["0D9AB19AC9858CD5"]
+			description: [
+				"Drop 1 log and 3 sticks onto the same surface. Use a firestarter to light the pile and create a firepit. Be mindful of your surroundings, as fire can easily spread from a firepit to flammable objects and blocks nearby."
+				""
+				"If you pick up your items instead of lighting them, try starting the firestarter on another surface, then quickly moving it to the pile of items before it completes. See the TFC Guide for additional tips on creating and using firepits."
+				"{image:tfc:textures/item/firepit.png width:20 height:20 align:1}"
+				"acceptable fuel is all types of wood but also sticks, tree seeds/saplings or bark"
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:firepit"
+			id: "037F184C26A10FC1"
+			tasks: [{
+				id: "34A00C983680BD46"
+				item: {
+					Count: 1
+					id: "tfc:firestarter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.125d
+			y: -6.375d
+		}
+		{
+			dependencies: ["6FCF5A9819C15FCA"]
+			dependency_requirement: "one_completed"
+			description: ["Right click the air with some rocks in hand to begin knapping a rock into a tool shape. See knapping in the TFC guide."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/hammer/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30C84DB4AB1BEBDB"
+			size: 0.85d
+			tasks: [{
+				id: "4BC2CA1A49257D34"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:hammers"
+					}
+				}
+				title: "hammer"
+				type: "item"
+			}]
+			title: "Hammer"
+			x: 44.099999999999994d
+			y: 1.6999999999999993d
+		}
+		{
+			dependencies: ["2DBF3055A06275F6"]
+			description: [
+				"The TFC Guide, under Getting Started, and Pottery, explains much of what you need to know about finding clay. To preview clay's indicator plants, search ''$indicator'' in JEI."
+				"{image:tfc:textures/block/plant/athyrium_fern/double.png width:40 height:40 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:clay_grass/silt"
+			id: "2DB43046BD0FCBD6"
+			tasks: [{
+				count: 16L
+				id: "699A5812D980936F"
+				item: "minecraft:clay_ball"
+				title: "Clay"
+				type: "item"
+			}]
+			x: 34.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1BC79A402028CFA7"]
+			description: [
+				"Everything is here - all the knowledge about the world in which you hope to survive, what you will encounter in it, and how to survive it. Read as much as possible to avoid mistakes, dangers, and pitfalls of knowledge. If you haven't already, start with the quest section called ''Important.''"
+				""
+				"You can also find this information on webpage - terrafirmacraft.github.io/Field-Guide"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "tfc:field_guide"
+				}
+			}
+			id: "13C6B5603AB4A496"
+			min_required_tasks: 1
+			shape: "gear"
+			size: 1.25d
+			subtitle: "in your Inventory on the right side there are several tabs including the book TerraFirmaCraft - powerful knowledge for survival"
+			tasks: [
+				{
+					id: "141012B12591B782"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "tfc:field_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45F5DACFFFAAC3A4"
+					type: "checkmark"
+				}
+			]
+			title: "Everything is Here"
+			x: 27.625d
+			y: -2.375d
+		}
+		{
+			dependencies: ["0D9AB19AC9858CD5"]
+			description: ["You get charcoal by burning encased log piles. You can learn more about how this is done in the TFC Guide under Advanced Mechanics and Charcoal Pit, or by looking at charcoal in JEI while holding Shift."]
+			hide_until_deps_visible: true
+			id: "2544BAE1DA34AFA7"
+			tasks: [{
+				id: "4574F93E55200574"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 35.595238095238095d
+			y: -5.071428571428569d
+		}
+		{
+			dependencies: ["2DB43046BD0FCBD6"]
+			description: ["Use clay balls to craft unfired ceramics. This process is very similar to rock knapping."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/unfired_vessel"
+			}
+			id: "78C50987CA923CE1"
+			tasks: [
+				{
+					id: "6DF5FE7F64D27BB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_vessel"
+					}
+					type: "item"
+				}
+				{
+					id: "23BCB70EC6B56CA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_jug"
+					}
+					type: "item"
+				}
+				{
+					id: "3BF4194A19BC3ABC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_large_vessel"
+					}
+					type: "item"
+				}
+				{
+					id: "1905391FFF1D1580"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_pickaxe_head_mold"
+					}
+					type: "item"
+				}
+				{
+					id: "7F2E0BA36F97B57E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_saw_blade_mold"
+					}
+					type: "item"
+				}
+				{
+					id: "7F7C8207B4D8971C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_propick_head_mold"
+					}
+					type: "item"
+				}
+				{
+					id: "004110929C0BD3EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_ingot_mold"
+					}
+					type: "item"
+				}
+				{
+					id: "3810F2FF9DE9BF9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_pan"
+					}
+					type: "item"
+				}
+				{
+					id: "57EB2C82E979836B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_chisel_head_mold"
+					}
+					type: "item"
+				}
+			]
+			title: "Ceramics"
+			x: 35.625d
+			y: -0.875d
+		}
+		{
+			dependencies: ["11C2EB0EE6FD6E2D"]
+			description: [
+				"At the bottom of lakes and rivers you can find gravel containing metal deposits. These deposits can be a more reliable way of obtaining cassiterite, copper, gold, and silver. Use a sluice or empty pan to wash the metallic deposits out of the gravel."
+				""
+				"As you search for deposits, watch out for piranhas!!! They are eager to eat you."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:deposit/native_silver/shale"
+			id: "266E2EE93A134FA3"
+			shape: "gear"
+			tasks: [{
+				id: "11B34458370C8432"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:ore_deposits"
+					}
+				}
+				title: "gravel ore deposit"
+				type: "item"
+			}]
+			title: "Metal Deposits - River and Lake"
+			x: 46.720238095238095d
+			y: -2.3392857142857295d
+		}
+		{
+			dependencies: ["6FCF5A9819C15FCA"]
+			description: [
+				"As you explore, be on the alert for strange mineral samples on the surface. These only appear above a large underground ore deposit of the same mineral. When you return with a pickaxe and a dream, you'll thank yourself for marking where you found these samples."
+				""
+				"To extract the ores from underground the surface, you'll need a pickaxe. Don't forget to use support beams underground to prevent dangerous cave-ins. To efficiently process the acquired raw materials, you'll need a hammer, a sluice, and a quern."
+				""
+				""
+				"In the TFC Guide, in The World section you'll find information about ores and minerals, and where to find them."
+				""
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:ore/rich_native_copper"
+			id: "68DC32CE4CE4B4F1"
+			subtitle: "Unlocked first tips"
+			tasks: [
+				{
+					id: "5AC82C7AAA5EF5D0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:small_ore_pieces"
+						}
+					}
+					title: "Ore nugget"
+					type: "item"
+				}
+				{
+					id: "1E4A17D8CF1DE527"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:ore_pieces"
+						}
+					}
+					title: "ore pieces"
+					type: "item"
+				}
+			]
+			title: "First Ores - First Mine"
+			x: 43.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["78C50987CA923CE1"]
+			description: [
+				"Unfired ceramics are fired in a pit kiln. In a hole surrounded by nonflammable blocks, place the unfired items (press V to place). When you're finished, right click 8 straw on the items to cover them, and cover the straw with 8 logs."
+				""
+				"Using a firestarter, light the logs on top. When the fire goes out, the fired pottery will be left in the pit."
+				""
+				"Remember that if you touch hot objects in your hand, you will get burned. Hold the Tongs in one hand to protect yourself from getting burned."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/vessel"
+				tag: { }
+			}
+			id: "52D289D761CD3327"
+			tasks: [
+				{
+					id: "714AF21A343F068B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/vessel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75244F256A729D96"
+					item: "tfc:ceramic/large_vessel"
+					type: "item"
+				}
+				{
+					id: "664BB098E81169C9"
+					item: "tfc:ceramic/jug"
+					type: "item"
+				}
+				{
+					id: "2139F4F09819C530"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/pickaxe_head_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3F9B5A868286D7F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/saw_blade_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1DB66F7F79FA0482"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/propick_head_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "10FB37BB24186AAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/ingot_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "10BD7AAE0AAFFC20"
+					item: "tfc:pan/empty"
+					type: "item"
+				}
+				{
+					id: "5E7C38114DC93440"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/chisel_head_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3C959AA839606172"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfchotornot:tongs"
+						}
+					}
+					title: "Any #tfchotornot:tongs"
+					type: "item"
+				}
+			]
+			title: "Pit Kiln"
+			x: 37.625d
+			y: -0.875d
+		}
+		{
+			dependencies: ["70FFB7289674431E"]
+			dependency_requirement: "one_completed"
+			description: ["The earliest metal tools are made of copper or one of the three bronze alloys, melted in a vessel then poured into a mold. To get this material, you'll need to wash gravel or deposit blocks with a pan. Small ores are more efficiently processed using a hammer and sluice to get powders, but even these small ores can be combined to make molten metals."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfcorewashing:pellet_copper"
+			}
+			id: "5200C33550CECCAE"
+			tasks: [
+				{
+					count: 8L
+					id: "15939E173003839A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "create:copper_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "217EBC586F4E603B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:powder/native_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C7231FEE87F4BA7"
+					item: {
+						Count: 4
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfcorewashing:pellet_copper"
+					}
+					type: "item"
+				}
+				{
+					id: "7954F1F678BC7A48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfcorewashing:briquet_copper"
+					}
+					type: "item"
+				}
+			]
+			title: "Collecting Copper"
+			x: 40.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["5200C33550CECCAE"]
+			description: [
+				"To make your first tools, you will need molds and molten metal. Store between 100 and 300 mB of copper material in a vessel, then heat it in a pit kiln or forge. Quickly, before the molten metal cools to a solid, open the vessel and insert a mold to fill it. Craft the filled mold to retrieve the tool part. A saw or pickaxe head mold requires 100 mB (one ingot) of metal."
+				""
+				"Remember that if you touch hot objects in your hand, you will get burned. Hold the Tongs or potholder in offhand to protect yourself from getting burned."
+				""
+				"The TFC Guide explains how to make primitive alloys, allowing you to start with bronze tools, if you have the materials."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/saw/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FCF5A9819C15FCA"
+			tasks: [
+				{
+					id: "3A892A6B6CC2CD60"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any #forge:tools/saws"
+					type: "item"
+				}
+				{
+					id: "3CEF4C49B5A6826D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:pickaxes"
+						}
+					}
+					title: "Any #tfc:pickaxes"
+					type: "item"
+				}
+			]
+			title: "Starting Tools"
+			x: 41.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["0CD0D07D71FB22FB"]
+			description: ["Kaolin can be found spawning at high altitudes in Plateaus, Old Mountains, and Highlands, at a temperature of at least 18°C, with a rainfall of at least 300mm. The Blood Lily flower grows on Kaolin clay indicating the occurrence of this kaolin clay."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:kaolin_clay"
+			}
+			id: "650BB600A046C4E9"
+			tasks: [
+				{
+					id: "65DEC157B8A80154"
+					item: "tfc:powder/kaolinite"
+					type: "item"
+				}
+				{
+					id: "16B53D03A2FF75D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:kaolin_clay"
+					}
+					type: "item"
+				}
+			]
+			x: 44.125d
+			y: 3.125d
+		}
+		{
+			dependencies: ["0CD0D07D71FB22FB"]
+			description: ["Graphite can only be found in quartzite, schist, gneiss, and marble rocks, in elevations below y=60. Use a prospector pick to search for underground graphite deposits."]
+			hide_until_deps_visible: true
+			icon: "tfc:ore/graphite"
+			id: "00773DB20353D622"
+			tasks: [
+				{
+					id: "4B52DFEED7DCCFDC"
+					item: "tfc:powder/graphite"
+					type: "item"
+				}
+				{
+					id: "657311A3859E01E3"
+					item: "tfc:ore/graphite"
+					type: "item"
+				}
+			]
+			x: 44.125d
+			y: 4.125d
+		}
+		{
+			dependencies: ["6FCF5A9819C15FCA"]
+			description: ["A prospector's pick will help you search for minerals and metals below the surface."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/propick/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CD0D07D71FB22FB"
+			tasks: [{
+				id: "22EABE43B6FE52F3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:propicks"
+					}
+				}
+				title: "propick"
+				type: "item"
+			}]
+			title: "Prospector's Pick"
+			x: 41.125d
+			y: 3.625d
+		}
+		{
+			dependencies: [
+				"33DCE04D03E2B0E2"
+				"6FCF5A9819C15FCA"
+			]
+			description: [
+				"Use the saw to make lumber and planks, Place a support on the ground and then use a saw to cut it into lumber. "
+				""
+				"lumber you make many new items And the most important is the crafting table"
+				"to finish it you need tools remember that the recipe will consume them to create the crafing table, "
+				""
+				"Tip -  for the recipe you need the simplest knives, hammers or axes"
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/lumber/oak"
+			id: "1124CE75F3E2D185"
+			tasks: [
+				{
+					count: 16L
+					id: "03B30A9D2B0588E6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:lumber"
+						}
+					}
+					title: "Lumber"
+					type: "item"
+				}
+				{
+					id: "379CADC2844CACE9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:planks"
+						}
+					}
+					title: "Planks"
+					type: "item"
+				}
+				{
+					id: "4C713C1D332CDA8F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:workbench"
+						}
+					}
+					title: "workbench"
+					type: "item"
+				}
+			]
+			title: "Lumber"
+			x: 41.19047619047619d
+			y: -2.2857142857142847d
+		}
+		{
+			dependencies: ["30C84DB4AB1BEBDB"]
+			description: [
+				"The first anvil is made out of stone. To make an anvil, find a block of raw igneous rock and use a hammer on the top. To harvest raw stone blocks, remove all adjacent blocks touching raw, unhardened stone."
+				"The world's ores and stone are detailed in your TFC Guide, and you can also see the igneous rocks in JEI if you search for ''$igneous''."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:rock/anvil/rhyolite"
+			id: "07DA482BC9E86FC2"
+			tasks: [{
+				id: "7B5520B5B113265F"
+				type: "checkmark"
+			}]
+			title: "Stone Anvil"
+			x: 45.84166666666666d
+			y: 1.694047619047609d
+		}
+		{
+			dependencies: ["2544BAE1DA34AFA7"]
+			description: ["In a pit made of rock or rock bricks (similar to a pit kiln), right click to place 7 charcoal. Use a firestarter to light the charcoal pile, turning it into a forge. You can use a forge filled with charcoal to heat materials, such as unfired pottery, vessels filled with ores, or unfired torches."]
+			hide_until_deps_visible: true
+			icon: "mekanism:block_charcoal"
+			id: "0C34F9F9503F5982"
+			tasks: [
+				{
+					count: 7L
+					id: "266492FED2E4AA06"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4E185D4646389BC5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:rock/raw"
+						}
+					}
+					title: "raw stones"
+					type: "item"
+				}
+			]
+			title: "Forge Charcoal"
+			x: 37.095238095238095d
+			y: -5.071428571428569d
+		}
+		{
+			dependencies: [
+				"2BC58239A8706187"
+				"0FC34418C3A532C4"
+			]
+			description: ["Hunt animals to harvest raw hides, which can be processed into leather. Soak a hide in limewater within a barrel. Place the soaked hide on a log block, then use a knife to scrape all of the hide."]
+			hide_until_deps_visible: true
+			icon: "tfc:medium_raw_hide"
+			id: "11D50560F468218E"
+			tasks: [
+				{
+					icon: "tfc:medium_raw_hide"
+					id: "59FE00EED0C20996"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:raw_hides"
+						}
+					}
+					title: "Raw hide"
+					type: "item"
+				}
+				{
+					icon: "tfc:medium_soaked_hide"
+					id: "12959004B0C8AF28"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:soaked_hides"
+						}
+					}
+					title: "Soaked hide"
+					type: "item"
+				}
+				{
+					icon: "tfc:medium_scraped_hide"
+					id: "4B00D2BE75CC49E9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:scraped_hides"
+						}
+					}
+					title: "Scraped hide"
+					type: "item"
+				}
+			]
+			title: "Hunting"
+			x: 31.339285714285715d
+			y: -5.964285714285705d
+		}
+		{
+			dependencies: ["1124CE75F3E2D185"]
+			description: ["Barrels are extremely useful for holding and transporting fluids."]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/barrel/oak"
+			id: "39F9D2F52D44E27C"
+			tasks: [{
+				id: "4AD0360A8EC781D6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:barrels"
+					}
+				}
+				title: "barrel"
+				type: "item"
+			}]
+			title: "Barrel"
+			x: 39.57738095238094d
+			y: -5.773809523809518d
+		}
+		{
+			dependencies: ["11D50560F468218E"]
+			description: ["To finish processing your hides, soak a scraped hide in a barrel of salt water for half a day. This prepared hide needs to soak in a barrel of tannin, made from select woods soaked in water. The tanned hide needs to be oiled, by stirring it in a mixing bowl filled with oil."]
+			hide_until_deps_visible: true
+			icon: "kubejs:hide_oiled_m"
+			id: "0AC4A7190BE1B5A6"
+			tasks: [
+				{
+					id: "063E8F8BDEEF580E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:prepared_hides"
+						}
+					}
+					title: "Any #tfc:prepared_hides"
+					type: "item"
+				}
+				{
+					id: "764422F5E8A1913F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:tanned_hides"
+						}
+					}
+					title: "Any #tfc:tanned_hides"
+					type: "item"
+				}
+				{
+					id: "39403A6282EE1563"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:oiled_hides"
+						}
+					}
+					title: "Any #tfc:oiled_hides"
+					type: "item"
+				}
+			]
+			title: "Etching Hide"
+			x: 31.339285714285715d
+			y: -7.464285714285705d
+		}
+		{
+			dependencies: ["0AC4A7190BE1B5A6"]
+			description: ["As you scraped the soaked hide before, scrape the oiled hide to turn it to leather. This will need to be cut into usable leather pieces in a sewing table."]
+			hide_until_deps_visible: true
+			icon: "minecraft:leather"
+			id: "05674F981D7FF5AB"
+			tasks: [
+				{
+					icon: "kubejs:hide_finish_m"
+					id: "191B48A3EC81ED24"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:finish_hides"
+						}
+					}
+					title: "Any #tfc:finish_hides"
+					type: "item"
+				}
+				{
+					id: "6E7FDBD2EE5C067F"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "Leather"
+			x: 31.339285714285715d
+			y: -8.964285714285705d
+		}
+		{
+			dependencies: ["6DD24365D4289F9E"]
+			description: ["Copper is the basis for many alloys, like the very useful bronze. Basic bronze, bismuth bronze and black bronze all make better tools and armors, and importantly, the bloomery."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/bronze"
+			}
+			id: "26515677B3118AEA"
+			tasks: [{
+				id: "4D2F0262455D2439"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/allbronze"
+					}
+				}
+				title: "Any #forge:ingots/allbronze"
+				type: "item"
+			}]
+			title: "Alloys"
+			x: 49.06547619047618d
+			y: 3.6130952380952337d
+		}
+		{
+			dependencies: ["1C968E0159A0C714"]
+			description: ["A stone anvil is very limited. To progress to forging better products with better metals, you'll need a metal anvil."]
+			hide_until_deps_visible: true
+			id: "78680C14017852A4"
+			tasks: [{
+				id: "765072098CC9B93E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/copper"
+				}
+				type: "item"
+			}]
+			x: 49.06547619047618d
+			y: 1.6130952380952337d
+		}
+		{
+			dependencies: [
+				"650BB600A046C4E9"
+				"00773DB20353D622"
+			]
+			description: ["Use a crucible to cast ingots and metal alloys faster than in vessels."]
+			hide_until_deps_visible: true
+			icon: "tfc:crucible"
+			id: "0A5504B2E07129CE"
+			tasks: [
+				{
+					count: 5L
+					id: "15126D839F15A42A"
+					item: "tfc:fire_clay"
+					type: "item"
+				}
+				{
+					id: "32E8169743A528FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_crucible"
+					}
+					type: "item"
+				}
+				{
+					id: "0011B10EDCBD83F9"
+					item: "tfc:crucible"
+					type: "item"
+				}
+			]
+			title: "Crucible"
+			x: 45.625d
+			y: 3.625d
+		}
+		{
+			dependencies: ["0A5504B2E07129CE"]
+			description: ["Casting channels connect a crucible and mold tables. Liquids in the crucible are poured by right clicking the channel. Mold tables hold molds, and when the liquid metal fills the mold and cools, a hopper under the mold table can draw out the solid item. With a large enough setup, you could pour a filled crucible to ingots with a single click."]
+			hide_until_deps_visible: true
+			icon: "tfcchannelcasting:mold_table"
+			id: "6DD24365D4289F9E"
+			tasks: [
+				{
+					id: "2A472583B87B7927"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfcchannelcasting:unfired_mold_table"
+					}
+					type: "item"
+				}
+				{
+					id: "6134F7DF6800E098"
+					item: "tfcchannelcasting:mold_table"
+					type: "item"
+				}
+				{
+					id: "01E4E53ACC9D2F70"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfcchannelcasting:unfired_channel"
+					}
+					type: "item"
+				}
+				{
+					id: "50D1DF5478CDD85A"
+					item: "tfcchannelcasting:channel"
+					type: "item"
+				}
+			]
+			title: "Mold Table"
+			x: 47.625d
+			y: 3.625d
+		}
+		{
+			dependencies: [
+				"26515677B3118AEA"
+				"55CF250954785D87"
+			]
+			description: [
+				"A bloomery is a multiblock structure where iron is smelted with coal to make a raw iron bloom. This complicated process will require studying the bloomery, "
+				""
+				"The bloomery consumes 1 Charcoal powder, and 100 mB of Cast Iron to produce one Bloom. After filling the bloomery with a combination of Charcoal and Ores/Pellets/Briquets of Iron light the bloomery block, and wait 15 hours for the bloomery to smelt. When the bloomery shuts off, it leaves behind a Bloom block. This contains Raw Iron Blooms which can be obtained by mining the Bloom repeatedly with a pickaxe."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:bloomery"
+			id: "4CFDC0DB94D96A9D"
+			tasks: [
+				{
+					count: 8L
+					id: "4D3BAB86FDE23A1B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:double_sheets/any_bronze"
+						}
+					}
+					title: "Any #forge:double_sheets/any_bronze"
+					type: "item"
+				}
+				{
+					id: "27D56AB87E5C94D0"
+					item: "tfc:bloomery"
+					type: "item"
+				}
+				{
+					id: "21F498E87C815DE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:raw_iron_bloom"
+					}
+					type: "item"
+				}
+			]
+			title: "Bloomery"
+			x: 51.06547619047618d
+			y: 3.6130952380952337d
+		}
+		{
+			dependencies: [
+				"55CF250954785D87"
+				"18477940F29BD7F5"
+			]
+			description: ["While a bronze anvil is good, progressing to steel requires an iron anvil."]
+			hide_until_deps_visible: true
+			id: "1FEDE6939702C8AB"
+			tasks: [{
+				id: "13FAC8B2F8B0CE1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/wrought_iron"
+				}
+				type: "item"
+			}]
+			x: 53.56547619047618d
+			y: 1.6130952380952337d
+		}
+		{
+			dependencies: [
+				"6DD24365D4289F9E"
+				"0A5504B2E07129CE"
+			]
+			description: ["Make an ingot with andesite alloy. It's time for kinetic power."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "create:andesite_alloy"
+			}
+			id: "751EF81B24F71A37"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Unlock the next stage - Kinetic Power"
+			tasks: [
+				{
+					id: "713BE9CDD06C650D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "6F874B946713E028"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/brass"
+					}
+					type: "item"
+				}
+			]
+			title: "Andesite Alloy"
+			x: 47.125d
+			y: 6.375d
+		}
+		{
+			dependencies: [
+				"78680C14017852A4"
+				"26515677B3118AEA"
+			]
+			description: ["Copper is too soft a material for working bronze and iron."]
+			hide_until_deps_visible: true
+			id: "55CF250954785D87"
+			tasks: [{
+				id: "169E71A9A854AD04"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:bronze_anvils"
+					}
+				}
+				title: "Any #tfc:bronze_anvils"
+				type: "item"
+			}]
+			title: "Bronze Anvil"
+			x: 51.06547619047618d
+			y: 1.6130952380952337d
+		}
+		{
+			dependencies: ["4CFDC0DB94D96A9D"]
+			description: ["It's time to justify the bloomery, and finally upgrade to iron."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/wrought_iron"
+			}
+			id: "18477940F29BD7F5"
+			tasks: [
+				{
+					id: "4ED6254CA05ED5C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:refined_iron_bloom"
+					}
+					type: "item"
+				}
+				{
+					id: "03243C5B8FE5D963"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/wrought_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "Wrought Iron"
+			x: 53.56547619047618d
+			y: 3.6130952380952337d
+		}
+		{
+			dependencies: ["4B6471BDD35D04F0"]
+			description: ["A blast furnace is a large multiblock structure that steps you into the age of steel. Like the bloomery, you will need to study the TFC Guide to build it."]
+			hide_until_deps_visible: true
+			icon: "tfc:blast_furnace"
+			id: "2222CCF6A21B0E45"
+			tasks: [
+				{
+					id: "00DBE932B58B8990"
+					item: "tfc:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "7F8E112CE94273CB"
+					item: "tfc:bellows"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0D6B901A7AE0EF56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/sheet/wrought_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "085C5719F7086D4B"
+					item: "tfc:fire_bricks"
+					type: "item"
+				}
+			]
+			x: 56.494047619047606d
+			y: 3.6309523809523725d
+		}
+		{
+			dependencies: ["18477940F29BD7F5"]
+			description: ["Work double ingots into wrought iron sheets. Metallurgy requires patience and long work at the anvil."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/sheet/wrought_iron"
+			}
+			id: "4B6471BDD35D04F0"
+			tasks: [
+				{
+					id: "12B9A5EA8CC036AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/double_ingot/wrought_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E32A4F8268235A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/sheet/wrought_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "Wrought Iron Sheet"
+			x: 55.136904761904745d
+			y: 3.5952380952380807d
+		}
+		{
+			dependencies: [
+				"2222CCF6A21B0E45"
+				"1FEDE6939702C8AB"
+			]
+			description: ["The blast furnace produces pig iron, which can be refined into steel. The TFC Guide will tell you how it's done."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "2C1F40C6E45C5388"
+			shape: "gear"
+			subtitle: "Unlock the next stage - Steel"
+			tasks: [
+				{
+					id: "67AADDC3A745B097"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/pig_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "1A0F567A20CEAF7C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/high_carbon_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "32FB0EC29C679525"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/steel"
+					}
+					type: "item"
+				}
+			]
+			title: "Steel"
+			x: 56.494047619047606d
+			y: 1.6309523809523725d
+		}
+		{
+			dependencies: ["0C34F9F9503F5982"]
+			description: ["A bellows blowing over a forge will raise its temperature to brilliant white. Pottery, and some metals and alloys require higher temperatures."]
+			hide_until_deps_visible: true
+			id: "076B015F607B70B1"
+			tasks: [{
+				id: "7C13BFA31FFD9B8B"
+				item: "tfc:bellows"
+				type: "item"
+			}]
+			x: 38.38095238095238d
+			y: -5.035714285714285d
+		}
+		{
+			dependencies: ["11D50560F468218E"]
+			dependency_requirement: "one_started"
+			description: ["You can make an uncomfortable, basic bed by placing a large haw hide (from cows, bears, etc.) on the top of two thatch blocks."]
+			hide_until_deps_visible: true
+			icon: "tfc:thatch_bed"
+			id: "4BB590DEC29482B7"
+			tasks: [
+				{
+					count: 2L
+					id: "448948121F1C35A5"
+					item: "tfc:thatch"
+					type: "item"
+				}
+				{
+					id: "0652C99336496E46"
+					item: "tfc:large_raw_hide"
+					type: "item"
+				}
+			]
+			title: "Thatch Bed"
+			x: 32.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DB43046BD0FCBD6"]
+			dependency_requirement: "one_started"
+			description: [
+				"The oven is an excellent way to cook various food. Oven-baked bread is a more efficient way to use grains to make sandwiches than flatbread."
+				""
+				"Use a peel to avoid taking damage from the heat."
+			]
+			hide_until_deps_visible: true
+			icon: "firmalife:cured_oven_bottom"
+			id: "7C3122B497816D3A"
+			tasks: [
+				{
+					id: "733A1CB37192A772"
+					item: "firmalife:oven_bottom"
+					type: "item"
+				}
+				{
+					id: "63D6C4F5EB8FAC32"
+					item: "firmalife:oven_top"
+					type: "item"
+				}
+				{
+					id: "08D3325FBD23BFC3"
+					item: "firmalife:oven_chimney"
+					type: "item"
+				}
+				{
+					id: "110E2F9205F6B1F8"
+					item: "firmalife:peel"
+					type: "item"
+				}
+			]
+			title: "Oven"
+			x: 34.125d
+			y: 1.125d
+		}
+		{
+			dependencies: ["1124CE75F3E2D185"]
+			description: ["Bees produce beeswax, which is used to seal materials, which is especially needed to build the cellar and greenhouse. Bees can also bring nutrients to greenhouse plants and produce honey."]
+			hide_until_deps_visible: true
+			icon: "firmalife:beehive"
+			id: "4285296DE20480FA"
+			tasks: [
+				{
+					id: "5674FF595C9A19E4"
+					item: "firmalife:beehive"
+					type: "item"
+				}
+				{
+					id: "4EE40BA70046D550"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "firmalife:beehive_frame"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3BD4B4EAA68E6120"
+					item: "firmalife:beeswax"
+					type: "item"
+				}
+			]
+			title: "Bees!"
+			x: 42.625d
+			y: -6.154761904761905d
+		}
+		{
+			dependencies: ["4285296DE20480FA"]
+			description: [
+				"The cellar is a multiblock building for storing food. Certain types of food can be put inside food shelves or hangers to preserve the contents even longer longer than in vessels. Cheese wheels can be aged inside the cellar."
+				"Your TFC Guide explains cellars in the Firmalife section."
+			]
+			icon: "firmalife:sealed_bricks"
+			id: "10480FD6F0EE8181"
+			tasks: [
+				{
+					count: 24L
+					id: "52EFCD4150445184"
+					item: "firmalife:sealed_bricks"
+					type: "item"
+				}
+				{
+					id: "6FF54BD1A6ABA4E4"
+					item: "firmalife:climate_station"
+					type: "item"
+				}
+				{
+					id: "6E97DBEC8ABEA0E8"
+					item: "firmalife:sealed_door"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "235F37DE81D23A1E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:food_shelves"
+						}
+					}
+					title: "shelves"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "50F5DE4FABF8F0DB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:hangers"
+						}
+					}
+					title: "hangers"
+					type: "item"
+				}
+			]
+			title: "Cellar"
+			x: 42.65476190476189d
+			y: -7.857142857142854d
+		}
+		{
+			dependencies: ["35A0FD7BE9CC7EFF"]
+			description: [
+				"A thrown seed ball plants butterfly grass on bare grass and dirt blocks. From this grass, a variety of herbs can spawn nearby. Some of these are used to make delicious food."
+				""
+				"Your TFC Guide explains herbs and spices in the Firmalife section."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7C3BCA672F1D2317"
+			tasks: [{
+				id: "592554AB09EE018E"
+				item: "firmalife:seed_ball"
+				type: "item"
+			}]
+			title: "Herbs and Spices"
+			x: 30.625d
+			y: 4.625d
+		}
+		{
+			dependencies: [
+				"4285296DE20480FA"
+				"6BB8281464F3DD68"
+			]
+			description: [
+				"Planters only work inside a greenhouse. You need a watering can to water the plants."
+				""
+				"Plants growing in planters have fertilization needs just as plants growing in farmland."
+				"The crops entry in your TFC Guide gives the nutrient needs (nitrogen, phosphorus, and potassium, or N, P, and K) of each crop."
+			]
+			hide_until_deps_visible: true
+			icon: "firmalife:large_planter"
+			id: "0F916A956F0265FC"
+			tasks: [
+				{
+					id: "4A336F73C959A627"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "firmalife:large_planter"
+								}
+								{
+									Count: 1b
+									id: "firmalife:quad_planter"
+								}
+								{
+									Count: 1b
+									id: "firmalife:bonsai_planter"
+								}
+								{
+									Count: 1b
+									id: "firmalife:hanging_planter"
+								}
+								{
+									Count: 1b
+									id: "firmalife:trellis_planter"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72AC4C82E982CEEC"
+					item: {
+						Count: 1
+						id: "firmalife:watering_can"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Planters for Greenhouse"
+			x: 44.422619047619044d
+			y: -7.851190476190489d
+		}
+		{
+			dependencies: ["4285296DE20480FA"]
+			description: [
+				"A greenhouse is a multiblock building that protects your growing plants from inhospitable conditions. It has other benefits, like producing seeds and propagating new bushes. Better tiers of greenhouse allow more species to be grown."
+				""
+				"Your TFC Guide explains greenhouses in the Firmalife section."
+			]
+			hide_until_deps_visible: true
+			icon: "firmalife:treated_wood_greenhouse_wall"
+			id: "6BB8281464F3DD68"
+			tasks: [
+				{
+					count: 32L
+					id: "1E35B20C2B72ACDD"
+					item: "firmalife:treated_wood_greenhouse_wall"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "676DB3578395B63C"
+					item: "firmalife:treated_wood_greenhouse_roof"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5BB199F2DA3009A6"
+					item: "firmalife:treated_wood_greenhouse_roof_top"
+					type: "item"
+				}
+				{
+					id: "1FD38E7F777AAD8B"
+					item: "firmalife:treated_wood_greenhouse_door"
+					type: "item"
+				}
+				{
+					id: "70AEA922A396D1E5"
+					item: "firmalife:climate_station"
+					type: "item"
+				}
+			]
+			title: "Greenhouse"
+			x: 44.422619047619044d
+			y: -6.351190476190489d
+		}
+		{
+			dependencies: ["52D289D761CD3327"]
+			description: [
+				"Soup and salad are excellent ways to turn early crops into nutritious meals."
+				"Soup is made by boiling water in a pot placed on a firepit. The pot is filled with vegetables and meats."
+				"Salad can be mixed by Shift-right clicking with a bowl in hand."
+				""
+				"the pot now allows you to purify water - use simple recipes for herbal water, boiling water or purified water"
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:pot"
+			id: "47E0A369AD9607DF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "20D2805C849FD44B"
+					item: "tfc:ceramic/bowl"
+					type: "item"
+				}
+				{
+					id: "456F77381506B734"
+					item: "tfc:ceramic/pot"
+					type: "item"
+				}
+				{
+					id: "05256E857A8D6583"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:salads"
+						}
+					}
+					title: "Any #tfc:salads"
+					type: "item"
+				}
+				{
+					id: "1C144A4808AB44D2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:soups"
+						}
+					}
+					title: "Any #tfc:soups"
+					type: "item"
+				}
+			]
+			title: "More Cookware"
+			x: 37.625d
+			y: 1.625d
+		}
+		{
+			dependencies: ["39F9D2F52D44E27C"]
+			description: ["Firmalife's cheesemaking requires rennet and cheesecloth for making curd, no milk vinegar required. Curd is then turned into versatile cheese wheels. No sandwich is complete without a slice of cheese!"]
+			hide_until_deps_visible: true
+			icon: "ad_astra:cheese"
+			id: "782535AE2AEC01E0"
+			tasks: [
+				{
+					id: "4F53D23A6A0F2136"
+					item: "firmalife:cheesecloth"
+					type: "item"
+				}
+				{
+					id: "2AEA1D791D27BF60"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:food/diary/curd"
+						}
+					}
+					title: "Any #forge:food/diary/curd"
+					type: "item"
+				}
+				{
+					id: "6095E5D359659717"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:cheese_wheels"
+						}
+					}
+					title: "cheese wheels"
+					type: "item"
+				}
+			]
+			title: "Cheesemaking"
+			x: 38.595238095238095d
+			y: -8.07142857142857d
+		}
+		{
+			dependencies: ["1B85F7093AC663D7"]
+			description: [
+				"Composting is a way to make fertilizer from an equal mix of green and brown organic materials, whether rotten or fresh."
+				"The type of organics you'll need for fertilizer can be found with a JEI search for ''$green'' and ''$brown''."
+				""
+				"Your TFC Guide also has important information on composters."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "35A0FD7BE9CC7EFF"
+			tasks: [{
+				id: "19AEFC38226A4406"
+				item: "tfc:composter"
+				type: "item"
+			}]
+			x: 30.625d
+			y: 3.125d
+		}
+		{
+			dependencies: ["2C1F40C6E45C5388"]
+			description: ["Working steel ingots into tools and items requires an anvil made of steel."]
+			hide_until_deps_visible: true
+			id: "2DC7464E06328310"
+			tasks: [{
+				id: "6BC481A89A1ADB9C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/steel"
+				}
+				type: "item"
+			}]
+			x: 57.994047619047606d
+			y: 1.6309523809523725d
+		}
+		{
+			dependencies: ["78680C14017852A4"]
+			description: [
+				"Your first protective armor will likely be made of copper, worked on an anvil made of copper or one of the harder metals."
+				""
+				"A skilled smith strives to forge metal tool or armor piece with as few hits as possible, resulting in items of higher quality."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/helmet/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B2D76709D5282BA"
+			tasks: [
+				{
+					id: "01BB58FE0D1DF9EB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:shields"
+						}
+					}
+					title: "Any #tfc:shields"
+					type: "item"
+				}
+				{
+					id: "0B97C379BF65DC9C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:mob_head_armor"
+						}
+					}
+					title: "Any #tfc:mob_head_armor"
+					type: "item"
+				}
+			]
+			title: "Shield"
+			x: 49.817857142857115d
+			y: 0.10595238095239523d
+		}
+		{
+			dependencies: ["55CF250954785D87"]
+			description: ["Bronze is a harder material, and makes for more durable items."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/chestplate/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46B21F5A218AF0B6"
+			tasks: [{
+				id: "0AA2BE9B17DEB13F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:mob_chest_armor"
+					}
+				}
+				title: "Any #tfc:mob_chest_armor"
+				type: "item"
+			}]
+			title: "Armor"
+			x: 51.06547619047618d
+			y: 0.1130952380952337d
+		}
+		{
+			dependencies: ["1FEDE6939702C8AB"]
+			description: ["Iron is even more durable than bronze, and so tools and armor made of iron are longer-lasting."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/greaves/wrought_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C5E4EC4557B273F"
+			tasks: [{
+				id: "08CAB69FAB41B243"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:mob_leg_armor"
+					}
+				}
+				title: "Any #tfc:mob_leg_armor"
+				type: "item"
+			}]
+			title: "Leggings"
+			x: 53.56547619047618d
+			y: 0.1130952380952337d
+		}
+		{
+			dependencies: ["2DC7464E06328310"]
+			description: ["Steel items are of a superior strength."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/boots/steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D77D1891FB8D2C8"
+			tasks: [{
+				id: "2B5FC66CCD7000AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/boots/steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Boots"
+			x: 57.994047619047606d
+			y: 0.1309523809523725d
+		}
+		{
+			dependencies: ["0CD0D07D71FB22FB"]
+			description: [
+				"Mineral Prospector tools help you find minerals more quickly and efficiently."
+				"use it to search for graphite kaolite it will also show you the location of gemstones and other minerals gypsum, coals, saltpeter"
+				""
+				"the tool has a wide search spectrum and is not very precise, but it will still be helpful than searching blindly"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "precisionprospecting:metal/mineral_prospector/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2EA7125A4086E171"
+			tasks: [
+				{
+					id: "75CD28F9CCB7FBF7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "precisionprospecting:mineral_prospectors"
+						}
+					}
+					title: "mineral prospector"
+					type: "item"
+				}
+				{
+					id: "241594CB984E2B91"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "precisionprospecting:prospector_hammers"
+						}
+					}
+					title: "prospector hammer"
+					type: "item"
+				}
+				{
+					id: "06BD1BFB30108A79"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "precisionprospecting:prospector_drills"
+						}
+					}
+					title: "prospector drill"
+					type: "item"
+				}
+			]
+			title: "Prospectors"
+			x: 41.125d
+			y: 5.125d
+		}
+		{
+			dependencies: ["7C3122B497816D3A"]
+			description: ["Delicious and fragrant bread can be cut into slices to maximize your grain's nutrition."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "pneumaticcraft:sourdough_bread"
+			}
+			id: "333CDC2BBF41A474"
+			tasks: [{
+				id: "4B44B0E9C162EE7A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:foods/breads"
+					}
+				}
+				title: "bread"
+				type: "item"
+			}]
+			title: "Bread"
+			x: 34.125d
+			y: 2.625d
+		}
+		{
+			dependencies: ["2DC7464E06328310"]
+			description: ["Advanced anvils unlock new items, armors, and tools."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/anvil/black_steel"
+			}
+			id: "78B1F97CEB7AAD71"
+			subtitle: "Black is black"
+			tasks: [{
+				id: "2CF5552B2E4BCF76"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/black_steel"
+				}
+				type: "item"
+			}]
+			x: 59.386904761904745d
+			y: 1.6666666666666572d
+		}
+		{
+			dependencies: ["78B1F97CEB7AAD71"]
+			description: ["Blue is better"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/anvil/blue_steel"
+			}
+			id: "29C25FA36FA95BDB"
+			tasks: [{
+				id: "5F80CDFBEDFFA99D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/blue_steel"
+				}
+				type: "item"
+			}]
+			x: 60.886904761904745d
+			y: 0.6666666666666572d
+		}
+		{
+			dependencies: ["78B1F97CEB7AAD71"]
+			description: ["A red steel anvil produces amazingly useful items and armors."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/anvil/red_steel"
+			}
+			id: "15E5F6C4023AD269"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/red_steel"
+				}
+				id: "13F6BD95027CB59D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/red_steel"
+				}
+				type: "item"
+			}]
+			x: 60.886904761904745d
+			y: 2.666666666666657d
+		}
+		{
+			dependencies: ["2BC58239A8706187"]
+			description: ["Tallow is made by boiling blubber or rotten flesh in a pot filled with water. Tallow is useful, especially as lantern fuel."]
+			hide_until_deps_visible: true
+			icon: "tfc:blubber"
+			id: "7DE2F9F13666E668"
+			tasks: [{
+				id: "65DB7A312411FF43"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tallow_source"
+					}
+				}
+				title: "Any #forge:tallow_source"
+				type: "item"
+			}]
+			title: "Tallow"
+			x: 28.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7DE2F9F13666E668"]
+			description: ["Lamps look especially good on top of fences, support beams, and wallmounts, or when hanging from the ceiling. A lamp needs liquid fuel like tallow or olive water. It can be turned off with a Shift+right click to save on fuel."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/lamp/bronze"
+			}
+			id: "0F0479D6735593BF"
+			tasks: [{
+				id: "5DE8D08730EBA9AD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:lamps"
+					}
+				}
+				title: "Any #tfc:lamps"
+				type: "item"
+			}]
+			title: "Lantern"
+			x: 28.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["037F184C26A10FC1"]
+			description: ["A cast iron grill is placed on a campfire. You can grill two items at a time on this grill, or five at a time on a wrought iron grill. Grilled food lasts slightly longer than if cooked without a grill."]
+			hide_until_deps_visible: true
+			icon: "tfc:grill"
+			id: "3799FC2F8A137AFC"
+			tasks: [{
+				id: "0DB1B9050191DA2F"
+				item: "tfc:grill"
+				type: "item"
+			}]
+			title: "Cast Iron Grill"
+			x: 34.125d
+			y: -7.375d
+		}
+		{
+			dependencies: ["05674F981D7FF5AB"]
+			description: ["A sewing table, sewing needle, and shears are used to craft clothing, tools, and materials out of cloth and leather."]
+			hide_until_deps_visible: true
+			icon: "sewingkit:storing_sewing_station"
+			id: "4A3435AC1ED7D541"
+			tasks: [
+				{
+					id: "541C8B7ED48DD668"
+					item: "sewingkit:sewing_station"
+					type: "item"
+				}
+				{
+					id: "08B4AA34F775EFD0"
+					item: {
+						Count: 1
+						id: "sewingkit:bone_sewing_needle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D9380985C49D54E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:shears"
+						}
+					}
+					title: "Any #forge:shears"
+					type: "item"
+				}
+			]
+			title: "Tailor Kit"
+			x: 31.339285714285715d
+			y: -10.464285714285705d
+		}
+		{
+			dependencies: ["6E4AFEEE95DF99A8"]
+			description: ["With grains and seeds you can domesticate many animals (alpacas, chickens, cows, donkeys, ducks, goats, horses, mules, musk oxen, pigs, quails, sheep, and yaks). Domesticating animals unlocks access to eggs, milk, wool, and the products of the butchery system."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "butchersdelight:deadpig"
+			}
+			id: "08C3D1D2B28A8D8B"
+			tasks: [{
+				id: "4AB6CF021590AABB"
+				type: "checkmark"
+			}]
+			title: "Livestock"
+			x: 24.589285714285715d
+			y: 1.6785714285714306d
+		}
+		{
+			dependencies: ["08C3D1D2B28A8D8B"]
+			description: ["If you hang a carcass on a ceiling-mounted meat hook first, you will get far more from the animal than if you use a cleaver on a carcass on the ground."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 5796000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "butchersdelightfoods:sheepshank"
+			}
+			id: "2EFCD0AF790F7AB8"
+			tasks: [
+				{
+					icon: "tfc:small_soaked_hide"
+					id: "676E2911F2CFA0C2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:raw_hides"
+						}
+					}
+					title: "Raw hide"
+					type: "item"
+				}
+				{
+					id: "72CE42089FA43A3B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 5796000L
+								traits: [ ]
+							}
+						}
+						id: "butchersdelightfoods:porkloin"
+					}
+					type: "item"
+				}
+				{
+					id: "71FDE79147F32902"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 5796000L
+								traits: [ ]
+							}
+						}
+						id: "butchersdelightfoods:porkribs"
+					}
+					type: "item"
+				}
+				{
+					id: "1817B356C9793EA7"
+					item: {
+						Count: 1
+						id: "butchersdelight:cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38C47BAA85C0982A"
+					item: "butchersdelight:hook"
+					type: "item"
+				}
+			]
+			title: "More Meats"
+			x: 23.089285714285715d
+			y: 0.6785714285714306d
+		}
+		{
+			dependencies: ["1124CE75F3E2D185"]
+			description: [
+				"The sluice is an essiential early device for obtaining metals. Gravel and deposit blocks are automatically washed in a sluice like they would be in an empty pan. A sluice also washes rocky chunks and dirty dusts obtained in the refining of metallic ores."
+				""
+				"Your TFC Guide explains how to properly set up a sluice."
+			]
+			hide_until_deps_visible: true
+			id: "11C2EB0EE6FD6E2D"
+			tasks: [{
+				id: "72E0B95FFA0C80FC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:sluices"
+					}
+				}
+				title: "sluice"
+				type: "item"
+			}]
+			title: "Sluice"
+			x: 45.07738095238095d
+			y: -2.3392857142857295d
+		}
+		{
+			dependencies: ["037F184C26A10FC1"]
+			description: [
+				"Making a torch starts by crafting an unlit torch out of sticks and fibers. You can cook unlit torches in a firepit or forge to turn them into torches."
+				""
+				"Alternatively, you can use a torch, firestarter, or flint and steel on a placed unlit torch to turn it back into a torch."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:torch"
+			id: "1F6624B6C5A9FB61"
+			tasks: [{
+				id: "7CEAFB09D265356E"
+				item: "tfc:torch"
+				type: "item"
+			}]
+			title: "Torches"
+			x: 35.625d
+			y: -6.375d
+		}
+		{
+			dependencies: ["73296BC5B8AD845D"]
+			description: [
+				"Be on the lookout for wild crops as you explore. These may only yield their produce and seeds once, but you can plant the seeds on farmland to grow new crops."
+				""
+				"{image:tfc:textures/block/crop/wheat_6.png width:20 height:20 align:1}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:wild_crop/oat"
+			id: "1B85F7093AC663D7"
+			tasks: [{
+				id: "128C84F898B8AFBF"
+				type: "checkmark"
+			}]
+			title: "Wild Crops"
+			x: 30.625d
+			y: 1.625d
+		}
+		{
+			dependencies: ["2BC58239A8706187"]
+			description: ["Fish are a good source of protein when land animals cannot be found. With your javelin in hand, brave the rivers for piranha, or the oceans for lobster."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/cod"
+			}
+			id: "3E27CBA24A6D9B18"
+			tasks: [{
+				id: "5F656266D62D9D35"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+				title: "Any #minecraft:fishes"
+				type: "item"
+			}]
+			title: "Fish"
+			x: 28.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52D289D761CD3327"]
+			description: ["A jug is the first vessel in which you can carry water for drinking."]
+			hide_until_deps_visible: true
+			icon: "tfc:ceramic/jug"
+			id: "6008C5503E02A997"
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0CD17BA4D78AAF0E"
+					type: "checkmark"
+				}
+				{
+					id: "153C50EFC586AA54"
+					item: "tfc:ceramic/jug"
+					type: "item"
+				}
+			]
+			title: "Drinking Water"
+			x: 36.31547619047619d
+			y: 0.4940476190476204d
+		}
+		{
+			dependencies: ["70FFB7289674431E"]
+			description: ["use Pan and dirt sow new seeds and grow new crops"]
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:seed"
+			id: "39820BDE846B569C"
+			size: 0.75d
+			tasks: [
+				{
+					id: "780F4559B65A6046"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+				{
+					id: "4D7B013FB6B6E4E6"
+					item: "tfc:seeds/potato"
+					type: "item"
+				}
+				{
+					id: "6F3C6DC0B7F1A80C"
+					item: "tfc:seeds/jute"
+					type: "item"
+				}
+				{
+					id: "6645449940016963"
+					item: "tfc:seeds/beet"
+					type: "item"
+				}
+				{
+					id: "12A428237693F09A"
+					item: "textile:seeds/cotton"
+					type: "item"
+				}
+			]
+			title: "Seeds"
+			x: 38.69047619047619d
+			y: 0.7142857142857153d
+		}
+		{
+			dependencies: ["3E27CBA24A6D9B18"]
+			description: ["The fishing rod can be useful for pulling creatures and corpses toward you."]
+			hide_until_deps_visible: true
+			id: "0AA3B337BB87678D"
+			tasks: [{
+				id: "4640082DBB79113B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:fishing_rods"
+					}
+				}
+				title: "Any #forge:fishing_rods"
+				type: "item"
+			}]
+			title: "Fishing"
+			x: 27.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B85F7093AC663D7"]
+			description: [
+				"Create farms to stock up on food for the winter."
+				"{image:tfc:textures/block/crop/wheat_6.png width:20 height:20 align:1}"
+				"Use a hoe on the surface of a dirt block to plow it into farmland. On this, you can plant the seeds you've collected from sieving and from wild crops."
+				"You can add fertilizers to farmland (nitrogen, phosphorus, and potassium, or N, P, and K) to increase the yield of your crops."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:wild_crop/wheat"
+			id: "6E4AFEEE95DF99A8"
+			tasks: [
+				{
+					id: "50BCE0B85F3BFCD4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:seeds"
+						}
+					}
+					title: "seeds"
+					type: "item"
+				}
+				{
+					id: "0C5595FEC913C4D6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:foods/grains"
+						}
+					}
+					title: "grains"
+					type: "item"
+				}
+			]
+			title: "Farm"
+			x: 26.589285714285715d
+			y: 1.6785714285714306d
+		}
+		{
+			dependencies: ["6008C5503E02A997"]
+			description: [
+				"Use charcoal dust to purify water"
+				""
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "firmalife:watering_can"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52CB014433AB0FB1"
+			size: 0.75d
+			tasks: [{
+				id: "47EA2F9C8654E50E"
+				item: "tfc:powder/charcoal"
+				type: "item"
+			}]
+			title: "Purified water"
+			x: 36.31547619047619d
+			y: 1.6190476190476204d
+		}
+		{
+			dependencies: ["1124CE75F3E2D185"]
+			description: [
+				"A toolrack allows you to hang and store your tools."
+				""
+				"See also other advanced tool racks, self potions, and book shelfs"
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/planks/pine_tool_rack"
+			id: "32DCF95585240FAB"
+			size: 1.0d
+			tasks: [{
+				id: "3438DEC341C204CA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:tool_racks"
+					}
+				}
+				title: "tool rack"
+				type: "item"
+			}]
+			title: "Tool Rack"
+			x: 39.582142857142856d
+			y: -3.615476190476201d
+		}
+		{
+			dependencies: ["08C3D1D2B28A8D8B"]
+			description: ["A comesticated female cow, goat, or yak will let you use a bucket on her to harvest milk."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:milk_bucket"
+			id: "5C53DDA65B523AC4"
+			tasks: [{
+				id: "755170614BB5AE47"
+				type: "checkmark"
+			}]
+			title: "Milk"
+			x: 23.089285714285715d
+			y: 1.6785714285714306d
+		}
+		{
+			dependencies: ["08C3D1D2B28A8D8B"]
+			description: ["Your birds must have nest boxes to lay eggs."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:egg": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:food": {
+						creationDate: 342000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:egg"
+				tag: { }
+			}
+			id: "59400C3A5CFA2257"
+			tasks: [
+				{
+					id: "75CF08ADFAD43024"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:egg": { }
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "minecraft:egg"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "609E039323F44FCD"
+					item: "tfc:nest_box"
+					type: "item"
+				}
+			]
+			title: "Eggs"
+			x: 23.089285714285715d
+			y: 2.6785714285714306d
+		}
+		{
+			dependencies: ["08C3D1D2B28A8D8B"]
+			description: [
+				"Domesticated alpacas, musk oxen, and sheep produce wool that you can harvest by using shears on the animal."
+				""
+				"Wool yarn can be produced from the raw wool using a spindle."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:wool"
+			id: "0DF1D3229BDA0C01"
+			tasks: [
+				{
+					id: "367E9CFE2B9F67E5"
+					item: "tfc:wool"
+					type: "item"
+				}
+				{
+					id: "7C8BD0B33264DD3F"
+					item: {
+						Count: 1
+						id: "tfc:spindle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70B472ABC9DEDE2F"
+					item: "tfc:wool_yarn"
+					type: "item"
+				}
+				{
+					id: "5CC7788F83795987"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:shears"
+						}
+					}
+					title: "Any #forge:shears"
+					type: "item"
+				}
+			]
+			title: "Wool"
+			x: 23.089285714285715d
+			y: 3.6785714285714306d
+		}
+		{
+			dependencies: ["08C3D1D2B28A8D8B"]
+			description: ["Equines are useful animals for transportation. A domesticated donkey or a mule can be fitted with a chest or barrel, and a horse or a mule can be fitted with a saddle for riding."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:saddle"
+			id: "3EB671D6CFA2DABF"
+			tasks: [{
+				id: "25B4FD63E7614B2A"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Horse Riding"
+			x: 23.089285714285715d
+			y: -0.3214285714285694d
+		}
+		{
+			dependencies: ["2DBF3055A06275F6"]
+			description: [
+				"Mud bricks are a simple and available building material."
+				""
+				"Lowlands provide a huge supply of mud and grass, perfect for making mud bricks. In other biomes, you can craft a bucket of water and dirt blocks together to make your own mud."
+				""
+				"Place the wet mud bricks on the ground to dry them out. You can craft mud brick blocks using dried mud bricks."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:mud_bricks/silt"
+			id: "479A5B911B11F7DE"
+			size: 0.85d
+			tasks: [
+				{
+					id: "6D2C92A2690C0305"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:mud"
+						}
+					}
+					title: "mud"
+					type: "item"
+				}
+				{
+					id: "2DA380A2E13272DE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:mud_bricks"
+						}
+					}
+					title: "mud brick"
+					type: "item"
+				}
+			]
+			title: "First Materials"
+			x: 32.2d
+			y: 0.9749999999999996d
+		}
+		{
+			dependencies: ["333CDC2BBF41A474"]
+			description: ["Sandwiches are a meal made using flatbread or bread, and any combination of cheeses, cooked meat, and vegetables."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -2L
+						foodData: {
+							dairy: 0.0f
+							decay: 0.0f
+							food: 0
+							fruit: 0.0f
+							grain: 0.0f
+							meat: 0.0f
+							sat: 0.0f
+							veg: 0.0f
+							water: 0.0f
+						}
+						ingredients: [ ]
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/barley_bread_sandwich"
+			}
+			id: "0805DD141158FB98"
+			tasks: [{
+				id: "3AC76FEB971CF2EF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:sandwiches"
+					}
+				}
+				title: "Any #tfc:sandwiches"
+				type: "item"
+			}]
+			title: "Sandwiches"
+			x: 34.125d
+			y: 4.625d
+		}
+		{
+			dependencies: ["0D9AB19AC9858CD5"]
+			description: [
+				"Place the log on the ground and then remove the bark from the tree (RCM axe). Then Strike with the axe to create supports.   When mining and extracting underground minerals, it will be important to support the ceilings with beams. Support beams can be used to make a simple multiblock structure. If properly constructed, blocks within range of the structure's horizontal beam will not be affected by gravity and will not cause a cave-in."
+				""
+				"In the Advanced Mechanics section, the TFC Guide fully explains the use of support beams."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/support/oak"
+			id: "33DCE04D03E2B0E2"
+			tasks: [{
+				count: 10L
+				id: "74ADB2F0526A79B8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:support_beams"
+					}
+				}
+				title: "beams"
+				type: "item"
+			}]
+			title: "Support Beams"
+			x: 35.625d
+			y: -2.375d
+		}
+		{
+			dependencies: ["39820BDE846B569C"]
+			description: ["From plant fibers you can create leads, burlap cloth, and rope."]
+			hide_until_deps_visible: true
+			icon: "tfc:jute_fiber"
+			id: "15D5D5E7100231B9"
+			size: 0.75d
+			tasks: [
+				{
+					id: "5CD700D4138AE4F7"
+					item: "supplementaries:rope"
+					type: "item"
+				}
+				{
+					id: "3BD750F3E56167D7"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "55318101ADE96FC1"
+					item: "tfc:burlap_cloth"
+					type: "item"
+				}
+			]
+			title: "Jute"
+			x: 38.69047619047619d
+			y: 1.8392857142857153d
+		}
+		{
+			dependencies: ["47E0A369AD9607DF"]
+			description: [
+				"Create a metal cooking pot for making richer dishes."
+				""
+				"Place the cooking pot on top of a firepit or oven to provide the pot with heat."
+			]
+			hide_until_deps_visible: true
+			icon: "farmersdelight:cooking_pot"
+			id: "7D5D736E510313F1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "03F5AE8CDED8F120"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "703955551A1705C9"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Farmer's Delight"
+			x: 38.625d
+			y: 3.625d
+		}
+		{
+			dependencies: ["47E0A369AD9607DF"]
+			description: [
+				"Coffee bushes can be found in the Nether in basalt biomes."
+				""
+				"You'll find tea seeds by processing dirt in the sifter. The longer the tea bush grows, the more varieties of tea leaves you can pick, from green to black."
+				""
+				"Using the kettle, you can boil varieties of coffee and tea."
+			]
+			hide_until_deps_visible: true
+			icon: "farmersrespite:coffee"
+			id: "4E1511AC0D5A2648"
+			shape: "circle"
+			tasks: [
+				{
+					id: "673E6566A00A1AB8"
+					item: "farmersrespite:coffee_berries"
+					type: "item"
+				}
+				{
+					id: "0DA03DEBDF6F6F6E"
+					item: "kubejs:coffee_beans_roasted"
+					type: "item"
+				}
+				{
+					id: "038B9CCA278AFEFC"
+					item: "farmersrespite:kettle"
+					type: "item"
+				}
+				{
+					id: "2D65BAC84986E2ED"
+					item: "farmersrespite:tea_seeds"
+					type: "item"
+				}
+			]
+			title: "Coffee and Tea"
+			x: 36.625d
+			y: 3.625d
+		}
+		{
+			dependencies: ["07DA482BC9E86FC2"]
+			description: [
+				"You can weld two copper ingots together on a stone anvil. You'll use these double ingots to make a copper anvil."
+				""
+				"Your TFC Guide explains how to weld metal items in the Anvils entry."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/double_ingot/copper"
+			}
+			id: "1C968E0159A0C714"
+			tasks: [{
+				count: 7L
+				id: "0C685F7850A29DC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/double_ingot/copper"
+				}
+				type: "item"
+			}]
+			title: "Double Copper Ingot"
+			x: 47.56547619047618d
+			y: 1.6130952380952337d
+		}
+		{
+			dependencies: ["52D289D761CD3327"]
+			dependency_requirement: "one_completed"
+			description: [
+				"You'll need many metals as you progress, and panning is a good way to obtain small amounts of metal powder. Panning involves washing gravels in water. Use an empty pan on a block of gravel to load it into the pan. While in water, keep using the pan to wash metallic powder out of the gravel."
+				""
+				"With blocks of gravel in your offhand slot and a pan in your hand, you will place gravel as soon as you finish panning, to set you up to load the pan once more."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:pan/empty"
+			id: "70FFB7289674431E"
+			tasks: [{
+				id: "07F368B9F4D648DB"
+				item: "tfc:pan/empty"
+				type: "item"
+			}]
+			title: "Panning"
+			x: 39.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["39F9D2F52D44E27C"]
+			description: ["use the barrel to produce limewater - a liquid needed, among other things, to produce leather"]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/barrel/pine"
+			id: "3EA085779648342C"
+			tasks: [{
+				id: "65E4D05008B7B82A"
+				type: "checkmark"
+			}]
+			title: "Limewater"
+			x: 37.595238095238095d
+			y: -7.071428571428569d
+		}
+		{
+			dependencies: ["24EAAA5C0DDFB14E"]
+			description: [
+				"Make a quern and a handstone out of smooth and raw rock. A quern is a hand-cranked millstone used to grind grains, ores, rocks, and other materials."
+				""
+				"In order to obtain a raw rock block without breaking it into smaller rocks, it needs to be extracted. You must mine the blocks on all six sides of a raw rock block - once it is surrounded by air on all sides - it will pop off as a item which can be picked up."
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:quern"
+			id: "379795FD828D8056"
+			tasks: [
+				{
+					id: "222633EB91C9D66E"
+					item: "tfc:quern"
+					type: "item"
+				}
+				{
+					id: "196629AD77F336C6"
+					item: {
+						Count: 1
+						id: "tfc:handstone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Millstone"
+			x: 45.099999999999994d
+			y: 0.4250000000000007d
+		}
+		{
+			dependencies: ["6FCF5A9819C15FCA"]
+			dependency_requirement: "one_completed"
+			description: ["A chisel is a stoneworking tool used to decorate blocks and cut stone."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/chisel/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24EAAA5C0DDFB14E"
+			size: 0.85d
+			tasks: [{
+				id: "5D31A2C088CF45CF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:chisels"
+					}
+				}
+				title: "chisel"
+				type: "item"
+			}]
+			title: "Chisel"
+			x: 44.099999999999994d
+			y: 0.4250000000000007d
+		}
+		{
+			dependencies: ["4A3435AC1ED7D541"]
+			description: ["in the survival section You have already learned about different types of clothes now with the tools You can create them"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "sewingkit:wool_shirt"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40F9EB0E231916D5"
+			tasks: [{
+				id: "0ED2B741A17EDFB9"
+				type: "checkmark"
+			}]
+			title: "Clothing"
+			x: 31.339285714285715d
+			y: -11.964285714285705d
+		}
+		{
+			dependencies: ["55CF250954785D87"]
+			description: ["Similar to bronze but softer, brass is an alloy of copper, made in a vessel or crucible."]
+			hide_until_deps_visible: true
+			icon: "tfc:brass_mechanisms"
+			id: "407466A351B80092"
+			tasks: [
+				{
+					id: "2F84C9BBB7A59E09"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/brass"
+					}
+					type: "item"
+				}
+				{
+					id: "74B6C39BED8D2FCB"
+					item: "tfc:brass_mechanisms"
+					type: "item"
+				}
+			]
+			title: "Brass Mechanisms"
+			x: 52.33928571428573d
+			y: 0.10714285714284699d
+		}
+		{
+			dependencies: [
+				"11C2EB0EE6FD6E2D"
+				"68DC32CE4CE4B4F1"
+				"379795FD828D8056"
+			]
+			description: [
+				"Mined ore must be processed before it's turned into usable metal. Crush raw ore with a hammer to produce rocky chunks. Wash the rocks out of the rocky chunks in a sluice. Grind chunks to dirty dust, and again wash this dust in a sluice to get pure ore powder."
+				""
+				"The powder can be combined to pellets and briquets if you wish, but all three forms may be melted in a vessel or crucible to yield molten metal."
+			]
+			hide_until_deps_visible: true
+			icon: "tfcorewashing:rocky_chunks_copper"
+			id: "7F073818B43C698D"
+			subtitle: "Unlocked first tips"
+			tasks: [
+				{
+					id: "19C9C7BD959D8C7B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ores/rocky_chunks"
+						}
+					}
+					title: "rocky chunks"
+					type: "item"
+				}
+				{
+					id: "2CA77B8F4F131F80"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ores/chunks"
+						}
+					}
+					title: "chunks"
+					type: "item"
+				}
+				{
+					id: "70B999FCB107A1AA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ores/dirty_dusts"
+						}
+					}
+					title: "dirty dust"
+					type: "item"
+				}
+				{
+					id: "6DCDD83B5C7BA055"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ores/clean_dusts"
+						}
+					}
+					title: "clean dust"
+					type: "item"
+				}
+			]
+			title: "Ore Processing"
+			x: 45.125d
+			y: -0.875d
+		}
+		{
+			dependencies: ["13C6B5603AB4A496"]
+			description: [
+				"Pick up some rocks, sticks and pick some Plant Fiber from the nearest grass."
+				"{image:tfc:textures/item/loose_rock/chalk.png width:15 height:15 align:1}"
+				" !!! Dropped items are picked up with a right click, or by pressing Shift !!!"
+				""
+				"TIP - Remember that the Raw Plant fiber block placed on the ground dries up on Thatch from which you can obtain straw"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:rock/loose/dacite"
+			id: "0DFD612BF8EF6367"
+			tasks: [
+				{
+					id: "72F0248039D9027B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					title: "Sticks"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4FF58D412970905A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:rock_knapping"
+						}
+					}
+					title: "rocks"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "2361DD169ED829E7"
+					item: { Count: 12, id: "tfc_stone_tools:plant_fiber" }
+					type: "item"
+				}
+				{
+					id: "20A86BA2605FE0F1"
+					item: "tfc_stone_tools:plant_fiber_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "125EA445B80957C8"
+					item: { Count: 2, id: "tfc_stone_tools:plant_string" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "49D6DAD42A4EE0E8"
+					item: { Count: 3, id: "tfc:straw" }
+					type: "item"
+				}
+				{
+					id: "7F3ABFF1ECA853EC"
+					item: "htm:plant_string"
+					type: "item"
+				}
+				{
+					id: "20BA32AC1AC4277F"
+					item: "tfc:thatch"
+					type: "item"
+				}
+			]
+			title: "Materials"
+			x: 29.125d
+			y: -2.375d
+		}
+		{
+			dependencies: ["2BC58239A8706187"]
+			description: [
+				"using lumbers, primitive string, sticks and baiting with seeds you can set up a trap for small animals This is a good source of food in the early stages"
+				""
+				""
+				"{image:butchersdelight:item/rabbit_base width:20 height:20 align:center}"
+				"{image:animaltrap:textures/logo.png width:50 height:50 align:center}"
+				""
+				"Place the box on the ground, prop it up with a stick, then tie twine and place the bait - then walk away and patiently wait a few hours or a few days for the prey to fall into the trap."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "animaltrap:empty"
+			id: "77E49D6BDD3D9E32"
+			tasks: [
+				{
+					id: "10AD472BE685F96D"
+					item: "animaltrap:empty"
+					type: "item"
+				}
+				{
+					id: "2E81BD455B99A80E"
+					item: "animaltrap:twine"
+					type: "item"
+				}
+				{
+					id: "45C4739BBED3B7E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					id: "7F2FE5FFEFBFED4E"
+					item: "animaltrap:small_animals_bait"
+					type: "item"
+				}
+			]
+			title: "Animal Trap"
+			x: 28.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["77E49D6BDD3D9E32"]
+			description: ["For larger animals you can use Cage trap, there are two or three types and they are very useful in defense against wild predators but also for catching large animals"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "supplementaries:cage"
+			id: "124E63936741A247"
+			tasks: [
+				{
+					id: "2C921642837DD052"
+					item: "untamedwilds:trap_cage"
+					type: "item"
+				}
+				{
+					id: "357D37047F8B0ACC"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+				{
+					id: "5E66F9BCF06B0E51"
+					item: "securitycraft:cage_trap"
+					type: "item"
+				}
+			]
+			title: "Cage Trap"
+			x: 27.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1124CE75F3E2D185"]
+			description: ["the double crafting table will allow you to work better and more efficiently"]
+			hide_until_deps_visible: true
+			icon: "workshop_for_handsome_adventurer:workstation_placer_oak"
+			id: "4DBE4A411EBEEB5D"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6C7A9CA9497D33D2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:workbench/single"
+						}
+					}
+					title: "workbench"
+					type: "item"
+				}
+				{
+					id: "1BA89F3BF5FCF58E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:workbench/double"
+						}
+					}
+					title: "double workbench"
+					type: "item"
+				}
+			]
+			title: "WorkStation"
+			x: 41.10119047619048d
+			y: -5.017857142857139d
+		}
+		{
+			dependencies: ["4D412159C87AA1A0"]
+			dependency_requirement: "one_completed"
+			description: [
+				"To create a Atlas Map, you need navigation skills and items for navigation, additionally the ability to make paper, leather, books. You will achieve all this only at a later stage of development after learning the technology of these fields."
+				""
+				"However, there is a chance to find this item faster if you decide to travel and find the Settlers' village. Be sure to find the cartographer's house in his chests, you will definitely find a map atlas."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						maps: [I; ]
+					}
+				}
+				id: "map_atlases:atlas"
+				tag: { }
+			}
+			id: "40349E3447BE1D71"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "3BEC346FBFA9E9C4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:sextant"
+					}
+					type: "item"
+				}
+				{
+					id: "2968632622518486"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:nav_clock"
+					}
+					type: "item"
+				}
+				{
+					id: "7AF3DBD24386321F"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "5299C73A483D077F"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			title: "Map"
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70FFB7289674431E"]
+			description: [
+				"bones and flints can be used as materials for the construction of arrowheads."
+				""
+				"by tapping on hardened stone you will create small elements of Arrowheads - craft arrows and a bow - you will gain basic but very useful long-range weapons for defense and hunting"
+				""
+				"tip - if you lack feathers, set traps for small animals, each caught bird should be given a large amount of feathers on an arrow"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "520F2F2167263828"
+			size: 0.75d
+			tasks: [
+				{
+					id: "575B73D038BC3F1C"
+					item: "htm:flint_arrow_head"
+					type: "item"
+				}
+				{
+					id: "2E292A9752DB4E61"
+					item: "htm:bone_arrow_head"
+					type: "item"
+				}
+				{
+					id: "38B2834BE2B638D6"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "763378D22D2A550A"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61602DB119321861"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					type: "item"
+				}
+			]
+			title: "Flint and Bone"
+			x: 39.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["78680C14017852A4"]
+			description: [
+				"copper mechanisms are the first elements and parts for creating advanced useful objects"
+				""
+				"create it"
+			]
+			hide_until_deps_visible: true
+			icon: "kubejs:copper_mechanisms"
+			id: "23867BE31F393702"
+			tasks: [{
+				id: "298ECFF6AB74051F"
+				item: "kubejs:copper_mechanisms"
+				type: "item"
+			}]
+			title: "Copper Mechanisms"
+			x: 48.317857142857115d
+			y: 0.08214285714287684d
+		}
+		{
+			dependencies: ["23867BE31F393702"]
+			description: [
+				"You've heard how important navigation tools are."
+				""
+				"Once you have acquired the skills to mine and process copper, craft basic navigation tools to aid you in your travels."
+				""
+				"Reading latitude and longitude you will always be able to determine your location."
+				""
+				"Save or Remember the coordinates of your base, this will be the starting point wherever you are, using navigation devices you will read your position and then thanks to the compass you can head to your destination"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:sextant"
+			}
+			id: "4526F5945775EC26"
+			tasks: [
+				{
+					id: "59A754928DDBCEA9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:sextant"
+					}
+					type: "item"
+				}
+				{
+					id: "4FE85397729A4C0F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:nav_clock"
+					}
+					type: "item"
+				}
+				{
+					id: "23D36B97047A09B6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:barometer"
+					}
+					type: "item"
+				}
+				{
+					id: "757D5F3099FF9FF4"
+					item: "firmaciv:firmaciv_compass"
+					type: "item"
+				}
+			]
+			title: "Navigation Items"
+			x: 48.34166666666663d
+			y: -1.2273809523809334d
+		}
+		{
+			dependencies: ["1124CE75F3E2D185"]
+			description: [
+				"loom will allow you to weave materials from threads and fibers"
+				""
+				"if you took care of jute or wool, weave cloths and from them clothes and other items such as sails for boats, materials for a balloon, or a bed. "
+				""
+				"each of the cloth has different applications"
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:wood/planks/douglas_fir_loom"
+			id: "7100C2D63A7D4AE1"
+			size: 1.0d
+			tasks: [
+				{
+					id: "788720051F833F90"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:looms"
+						}
+					}
+					title: "loom"
+					type: "item"
+				}
+				{
+					id: "01724012B8534791"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cloth"
+						}
+					}
+					title: "cloth"
+					type: "item"
+				}
+			]
+			title: "Loom"
+			x: 42.81071428571428d
+			y: -3.701190476190483d
+		}
+		{
+			dependencies: ["18477940F29BD7F5"]
+			description: [
+				"once you have mastered forging iron you can create your first black powder weapon"
+				""
+				"you can craft all the necessary parts on the anvil, skillfully combining them, you will get a very strong weapon to defend yourself against wild animals or invaders"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "musketmod:musket"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C882177B41625C6"
+			subtitle: "greater firepower and durability"
+			tasks: [
+				{
+					id: "484A895F44E16AD0"
+					item: {
+						Count: 1
+						id: "musketmod:musket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BE492540FB328A6"
+					item: {
+						Count: 1
+						id: "musketmod:musket_with_bayonet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58959FB6A8B83915"
+					item: {
+						Count: 1
+						id: "musketmod:musket_with_scope"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1747E5618FA4575E"
+					item: {
+						Count: 1
+						id: "musketmod:pistol"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1AA5A2930A8EF7D4"
+					item: { Count: 10, id: "musketmod:cartridge" }
+					type: "item"
+				}
+			]
+			title: "Black Powder Weapons"
+			x: 53.589285714285715d
+			y: 5.000000000000014d
+		}
+		{
+			dependencies: ["407466A351B80092"]
+			description: [
+				"the first black powder weapon /blubderbuss/will give you protection against wild animals"
+				""
+				"you can craft all the necessary parts on the anvil, skillfully combining them, you will get a very strong weapon to defend yourself against wild animals or invaders"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "musketmod:blunderbuss"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "067872CC6FF7233C"
+			tasks: [
+				{
+					id: "6C7C981230B5CDD3"
+					item: {
+						Count: 1
+						id: "musketmod:blunderbuss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4EDB0572C4241785"
+					item: { Count: 10, id: "musketmod:cartridge" }
+					type: "item"
+				}
+			]
+			title: "Blunderbuss"
+			x: 52.339285714285715d
+			y: -1.2499999999999858d
+		}
+	]
+	title: "Age - Pre Industrial"
+}

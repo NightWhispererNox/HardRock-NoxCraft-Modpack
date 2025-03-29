@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:lime_stained_glass"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:lime",
+        "amount": 8
+    }
+}

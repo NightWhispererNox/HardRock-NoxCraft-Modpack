@@ -1,0 +1,17 @@
+
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "tfmg:steel_casing"
+    },
+    {
+      "tag": "forge:glass_panes"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:steel_fluid_tank"
+    }
+  ]
+}

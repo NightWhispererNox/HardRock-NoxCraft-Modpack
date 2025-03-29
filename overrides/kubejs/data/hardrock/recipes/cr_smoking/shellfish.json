@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/shellfish"
+      }
+    },
+  "result": "tfc:food/cooked_shellfish",
+  "experience": 0.35,
+  "cookingtime": 250
+}

@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "tag": "forge:ingots/black_steel"
+      },
+      {
+        "item": "tfc:powder/flux"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "tag": "forge:ingots/weak_blue_steel"
+      }
+    ],
+    "pressure": 4.5,
+    "results": [
+      {
+        "item": "tfc:metal/ingot/high_carbon_blue_steel"
+      }
+    ]
+  }

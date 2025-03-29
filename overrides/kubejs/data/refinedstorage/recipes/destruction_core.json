@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "input": {
+    "item": "refinedstorage:improved_processor"
+  },
+  "result": {
+    "item": "refinedstorage:destruction_core"
+  },
+  "program": "laser"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:sand/brown"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:ore/gypsum",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/sylvite",
+      "chance": 0.02
+    },
+    {
+      "item": "minecraft:bone",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/topaz",
+      "chance": 0.001
+    }
+  ],
+  "processingTime": 500
+}

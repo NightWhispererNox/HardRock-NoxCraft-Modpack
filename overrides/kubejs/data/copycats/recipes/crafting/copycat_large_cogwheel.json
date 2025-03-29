@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:large_cogwheel"
+    },
+    {
+      "tag": "forge:rods/zinc"
+    }
+  ],
+  "results": [
+    {
+      "item": "copycats:copycat_large_cogwheel"
+    }
+  ]
+}

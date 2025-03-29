@@ -1,0 +1,24 @@
+{
+  "type": "tfc:heating",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/uranium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfc_ie_addon"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/uranium"
+  },
+  "result_fluid": {
+    "fluid": "tfc_ie_addon:metal/uranium",
+    "amount": 10
+  },
+  "temperature": 1250
+}

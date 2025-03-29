@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "forge:oil_seeds"
+  },
+  "result": {
+    "item": "kubejs:seed_paste",
+    "count": 2
+  }
+}

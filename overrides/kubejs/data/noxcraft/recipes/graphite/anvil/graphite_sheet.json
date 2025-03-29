@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "tag": "kubejs:graphite_mixture"
+    },
+    "result": {
+      "item": "kubejs:graphite_sheet"
+    },
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ]
+  }

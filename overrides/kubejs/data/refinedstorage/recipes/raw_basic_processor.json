@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "refinedstorage:processor_binding"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+    "item": "refinedstorage:raw_basic_processor"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "tier": 1,
+  "fluid": "kubejs:andesite_stone",
+  "melt_temperature": 930,
+  "specific_heat_capacity": 0.00857,
+  "ingots": {
+    "tag": "forge:ingots/andesite_stone"
+  },
+  "sheets": {
+    "tag": "forge:sheets/andesite_stone"
+  }
+}

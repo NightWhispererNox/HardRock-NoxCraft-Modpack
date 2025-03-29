@@ -1,0 +1,14 @@
+{
+	"type": "vintageimprovements:hammering",
+	"hammerBlows": 6,
+	"ingredients": [
+		{
+		  "tag": "forge:ingots/desh"
+		}
+	],
+	"results": [
+		{
+		  "item": "ad_astra:desh_plate"
+		}
+	]
+}

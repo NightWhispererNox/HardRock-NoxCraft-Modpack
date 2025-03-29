@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:rods/chromium"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "L": [
+      {
+        "item": "firmalife:fruit_leaf"
+      },
+      {
+        "item": "tfc:plant/leafy_kelp"
+      },
+      {
+        "item": "tfc:groundcover/seaweed"
+      }
+    ]
+  },
+  "result": {
+    "item": "firmalife:solar_drier"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minecraft:buried_treasure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136474,
+    "spacing": 80,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

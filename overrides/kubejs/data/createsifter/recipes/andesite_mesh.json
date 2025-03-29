@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "S",
+    "Z"
+  ],
+  "key": {
+    "Z": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "createsifter:string_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:andesite_mesh",
+    "count": 1
+  }
+}

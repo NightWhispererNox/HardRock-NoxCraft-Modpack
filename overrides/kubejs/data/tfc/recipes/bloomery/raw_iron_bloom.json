@@ -1,0 +1,7 @@
+{
+    "type":"tfc:bloomery",
+    "result":{"item":"tfc:raw_iron_bloom"},
+    "fluid":{"ingredient":"tfc:metal/cast_iron","amount":100},
+    "catalyst":{"ingredient":{"tag":"forge:dusts/charcoal"},"count":1},
+    "duration":15000
+}

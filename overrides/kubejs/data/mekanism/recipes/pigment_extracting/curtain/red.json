@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "mcwwindows:red_curtain"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:red",
+        "amount": 8
+    }
+}

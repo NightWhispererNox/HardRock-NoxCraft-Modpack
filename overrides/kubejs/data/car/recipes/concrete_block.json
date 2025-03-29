@@ -1,0 +1,14 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "tfmg:liquid_concrete",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 640,
+  "result": {
+    "item": "immersiveengineering:concrete"
+  }
+}

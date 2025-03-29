@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[
+        {
+            "chance":0.50,
+            "output":{
+                "count": 1,
+                "base_ingredient":{"item":"mekanism:bio_fuel"}
+            }
+        }
+    ],
+    "result":{
+        "count": 5,
+        "base_ingredient":{"item":"mekanism:bio_fuel"}
+    },
+    "input":{
+        "tag":"tfc:plants"
+    },
+    "energy":6000
+}

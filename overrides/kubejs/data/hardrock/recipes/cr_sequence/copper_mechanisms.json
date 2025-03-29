@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:rods/copper"
+  },
+  "transitionalItem": {
+    "item": "create:incomplete_precision_mechanism"
+  },
+  "sequence": [
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:stamens/copper"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:rivets/copper"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:rings/copper"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:nuggets/copper"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:copper_mechanisms",
+      "chance": 120.0,
+      "count": 3
+    },
+    {
+      "item": "tfc:metal/rod/copper",
+      "chance": 8.0
+    },
+    {
+      "item": "create:copper_nugget",
+      "chance": 3.0
+    }
+  ],
+  "loops": 2
+}

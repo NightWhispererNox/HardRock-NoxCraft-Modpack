@@ -1,0 +1,7 @@
+{
+  "type":"immersiveengineering:coke_oven",
+  "result":{"item":"refinedstorage:silicon"},
+  "input":{"item":"tinyredstone:silicon"},
+  "creosote":0,
+  "time":3600
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createoreexcavation:raw_diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:gem/diamond"
+    },
+    {
+      "item": "tfc:gem/diamond",
+      "chance": 0.50
+    },
+    {
+      "item": "createaddition:diamond_grit",
+      "chance": 0.50
+    }
+  ]
+}

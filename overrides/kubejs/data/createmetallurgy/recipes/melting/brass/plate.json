@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/brass"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:plates/brass"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "tfc:metal/brass"
+    }
+  ]
+}

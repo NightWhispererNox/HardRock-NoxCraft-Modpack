@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/bronze"},
+  "transitionalItem": {"item": "tfc:metal/rod/bronze"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/bronze"}],"results": [{"item": "tfc:metal/rod/bronze"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/bronze"}],"results": [{"item": "tfc:metal/rod/bronze"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/bronze"}],"results": [{"item": "tfc:metal/rod/bronze"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/bronze"}],"results": [{"item": "tfc:metal/rod/bronze"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/bronze"}],"results": [{"item": "tfc:metal/rod/bronze"}]}
+  ],
+  "results": [
+    {"item": "mekanism:nugget_bronze","count": 5}    
+  ],
+  "loops": 1
+}
+

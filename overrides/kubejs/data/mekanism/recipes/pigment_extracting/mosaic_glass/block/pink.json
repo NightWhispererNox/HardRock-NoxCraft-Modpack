@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "mcwwindows:pink_mosaic_glass"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:pink",
+        "amount": 8
+    }
+}

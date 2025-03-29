@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:red_glazed_terracotta"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:red",
+        "amount": 8
+    }
+}

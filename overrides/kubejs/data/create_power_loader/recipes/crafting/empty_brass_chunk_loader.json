@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "G": {
+      "item": "glassential:glass_ghostly"
+    },
+    "A": [
+      {
+        "item": "create_power_loader:empty_andesite_chunk_loader"
+      },
+      {
+        "item": "create_power_loader:andesite_chunk_loader"
+      }
+    ],
+    "C": {
+      "item": "create:railway_casing"
+    },
+    "R": {
+      "item": "railways:remote_lens"
+    },
+    "S": {
+      "item": "pneumaticcraft:spawner_agitator"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "N": {
+      "item": "minecraft:lodestone"
+    }
+  },
+  "pattern": [
+    "GGGGG",
+    "G   G",
+    "GDADG",
+    "CRSRC",
+    "CCNCC"
+  ],
+  "result": {
+    "item": "create_power_loader:empty_brass_chunk_loader"
+  }
+}

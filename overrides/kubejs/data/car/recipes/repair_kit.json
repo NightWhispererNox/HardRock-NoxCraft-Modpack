@@ -1,0 +1,32 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GXV",
+    "SWH",
+    "GXV"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:gears/iron"
+    },
+    "X": {
+      "tag": "forge:wires/aluminum"
+    },
+    "V": {
+      "tag": "vintageimprovements:small_springs/iron"
+    },
+    "S": {
+      "item": "car:screw_driver"
+    },
+    "W": {
+      "item": "car:wrench"
+    },
+    "H": {
+      "item": "car:hammer"
+    }
+  },
+  "result": {
+    "item": "car:repair_kit",
+    "count": 1
+  }
+}

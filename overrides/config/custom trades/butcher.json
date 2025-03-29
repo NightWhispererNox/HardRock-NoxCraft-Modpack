@@ -1,0 +1,264 @@
+{
+  "profession": "minecraft:butcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/cooked_beef","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_pork","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_mutton","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_venison","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_bear","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:wood_grilled']}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher/food/common_meat"
+    },
+    {
+      "offer": {"itemKey": "minecraft:bone","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher/bones"
+    },
+    {
+      "offer": {"itemKey": "tfc:blubber","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher/blubber"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/cooked_chicken","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_quail","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_pheasant","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_grouse","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_turkey","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_peafowl","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"},
+        {"itemKey": "tfc:food/cooked_duck","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:wood_grilled']}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:butcher/food/poultry"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:wooden_bucket","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'minecraft:milk', Amount: 1000}}"},
+        {"itemKey": "tfc:wooden_bucket","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:goat_milk', Amount: 1000}}"},
+        {"itemKey": "tfc:wooden_bucket","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:yak_milk', Amount: 1000}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:butcher/milk"
+    },
+    {
+      "offer": {"itemKey": "tfc:powder/salt","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:butcher/salt"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/knife/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/knife/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:butcher/iron_knife"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "cold_sweat:goat_fur","amount": 4},
+        {"itemKey": "cold_sweat:hoglin_hide","amount": 2}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:butcher/insulating_hide"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "textile:black_bear_fur","amount": 1},
+        {"itemKey": "textile:grizzly_bear_fur","amount": 1},
+        {"itemKey": "textile:caribou_fur","amount": 1},
+        {"itemKey": "textile:polar_bear_fur","amount": 1},
+        {"itemKey": "textile:direwolf_fur","amount": 1},
+        {"itemKey": "textile:cougar_fur","amount": 1},
+        {"itemKey": "textile:lion_fur","amount": 1},
+        {"itemKey": "textile:tiger_fur","amount": 1},
+        {"itemKey": "textile:panther_fur","amount": 1},
+        {"itemKey": "textile:crocodile_leather","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:butcher/rare_hide"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "firmalife:food/cooked_bacon","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','tfc:brined','firmalife:smoked','tfc:wood_grilled']}}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 25,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:butcher/cooked_bacon"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:medium_raw_hide","amount": 4},
+        {"itemKey": "tfc:small_raw_hide","amount": 6}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:butcher/raw_hide"
+    },
+    {
+      "offer": {"itemKey": "tfc:goat_horn","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 4
+      },
+      "tradeExp": 60,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:butcher/goat_horn"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "farmersdelight:roast_chicken_block","amount": 1},
+        {"itemKey": "farmersdelight:honey_glazed_ham_block","amount": 1},
+        {"itemKey": "farmersdelight:shepherds_pie_block","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 12
+      },
+      "tradeExp": 120,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:butcher/food/farmers_delight"
+    },
+    {
+      "offer": {"itemKey": "tfc:wrought_iron_grill","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 12
+      },
+      "tradeExp": 120,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:butcher/grill"
+    },
+    {
+      "offer": {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:vinegar',Amount:4000}}}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 6
+      },
+      "tradeExp": 30,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:butcher/vinegar"
+    }
+  ]
+}

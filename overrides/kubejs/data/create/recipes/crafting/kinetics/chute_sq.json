@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:double_sheets/cast_iron"},
+  "transitionalItem": {"item": "immersiveengineering:chute_steel"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"item": "immersiveengineering:chute_steel"}],"results": [{"item": "immersiveengineering:chute_steel"}]},
+    {"type": "createaddition:rolling","ingredients": [{"item": "immersiveengineering:chute_steel"}],"results": [{"item": "immersiveengineering:chute_steel"}]},
+    {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:chute_steel"}],"results": [{"item": "immersiveengineering:chute_steel"}]},
+    {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:chute_steel"}],"results": [{"item": "immersiveengineering:chute_steel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "immersiveengineering:chute_steel"}],"results": [{"item": "immersiveengineering:chute_steel"}]}
+    ],
+  "results": [{"item": "create:chute","count":2}],
+  "loops": 1
+}

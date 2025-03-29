@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create_new_age:overcharged_diamond"},
+  "transitionalItem": {"item": "kubejs:sq_wire"},
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "create_new_age:energising", "energy_needed": 2000,
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    },
+    {
+      "type": "createaddition:rolling",
+      "ingredients": [{"item": "kubejs:sq_wire"}],"results": [{"item": "kubejs:sq_wire"}]
+    }
+  ],
+  "results": [{"item": "create_new_age:overcharged_diamond_wire"}],
+  "loops": 5
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tconstruct:light_gray_clear_stained_glass"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:light_gray",
+        "amount": 8
+    }
+}

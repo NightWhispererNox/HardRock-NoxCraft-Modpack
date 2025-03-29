@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:ceramic/orange_unfired_vessel"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:orange",
+        "amount": 8
+    }
+}

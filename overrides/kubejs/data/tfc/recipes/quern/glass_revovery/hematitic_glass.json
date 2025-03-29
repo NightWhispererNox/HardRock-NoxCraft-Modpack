@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:hematitic_glass_bottle"
+  },
+  "result": {
+    "item": "tfc:hematitic_glass_batch",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "kubejs:iron_quartz",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "refinedstorage:quartz_enriched_iron_block"
+    }
+
+  ]
+}

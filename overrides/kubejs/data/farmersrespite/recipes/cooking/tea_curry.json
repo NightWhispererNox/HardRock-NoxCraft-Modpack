@@ -1,0 +1,36 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersrespite:yellow_tea_leaves"
+    },
+    {
+      "item": "farmersrespite:yellow_tea_leaves"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": [
+        {"item": "tfc:food/chicken"},
+        {"item": "tfc:food/quail"},
+        {"item": "tfc:food/pheasant"},
+        {"item": "tfc:food/turkey"},
+        {"item": "tfc:food/grouse"},
+        {"item": "tfc:food/duck"}
+      ]
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "tfc:food/cabbage"}
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "tfc:food/onion"}
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "tfc:food/rice_grain"}
+    }
+  ],
+  "result": {
+    "item": "farmersrespite:tea_curry"
+  },
+  "experience": 0.35,
+  "cookingtime": 2400
+}

@@ -1,0 +1,25 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "item": "immersivepetroleum:bitumen",
+      "chance": "1.0"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "pneumaticcraft:lubricant",
+      "amount": 15
+    },
+    {
+      "fluid": "tfmg:diesel",
+      "amount": 10
+    }
+  ],
+  "input": {
+      "tag": "forge:heavy_oil",
+      "amount": 25
+  },
+  "time": 1,
+  "energy": 1024
+}

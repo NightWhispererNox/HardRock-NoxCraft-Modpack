@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/nickel",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfc:metal/ingot/nickel"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "immersiveengineering:storage_nickel"
+    }
+
+  ]
+}

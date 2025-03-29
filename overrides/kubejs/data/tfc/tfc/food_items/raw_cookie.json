@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "kubejs:raw_cookie"
+  },
+  "hunger": 1,
+  "saturation": 0,
+  "decay_modifier": 3.0,
+  "grain": 1
+}

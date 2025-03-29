@@ -1,0 +1,9 @@
+{
+    "type":"immersiveengineering:arc_furnace",
+    "results":[{"tag":"forge:ingots/netherite"}],
+    "additives":[{"tag":"forge:ingots/gold"}, {"tag":"forge:ingots/black_steel"}],
+    "input":[{"item":"minecraft:netherite_scrap"}],
+    "slag":{"tag":"forge:slag"},
+    "time":400,
+    "energy":204800
+}

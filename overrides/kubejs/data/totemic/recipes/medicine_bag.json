@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "forge:uncut_gems"
+    },
+    "H": {
+      "item": "totemic:buffalo_hide"
+    },
+    "P": {
+      "item": "totemic:cedar_planks"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "T": {
+      "item": "totemic:buffalo_tooth"
+    }
+  },
+  "pattern": [
+    "PST",
+    "HDH",
+    " H "
+  ],
+  "result": {
+    "item": "totemic:medicine_bag"
+  },
+  "show_notification": true
+}

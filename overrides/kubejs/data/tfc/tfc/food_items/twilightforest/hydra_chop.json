@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "twilightforest:hydra_chop"
+  },
+  "hunger": 20,
+  "saturation": 14,
+  "decay_modifier": 0.75,
+  "protein": 10.0
+}

@@ -1,0 +1,28 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 2,
+      "fluid": "tfc:metal/nickel",
+      "nbt": {}
+    },
+    {
+      "amount": 6,
+      "fluid": "tfc:metal/steel",
+      "nbt": {}
+    },
+    {
+      "amount": 2,
+      "fluid": "tfc:metal/black_bronze",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "tfc:metal/weak_steel"
+    }
+  ]
+}

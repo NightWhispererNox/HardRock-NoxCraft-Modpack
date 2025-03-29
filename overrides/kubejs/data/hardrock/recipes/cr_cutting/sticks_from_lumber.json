@@ -1,0 +1,19 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "tfc:lumber"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:stick",
+    "count": 4
+    },
+    {
+      "item": "tfc_lumberjack:sawdust",
+    "count": 1
+    }
+  ],
+  "processingTime": 50
+}

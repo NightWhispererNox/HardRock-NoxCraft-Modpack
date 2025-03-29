@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "RRR",
+    "R R",
+    "SSS"
+  ],
+  "key":
+  {
+    "R":
+    {
+      "tag": "tfc:rock/hardened"
+    },
+    "S":
+    {
+      "tag": "forge:slab/raw_stone"
+    }
+  },
+  "result":
+  {
+    "item": "cold_sweat:boiler",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "WSSW",
+    "BGGB",
+    "BGGB",
+    "WWWW"
+  ],
+  "key": {
+    "G": {
+      "item": "securitycraft:reinforced_gold_block"
+    },
+    "W": {
+      "item": "compactmachines:wall"
+    },
+    "S": {
+      "item": "railways:track_switch_brass"
+    },
+    "B": {
+      "tag": "forge:sheets/brass"
+    }
+  },
+  "result": {
+    "item": "compactmachines:machine_normal"
+  }
+}

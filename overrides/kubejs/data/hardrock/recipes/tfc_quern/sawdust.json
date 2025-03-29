@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "forge:rods/wooden"
+  },
+  "result": {
+    "item": "tfc_lumberjack:sawdust",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:coke_oven",
+    "result":{"item":"securitycraft:reinforced_cobblestone"},
+    "input":{"tag":"forge:cobblestone"},
+    "creosote":0,
+    "time":3600
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GAG",
+    "CRC"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "R": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "A": {
+      "item": "create:display_link"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "create_power_loader:empty_andesite_chunk_loader"
+  }
+}

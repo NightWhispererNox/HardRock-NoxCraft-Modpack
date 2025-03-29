@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "createdieselgenerators:chip_wood_slab"
+    },
+    {
+      "item": "createdieselgenerators:chip_wood_slab"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdieselgenerators:chip_wood_block"
+    }
+  ]
+}

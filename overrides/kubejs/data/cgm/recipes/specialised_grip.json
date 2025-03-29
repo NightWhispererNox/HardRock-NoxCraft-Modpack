@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:nuggets/iron","count": 24
+    },
+    {
+      "item":"pneumaticcraft:plastic","count": 6
+    },
+    {
+      "tag": "minecraft:wool","count": 6
+    }
+  ],
+  "result": {
+    "item": "cgm:specialised_grip"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "wbw",
+    "www"
+  ],
+  "key": {
+    "w": [
+      {"tag": "forge:cloth"},
+      {"item": "farmersdelight:canvas"},
+      {"item": "sewingkit:leather_sheet"},
+      {"item": "firmalife:pineapple_leather"}
+    ],
+    "b": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "chiselsandbits:bit_bag"
+  }
+}

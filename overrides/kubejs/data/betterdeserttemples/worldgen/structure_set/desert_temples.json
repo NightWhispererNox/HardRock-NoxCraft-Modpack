@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "betterdeserttemples:desert_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 92746251,
+    "spacing": 30,
+    "separation": 20,
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "minecraft:villages"
+    },
+    "type": "tfc:climate",
+    "climate": {
+	  	"min_temperature": 28,
+	  	"max_rainfall": 400
+	  }
+  }
+}

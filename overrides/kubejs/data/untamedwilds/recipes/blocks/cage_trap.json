@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "btb",
+    "tmt",
+    "btb"
+  ],
+  "key": {
+    "m": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "b": {
+      "item": "minecraft:iron_bars"
+    },
+    "t": {
+      "tag": "minecraft:trapdoors"
+    }
+  },
+  "result": {
+    "item": "untamedwilds:trap_cage",
+    "count": 1
+  }
+}

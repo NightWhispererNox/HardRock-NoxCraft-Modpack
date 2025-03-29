@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "item": "tfc:fire_clay"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "heatRequirement": "heated"
+}

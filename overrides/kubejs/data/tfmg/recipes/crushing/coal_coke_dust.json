@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:coal_coke_dust"
+    }
+  ],
+  "processingTime": 400
+}

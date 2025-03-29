@@ -1,0 +1,14 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "tag": "forge:coal_petcoke"
+        }
+    ],
+    "results": [
+        {
+            "item": "immersivepetroleum:petcoke_dust"
+        }
+    ],
+    "processingTime": 300
+}

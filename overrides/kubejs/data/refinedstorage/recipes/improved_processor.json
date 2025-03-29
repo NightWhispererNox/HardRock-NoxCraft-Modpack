@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "pneumaticcraft:plastic"},
+  "transitionalItem": {"item": "create:sturdy_sheet"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "create:sturdy_sheet"}, {"tag": "forge:wires/gold"}],"results": [{"item": "create:sturdy_sheet"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:sturdy_sheet"}, {"item": "minecraft:redstone"}],"results": [{"item": "create:sturdy_sheet"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:sturdy_sheet"}, {"tag": "forge:wires/gold"}],"results": [{"item": "create:sturdy_sheet"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:sturdy_sheet"}, {"item": "refinedstorage:raw_improved_processor"}],"results": [{"item": "create:sturdy_sheet"}]},
+    {"type": "create:pressing","ingredients": [{"item": "create:sturdy_sheet"}],"results": [{"item": "refinedstorage:improved_processor"}]}
+  ],
+  "results": [{"item": "refinedstorage:improved_processor"}],
+  "loops": 1
+}

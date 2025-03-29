@@ -1,0 +1,12 @@
+{
+  "type": "pneumaticcraft:heat_frame_cooling",
+  "input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "minecraft:waters",
+    "amount": 1000
+  },
+  "max_temp": 273,
+  "result": {
+    "item": "minecraft:ice"
+  }
+}

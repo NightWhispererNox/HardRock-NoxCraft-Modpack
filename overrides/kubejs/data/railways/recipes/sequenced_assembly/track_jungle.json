@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfc:wood/lumber/palm"
+  },
+  "transitionalItem": {
+    "item": "railways:track_incomplete_jungle"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        },
+        [
+          {
+            "item": "railways:track_tieless"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "railways:track_jungle"
+    }
+  ],
+  "loops": 1
+}

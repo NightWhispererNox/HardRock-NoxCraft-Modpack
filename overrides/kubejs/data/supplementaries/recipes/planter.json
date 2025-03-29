@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "020",
+    "020",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brick"
+    },
+    "2": {
+      "item": "farmersdelight:organic_compost"
+    }
+  },
+  "result": {
+    "item": "supplementaries:planter",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "planter"
+    }
+  ]
+}

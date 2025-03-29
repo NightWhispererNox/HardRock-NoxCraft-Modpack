@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/wrought_iron"},
+  "transitionalItem": {"item": "kubejs:sq_alupipecr"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_alupipecr"}],"results": [{"item": "kubejs:sq_alupipecr"}]},
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_alupipecr"}],"results": [{"item": "kubejs:sq_alupipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_alupipecr"}],"results": [{"item": "kubejs:sq_alupipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_alupipecr"}],"results": [{"item": "kubejs:sq_alupipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_alupipecr"}],"results": [{"item": "kubejs:sq_alupipecr"}]}
+  ],
+  "results": [{"item": "steam_powered:iron_pipe","count":3}],
+  "loops": 1
+}

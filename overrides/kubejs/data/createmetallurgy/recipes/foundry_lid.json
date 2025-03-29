@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "mekanism:dynamic_tank"
+    },
+    {
+      "item": "tfc:metal/tuyere/black_steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetallurgy:foundry_lid"
+    }
+  ]
+}

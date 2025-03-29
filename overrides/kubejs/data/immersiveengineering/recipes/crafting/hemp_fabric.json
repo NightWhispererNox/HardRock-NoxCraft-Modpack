@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " #S",
+      "#S#",
+      "S# "
+    ],
+    "key": {
+      "#": {
+        "tag": "forge:cloth"
+      },
+      "S": {
+        "tag": "forge:rods/wooden"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:hemp_fabric",
+      "count": 1
+    }
+  }

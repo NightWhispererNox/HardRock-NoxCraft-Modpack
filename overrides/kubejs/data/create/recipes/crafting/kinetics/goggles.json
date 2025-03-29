@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "GSG",
+    "P P"
+  ],
+  "key": {
+    "G": {
+      "item": "tfc:lens"
+    },
+    "P": {
+      "tag": "forge:wires/gold"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "X": {
+      "item": "sewingkit:leather_strip"
+    }
+  },
+  "result": {
+    "item": "create:goggles"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/brass"},
+  "transitionalItem": {"item": "tfc:metal/rod/brass"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/brass"}],"results": [{"item": "tfc:metal/rod/brass"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/brass"}],"results": [{"item": "tfc:metal/rod/brass"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/brass"}],"results": [{"item": "tfc:metal/rod/brass"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/brass"}],"results": [{"item": "tfc:metal/rod/brass"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/brass"}],"results": [{"item": "tfc:metal/rod/brass"}]}
+  ],
+  "results": [
+    {"item": "create:brass_nugget","count": 5}    
+  ],
+  "loops": 1
+}
+

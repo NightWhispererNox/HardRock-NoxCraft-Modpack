@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "D"
+  ],
+  "key": {
+    "D": {"type": "tfc:not_rotten","ingredient": {"item": "firmalife:food/pie_dough"}},
+    "S": {"tag": "forge:sugar"}
+  },
+  "result": {
+    "item": "kubejs:raw_pancake",
+    "count": 12
+  }
+}

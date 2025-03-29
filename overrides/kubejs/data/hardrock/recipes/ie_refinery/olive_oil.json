@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:refinery",
+  "result": {
+    "fluid": "tfc:olive_oil",
+    "amount": 4
+  },
+  "input0": {
+    "tag": "tfc:olive_oil_water",
+    "amount": 10
+  },
+  "catalyst": {
+    "item": "tfc:jute_net"
+  },
+  "energy": 180
+}

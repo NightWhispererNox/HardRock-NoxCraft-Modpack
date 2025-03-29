@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "simple_hot_air_balloons:red_hot_air_balloon_item"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:red",
+        "amount": 256
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:dirty_dust_bismuthinite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/bismuthinite"
+      },
+      {
+        "item": "tfcorewashing:pile_green_sand"
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_bismuthinite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/emerald",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/nickel"},
+  "transitionalItem": {"item": "tfc:metal/rod/nickel"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/nickel"}],"results": [{"item": "tfc:metal/rod/nickel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/nickel"}],"results": [{"item": "tfc:metal/rod/nickel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/nickel"}],"results": [{"item": "tfc:metal/rod/nickel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/nickel"}],"results": [{"item": "tfc:metal/rod/nickel"}]},
+    {"type": "create:cutting","ingredients": [{"item": "tfc:metal/rod/nickel"}],"results": [{"item": "tfc:metal/rod/nickel"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_nickel","count": 5}    
+  ],
+  "loops": 1
+}
+

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:alabaster/polished/magenta"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:magenta",
+        "amount": 8
+    }
+}

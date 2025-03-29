@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "  A"
+  ],
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "tag": "tfc:lumber"
+    }
+  },
+  "result": {
+    "item": "create:hand_crank"
+  }
+}

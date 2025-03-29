@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "createoreexcavation:drilling",
+  "drill": {
+    "item": "createoreexcavation:netherite_drill"
+  },
+  "fluid": {
+    "amount": 250,
+    "fluidTag": "forge:sulfuric_acid",
+    "nbt": {}
+  },
+  "output": [
+    {"chance": 0.70,"item": "tfc:rock/loose/andesite"},
+    {"chance": 0.70,"item": "mekanism:raw_osmium"},
+    {"chance": 0.50,"item": "mekanism:fluorite_gem"}
+  ],
+  "priority": 0,
+  "stress": 256,
+  "ticks": 400,
+  "vein_id": "tfc_ore_excavation:vein_type/osmium"
+}

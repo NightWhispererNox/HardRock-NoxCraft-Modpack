@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tfc:candle/white"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:white",
+        "amount": 8
+    }
+}

@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips"
+	group: ""
+	icon: "minecraft:diamond"
+	id: "1C0CF5C66C7CAB72"
+	images: [
+		{
+			dependency: "68DC32CE4CE4B4F1"
+			height: 6.0d
+			image: "kubejs:textures/item/img_ores.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			click: "https://docs.google.com/spreadsheets/d/1w95cAerqIekwe78Djde422CGlTruIpq3CbLbakYdyMY/edit?usp=sharing"
+			dependency: "68DC32CE4CE4B4F1"
+			height: 1.0d
+			hover: ["Click Link to full sheet"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -10.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["68DC32CE4CE4B4F1"]
+		description: [
+			""
+			"This table will help you quickly find metals in specific rock layers"
+			""
+			"The \"b\" key opens the geologist's map. on it you will see what stones you have met so far and what layers of rocks are under them"
+			""
+			""
+			"The \"n\" key allows you to plot your own waypoints on the geologist's map"
+		]
+		hide_until_deps_complete: true
+		hide_until_deps_visible: true
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"tfc:item_heat": {
+					heat: 0.0f
+					ticks: 0L
+				}
+			}
+			id: "tfc:metal/pickaxe/copper"
+			tag: {
+				Damage: 0
+			}
+		}
+		id: "2C2C004C26DB9E93"
+		shape: "gear"
+		size: 3.0d
+		title: "Quick Search"
+		x: -3.0d
+		y: -10.5d
+	}]
+	title: "=== TIPS ==="
+}

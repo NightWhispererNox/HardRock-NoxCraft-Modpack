@@ -1,0 +1,26 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/tungsten"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_nugget_mold"
+    },
+    {
+      "amount": 10,
+      "fluid": "immersivegeology:fluid_tungsten",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 80,
+  "result": {
+    "tag": "forge:nuggets/tungsten"
+  }
+}

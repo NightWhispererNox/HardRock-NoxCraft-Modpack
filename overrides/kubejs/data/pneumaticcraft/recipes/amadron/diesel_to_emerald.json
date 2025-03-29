@@ -1,0 +1,16 @@
+{
+  "type": "pneumaticcraft:amadron",
+  "id": "pneumaticcraft:amadron/diesel_to_emerald",
+  "input": {
+    "type": "FLUID",
+    "id": "tfmg:diesel",
+    "amount": 4000
+  },
+  "output": {
+    "type": "ITEM",
+    "id": "minecraft:emerald",
+    "amount": 1
+  },
+  "static": true,
+  "level": 0
+}

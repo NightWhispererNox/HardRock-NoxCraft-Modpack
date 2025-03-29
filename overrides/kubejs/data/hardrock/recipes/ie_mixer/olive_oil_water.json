@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:mixer",
+  "inputs": [
+    {
+      "count": 1,
+      "base_ingredient": {
+        "item": "tfc:olive_paste"
+      }
+    }
+  ],
+  "result": {
+    "fluid": "tfc:olive_oil_water",
+    "amount": 375
+  },
+  "fluid": {
+    "tag": "tfc:fresh_water",
+    "amount": 375
+  },
+  "energy": 3200
+}

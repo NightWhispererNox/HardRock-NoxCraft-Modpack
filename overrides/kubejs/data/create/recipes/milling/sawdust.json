@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "item": "tfc_lumberjack:sawdust",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 150
+}

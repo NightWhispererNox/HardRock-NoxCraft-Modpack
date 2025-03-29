@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:dirty_dust_graphite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/graphite"
+      },
+      {
+        "item": "tfcorewashing:pile_black_sand"
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_graphite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/sapphire",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

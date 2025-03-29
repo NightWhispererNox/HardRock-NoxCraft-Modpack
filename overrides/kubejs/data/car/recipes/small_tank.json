@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " I ",
+    "ITI",
+    " IC"
+  ],
+  "key": {
+    "I": {
+      "item": "create:belt_connector"
+    },
+    "T": {
+      "item": "car:tank"
+    },
+    "C": {
+      "tag": "tfc:tuyeres"
+    }
+  },
+  "result": {
+    "item": "car:small_tank",
+    "count": 1
+  }
+}

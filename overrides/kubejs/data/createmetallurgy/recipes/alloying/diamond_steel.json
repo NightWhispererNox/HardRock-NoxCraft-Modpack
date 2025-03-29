@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "1100°C",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/diamond"
+    },
+    {
+      "amount": 40,
+      "fluid": "firmalife:metal/stainless_steel",
+      "nbt": {}
+    },
+    {
+      "amount": 60,
+      "fluid": "tfc:metal/black_steel",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "kubejs:diamond_steel"
+    }
+  ]
+}

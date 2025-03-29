@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BHB",
+		"LDL",
+		"WVW"
+	],
+	"key": {
+		"D": [
+			{
+				"item": "tfc:metal/tuyere/blue_steel"
+			},
+			{
+				"item": "tfc:metal/tuyere/red_steel"
+			}
+		],
+		"L": {
+			"tag": "forge:leather"
+		},
+		"V": {
+			"tag": "minecraft:leaves"
+		},
+		"W": {
+			"tag": "minecraft:wool"
+		},
+		"H": {
+			"item": "minecraft:leather_helmet"
+		},
+		"B": [
+			{"item": "kubejs:primitive_glass_pane"},
+			{"item": "minecraft:glass_pane"}]
+	},
+	"result": {
+		"item": "adpother:diamond_respirator",
+		"count": 1
+	}
+}

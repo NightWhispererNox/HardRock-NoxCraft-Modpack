@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[
+        {
+            "chance":0.75,
+            "output":{
+                "count": 1,
+                "base_ingredient":{"item":"tfcorewashing:pile_white_sand"}
+            }
+        }
+    ],
+    "result":{
+        "count": 3,
+        "base_ingredient":{"item":"tfcorewashing:pile_white_sand"}
+    },
+    "input":{
+        "item":"tfc:calcite"
+    },
+    "energy":6000
+}

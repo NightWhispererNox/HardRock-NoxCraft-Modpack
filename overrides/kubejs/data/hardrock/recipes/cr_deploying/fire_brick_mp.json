@@ -1,0 +1,7 @@
+{
+  "type":"immersiveengineering:metal_press",
+  "mold":"createmetallurgy:graphite_ingot_mold",
+  "result":{"item":"tfc:ceramic/unfired_fire_brick"},
+  "input":{"item":"tfc:fire_clay"},
+  "energy":2400
+}

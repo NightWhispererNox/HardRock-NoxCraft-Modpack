@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "tag": "forge:ingots/lead",
+      "count": 2
+    },
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "tfc_ie_addon:metal/double_ingot/lead"
+    }
+  ]
+}

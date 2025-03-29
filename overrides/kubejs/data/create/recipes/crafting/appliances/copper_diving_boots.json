@@ -1,0 +1,11 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create_sa:brass_boots"},
+  "transitionalItem": {"item": "tfc:metal/unfinished_boots/copper"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "tfc:metal/unfinished_boots/copper"}, {"tag": "forge:plates/lead"}],"results": [{"item": "tfc:metal/unfinished_boots/copper"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfc:metal/unfinished_boots/copper"}, {"tag": "forge:plates/lead"}],"results": [{"item": "tfc:metal/unfinished_boots/copper"}]}
+  ],
+  "results": [{"item": "create:copper_diving_boots"}],
+  "loops": 1
+}

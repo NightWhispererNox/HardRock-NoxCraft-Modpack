@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "item": "kubejs:compressed_mesh"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:reinforced_stone"
+    }
+  ]
+}

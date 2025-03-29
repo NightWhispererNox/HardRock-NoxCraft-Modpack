@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:dirty_dust_limonite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/limonite"
+      },
+      {
+        "item": "tfcorewashing:pile_yellow_sand"
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_limonite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/topaz",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance":0.50,
+      "output":{
+          "count": 1,
+          "base_ingredient":{"item":"tfc:powder/opal"}
+      }
+  }
+  ],
+  "result": {
+    "item": "tfc:powder/opal",
+    "count": 3
+  },
+  "input": {
+    "item": "tfc:ore/opal"
+  },
+  "energy": 1600
+}

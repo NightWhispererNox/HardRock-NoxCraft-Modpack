@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/bronze"},
+  "transitionalItem": {"item": "kubejs:sq_fluidpipecr"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_fluidpipecr"}],"results": [{"item": "kubejs:sq_fluidpipecr"}]},
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_fluidpipecr"}],"results": [{"item": "kubejs:sq_fluidpipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_fluidpipecr"}],"results": [{"item": "kubejs:sq_fluidpipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_fluidpipecr"}],"results": [{"item": "kubejs:sq_fluidpipecr"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "kubejs:sq_fluidpipecr"}],"results": [{"item": "kubejs:sq_fluidpipecr"}]}
+  ],
+  "results": [{"item": "steam_powered:bronze_pipe","count":3}],
+  "loops": 1
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:tree_seed_paste"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    [
+      {
+      "item": "coralstfc:coral_powder"
+      }
+    ],
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "create:tree_fertilizer",
+    "count": 2
+  }
+}

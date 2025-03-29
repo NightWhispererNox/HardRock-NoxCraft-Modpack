@@ -1,0 +1,30 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:sand/yellow"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:ore/small_limonite",
+      "chance": 0.02
+    },
+    {
+      "item": "tfc:ore/small_native_gold",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:bone",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/pyrite",
+      "chance": 0.001
+    }
+  ],
+  "processingTime": 500
+}

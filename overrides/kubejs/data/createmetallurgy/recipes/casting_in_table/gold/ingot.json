@@ -1,0 +1,17 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_ingot_mold"
+    },
+    {
+      "amount": 90,
+      "fluid": "tfc:metal/gold",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 160,
+  "result": {
+    "item": "minecraft:gold_ingot"
+  }
+}

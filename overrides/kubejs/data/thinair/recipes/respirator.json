@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "tag": "forge:dusts/charcoal"
+    },
+    "P": {
+      "tag": "forge:fabric"
+    },
+    "S": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    " P "
+  ],
+  "result": {
+    "item": "thinair:respirator"
+  },
+  "show_notification": true
+}

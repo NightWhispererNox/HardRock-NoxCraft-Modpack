@@ -1,0 +1,23 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:black_dye"
+        },
+        {
+        "type": "tfc:fluid_item",
+        "fluid_ingredient": {
+          "ingredient": "tfc:salt_water",
+          "amount": 100
+        }
+        },
+        {
+            "item": "waterflasks:leather_side"
+        }
+    ],
+    "result": {
+      "item": "minecraft:ink_sac",
+      "count": 1
+    }
+  }

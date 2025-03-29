@@ -1,0 +1,25 @@
+{
+  "type": "lychee:block_clicking",
+  "post": [
+    {
+      "type": "add_item_cooldown",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 1
+        }
+      ],
+      "s": 5
+    },
+    {
+      "type": "hurt",
+      "damage": 0.5
+    }
+  ],
+  "item_in": {
+    "item": "minecraft:air"
+  },
+  "block_in": {
+    "tag": "forge:punch_hurt"
+  }
+}

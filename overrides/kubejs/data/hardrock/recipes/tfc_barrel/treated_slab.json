@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "immersiveengineering:creosote",
+    "amount": 100
+  },
+  "output_item": {
+    "item": "immersiveengineering:slab_treated_wood_horizontal"
+  },
+  "duration": 8000
+}

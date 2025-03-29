@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "forge:seed_tree"
+  },
+  "result": {
+    "item": "kubejs:tree_seed_paste",
+    "count": 2
+  }
+}

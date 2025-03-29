@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluidTag": "forge:crude_oil",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 200,
+  "results": [
+    {
+      "fluid": "tfmg:diesel",
+      "amount": 5
+    },
+    {
+      "fluid": "tfmg:gasoline",
+      "amount": 5
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tfmg:distillation",
+  "ingredients": [
+
+    {
+      "fluid": "tfmg:naphtha",
+      "nbt": {},
+      "amount": 3
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tfmg:propylene",
+      "amount": 1
+    },
+    {
+      "fluid": "mekanism:ethene",
+      "amount": 1
+    },
+    {
+      "fluid": "tfmg:gasoline",
+      "amount": 1
+    }
+  ]
+
+
+}

@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_ingots/compressed_iron"
+  },
+  "result": {
+    "item": "pneumaticcraft:compressed_iron_gear"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "bend_second_last"
+  ]
+}

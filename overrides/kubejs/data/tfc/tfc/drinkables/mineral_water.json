@@ -1,0 +1,29 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    "kubejs:mineral_water"
+  ],
+  "thirst": 40,
+  "effects": [
+    {
+      "type": "minecraft:speed",
+      "duration": 2400,
+      "chance": 0.20
+    },
+    {
+      "type": "minecraft:instant_health",
+      "duration": 240,
+      "chance": 0.10
+    },
+    {
+      "type": "minecraft:strength",
+      "duration": 2400,
+      "chance": 0.10
+    },
+    {
+      "type": "minecraft:absorption",
+      "duration": 3600,
+      "chance": 0.07
+    }
+  ]
+}

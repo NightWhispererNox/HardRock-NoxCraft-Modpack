@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "supplementaries:flag_brown"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:brown",
+        "amount": 8
+    }
+}

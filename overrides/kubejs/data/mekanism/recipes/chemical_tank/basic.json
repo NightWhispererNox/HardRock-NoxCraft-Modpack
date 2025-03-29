@@ -1,0 +1,13 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "immersiveengineering:metal_barrel"},
+    "transitionalItem": {"item": "immersiveengineering:metal_barrel"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:metal_barrel"}, {"item": "tfc:metal/double_sheet/red_steel"}],"results": [{"item": "immersiveengineering:metal_barrel"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:metal_barrel"}, {"item": "tfc:metal/double_sheet/red_steel"}],"results": [{"item": "immersiveengineering:metal_barrel"}]},
+      {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:metal_barrel"}, {"item": "tfc:metal/double_sheet/red_steel"}],"results": [{"item": "immersiveengineering:metal_barrel"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:metal_barrel"}, {"item": "tfc:metal/double_sheet/red_steel"}],"results": [{"item": "mekanism:basic_chemical_tank"}]}
+    ],
+    "results": [{"item":"mekanism:basic_chemical_tank"}],
+    "loops": 1
+  }

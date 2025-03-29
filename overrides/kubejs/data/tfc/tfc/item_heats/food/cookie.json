@@ -1,0 +1,11 @@
+{
+  "ingredient": [
+    {
+    "item": "kubejs:raw_pancake"
+    },
+    {
+      "item": "kubejs:raw_cookie"
+    }
+  ],
+  "heat_capacity": 0.85
+}

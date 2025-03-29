@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:wood/planks/spruce_button"
+    },
+    "c": {
+      "item": "tfc:wood/barrel/spruce"
+    },
+    "b": {
+      "item": "tfc:wood/planks/spruce_trapdoor"
+    }
+  },
+  "result": {
+    "item": "trashbinmod:spruce_trash_bin",
+    "count": 1
+  }
+}

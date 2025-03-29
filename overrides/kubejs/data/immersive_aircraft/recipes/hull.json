@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "tfc:lumber"},
+  "transitionalItem": {"item": "create:gantry_shaft"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"tag": "minecraft:planks"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"item": "create:shaft"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"tag": "tfc:lumber"}],"results": [{"item": "create:gantry_shaft"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create:gantry_shaft"}, {"tag": "minecraft:planks"}],"results": [{"item": "create:gantry_shaft"}]}
+  ],
+  "results": [{"item": "immersive_aircraft:hull","count": 2}],
+  "loops": 2
+}

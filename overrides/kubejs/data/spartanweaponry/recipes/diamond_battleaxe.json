@@ -1,0 +1,15 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item":"spartanweaponry:steel_battleaxe"},
+    "transitionalItem": {"item": "kubejs:sq_rod"},
+    "sequence": [
+      {"type": "create:filling","ingredients": [{"item": "kubejs:sq_rod"},{"fluidTag": "forge:molten_diamond_steel","nbt": {},"amount": 200}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "create:filling","ingredients": [{"item": "kubejs:sq_rod"},{"fluidTag": "minecraft:waters","nbt": {},"amount": 1000}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "vintageimprovements:polishing","speed_limits": 2,"ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "kubejs:sq_rod"}]},
+      {"type": "vintageimprovements:polishing","speed_limits": 2,"ingredients": [{"item": "kubejs:sq_rod"}],"results": [{"item": "spartanweaponry:diamond_battleaxe"}]}
+    ],
+    "results": [{"item": "spartanweaponry:diamond_battleaxe"}],
+    "loops": 1
+  }

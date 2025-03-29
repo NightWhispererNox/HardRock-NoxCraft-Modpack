@@ -1,0 +1,6 @@
+{
+  "profession": "mca:guard",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": []
+}

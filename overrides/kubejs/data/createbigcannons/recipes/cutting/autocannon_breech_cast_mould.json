@@ -1,0 +1,13 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createbigcannons:very_small_cast_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "createbigcannons:autocannon_breech_cast_mould"
+    }
+  ]
+}

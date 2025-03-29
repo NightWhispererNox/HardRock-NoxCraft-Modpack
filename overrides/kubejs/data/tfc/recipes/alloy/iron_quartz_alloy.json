@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:alloy",
+  "result": "tfc:iron_quartz",
+  "contents": [
+    {
+      "metal": "tfc:cast_iron",
+      "min": 0.50,
+      "max": 0.75
+    },
+    {
+      "metal": "tfc:quartz",
+      "min": 0.25,
+      "max": 0.50
+    }
+  ]
+}

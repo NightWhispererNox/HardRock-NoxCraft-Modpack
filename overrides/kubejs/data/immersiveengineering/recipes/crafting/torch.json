@@ -1,0 +1,27 @@
+{
+    "type":"immersiveengineering:shaped_fluid",
+    "pattern":[
+        " c ",
+        "www",
+        "sss"
+    ],
+    "key":{
+        "w":{
+            "tag":"forge:cloth"
+        },
+        "c":{
+            "type": "tfc:fluid_item",
+            "fluid_ingredient": {
+                "ingredient":"immersiveengineering:creosote",
+                "amount":1000
+            }
+        },
+        "s":{
+            "item":"tfc:stick_bunch"
+        }
+    },
+    "result":{
+        "item":"tfc:dead_torch",
+        "count":27
+    }
+}

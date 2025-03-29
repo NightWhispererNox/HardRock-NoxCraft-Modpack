@@ -1,0 +1,16 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "tfc:is_vein",
+  "icon": {
+    "item": "tfc:ore/cinnabar"
+  },
+  "name": "{\"translate\":\"Cinnabar vein\"}",
+  "placement": {
+    "salt": 551334445,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

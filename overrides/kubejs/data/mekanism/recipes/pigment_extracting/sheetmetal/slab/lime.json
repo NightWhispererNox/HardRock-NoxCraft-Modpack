@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "immersiveengineering:slab_sheetmetal_colored_lime"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:lime",
+        "amount": 8
+    }
+}

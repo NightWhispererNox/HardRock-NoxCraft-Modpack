@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "i",
+        "w",
+        "c"
+        ],
+    "key":{
+        "i":{"tag":"forge:rods/aluminum"},
+        "w":{"item":"createaddition:copper_spool"},
+        "c":{"item":"minecraft:brown_terracotta"}
+        },
+    "result":{"item":"immersiveengineering:connector_lv"}
+}

@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dirty_dusts/uranium"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:dirty_dusts/uranium"
+    }
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "amount": 25,
+      "fluid": "createmetallurgy:molten_uranium"
+    }
+  ]
+}

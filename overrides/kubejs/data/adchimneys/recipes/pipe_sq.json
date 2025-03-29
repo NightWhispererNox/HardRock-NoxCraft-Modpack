@@ -1,0 +1,12 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "immersiveengineering:fluid_pipe"},
+  "transitionalItem": {"item": "tfc:metal/double_sheet/wrought_iron"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"tag": "tfc:metal/double_sheet/wrought_iron"}],"results": [{"item": "tfc:metal/double_sheet/wrought_iron"}]},
+    {"type": "createaddition:rolling","ingredients": [{"tag": "tfc:metal/double_sheet/wrought_iron"}],"results": [{"item": "tfc:metal/double_sheet/wrought_iron"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfc:metal/double_sheet/wrought_iron"}],"results": [{"item": "tfc:metal/double_sheet/wrought_iron"}]}
+  ],
+  "results": [{"item": "adchimneys:pipe","count":2}],
+  "loops": 1
+}

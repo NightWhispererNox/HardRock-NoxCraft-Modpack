@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UTU",
+    "BGB",
+    "UPU"
+  ],
+  "key": {
+    "G": {
+      "item": "create:goggles"
+    },
+    "U": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "compressedcreativity:mechanical_visor_upgrade"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc:volcanic_glass_bottle"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "tfc:volcanic_glass_batch",
+      "count": 1
+    }
+  ]
+}

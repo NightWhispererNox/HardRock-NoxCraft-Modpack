@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/electrum"},
+  "transitionalItem": {"item": "createaddition:electrum_rod"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "createaddition:electrum_rod"}],"results": [{"item": "createaddition:electrum_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "createaddition:electrum_rod"}],"results": [{"item": "createaddition:electrum_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "createaddition:electrum_rod"}],"results": [{"item": "createaddition:electrum_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "createaddition:electrum_rod"}],"results": [{"item": "createaddition:electrum_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "createaddition:electrum_rod"}],"results": [{"item": "createaddition:electrum_rod"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_electrum","count": 5}    
+  ],
+  "loops": 1
+}
+

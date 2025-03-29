@@ -1,0 +1,22 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfcorewashing"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "tfcorewashing:briquet_bauxite"
+    }
+  ],
+  "processingTime": 120,
+  "results": [
+    {
+      "amount": 80,
+      "fluid": "tfc_ie_addon:metal/aluminum"
+    }
+  ]
+}

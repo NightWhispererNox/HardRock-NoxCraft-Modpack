@@ -1,0 +1,81 @@
+{
+  "name":"boar",
+  "breeding":"MID_WINTER",
+  "growing_time":4,
+  "offspring":4,
+  "activityType":"nocturnal",
+  "favourite_food":"kubejs:feed_vege",
+  "sounds":{
+    "ambient":"untamedwilds:entity.boar.ambient",
+    "hurt":"untamedwilds:entity.boar.hurt",
+    "death":"untamedwilds:entity.boar.death",
+    "threat":"untamedwilds:entity.boar.squeal"
+  },
+  "flags":{
+    "groupCount": 2,
+    "isWarthog":0
+  },
+  "species":[
+    {
+      "name":"eurasian",
+      "variant":0,
+      "scale":1.2,
+      "rarity":1,
+      "skins":40,
+      "flags":{
+        "groupCount": 2
+      },
+      "spawnBiomes":[
+        [
+          "tag|is_forest" 
+        ],
+        [
+          "tag|is_taiga"
+        ]
+      ]
+    },
+    {
+      "name":"peccary",
+      "variant":1,
+      "scale":1,
+      "rarity":1,
+      "flags":{
+        "groupCount": 2
+      },
+      "spawnBiomes":[
+        [
+          "tag|is_jungle"
+        ]
+      ]
+    },
+    {
+      "name":"red_river",
+      "variant":2,
+      "scale":1,
+      "rarity":1,
+      "flags":{
+        "groupCount": 2
+      },
+      "spawnBiomes":[
+        [
+          "tag|is_savanna"
+        ]
+      ]
+    },
+    {
+      "name":"warthog",
+      "variant":3,
+      "scale":1.2,
+      "rarity":1,
+      "flags":{
+        "isWarthog": 1,
+        "groupCount": 2
+      },
+      "spawnBiomes":[
+        [
+          "tag|is_savanna"
+        ]
+      ]
+    }
+  ]
+}

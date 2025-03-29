@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","result":{"item":"mekanism:module_silk_touch_unit"},"pattern":["A#A","DPD","HHH"],"key":{"A":{"tag":"forge:alloys/elite"},"P":{"item":"mekanism:module_base"},"#":{"tag":"forge:storage_blocks/refined_glowstone"},"H":{"tag":"forge:pellets/polonium"},"D":[{"item":"tfc:metal/pickaxe/blue_steel"},{"item":"tfc:metal/pickaxe/red_steel"}]}}

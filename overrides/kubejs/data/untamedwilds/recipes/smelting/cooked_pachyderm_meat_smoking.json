@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "untamedwilds:food_pachyderm_raw"
+      }
+    },
+  "result": "untamedwilds:food_pachyderm_cooked",
+  "experience": 0.35,
+  "cookingtime": 250
+}

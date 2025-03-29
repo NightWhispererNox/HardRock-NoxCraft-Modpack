@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I",
+    "CI"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "ad_astra:wheel"
+      }
+    ],
+    "I": [
+      {
+        "tag": "forge:rods/iron"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:improved_landing_gear"
+  }
+}

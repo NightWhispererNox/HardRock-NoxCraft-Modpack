@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " S",
+    "I "
+  ],
+  "key": {
+    "I": {
+      "item": "kubejs:vulcanized_rubber"
+    },
+    "S": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "car:screw_driver",
+    "count": 1
+  }
+}

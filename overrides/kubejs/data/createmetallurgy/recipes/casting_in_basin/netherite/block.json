@@ -1,0 +1,14 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "ingredients": [
+    {
+      "amount": 900,
+      "fluid": "createmetallurgy:molten_netherite",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 600,
+  "result": {
+    "item": "minecraft:netherite_block"
+  }
+}

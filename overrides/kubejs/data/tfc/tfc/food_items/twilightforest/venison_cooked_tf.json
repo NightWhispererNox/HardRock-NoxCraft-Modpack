@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "twilightforest:cooked_venison"
+  },
+  "hunger": 6,
+  "saturation": 3,
+  "decay_modifier": 1.2,
+  "protein": 2.0
+}

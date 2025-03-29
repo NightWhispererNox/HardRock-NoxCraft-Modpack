@@ -1,0 +1,34 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/steel"},
+  "transitionalItem": {"item": "kubejs:sq_alupipecr"},
+  "sequence": [
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "kubejs:sq_alupipecr"}],
+      "results": [{"item": "kubejs:sq_alupipecr"}]
+    },
+    {
+      "type":"createaddition:rolling",
+      "ingredients": [{"item": "kubejs:sq_alupipecr"}],
+      "results": [{"item": "kubejs:sq_alupipecr"}]
+    },
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "kubejs:sq_alupipecr"}],
+      "results": [{"item": "kubejs:sq_alupipecr"}]
+    },
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "kubejs:sq_alupipecr"}],
+      "results": [{"item": "kubejs:sq_alupipecr"}]
+    },
+    {
+      "type":"createaddition:rolling",
+      "ingredients": [{"item": "kubejs:sq_alupipecr"}],
+      "results": [{"item": "kubejs:sq_alupipecr"}]
+    }
+  ],
+  "results": [{"item": "tfmg:plastic_pipe","count":3}],
+  "loops": 1
+}

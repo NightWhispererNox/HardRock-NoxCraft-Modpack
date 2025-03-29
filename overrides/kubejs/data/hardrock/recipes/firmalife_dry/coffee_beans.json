@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was created by mtfch",
+  "type": "firmalife:drying",
+  "ingredient": {
+    "item": "farmersrespite:coffee_beans"
+  },
+  "result": {
+    "item": "kubejs:coffee_beans_roasted"
+  }
+}

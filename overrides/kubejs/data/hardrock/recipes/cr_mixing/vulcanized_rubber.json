@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/sulfur"
+    },
+    {
+      "item": "kubejs:rubber"
+    },
+    {
+      "item": "kubejs:rubber"
+    },
+    {
+      "item": "kubejs:rubber"
+    },
+    {
+      "item": "kubejs:rubber"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "processingTime": 1200,
+  "results": [
+    {
+      "item": "kubejs:vulcanized_rubber"
+    }
+  ],
+  "heatRequirement": "heated"
+}

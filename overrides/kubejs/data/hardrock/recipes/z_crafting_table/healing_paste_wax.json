@@ -1,0 +1,13 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "forge:wax/beeswax"},
+    {"item": "kubejs:medical_white_powder"},
+    {"item": "kubejs:bark_paste"},
+    {"item": "kubejs:cut_cattail"}
+  ],
+  "result": {
+    "item": "kubejs:healing_paste",
+    "count": 2
+  }
+}

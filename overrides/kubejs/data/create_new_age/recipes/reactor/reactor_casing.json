@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:copper_casing"},
+  "transitionalItem": {"item": "create_new_age:incomplete_casing"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "create_new_age:incomplete_casing"},{"fluidTag": "forge:molten_lead","nbt": {},"amount": 250}],"results": [{"item": "create_new_age:incomplete_casing"}]},
+    {"type": "create:filling","ingredients": [{"item": "create_new_age:incomplete_casing"},{"fluidTag": "forge:molten_lead","nbt": {},"amount": 250}],"results": [{"item": "create_new_age:incomplete_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create_new_age:incomplete_casing"}, {"tag": "forge:plates/lead"}],"results": [{"item": "create_new_age:incomplete_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "create_new_age:incomplete_casing"}, {"tag": "forge:plates/lead"}],"results": [{"item": "create_new_age:incomplete_casing"}]},
+    {"type": "create_new_age:energising","energy_needed": 500,"ingredients": [{"item": "create_new_age:incomplete_casing"}],"results": [{"item": "create_new_age:incomplete_casing"}]}
+  ],
+  "results": [{"item": "create_new_age:reactor_casing"}],
+  "loops": 1
+}

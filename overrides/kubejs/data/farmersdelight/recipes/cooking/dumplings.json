@@ -1,0 +1,47 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "tag": "forge:dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "tag": "forge:grain/rice"
+      }
+    },{
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "farmersdelight:beef_patty"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "farmersdelight:cabbage_leaf"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "tag": "forge:vegetables/onion"
+      }
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:dumplings",
+    "count": 4,
+    "modifiers": [
+      "tfc:copy_food"
+    ]
+  },
+  "experience": 1.0,
+  "cookingtime": 1600
+}

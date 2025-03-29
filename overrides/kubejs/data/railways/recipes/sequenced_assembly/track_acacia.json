@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfc:wood/lumber/acacia"
+  },
+  "transitionalItem": {
+    "item": "railways:track_incomplete_acacia"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        },
+        [
+          {
+            "item": "railways:track_tieless"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_acacia"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "railways:track_acacia"
+    }
+  ],
+  "loops": 1
+}

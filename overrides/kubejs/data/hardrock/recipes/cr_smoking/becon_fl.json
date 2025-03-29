@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "firmalife:food/bacon"
+      }
+    },
+  "result": "firmalife:food/cooked_bacon",
+  "experience": 0.35,
+  "cookingtime": 250
+}

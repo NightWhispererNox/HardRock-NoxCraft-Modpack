@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "pneumaticcraft:smooth_plastic_brick_lime"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:lime",
+        "amount": 8
+    }
+}

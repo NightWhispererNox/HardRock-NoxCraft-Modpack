@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "immersiveengineering:sheetmetal_colored_blue"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:blue",
+        "amount": 8
+    }
+}

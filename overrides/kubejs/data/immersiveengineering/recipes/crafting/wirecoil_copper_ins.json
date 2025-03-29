@@ -1,0 +1,13 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "immersiveengineering:wirecoil_copper"},
+    "transitionalItem": {"item": "kubejs:sq_ins_copp"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_copp"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_copp"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_copp"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_ins_copp"}, {"item": "tfc:glue"}],"results": [{"item": "kubejs:sq_ins_copp"}]}
+    ],
+    "results": [{"item": "immersiveengineering:wirecoil_copper_ins"}],
+    "loops": 1
+  }

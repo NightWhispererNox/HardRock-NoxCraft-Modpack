@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#M#",
+      "MSM",
+      "#M#"
+    ],
+    "key": {
+      "#": {
+        "item": "tfc:brick/basalt"
+      },
+      "M": {
+        "tag": "tfc:mortar"
+      },
+      "S": {
+        "item": "tfc:fire_bricks"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:cokebrick",
+      "count": 1
+    }
+  }

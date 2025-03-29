@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/chromium"},
+  "transitionalItem": {"item": "firmalife:metal/rod/chromium"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "firmalife:metal/rod/chromium"}],"results": [{"item": "firmalife:metal/rod/chromium"}]},
+    {"type": "create:cutting","ingredients": [{"item": "firmalife:metal/rod/chromium"}],"results": [{"item": "firmalife:metal/rod/chromium"}]},
+    {"type": "create:cutting","ingredients": [{"item": "firmalife:metal/rod/chromium"}],"results": [{"item": "firmalife:metal/rod/chromium"}]},
+    {"type": "create:cutting","ingredients": [{"item": "firmalife:metal/rod/chromium"}],"results": [{"item": "firmalife:metal/rod/chromium"}]},
+    {"type": "create:cutting","ingredients": [{"item": "firmalife:metal/rod/chromium"}],"results": [{"item": "firmalife:metal/rod/chromium"}]}
+  ],
+  "results": [
+    {"item": "immersivegeology:nugget_chromium","count": 5}    
+  ],
+  "loops": 1
+}
+

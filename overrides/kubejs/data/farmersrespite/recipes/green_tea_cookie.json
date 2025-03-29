@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "minecraft:cookie"}
+    },
+    {
+      "item": "farmersrespite:green_tea_leaves"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersrespite:green_tea_cookie"
+    }
+  ]
+}

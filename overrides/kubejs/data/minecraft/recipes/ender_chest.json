@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "E": {
+      "item": "mekanism:module_teleportation_unit"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_chest"
+  }
+}

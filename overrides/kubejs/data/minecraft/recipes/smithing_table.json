@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "forge:double_sheets"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:smithing_table"
+    }
+  ]
+}

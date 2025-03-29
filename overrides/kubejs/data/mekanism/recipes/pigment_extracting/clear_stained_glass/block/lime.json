@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "tconstruct:lime_clear_stained_glass"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:lime",
+        "amount": 8
+    }
+}

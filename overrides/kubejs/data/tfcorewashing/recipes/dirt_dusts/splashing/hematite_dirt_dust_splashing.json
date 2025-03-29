@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:dirty_dust_hematite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:powder/hematite"
+      },
+      {
+        "item": "tfcorewashing:pile_pink_sand"
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_hematite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/ruby",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

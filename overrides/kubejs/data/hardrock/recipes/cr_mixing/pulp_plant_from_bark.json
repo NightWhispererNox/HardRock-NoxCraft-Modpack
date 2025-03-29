@@ -1,0 +1,33 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "tag": "forge:bark_powder"
+    },
+    {
+      "tag": "forge:bark_powder"
+    },
+    {
+      "tag": "forge:bark_powder"
+    },
+    {
+      "tag": "forge:bark_powder"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "item": "kubejs:plant_pulp"
+    }
+  ],
+  "heatRequirement": "heated"
+}

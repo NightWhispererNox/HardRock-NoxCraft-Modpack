@@ -1,0 +1,1 @@
+{"type":"mekanism:reaction","itemInput":{"ingredient":[{"tag":"forge:storage_blocks/coal"},{"tag":"forge:storage_blocks/charcoal"}]},"fluidInput":{"amount":1000,"tag":"minecraft:waters"},"gasInput":{"amount":1000,"gas":"mekanism:oxygen"},"duration":900,"itemOutput":{"item": "tfc:powder/sulfur","count":9},"gasOutput":{"gas":"mekanism:hydrogen","amount":1000}}

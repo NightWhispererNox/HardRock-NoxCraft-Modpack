@@ -1,0 +1,180 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/shield/bronze","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/shield/bronze","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/shield/bismuth_bronze","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/shield/bismuth_bronze","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/shield/black_bronze","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/shield/black_bronze","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 12
+      },
+      "tradeExp": 60,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer/bronze_shield"
+    },
+    {
+      "offer": {"itemKey": "minecraft:string","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer/sewing_appliances/string"
+    },
+    {
+      "offer": {"itemKey": "tfc:wood/sewing_table/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer/sewing_appliances/table"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/rod/wrought_iron","amount": 1,"advancedNBTData": "{kjsArmorDecorator: {instanceID: 1,trimMaterialBlacklist: ['tfc:lapis_lazuli','tfc:bismuth'],materialPricing: [{'wrought_iron': [[0, 16],[0, 20],[0, 16],[0, 12]] }] },   display:{Name:'[{\"text\":\"Something went wrong...\"}]',Lore:['{\"text\":\"Armor decorator script failed.\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Please report this on the hardrock discord!\",\"color\":\"red\",\"italic\":false}']}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 0
+      },
+      "tradeExp": 120,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer/armor/iron_1"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:silk_cloth","amount": 2},
+        {"itemKey": "tfc:wool_cloth","amount": 2},
+        {"itemKey": "tfc:burlap_cloth","amount": 2}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer/sewing_appliances/cloth"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/rod/wrought_iron","amount": 1,"advancedNBTData": "{kjsArmorDecorator: {instanceID: 1,trimMaterialBlacklist: ['tfc:lapis_lazuli','tfc:bismuth'],materialPricing: [{'wrought_iron': [[0, 16],[0, 20],[0, 16],[0, 12]] }] },   display:{Name:'[{\"text\":\"Something went wrong...\"}]',Lore:['{\"text\":\"Armor decorator script failed.\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Please report this on the hardrock discord!\",\"color\":\"red\",\"italic\":false}']}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 0
+      },
+      "tradeExp": 120,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer/armor/iron_2"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "immersiveengineering:shield","amount": 1},
+        {"itemKey": "tfc:metal/horse_armor/wrought_iron","amount": 1,"priceModifier":18}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 10
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer/heavy_shield_or_horse_armor"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/rod/steel","amount": 1,"advancedNBTData": "{kjsArmorDecorator: {instanceID: 2,trimMaterialBlacklist: ['tfc:lapis_lazuli','tfc:bismuth'],randomizedArmorMaterials: [{'steel': 0.75},{'black_steel': 0.25}],materialPricing: [ {'steel': [[0, 0, 16],[0, 0, 20],[0, 0, 16],[0, 0, 12]] }, {'black_steel': [[0, 8, 22],[0, 10, 28],[0, 8, 22],[0, 6, 16]] } ]},   display:{Name:'[{\"text\":\"Something went wrong...\"}]',Lore:['{\"text\":\"Armor decorator script failed.\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Please report this on the hardrock discord!\",\"color\":\"red\",\"italic\":false}']}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 0
+      },
+      "tradeExp": 200,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer/armor/steel_1"
+    },
+    {
+      "offer": {"itemKey": "tfc:metal/rod/steel","amount": 1,"advancedNBTData": "{kjsArmorDecorator: {instanceID: 2,trimMaterialBlacklist: ['tfc:lapis_lazuli','tfc:bismuth'],randomizedArmorMaterials: [{'steel': 0.75},{'black_steel': 0.25}],materialPricing: [ {'steel': [[0, 0, 16],[0, 0, 20],[0, 0, 16],[0, 0, 12]] }, {'black_steel': [[0, 8, 22],[0, 10, 28],[0, 8, 22],[0, 6, 16]] } ]},   display:{Name:'[{\"text\":\"Something went wrong...\"}]',Lore:['{\"text\":\"Armor decorator script failed.\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Please report this on the hardrock discord!\",\"color\":\"red\",\"italic\":false}']}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 0
+      },
+      "tradeExp": 200,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer/armor/steel_2"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:metal/rod/steel","amount": 1,"advancedNBTData": "{kjsArmorDecorator: {instanceID: 2,trimMaterialBlacklist: ['tfc:lapis_lazuli','tfc:bismuth'],randomizedArmorMaterials: [{'steel': 0.75},{'black_steel': 0.25}],materialPricing: [ {'steel': [[0, 0, 16],[0, 0, 20],[0, 0, 16],[0, 0, 12]] }, {'black_steel': [[0, 8, 22],[0, 10, 28],[0, 8, 22],[0, 6, 16]] } ]},   display:{Name:'[{\"text\":\"Something went wrong...\"}]',Lore:['{\"text\":\"Armor decorator script failed.\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Please report this on the hardrock discord!\",\"color\":\"red\",\"italic\":false}']}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 0
+      },
+      "tradeExp": 200,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer/armor/steel_3"
+    },
+    {
+      "offer": {"itemKey": "tfc:metal/rod/steel","amount": 1,"advancedNBTData": "{kjsArmorDecorator: {instanceID: 2,trimMaterialBlacklist: ['tfc:lapis_lazuli','tfc:bismuth'],randomizedArmorMaterials: [{'steel': 0.75},{'black_steel': 0.25}],materialPricing: [ {'steel': [[0, 0, 16],[0, 0, 20],[0, 0, 16],[0, 0, 12]] }, {'black_steel': [[0, 8, 22],[0, 10, 28],[0, 8, 22],[0, 6, 16]] } ]},   display:{Name:'[{\"text\":\"Something went wrong...\"}]',Lore:['{\"text\":\"Armor decorator script failed.\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Please report this on the hardrock discord!\",\"color\":\"red\",\"italic\":false}']}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 0
+      },
+      "tradeExp": 200,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer/armor/steel_4"
+    }
+  ]
+}

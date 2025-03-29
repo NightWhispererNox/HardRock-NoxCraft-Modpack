@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:gearshift"
+    },
+    {
+      "item": "createmetallurgy:sandpaper_belt"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetallurgy:mechanical_belt_grinder"
+    }
+  ]
+}

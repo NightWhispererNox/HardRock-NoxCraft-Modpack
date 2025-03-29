@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": [
+        {"item": "tfc:food/turtle"},
+        {"item": "untamedwilds:food_turtle_raw"}
+      ]
+    },
+    {
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"tag": "forge:vegetables/carrot"}
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"tag": "forge:vegetables/potato"}
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"tag": "forge:food/dried_kelp"}
+    }
+  ],
+  "result": {
+    "item": "untamedwilds:food_turtle_soup"
+  },
+  "experience": 1.0,
+  "cookingtime": 2400
+}

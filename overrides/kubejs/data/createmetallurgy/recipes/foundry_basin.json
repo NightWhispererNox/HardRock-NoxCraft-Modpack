@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:basin"
+    },
+    {
+      "item": "createmetallurgy:refractory_mortar"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetallurgy:foundry_basin"
+    }
+  ]
+}

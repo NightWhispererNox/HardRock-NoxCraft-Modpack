@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "GIG",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:rods/compressed_iron"
+    },
+    "I": {
+      "item": "rsgauges:industrial_analog_angular_gauge"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pressure_gauge"
+  }
+}

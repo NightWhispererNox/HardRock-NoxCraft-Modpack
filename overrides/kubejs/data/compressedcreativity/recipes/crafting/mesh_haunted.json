@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    {
+      "item": "compressedcreativity:mesh_dense"
+    }
+  ],
+  "result": {
+    "item": "compressedcreativity:mesh_haunted"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:tree_seed_paste"
+    },
+    {
+      "item": "kubejs:tree_seed_paste"
+    },
+    {
+      "item": "kubejs:tree_seed_paste"
+    },
+    {
+      "item": "kubejs:tree_seed_paste"
+    },
+    {
+      "item": "kubejs:tree_seed_paste"
+    },
+    {
+      "tag": "forge:bark_powder"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "fluid": "kubejs:seed_oil_water",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}

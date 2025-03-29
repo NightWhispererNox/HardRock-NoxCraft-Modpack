@@ -1,0 +1,23 @@
+{
+    "conditions": [{"type": "forge:mod_loaded","modid": "tfchotornot"}],
+    "type":"tfc:advanced_shaped_crafting",
+    "pattern":[
+        "sX ",
+        "SNZ",
+        "RSs"
+    ],
+    "key":{
+        "N":{"tag":"forge:rivets/wrought_iron"},
+        "X":{"item":"tfc:metal/knife_blade/wrought_iron"},
+        "Z":{"item":"tfc:metal/knife_blade/steel"},
+        "R":{"tag":"forge:rings/wrought_iron"},
+        "s":{"tag":"forge:leather/string"},
+        "S":{"tag":"forge:handle/short"}
+    },
+    "result":{
+        "stack":{"item":"minecraft:shears"},
+        "modifiers":["tfc:copy_forging_bonus"]
+    },
+    "input_row":1,
+    "input_column":2
+}

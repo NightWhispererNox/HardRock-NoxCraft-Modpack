@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "tfc:food/hyena"
+      }
+    },
+  "result": "tfc:food/cooked_hyena",
+  "experience": 0.35,
+  "cookingtime": 250
+}

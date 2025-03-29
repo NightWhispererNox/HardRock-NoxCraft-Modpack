@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "shw",
+    "rpr",
+    "rcr"
+  ],
+  "key": {
+    "p": [{
+      "tag": "forge:double_sheets/blue_steel"
+    },
+    {
+      "tag": "forge:double_sheets/red_steel"
+    }],
+    "c": {
+      "item": "immersiveengineering:craftingtable"
+    },
+    "r": {
+      "tag": "forge:rods/iron"
+    },
+    "s": {
+      "item": "immersiveengineering:screwdriver"
+    },
+    "w": {
+      "item": "immersiveengineering:wirecutter"
+    },
+    "h": {
+      "item": "immersiveengineering:hammer"
+    }
+  },
+  "result": {
+    "item": "cgm:workbench"
+  }
+}

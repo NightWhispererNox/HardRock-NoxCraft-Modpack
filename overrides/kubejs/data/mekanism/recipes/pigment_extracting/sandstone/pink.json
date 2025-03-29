@@ -1,0 +1,20 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": [
+          {
+              "item": "tfc:raw_sandstone/pink"
+          },
+          {
+              "item": "tfc:smooth_sandstone/pink"
+          },
+          {
+              "item": "tfc:cut_sandstone/pink"
+          }
+        ]
+    },
+    "output": {
+        "pigment": "mekanism:pink",
+        "amount": 8
+    }
+}

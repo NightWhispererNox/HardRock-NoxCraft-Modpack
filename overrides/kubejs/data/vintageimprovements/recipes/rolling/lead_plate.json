@@ -1,0 +1,14 @@
+{
+  "type":"createaddition:rolling",
+  "input": {
+    "type": "tfc:heatable",
+    "min_temp": 300,
+    "ingredient": {
+        "tag": "forge:rods/lead"
+    }
+  },
+  "result": {
+    "item": "vintageimprovements:lead_wire",
+    "count": 2
+  }
+}

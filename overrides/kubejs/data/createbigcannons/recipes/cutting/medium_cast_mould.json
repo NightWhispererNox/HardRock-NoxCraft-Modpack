@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "tfmg:heavy_oil",
+    "amount": 200
+  },
+  "output_item": {
+    "item": "createbigcannons:medium_cast_mould"
+  },
+  "duration": 8000
+}

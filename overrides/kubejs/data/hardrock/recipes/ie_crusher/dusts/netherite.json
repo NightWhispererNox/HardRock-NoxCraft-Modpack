@@ -1,0 +1,12 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[],
+    "result":{
+        "count": 1,
+        "base_ingredient":{"tag":"forge:dusts/netherite"}
+    },
+    "input":{
+        "tag":"forge:ingots/netherite"
+    },
+    "energy":6000
+}

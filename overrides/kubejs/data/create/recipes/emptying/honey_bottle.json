@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "tag": "forge:honey_jar"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:empty_jar"
+    },
+    {
+      "amount": 250,
+      "fluid": "create:honey"
+    }
+  ]
+}

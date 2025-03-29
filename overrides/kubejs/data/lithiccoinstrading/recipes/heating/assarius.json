@@ -1,0 +1,18 @@
+{
+    "__comment__": "This file was automatically created by HTFC4",
+    "conditions": [
+    {
+        "type": "forge:mod_loaded",
+        "modid": "tfc"
+    }
+    ],
+    "type": "tfc:heating",
+    "ingredient": {
+       "tag": "forge:trade/coins/assarius"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/unknown",
+        "amount": 20
+    },
+    "temperature": 1080
+}       

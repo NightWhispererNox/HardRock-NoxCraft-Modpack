@@ -1,0 +1,36 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "tag": "forge:leather/sheet"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "tag": "forge:leather/strip"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "tag": "forge:foils/wrought_iron"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:string"
+      },
+      "count": 4
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "spartanweaponry:small_bolt_quiver"
+  }
+}

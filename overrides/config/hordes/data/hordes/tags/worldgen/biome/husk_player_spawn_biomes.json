@@ -1,0 +1,9 @@
+{
+  "values": [
+	"tfc:badlands",
+    "tfc:inverted_badlands",
+	"minecraft:desert",
+	"#minecraft:is_savanna",
+	"#minecraft:is_badlands"
+  ]
+}

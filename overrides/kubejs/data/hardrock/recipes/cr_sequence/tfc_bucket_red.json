@@ -1,0 +1,21 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"type": "tfc:heatable","min_temp": 920,"ingredient": {"item": "tfc:metal/sheet/red_steel"}},
+  
+  "transitionalItem": {"item": "create:red_valve_handle"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]},
+    {"type": "createaddition:rolling","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]},
+    {"type": "vintageimprovements:curving","ingredients": [{"item": "create:red_valve_handle"}],"results": [{"item": "create:red_valve_handle"}]}
+  ],
+  "results": [
+    {"item": "tfc:metal/bucket/red_steel","chance": 120.0},
+    {"item": "tfc:metal/sheet/red_steel","chance": 10.0},
+    {"item": "tfc:metal/ingot/red_steel","chance": 5.0}
+  ],
+  "loops": 2
+}

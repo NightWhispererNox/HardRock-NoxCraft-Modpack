@@ -1,0 +1,26 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfc:powder/flux"
+    },
+    [
+      {
+        "item": "tfcorewashing:briquet_limonite"
+      },
+      {
+        "item": "tfcorewashing:briquet_magnetite"
+      },
+      {
+        "item": "tfcorewashing:briquet_hematite"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "tfmg:blasting_mixture"
+    }
+  ]
+
+}

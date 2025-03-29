@@ -1,0 +1,24 @@
+#List of blocks that can be moved along with the top of the pole
+movableApexes = ["#minecraft:banners", "#forge:chests", "hopper:*", "torch:*", "soul_torch:*", "redstone_torch:*", "campfire:*", "soul_campfire:*"]
+#Allows to quickly extend a pole by right-clicking it with a pole item
+quickExtension = true
+#Number of poles that can be placed(when holding pole items in both hands) / broken(when crouching) at once
+#Range: 1 ~ 128
+maxPolesAtOnce = 8
+
+[SlidingMechanics]
+	#Enables/disables sliding mechanics for this type of blocks
+	GlassPanes = true
+	#Enables/disables sliding mechanics for this type of blocks
+	WoodenFences = true
+	#Enables/disables sliding mechanics for this type of blocks
+	IronBars = true
+	#Enables/disables sliding mechanics for this type of blocks
+	Chains = true
+	#Enables/disables sliding mechanics for this type of blocks
+	BambooPlants = true
+	#Enables/disables sliding mechanics for this type of blocks
+	ModdedFences = true
+	#Enables/disables sliding mechanics for this type of blocks
+	Posts = true
+

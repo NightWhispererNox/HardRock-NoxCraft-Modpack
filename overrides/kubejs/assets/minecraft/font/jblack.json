@@ -1,0 +1,12 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:jblack.ttf",
+			"shift": [0, 0],
+			"size": 36.0,
+			"oversample": 10.0,
+			"skip": ""
+        }
+	]
+}

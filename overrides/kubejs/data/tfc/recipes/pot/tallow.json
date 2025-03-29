@@ -1,0 +1,31 @@
+{
+  "__comment__": "This file created by TFCH",
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+      "tag": "forge:tallow_source"
+    },
+    {
+      "tag": "forge:tallow_source"
+    },
+    {
+      "tag": "forge:tallow_source"
+    },
+    {
+      "tag": "forge:tallow_source"
+    },
+    {
+      "tag": "forge:tallow_source"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "minecraft:water",
+    "amount": 1000
+  },
+  "duration": 2000,
+  "temperature": 600,
+  "fluid_output": {
+    "fluid": "tfc:tallow",
+    "amount": 1000
+  }
+}

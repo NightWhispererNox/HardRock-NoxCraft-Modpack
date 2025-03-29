@@ -1,0 +1,224 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:mud_bricks/sandy_loam","amount": 16},
+        {"itemKey": "tfc:mud_bricks/loam","amount": 16},
+        {"itemKey": "tfc:mud_bricks/silty_loam","amount": 16},
+        {"itemKey": "tfc:mud_bricks/silt","amount": 16}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason/mud_bricks"
+    },
+    {
+      "offer": {"itemKey": "minecraft:clay_ball","amount": 24},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason/clay_balls"
+    },
+    {
+      "offer": {"itemKey": "tfc:ceramic/large_vessel/white","amount": 1,"advancedNBTData": "{kjsRandomize:['colorType','white']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason/dyed_large_vessel"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:alabaster/raw","amount": 12},
+        {"itemKey": "tfc:alabaster/polished","amount": 12},
+        {"itemKey": "tfc:alabaster/bricks","amount": 12}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason/alabaster_blocks"
+    },
+    {
+      "offer": {"itemKey": "minecraft:terracotta","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason/terracotta"
+    },
+    {
+      "offer": {"itemKey": "tfc:rock/chiseled/granite","amount": 16,"advancedNBTData": "{kjsRandomize:['stoneType','granite']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason/chiseled_stone_bricks"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/chisel/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/chisel/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason/iron_chisel"
+    },
+    {
+      "offer": {"itemKey": "minecraft:brick","amount": 16},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason/brick_item"
+    },
+    {
+      "offer": {"itemKey": "tfc:aggregate","amount": 32},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason/raw_aggregate"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/shovel/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/shovel/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason/iron_shovel"
+    },
+    {
+      "offer": {"itemKey": "tfc:kaolin_clay","amount": 16},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason/kaolin_clay"
+    },
+    {
+      "offer": {"itemKey": "tfc:rock/raw/granite","amount": 12,"advancedNBTData": "{kjsRandomize:['stoneType','granite']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason/raw_stone"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:fire_clay","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 16,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason/fire_clay"
+    },
+    {
+      "offer": {"itemKey": "tfc:ceramic/fire_brick","amount": 5},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason/fire_bricks"
+    }
+  ]
+}

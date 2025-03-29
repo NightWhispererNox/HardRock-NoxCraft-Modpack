@@ -1,0 +1,56 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:heavy_sheets/steel"},
+  "transitionalItem": {"item": "tfmg:unfinished_steel_mechanism"},
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_steel_mechanism"},{"tag": "forge:gears/steel"}],
+      "results": [{"item": "tfmg:unfinished_steel_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_steel_mechanism"},{"item": "create_sa:heat_engine"}],
+      "results": [{"item": "tfmg:unfinished_steel_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_steel_mechanism"},{"tag": "forge:springs/steel"}],
+      "results": [{"item": "tfmg:unfinished_steel_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_steel_mechanism"},{"tag": "forge:screws/handful/steel"}],
+      "results": [{"item": "tfmg:unfinished_steel_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_steel_mechanism"},{"tag": "forge:rings/steel"}],
+      "results": [{"item": "tfmg:unfinished_steel_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_steel_mechanism"},{"item": "tfmg:screwdriver"}],
+      "results": [{"item": "tfmg:unfinished_steel_mechanism"}]
+    }
+  ],
+  "results": [
+    {
+      "chance": 120.0,"item": "tfmg:steel_mechanism"
+    },
+    {
+      "chance": 8.0,"item": "tfc:metal/rods/steel"
+    },
+    {
+      "chance": 8.0,"item": "tfc:metal/sheet/steel"
+    },
+    {
+      "chance": 5.0,"item": "tfc:metal/ingot/steel"
+    },
+    {
+      "chance": 3.0,"item": "tfmg:industrial_pipe"
+    }
+  ]
+}

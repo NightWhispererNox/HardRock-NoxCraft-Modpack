@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": "tfc:dirt/silt",
+  "model_stages": [
+    "tfc:item/pan/cassiterite/slate_full"
+  ],
+  "loot_table": "tfc:panning/deposits/sandy_loam"
+}

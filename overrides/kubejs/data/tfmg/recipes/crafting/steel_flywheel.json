@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:large_cogwheel"},
+  "transitionalItem": {"item": "tfmg:steel_scaffolding"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:steel_scaffolding"},{"tag": "forge:plates/steel"}],"results": [{"item": "tfmg:steel_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfmg:steel_scaffolding"}],"results": [{"item": "tfmg:steel_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:steel_scaffolding"},{"tag": "forge:plates/steel"}],"results": [{"item": "tfmg:steel_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfmg:steel_scaffolding"}],"results": [{"item": "tfmg:steel_scaffolding"}]},
+    {"type": "create:deploying","ingredients": [{"item": "tfmg:steel_scaffolding"},{"tag": "forge:plates/steel"}],"results": [{"item": "tfmg:steel_scaffolding"}]},
+    {"type": "create:pressing","ingredients": [{"item": "tfmg:steel_scaffolding"}],"results": [{"item": "tfmg:steel_scaffolding"}]}
+  ],
+  "results": [
+    {"item": "tfmg:steel_flywheel"}
+  ],
+  "loops": 1
+}

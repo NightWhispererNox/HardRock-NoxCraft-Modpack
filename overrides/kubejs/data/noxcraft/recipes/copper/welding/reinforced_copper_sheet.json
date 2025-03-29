@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+      "item": "kubejs:encased_copper_sheet"
+    },
+    "second_input": {
+      "item": "kubejs:encased_copper_sheet"
+    },
+    "tier": 1,
+    "result": {
+      "item": "kubejs:reinforced_copper_sheet"
+    }
+  }

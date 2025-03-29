@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:hide_tanned_s"
+    },
+    {
+      "fluidTag": "forge:plantoil",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:hide_oiled_s"
+    }
+  ]
+}

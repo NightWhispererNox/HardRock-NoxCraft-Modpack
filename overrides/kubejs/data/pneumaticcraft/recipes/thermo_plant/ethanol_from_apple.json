@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "item_input": {
+    "tag":"forge:ethanol_source"
+  },
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "pneumaticcraft:yeast_culture",
+    "amount": 100
+  },
+  "fluid_output": {
+    "fluid": "immersiveengineering:ethanol",
+    "amount": 100
+  },
+  "item_output": {
+    "item": "kubejs:seed_biomass"
+  },
+  "temperature": {
+    "min_temp": 303,
+    "max_temp": 333
+  },
+  "speed": 0.25,
+  "exothermic": true
+}

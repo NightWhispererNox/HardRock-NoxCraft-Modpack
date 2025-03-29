@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "SZS",
+    "CSC"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:wires/electrum"
+    },
+    "C": {
+      "tag": "forge:wires/electrum"
+    },
+    "Z": {
+      "item": "createsifter:brass_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:advanced_brass_mesh",
+    "count": 1
+  }
+}

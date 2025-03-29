@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/wrought_iron",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

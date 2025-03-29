@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:ingots/iron_quartz"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:iron_quartz",
+    "amount": 100
+  },
+  "temperature": 930
+}

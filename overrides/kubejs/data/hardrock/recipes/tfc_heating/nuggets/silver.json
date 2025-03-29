@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was created by tfch",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/silver",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:nuggets/silver"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/silver",
+    "amount": 10
+  },
+  "temperature": 961
+}

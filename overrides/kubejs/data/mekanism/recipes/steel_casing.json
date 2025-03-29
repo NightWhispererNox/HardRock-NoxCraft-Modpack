@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "refinedstorage:machine_casing"},
+  "transitionalItem": {"item": "kubejs:un_casing"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluid": "kubejs:iron_quartz","nbt": {},"amount": 25}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "forge:plates/steel"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluid": "kubejs:iron_quartz","nbt": {},"amount": 25}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "forge:plates/steel"}],"results": [{"item": "kubejs:un_casing"}]}
+  ],
+  "results": [{"item": "mekanism:steel_casing"}],
+  "loops": 1
+}

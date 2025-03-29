@@ -1,0 +1,7 @@
+{
+    "type":"tfc:welding",
+    "first_input":{"item":"spartanweaponry:steel_boomerang"},
+    "second_input":{"tag":"forge:dusts/diamond"},
+    "tier":1,
+    "result":{"item":"spartanweaponry:diamond_boomerang"}
+}

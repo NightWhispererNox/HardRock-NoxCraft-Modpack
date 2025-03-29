@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " G ",
+    "HHH",
+    "HCH"
+  ],
+  "key":
+  {
+    "G":
+    {
+      "tag": "forge:metal/chain"
+    },
+    "H":
+    {
+      "item": "cold_sweat:soul_sprout"
+    },
+    "C":
+    {
+      "item": "tfc:metal/lamp/steel"
+    }
+  },
+  "result": {
+    "item": "cold_sweat:soulspring_lamp",
+    "count": 1,
+    "nbt": {
+      "Fuel": 20
+    }
+  }
+}

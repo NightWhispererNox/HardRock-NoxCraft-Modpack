@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was created by tfch",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/brass",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:nuggets/brass"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/brass",
+    "amount": 10
+  },
+  "temperature": 930,
+  "use_durability": true
+}

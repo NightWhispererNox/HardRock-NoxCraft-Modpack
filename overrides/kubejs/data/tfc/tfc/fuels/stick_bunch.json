@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "tfc:stick_bunch"
+  },
+  "duration": 900,
+  "temperature": 900,
+  "purity": 0.8
+}

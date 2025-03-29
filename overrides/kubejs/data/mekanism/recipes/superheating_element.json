@@ -1,0 +1,15 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:andesite_casing"},
+  "transitionalItem": {"item": "kubejs:un_casing"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "immersiveengineering:coil_lv"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "immersiveengineering:coil_lv"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "mekanism:steel_casing"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "immersiveengineering:coil_lv"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"item": "immersiveengineering:coil_lv"}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:un_casing"}, {"tag": "mekanism:alloys/infused"}],"results": [{"item": "kubejs:un_casing"}]}
+  ],
+  "results": [{"item": "mekanism:superheating_element"}],
+  "loops": 1
+}

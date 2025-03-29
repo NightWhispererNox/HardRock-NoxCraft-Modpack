@@ -1,0 +1,7 @@
+{
+  "Needed Item ID or Tag": "rituals_of_the_wilds:cryorite_gem",
+  "Result Item ID": "rituals_of_the_wilds:cryorite_powder",
+  "Give Fixed Amount": true,
+  "Min/Fixed Give amount": 1,
+  "Max Give amount": 1
+}

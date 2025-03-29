@@ -1,0 +1,36 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "sewingkit:leather_sheet"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "sewingkit:leather_strip"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "tag": "forge:cloth"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "tag": "forge:string/strong"
+      },
+      "count": 12
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "minecraft:leather_horse_armor"
+  }
+}

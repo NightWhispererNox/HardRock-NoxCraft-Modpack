@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheetmetals/steel"},
+  "transitionalItem": {"item": "immersiveengineering:wooden_barrel"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"item": "create:fluid_tank"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:sheets/black_steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:filling","ingredients": [{"item": "immersiveengineering:wooden_barrel"},{"fluid": "immersiveengineering:redstone_acid","nbt": {},"amount": 1000}],"results": [{"item": "immersiveengineering:wooden_barrel"}]},
+    {"type": "create:deploying","ingredients": [{"item": "immersiveengineering:wooden_barrel"}, {"tag": "forge:sheets/black_steel"}],"results": [{"item": "immersiveengineering:wooden_barrel"}]}
+  ],
+  "results": [{"item": "immersiveengineering:radiator"}],
+  "loops": 1
+}

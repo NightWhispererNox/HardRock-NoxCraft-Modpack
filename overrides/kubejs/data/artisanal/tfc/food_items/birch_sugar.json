@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "afc"
+    }
+  ],
+  "ingredient": {
+    "item": "afc:birch_sugar"
+  },
+  "hunger": 0,
+  "saturation": 0,
+  "decay_modifier": 0
+}

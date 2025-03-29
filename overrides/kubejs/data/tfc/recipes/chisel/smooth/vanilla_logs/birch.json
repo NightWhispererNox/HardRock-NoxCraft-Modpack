@@ -1,0 +1,7 @@
+{
+    "__comment__": "made by air!",
+    "type": "tfc:chisel",
+    "ingredient": "tfc:wood/log/birch",
+    "result": "minecraft:birch_log",
+    "mode": "smooth"
+}

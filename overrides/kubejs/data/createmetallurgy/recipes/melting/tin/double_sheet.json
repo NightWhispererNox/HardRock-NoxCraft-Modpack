@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:double_sheets/tin"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:double_sheets/tin"
+    }
+  ],
+  "processingTime": 480,
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "tfc:metal/tin"
+    }
+  ]
+}

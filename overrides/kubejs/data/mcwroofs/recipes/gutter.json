@@ -1,0 +1,19 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "type": "tfc:anvil",
+    "input": {
+      "tag": "forge:sheets/aluminum"
+    },
+    "result": {
+      "item": "mcwroofs:rain_gutter",
+      "count": 3
+    },
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ]
+  }
+
+

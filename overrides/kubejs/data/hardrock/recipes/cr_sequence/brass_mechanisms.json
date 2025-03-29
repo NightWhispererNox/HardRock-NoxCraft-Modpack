@@ -1,0 +1,52 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:rods/brass"
+  },
+  "transitionalItem": {
+    "item": "create:incomplete_precision_mechanism"
+  },
+  "sequence": [
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:stamens/brass"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:rivets/brass"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:rings/brass"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "create:incomplete_precision_mechanism"},{"tag": "forge:nuggets/brass"}],
+      "results": [{"item": "create:incomplete_precision_mechanism"}]
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:brass_mechanisms",
+      "chance": 120.0,
+      "count": 3
+    },
+    {
+      "item": "tfc:metal/rod/brass",
+      "chance": 8.0
+    },
+    {
+      "item": "create:brass_nugget",
+      "chance": 3.0
+    }
+  ],
+  "loops": 2
+}

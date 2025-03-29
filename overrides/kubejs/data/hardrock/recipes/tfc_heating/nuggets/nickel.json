@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was created by tfch",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/nickel",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:nuggets/nickel"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/nickel",
+    "amount": 10
+  },
+  "temperature": 1453
+}

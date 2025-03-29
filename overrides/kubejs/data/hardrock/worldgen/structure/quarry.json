@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "hardrock:quarry/start_pool",
+  "size": 2,
+  "max_distance_from_center": 80,
+  "spawn_overrides": {"creature": {"bounding_box": "piece","spawns": []}},
+  "step": "surface_structures",  
+  "terrain_adaptation": "beard_thin",
+  "start_height": {"absolute": 2},
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": "#minecraft:is_plains",
+  "use_expansion_hack": false
+}

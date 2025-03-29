@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_fences"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "tfc_lumberjack:sawdust",
+      "count": 3
+    },
+    {
+      "item": "tfc_lumberjack:sawdust",
+      "chance": 0.5
+    }
+  ]
+}

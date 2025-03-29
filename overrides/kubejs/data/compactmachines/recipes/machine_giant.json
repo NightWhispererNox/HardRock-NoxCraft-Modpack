@@ -1,0 +1,32 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "compactmachines:wall",
+      "count": 32
+    },
+    {
+      "item": "mekanism:elite_energy_cube"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "mekanismgenerators:fission_reactor_casing",
+      "count": 8
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "mekanism:enriched_diamond",
+      "count": 64
+    },
+    {
+      "item": "mekanism:portable_teleporter"
+    }
+  ],
+  "pressure": 6.0,
+  "results": [
+    {
+      "item": "compactmachines:machine_giant"
+    }
+  ]
+}

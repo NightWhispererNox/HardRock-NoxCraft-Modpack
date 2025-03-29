@@ -1,0 +1,20 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "minecraft:lava",
+  "fluidminimum": 250000,
+  "fluidcapacity": 1000000,
+  "fluidtrace": 0,
+  "weight": 30,
+  "dimensions": {
+    "isBlacklist": false,
+    "list": [
+      "minecraft:overworld",
+      "minecraft:nether"
+    ]
+  },
+  "biomes": {
+    "isBlacklist": true,
+    "list": []
+  },
+  "name": "lava"
+}

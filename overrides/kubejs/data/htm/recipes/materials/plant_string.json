@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:straw"
+    },
+    {
+      "tag": "forge:straw"
+    },
+    {
+      "tag": "forge:straw"
+    }
+  ],
+  "result": {
+    "item": "htm:plant_string"
+  }
+}

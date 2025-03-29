@@ -1,0 +1,33 @@
+{
+  "name":"aardvark",
+  "breeding":"EARLY_SUMMER",
+  "growing_time":6,
+  "offspring":1,
+  "activityType":"nocturnal",
+  "favourite_food":"kubejs:feed_seed",
+  "sounds":{
+    "ambient":"untamedwilds:entity.aardvark.ambient",
+    "hurt":"untamedwilds:entity.aardvark.hurt",
+    "death":"untamedwilds:entity.aardvark.death"
+  },
+  "species":[
+    {
+      "name":"common",
+      "variant":0,
+      "scale":1,
+      "rarity":1,
+      "breeding":"LATE_SPRING",
+      "growing_time":6,
+      "offspring":1,
+      "skins":30,
+      "flags":{
+
+      },
+      "spawnBiomes":[
+        [
+          "tag|is_savanna"
+        ]
+      ]
+    }
+  ]
+}

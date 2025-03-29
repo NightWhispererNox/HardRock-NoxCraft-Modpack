@@ -1,0 +1,26 @@
+{
+  "__comment__": "This file created by tfch",
+  "type": "firmalife:mixing_bowl",
+  "ingredients": [
+    {
+      "tag": "tfc:foods/apples"
+    },
+    {
+      "tag": "tfc:foods/apples"
+    },
+    {
+      "tag": "tfc:foods/apples"
+    },
+    {
+      "tag": "tfc:foods/apples"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "create:honey",
+    "amount": 1000
+  },
+  "output_item": {
+    "item": "create:honeyed_apple",
+    "count": 4
+  }
+}

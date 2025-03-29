@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "createmetallurgy:graphite_blank_mold"},
+  "transitionalItem": {"item": "kubejs:sq_steelpipecr"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_steelpipecr"}, {"tag": "forge:rods/compressed_iron"}],"results": [{"item": "kubejs:sq_steelpipecr"}],"keepHeldItem": true},
+    {"type": "create:cutting","ingredients": [{"item": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"item": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:cutting","ingredients": [{"item": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]},
+    {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_steelpipecr"}],"results": [{"item": "kubejs:sq_steelpipecr"}]}
+  ],
+  "results": [{"item": "createmetallurgy:graphite_rod_mold" }],
+  "loops": 2
+}

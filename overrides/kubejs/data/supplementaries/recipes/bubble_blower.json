@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:rods/iron"
+  },
+  "result": {
+    "item": "supplementaries:bubble_blower",
+    "count": 1,
+    "nbt": {
+      "Damage": 250
+    }
+  },
+  "tier": 1,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

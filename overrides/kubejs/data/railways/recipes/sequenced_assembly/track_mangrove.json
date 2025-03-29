@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfc:wood/lumber/mangrove"
+  },
+  "transitionalItem": {
+    "item": "railways:track_incomplete_mangrove"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        },
+        [
+          {
+            "item": "railways:track_tieless"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_mangrove"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "railways:track_mangrove"
+    }
+  ],
+  "loops": 1
+}

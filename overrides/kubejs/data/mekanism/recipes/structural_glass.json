@@ -1,0 +1,12 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "minecraft:glass"},
+  "transitionalItem": {"item": "kubejs:un_casing"},
+  "sequence": [
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluidTag": "forge:molten_steel","nbt": {},"amount": 500}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluid": "kubejs:iron_quartz","nbt": {},"amount": 250}],"results": [{"item": "kubejs:un_casing"}]},
+    {"type": "create:filling","ingredients": [{"item": "kubejs:un_casing"},{"fluidTag": "forge:molten_lead","nbt": {},"amount": 250}],"results": [{"item": "kubejs:un_casing"}]}
+  ],
+  "results": [{"item": "mekanism:structural_glass"}],
+  "loops": 1
+}

@@ -1,0 +1,23 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:double_sheets/steel","count": 1
+    },
+    {
+      "tag": "forge:nuggets/iron","count": 6
+    },
+    {
+      "item": "tfc:lens","count": 8
+    },
+    {
+      "item": "minecraft:redstone","count": 8
+    },
+    {
+      "tag": "forge:dyes/black","count": 1
+    }
+  ],
+  "result": {
+    "item": "cgm:long_scope"
+  }
+}

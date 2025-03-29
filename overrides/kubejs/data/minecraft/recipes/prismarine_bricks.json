@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:prismarine"
+  },
+  "result": "minecraft:prismarine_bricks",
+  "experience": 0.0,
+  "cookingtime": 200
+}

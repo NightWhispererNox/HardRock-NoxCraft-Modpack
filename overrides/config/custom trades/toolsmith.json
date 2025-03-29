@@ -1,0 +1,287 @@
+{
+  "profession": "minecraft:toolsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {"itemKey": "tfc:ceramic/ingot_mold","amount": 4},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith/ingot_molds"
+    },
+    {
+      "offer": {"itemKey": "tfc:ceramic/white_glazed_vessel","amount": 1,"advancedNBTData": "{kjsRandomize:['colorType','white']}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith/dyed_small_vessel"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfchotornot:burlap_potholder","amount": 1},
+        {"itemKey": "tfchotornot:silk_potholder","amount": 1},
+        {"itemKey": "tfchotornot:wool_potholder","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith/potholder"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:charcoal","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith/charcoal"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/saw/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/saw/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith/tools/iron/saw"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/hammer/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/hammer/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith/tools/iron/hammer"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:ceramic/fire_ingot_mold","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith/fire_ingot_molds"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/pickaxe/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/pickaxe/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith/tools/iron/pickaxe"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/axe/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/axe/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith/tools/iron/axe"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfchotornot:mittens","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith/mittens"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/propick/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/propick/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 8
+      },
+      "tradeExp": 80,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith/tools/steel/propick"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/scythe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/scythe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 8
+      },
+      "tradeExp": 80,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith/tools/steel/scythe"
+    },
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/pickaxe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/pickaxe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/pickaxe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/pickaxe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/pickaxe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/pickaxe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/pickaxe/black_steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}","priceModifierAdditional":4},
+        {"itemKey": "tfc:metal/pickaxe/black_steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}","priceModifierAdditional":4}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 12
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 0
+      },
+      "tradeExp": 120,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith/tools/black_steel_chance/pickaxe"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/axe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/axe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/axe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/axe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/axe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/axe/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/axe/black_steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}","priceModifierAdditional":4},
+        {"itemKey": "tfc:metal/axe/black_steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}","priceModifierAdditional":4}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 12
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 0
+      },
+      "tradeExp": 120,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith/tools/black_steel_chance/axe"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/shovel/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/shovel/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/shovel/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/shovel/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/shovel/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"},
+        {"itemKey": "tfc:metal/shovel/steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}"},
+
+        {"itemKey": "tfc:metal/shovel/black_steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}","priceModifierAdditional":4},
+        {"itemKey": "tfc:metal/shovel/black_steel","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':4}","priceModifierAdditional":4}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 12
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 0
+      },
+      "tradeExp": 120,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith/tools/black_steel_chance/shovel"
+    }
+  ]
+}

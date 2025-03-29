@@ -1,0 +1,17 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "minecraft:white_wool"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "sewingkit:wool_trim",
+    "count": 2
+  }
+}

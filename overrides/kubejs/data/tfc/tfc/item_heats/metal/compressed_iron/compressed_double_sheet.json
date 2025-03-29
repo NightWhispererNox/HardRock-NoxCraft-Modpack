@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "tag": "forge:double_sheets/compressed_iron"
+  },
+  "heat_capacity": 22.858,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

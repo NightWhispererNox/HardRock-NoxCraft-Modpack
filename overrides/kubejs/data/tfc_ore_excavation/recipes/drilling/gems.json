@@ -1,0 +1,23 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill": {
+    "tag": "createoreexcavation:high_tier_drills"
+  },
+  "fluid": {
+    "amount": 250,
+    "fluid": "minecraft:water",
+    "nbt": {}
+  },
+  "output": [
+    {"chance": 0.70,"item": "tfc:rock/loose/andesite"},
+    {"chance": 0.05,"item": "tfc:ore/diamond"},
+    {"chance": 0.05,"item": "tfc:ore/lapis_lazuli"},
+    {"chance": 0.05,"item": "tfc:ore/ruby"},
+    {"chance": 0.05,"item": "tfc:ore/sapphire"},
+    {"chance": 0.05,"item": "tfc:ore/emerald"}
+  ],
+  "priority": 0,
+  "stress": 256,
+  "ticks": 400,
+  "vein_id": "tfc_ore_excavation:vein_type/gems"
+}

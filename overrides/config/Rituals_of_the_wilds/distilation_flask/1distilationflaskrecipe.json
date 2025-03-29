@@ -1,0 +1,6 @@
+{
+  "Needed Item ID or Tag": "forge:dyes",
+  "Needed Block ID or Tag under flask": "minecraft:blue_ice",
+  "Result Item ID": "rituals_of_the_wilds:color_catalyst",
+  "Distilation time(In ticks)": 80
+}

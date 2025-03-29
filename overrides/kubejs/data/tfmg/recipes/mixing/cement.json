@@ -1,0 +1,21 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "forge:clay"
+    },
+    {
+      "tag": "forge:mortar"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:cement",
+      "count": 2
+    }
+  ]
+}

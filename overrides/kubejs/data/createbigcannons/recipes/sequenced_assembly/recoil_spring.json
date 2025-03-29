@@ -1,0 +1,34 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "vintageimprovements:springs/iron"},
+  "results": [{"item": "createbigcannons:recoil_spring"}],
+  "transitionalItem": {"item": "createbigcannons:partial_recoil_spring"},
+  "loops": 1,  
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "createbigcannons:partial_recoil_spring"},{"item": "minecraft:redstone"}],
+      "results": [{"item": "createbigcannons:partial_recoil_spring"}]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [{"item": "createbigcannons:partial_recoil_spring"},{"fluid": "tfc:metal/red_steel","nbt": {},"amount": 250}],
+      "results": [{"item": "createbigcannons:partial_recoil_spring"}]
+    },
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "createbigcannons:partial_recoil_spring"}],
+      "results": [{"item": "createbigcannons:partial_recoil_spring"}]
+    },
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "createbigcannons:partial_recoil_spring"}],
+      "results": [{"item": "createbigcannons:partial_recoil_spring"}]
+    },
+    {
+      "type":"vintageimprovements:curving",
+      "ingredients": [{"item": "createbigcannons:partial_recoil_spring"}],
+      "results": [{"item": "createbigcannons:partial_recoil_spring"}]
+    }
+  ]
+}

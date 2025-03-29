@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file created by tfch",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/zinc"
+  },
+  "result": {
+    "item": "create_sa:zinc_handle",
+    "count": 1
+  },
+  "tier": 1,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " S",
+    "L "
+  ],
+  "key":
+  {
+    "S":
+    {
+      "tag": "forge:rope"
+    },
+    "L":
+    {
+      "item": "waterflasks:leather_side"
+    }
+  },
+  "result":
+  {
+    "item": "cold_sweat:waterskin",
+    "count": 1
+  }
+}

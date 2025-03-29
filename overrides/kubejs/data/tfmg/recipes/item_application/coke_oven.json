@@ -1,0 +1,17 @@
+
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:cokebrick"
+    },
+    {
+      "tag": "forge:plates/cast_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:coke_oven"
+    }
+  ]
+}

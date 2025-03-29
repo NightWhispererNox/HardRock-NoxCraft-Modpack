@@ -1,0 +1,17 @@
+{
+  "name":"underground",
+  "entries":[
+    {
+      "type":"untamedwilds:bear",
+      "weight":1,
+      "size_min":1,
+      "size_max":1
+    },
+    {
+      "type":"untamedwilds:spitter",
+      "weight":1,
+      "size_min":1,
+      "size_max":1
+    }
+  ]
+}

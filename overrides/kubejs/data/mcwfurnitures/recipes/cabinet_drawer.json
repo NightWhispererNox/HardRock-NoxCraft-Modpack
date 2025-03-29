@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "LBL",
+        "LRL"		
+    ],
+    
+    "key":
+    { 
+        "B":
+        {
+            "tag": "forge:barrels"
+        },
+        "R":
+        {
+            "tag": "forge:rods/iron"
+        }, 
+		"L":
+        {
+            "tag": "tfc:lumber"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnitures:cabinet_drawer",
+        "count": 1
+    }
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/andesite_alloy"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 900,
+      "fluid": "kubejs:andesite_alloy",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 640,
+  "result": {
+    "tag": "forge:storage_blocks/andesite_alloy"
+  }
+}

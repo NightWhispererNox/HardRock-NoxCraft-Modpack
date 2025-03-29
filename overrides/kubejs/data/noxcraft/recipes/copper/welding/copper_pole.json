@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+      "item": "kubejs:copper_double_rod"
+    },
+    "second_input": {
+      "tag": "forge:rods/copper"
+    },
+    "tier": 1,
+    "result": {
+      "item": "kubejs:copper_pole"
+    }
+  }

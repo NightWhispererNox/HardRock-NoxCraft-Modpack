@@ -1,0 +1,6 @@
+{
+  "profession": "mca:mercenary",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": []
+}

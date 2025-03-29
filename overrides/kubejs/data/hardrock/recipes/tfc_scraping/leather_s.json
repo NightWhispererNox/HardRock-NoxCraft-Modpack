@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:scraping",
+  "ingredient": {
+    "item": "kubejs:hide_oiled_s"
+  },
+  "result": {
+    "item": "kubejs:hide_finish_s",
+    "count": 1
+  },
+  "input_texture": "kubejs:item/hide_oiled_s",
+  "output_texture": "kubejs:item/hide_finish_s"
+}

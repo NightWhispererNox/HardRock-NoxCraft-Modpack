@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "immersiveengineering:slab_steel_scaffolding_wooden_top",
+      "count": 2
+    },
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "immersiveengineering:steel_scaffolding_wooden_top"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was created by mtfch",
+  "type": "firmalife:drying",
+  "ingredient": {
+    "item": "tfc:plant/winged_kelp"
+  },
+  "result": {
+    "item": "tfc:food/dried_kelp"
+  }
+}

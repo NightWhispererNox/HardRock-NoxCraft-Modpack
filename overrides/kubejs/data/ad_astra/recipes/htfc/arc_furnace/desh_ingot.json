@@ -1,0 +1,14 @@
+{
+    "type":"immersiveengineering:arc_furnace",
+    "additives":[],
+    "energy":51200,
+    "input":{
+        "item":"kubejs:dust_pure_desh"
+    },
+    "results":[
+        {
+            "item":"ad_astra:desh_ingot"
+        }
+    ],
+    "time":100
+}

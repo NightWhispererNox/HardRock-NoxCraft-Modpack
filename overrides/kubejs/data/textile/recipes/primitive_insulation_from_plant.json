@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "htm:plant_fabric"
+    },
+    {
+      "item": "htm:plant_fabric"
+    },
+    {
+      "tag": "forge:straw"
+    },
+    {
+      "tag": "forge:straw"
+    }
+  ],
+  "result": {
+    "item": "textile:primitive_insulation"
+  }
+}

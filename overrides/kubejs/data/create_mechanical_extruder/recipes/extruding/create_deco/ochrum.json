@@ -1,0 +1,20 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "ingredients": [
+
+    {
+      "fluid": "tfc:spring_water",
+      "amount": 1000
+    },
+    {
+      "fluid": "tfc_ie_addon:metal/electrum",
+      "amount": 1000
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "item": "create:ochrum"
+  }
+}

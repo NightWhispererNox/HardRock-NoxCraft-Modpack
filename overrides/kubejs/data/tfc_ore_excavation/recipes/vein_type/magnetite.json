@@ -1,0 +1,16 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 30.0,
+  "amountMin": 6.0,
+  "biomeWhitelist": "tfc:is_vein",
+  "icon": {
+    "item": "tfc:ore/poor_magnetite"
+  },
+  "name": "{\"translate\":\"Magnetite vein\"}",
+  "placement": {
+    "salt": 642680510,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "S",
+    "D"
+  ],
+  "key": {
+    "C": {
+      "item": "firmalife:food/cocoa_powder"
+    },
+    "D": {
+      "item": "firmalife:food/pie_dough"
+    },
+    "S": {
+      "tag": "forge:sugar"
+    }
+  },
+  "result": {
+    "item": "kubejs:raw_cookie",
+    "count": 16
+  }
+}

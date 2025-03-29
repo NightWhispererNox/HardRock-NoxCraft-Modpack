@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfmg:heavy_machinery_casing"
+    },
+    {
+      "item": "tfmg:steel_cogwheel"
+    },
+    {
+      "item": "tfmg:steel_cogwheel"
+    }
+  ],
+  "result": {
+    "item": "tfmg:steel_gearbox",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "immersiveengineering:fermenter",
+  "fluid": {
+    "fluid": "immersiveengineering:ethanol",
+    "amount": 80
+  },
+  "result":{
+    "item":"kubejs:seed_biomass"
+  },
+  "input": {
+    "item": "tfc:food/lemon"
+  },
+  "energy": 6400
+}

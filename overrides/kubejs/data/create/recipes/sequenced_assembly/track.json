@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfc:wood/lumber/white_cedar"
+  },
+  "transitionalItem": {
+    "item": "railways:track_incomplete_oak"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_oak"
+        },
+        [
+          {
+            "item": "railways:track_tieless"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_oak"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:track"
+    }
+  ],
+  "loops": 1
+}

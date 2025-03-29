@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+      "item": "kubejs:double_graphite_sheet"
+    },
+    "second_input": {
+      "item": "tfc:metal/double_sheet/copper"
+    },
+    "tier": 1,
+    "result": {
+      "item": "kubejs:encased_copper_sheet"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "adchimneys:stone_vent"
+    },
+    {
+      "item": "tfc:bellows"
+    }
+  ],
+  "results": [
+    {
+      "item": "adchimneys:stone_pump"
+    }
+  ]
+}

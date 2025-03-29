@@ -1,0 +1,6 @@
+{
+    "type": "tfc:chisel",
+    "ingredient": "minecraft:mossy_cobblestone",
+    "result": "minecraft:cobblestone",
+    "mode": "smooth"
+}

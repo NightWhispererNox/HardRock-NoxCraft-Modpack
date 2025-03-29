@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfc_loot:endstone_rock"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "minecraft:lava",
+      "amount": 5
+    }
+  ],
+  "heatRequirement": "superheated"
+}

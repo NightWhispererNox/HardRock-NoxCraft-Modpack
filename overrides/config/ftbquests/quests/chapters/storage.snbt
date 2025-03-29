@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "rsquare"
+	filename: "storage"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "tfc:wood/trapped_chest/pine"
+	id: "4303E25D027452E9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2DB43046BD0FCBD6"
+				"43A3F6984C4136E3"
+			]
+			description: ["You found clay - create a vessel in which to store your items. The TFC Guide explains how to knap clay into shaped, unfired forms."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/vessel"
+				tag: { }
+			}
+			id: "4A97A21CE49425F5"
+			tasks: [
+				{
+					id: "43FF063E5F058639"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_vessel"
+					}
+					title: "Vessel"
+					type: "item"
+				}
+				{
+					id: "4ABCEB8C4EB99C9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/vessel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Ceramics"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2DB43046BD0FCBD6"
+				"4A97A21CE49425F5"
+			]
+			description: ["A large vessel holds more items. You can carry one filled large vessel, and even put it on your back like a backpack."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/unfired_large_vessel/orange"
+			}
+			id: "50B8838BD9145E3C"
+			tasks: [
+				{
+					id: "63440B51E2E525BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_large_vessel"
+					}
+					title: "Vessel"
+					type: "item"
+				}
+				{
+					id: "7CE812537F7596B1"
+					item: "tfc:ceramic/large_vessel"
+					type: "item"
+				}
+			]
+			title: "Large vessel"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50B8838BD9145E3C"]
+			description: ["If you have already crafted the planks, you can craft the chests. Do it!"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7D1BA16E49E5FF47"
+			tasks: [{
+				id: "3FCB6DB28E3EAEDF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "Chest"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"43A3F6984C4136E3"
+				"3490ED7CDC9A2831"
+			]
+			description: ["Once you make silicon, you will be able to build the special refined storage system, which needs a permanent connection to a power source."]
+			hide_until_deps_visible: true
+			icon: "refinedstorage:crafting_monitor"
+			id: "1CAF3AF81B2F92B9"
+			tasks: [
+				{
+					icon: "refinedstorage:silicon"
+					id: "0F9EED435FCD5E51"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_vessel"
+					}
+					title: "Silicon"
+					type: "item"
+				}
+				{
+					id: "53F0F21FA19566D7"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+			]
+			title: "Refined System Storage"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CAF3AF81B2F92B9"]
+			description: ["The controller is the heart of our system and is necessary for the entire infrastructure to function."]
+			hide_until_deps_visible: true
+			icon: "refinedstorage:controller"
+			id: "4B0318BD9F6E4DA4"
+			tasks: [
+				{
+					id: "76FDD408459EF455"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6FBE7B0E8F2B2993"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			title: "Controller"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B0318BD9F6E4DA4"]
+			description: ["Connect your barrels, chests, and drawers with this to gain access to all your items in the system."]
+			hide_until_deps_visible: true
+			id: "6EA7CC7C62F2E0BB"
+			tasks: [{
+				id: "75A225D96AB257A7"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EA7CC7C62F2E0BB"]
+			description: ["After connecting the drives, you can store all your items on them. The ammount you can store will depend on the size of the disks. Remember that the system must be connected to the power supply at all times."]
+			hide_until_deps_visible: true
+			icon: "refinedstorage:disk_drive"
+			id: "7C5EB4766FB2E5BA"
+			tasks: [
+				{
+					id: "0B1F8F58B4B35E8E"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "235EAD7800739AD7"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C5EB4766FB2E5BA"]
+			description: ["Add wireless access to your entire inventory."]
+			hide_until_deps_visible: true
+			id: "3640DC0066DC7F25"
+			tasks: [{
+				id: "271EBD8FAD31DE44"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C5EB4766FB2E5BA"]
+			hide_until_deps_visible: true
+			id: "35CEEED65269F431"
+			tasks: [{
+				id: "175D8CD55CAD23C8"
+				item: "refinedstorage:detector"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C5EB4766FB2E5BA"]
+			hide_until_deps_visible: true
+			id: "5E7D38526E14BE88"
+			tasks: [{
+				id: "76D2002A1BCA709B"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C5EB4766FB2E5BA"]
+			hide_until_deps_visible: true
+			id: "4CC166427FC0E754"
+			tasks: [{
+				id: "4DB4787663B6F629"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+	]
+	title: "Storage"
+}

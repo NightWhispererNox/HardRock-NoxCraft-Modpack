@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:oil_seeds"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createaddition:seed_oil",
+      "amount": 50
+    },
+    {
+      "item": "kubejs:seed_biomass"
+    }
+  ]
+}

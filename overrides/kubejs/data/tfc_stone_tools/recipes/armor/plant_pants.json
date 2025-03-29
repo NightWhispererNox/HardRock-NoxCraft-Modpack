@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "kubejs:plant_leg"
+    },
+    "S": {
+      "item": "tfc_stone_tools:plant_string"
+    }
+  },
+  "result": {
+    "item": "tfc_stone_tools:plant_leggings"
+  }
+}

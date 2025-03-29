@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/steel",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfc:metal/ingot/steel"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "immersiveengineering:storage_steel"
+    }
+
+  ]
+}

@@ -1,0 +1,227 @@
+{
+	autofocus_id: "7572F3CCD77EC71E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "important"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:redstone_torch"
+	id: "2BB45B1C5C5AF92E"
+	images: [
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide"
+			height: 0.5d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/decay.html"
+			dependency: "43A3F6984C4136E3"
+			height: 0.5d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BD254AA96F54986"]
+			description: [
+				"Get purified or boiled water and food to survive. Drinking water from a river or lake can make you sick, but it's better than drinking salt water. Food is perishable; preserve it with salt or smoke, or by pickling, and store it in vessels and barrels."
+				""
+				"Don't focus on searching for metals, producing advanced tools, or exploring the world too quickly. The warm seasons will soon end. Eventually, you can build a special underground cellar which will protect your supplies for a long time. You can also build a greenhouse to grow food year-round. Start with the bee apiary, from which you will get the wax needed to build these structures."
+				""
+				"Hunt wild animals for hides which can be processed into leather. Domesticate animals for wool which can be tailored into warm clothing for the winter. Without these materials, you won't survive, and survival is the most important thing at the beginning of the game."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "untamedwilds:food_bear_raw"
+			}
+			id: "7264E2D6E7D16093"
+			subtitle: "You need water and food"
+			tasks: [{
+				id: "6B45163DBB3E9933"
+				title: "Survive"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7264E2D6E7D16093"]
+			description: [
+				"Summer is hot and winter is cold. Create the right clothes for every season. To see the current temperature you need to create a thermometer item. Silk clothing and water will cool you down in the summer. Wool clothing and heat sources such as a firepit will warm you in the winter."
+				""
+				"You will need to eat, so forage for supplies in the summer, because in the winter nothing will grow. WATCH OUT for tornadoes! They destroy your home, and can take you and your farm animals on a very unwelcome trip."
+				"{image:weather2:textures/radar/radar_icon_tornado.png width:20 height:20 align:1}"
+				"Tornadoes are very dangerous in the early game. As soon as possible, change your structures from light materials such as wood and thatch to sturdy materials such as stone or brick. Protect yourself from damaging tornadoes using the weather siren and the weather deflector."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "weather2:weather_item"
+			id: "104CEC537FB146C1"
+			subtitle: "Weather will not be your ally"
+			tasks: [{
+				id: "0B086A475E05E690"
+				title: "Weather"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BD254AA96F54986"]
+			description: [
+				"To increase your health, eat a variety of foods and cook more complex meals. You will get an extra heart after eating 1, 2, 3, 5, 10, 15, 25, 50, 75, 100, 150, 200, 250 new dishes and food. Also take care of a balanced diet (Nutrition - one of the tabs on the right side of you inventory) , the more food ingredients you consume (protein, grain, milk, vegetables). The richer your meals are with different nutrients, the more your strength will increase."
+				"{image:pneumaticcraft:textures/item/bandage.png width:15 height:15 align:1}"
+				"To see the new health system, press Control+H."
+				"Make sure you have the right plasters and bandages before you go on a trip or explore dangerous areas. You will need them to heal injured body parts as the slightest injury or accident can be fatal."
+				""
+				"{image:firstaid:item/bandage width:20 height:20 align:center}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "paraglider:heart_container"
+			id: "488C0939F7E70BB3"
+			rewards: [
+				{
+					count: 10
+					id: "03C653D3FD228232"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "40B5646531E90FD1"
+					item: "firstaid:plaster"
+					type: "item"
+				}
+				{
+					id: "32FB5AA6C0C7BBF3"
+					item: "firstaid:bandage"
+					type: "item"
+				}
+			]
+			subtitle: "More Health"
+			tasks: [{
+				id: "45C73C42AF9AEA97"
+				title: "Health and Stamina"
+				type: "checkmark"
+			}]
+			title: "Health"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"The entire world around you is an alternate reality to Hardrock TFC 4. There are still elements from base Hardrock TFC 4, and will be needed to advance in this magical world."
+				""
+				"{image:kubejs:textures/item/img_wiki.png width:20 height:20 align:1}"
+				"Some quests have an icon that leads to special mod wiki pages."
+				""
+				"If you lose the Akashic Tome, you can quickly get it back with a simple recipe:"
+				"{image:kubejs:textures/item/img_book.png width:70 height:45 align:1}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "forbidden_arcanus:arcane_crystal_dust"
+			id: "0BD254AA96F54986"
+			subtitle: "A magical world"
+			tasks: [{
+				id: "4AD0A44E4A34B417"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7264E2D6E7D16093"
+				"104CEC537FB146C1"
+				"488C0939F7E70BB3"
+				"492F4B1770DC5A01"
+				"5FEBEF5D97A1A253"
+			]
+			description: [
+				"It all depends on you. Take care of yourself, and good luck. You can use the hotkey for ''FTB Quest Book'' to return to this screen so you don't need to have the book in your inventory all the time. You can change this hotkey in Options > Controls > Key Binds."
+				""
+				"And remember, don't start exploring the area too soon, this world is not safe for you - spend the first year developing, acquiring simple technologies and securing food and shelter for the winter."
+				""
+				"Step by step, follow the questbook, it will guide you to acquire the skills that are necessary at the first stage of the game"
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "43A3F6984C4136E3"
+			progression_mode: "linear"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4EC59507B0272580"
+				title: "Do it!!!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["488C0939F7E70BB3"]
+			description: [
+				"You can tame many animals, such as cows, ducks, dogs, and horses... but there are also predators in this world for whom you are the food!!! It's best if you watch your step and avoid danger. The small size of spiders, snakes, and piranhas does not mean they are nice. Lions, tigers, and bears - not to mention hippos, panthers, and other large predators should be avoided at all costs."
+				""
+				"In addition to the fauna, there are monsters of many shapes and sizes. Creatures of night and day, all hunting you down. It is highly suggested to build a shelter to protect yourself from the creatures of darkness."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "untamedwilds:hide_brown"
+			id: "492F4B1770DC5A01"
+			subtitle: "Fauna is a threat"
+			tasks: [{
+				id: "27CB0833D3E63A20"
+				title: "Fauna"
+				type: "checkmark"
+			}]
+			title: "Fauna and Monsters"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BD254AA96F54986"]
+			description: ["In Options > Video Settings > Shader Packs (at the top) you will find the shaders folder. If you have a strong GPU card, enable these options. See what I have prepared for you to make our world beautiful!"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "tfc:plant/silver_spurflower"
+			id: "5FEBEF5D97A1A253"
+			tasks: [{
+				id: "1414540ED8A34601"
+				title: "Survive"
+				type: "checkmark"
+			}]
+			title: "Shader Packs"
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+	title: "Important!!!"
+}

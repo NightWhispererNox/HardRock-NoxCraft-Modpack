@@ -1,0 +1,16 @@
+{
+    "__comment__": "This file was automatically created by HTFC4",
+    "type": "tfc:casting",
+    "mold": {
+        "item": "lithiccoins:ceramic/coin_mold"
+    },
+    "fluid": {
+        "ingredient": "kubejs:glass",
+        "amount": 100
+    },
+    "result": {
+        "item": "kubejs:frosted_lens",
+        "count": 4
+    },
+    "break_chance": 0.1
+}       

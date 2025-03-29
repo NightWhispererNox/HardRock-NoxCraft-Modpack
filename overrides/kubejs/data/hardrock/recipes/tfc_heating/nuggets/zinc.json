@@ -1,0 +1,20 @@
+{
+  "type": "tfc:heating",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/zinc",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/zinc"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/zinc",
+    "amount": 10
+  },
+  "temperature": 420
+}

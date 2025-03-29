@@ -1,0 +1,11 @@
+{
+  "values": [
+    "thinair:respirator",
+    "protection_pixel:plaque_helmet",    
+    "adpother:iron_respirator",
+    "adpother:gold_respirator",
+    "adpother:diamond_respirator",
+    "createbigcannons:gas_mask",
+    "mekanism:hazmat_mask"
+  ]
+}

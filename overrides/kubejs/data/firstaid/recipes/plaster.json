@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "forge:canvas"
+      },
+      {
+        "tag": "forge:canvas"
+      },
+      {
+        "tag": "forge:canvas"
+      },
+      {
+        "item": "kubejs:healing_paste"
+      }
+    ],
+    "result": {
+      "item": "firstaid:plaster",
+      "count":3
+    }
+  }

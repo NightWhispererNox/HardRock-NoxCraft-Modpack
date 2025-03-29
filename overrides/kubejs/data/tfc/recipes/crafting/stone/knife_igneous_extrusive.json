@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YX",
+    " Y"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:stone/knife_head/igneous_extrusive"
+    },
+    "Y": {
+      "tag": "forge:string/green_plant"
+    }
+  },
+  "result": {
+    "item": "tfc:stone/knife/igneous_extrusive"
+  }
+}

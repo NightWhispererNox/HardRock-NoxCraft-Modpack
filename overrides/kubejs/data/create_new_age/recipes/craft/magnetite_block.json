@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tfcorewashing:briquet_magnetite"
+    },
+    {
+      "item": "tfcorewashing:briquet_magnetite"
+    },
+    {
+      "item": "tfcorewashing:briquet_magnetite"
+    },
+    {
+      "item": "tfcorewashing:briquet_magnetite"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:magnetite_block"
+    }
+  ]
+}

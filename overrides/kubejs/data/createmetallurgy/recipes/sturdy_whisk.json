@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:whisk"
+    },
+    "B": {
+      "item": "create:sturdy_sheet"
+    },
+    "T": {
+      "tag": "forge:gears/tungsten"
+    }
+  },
+  "pattern": [
+    " BB",
+    " AB",
+    "T  "
+  ],
+  "result": {
+    "item": "createmetallurgy:sturdy_whisk"
+  }
+}

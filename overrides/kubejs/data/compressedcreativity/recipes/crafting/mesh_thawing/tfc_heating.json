@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "compressedcreativity:mesh_splashing_frozen"
+  },
+  "result_item": {
+    "stack": {
+      "item": "compressedcreativity:mesh_splashing"
+    }
+  },
+  "temperature": 200
+}

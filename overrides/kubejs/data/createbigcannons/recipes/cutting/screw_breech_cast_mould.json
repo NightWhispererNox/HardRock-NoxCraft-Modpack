@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createbigcannons:medium_cast_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "createbigcannons:screw_breech_cast_mould",
+      "count": 2
+    }
+  ]
+}

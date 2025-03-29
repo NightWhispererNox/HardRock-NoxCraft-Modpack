@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "firmalife:food/white_chocolate"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "fluid": "tfcchannelcasting:white_chocolate",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated"
+}

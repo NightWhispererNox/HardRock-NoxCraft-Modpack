@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:red_dye"
+    },
+    "Y": {
+      "item": "minecraft:blue_dye"
+    },
+    "Z": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_dye",
+    "count": 3
+  }
+}

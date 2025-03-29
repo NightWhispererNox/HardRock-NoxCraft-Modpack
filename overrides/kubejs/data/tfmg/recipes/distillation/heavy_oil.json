@@ -1,0 +1,21 @@
+{
+  "type": "tfmg:distillation",
+  "ingredients": [
+
+    {
+      "fluid": "tfmg:heavy_oil",
+      "nbt": {},
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tfmg:diesel",
+      "amount": 5
+    },
+    {
+      "fluid": "pneumaticcraft:lubricant",
+      "amount": 10
+    }
+  ]
+}

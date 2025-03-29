@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/steel"
+    }
+  ],
+  "processingTime": 600,
+  "results": [
+    {
+      "item": "mekanism:dust_steel"
+    }
+  ]
+}

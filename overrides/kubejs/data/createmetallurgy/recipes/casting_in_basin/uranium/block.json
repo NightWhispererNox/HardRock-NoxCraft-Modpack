@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/uranium"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 900,
+      "fluid": "tfc_ie_addon:metal/uranium",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 320,
+  "result": {
+    "tag": "forge:storage_blocks/uranium"
+  }
+}

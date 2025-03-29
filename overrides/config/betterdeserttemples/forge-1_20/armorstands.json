@@ -1,0 +1,58 @@
+{
+  "armoryHelmets": {
+    "entries": {
+      "tfc:metal/helmet/bronze": 0.2,
+      "tfc:metal/helmet/bismuth_bronze": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "wardrobeHelmets": {
+    "entries": {
+      "minecraft:leather_helmet": 0.4,
+      "minecraft:chainmail_helmet": 0.2
+    },
+    "defaultItem": "air"
+  },
+  "armoryChestplates": {
+    "entries": {
+      "minecraft:chainmail_chestplate": 0.3,
+      "tfc:metal/chestplate/bronze": 0.2
+    },
+    "defaultItem": "air"
+  },
+  "wardrobeChestplates": {
+    "entries": {
+      "minecraft:chainmail_chestplate": 0.2,
+      "minecraft:leather_chestplate": 0.4
+    },
+    "defaultItem": "air"
+  },
+  "armoryLeggings": {
+    "entries": {
+      "tfc:metal/greaves/bronze": 0.2,
+      "minecraft:chainmail_leggings": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "wardrobeLeggings": {
+    "entries": {
+      "minecraft:leather_leggings": 0.4,
+      "minecraft:chainmail_leggings": 0.2
+    },
+    "defaultItem": "air"
+  },
+  "armoryBoots": {
+    "entries": {
+      "minecraft:chainmail_boots": 0.3,
+      "tfc:metal/boots/bronze": 0.2
+    },
+    "defaultItem": "air"
+  },
+  "wardrobeBoots": {
+    "entries": {
+      "minecraft:leather_boots": 0.4,
+      "minecraft:chainmail_boots": 0.2
+    },
+    "defaultItem": "air"
+  }
+}

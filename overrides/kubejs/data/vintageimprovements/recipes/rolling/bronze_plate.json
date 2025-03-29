@@ -1,0 +1,14 @@
+{
+  "type":"createaddition:rolling",
+  "input": {
+    "type": "tfc:heatable",
+    "min_temp": 570,
+    "ingredient": {
+        "tag": "forge:rods/bronze"
+    }
+  },
+  "result": {
+    "item": "vintageimprovements:bronze_wire",
+    "count": 2
+  }
+}

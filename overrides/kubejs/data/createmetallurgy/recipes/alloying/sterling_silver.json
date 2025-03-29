@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 7,
+      "fluid": "tfc:metal/silver",
+      "nbt": {}
+    },
+    {
+      "amount": 3,
+      "fluid": "tfc:metal/copper",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "tfc:metal/sterling_silver"
+    }
+  ]
+}

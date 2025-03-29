@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "minecraft:porkchop"
+      }
+    },
+  "result": "tfc:food/cooked_pork",
+  "experience": 0.35,
+  "cookingtime": 250
+}

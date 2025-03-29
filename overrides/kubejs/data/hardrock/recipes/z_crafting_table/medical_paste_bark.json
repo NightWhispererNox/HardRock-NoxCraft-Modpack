@@ -1,0 +1,13 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "forge:clay"},
+    {"item": "kubejs:medical_red_powder"},
+    {"item": "kubejs:bark_paste"},
+    {"item": "kubejs:cut_cattail"}
+  ],
+  "result": {
+    "item": "kubejs:medical_paste",
+    "count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "vintageimprovements:hammering",
+	"hammerBlows": 6,
+	"ingredients": [
+		{
+		  "tag": "forge:ingots/calorite"
+		}
+	],
+	"results": [
+		{
+		  "item": "ad_astra:calorite_plate"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+    "type":"immersiveengineering:crusher",
+    "secondaries":[
+      {
+        "chance":0.1,
+        "output":{
+          "item": "tfc:rock/gravel/granite"
+        }
+      },
+      {
+        "chance":0.15,
+        "output":{
+          "item": "tfc:rock/gravel/diorite"
+        }
+      },
+      {
+        "chance":0.1,
+        "output":{
+          "item": "tfc:rock/gravel/gabbro"
+        }
+      },
+      {
+        "chance":0.12,
+        "output":{
+          "item": "tfc:rock/gravel/chalk"
+        }
+      },
+      {
+        "chance":0.16,
+        "output":{
+          "item": "tfc:rock/gravel/dolomite"
+        }
+      },
+      {
+        "chance":0.13,
+        "output":{
+          "item": "tfc:rock/gravel/basalt"
+        }
+      },
+      {
+        "chance":0.18,
+        "output":{
+          "item": "tfc:rock/gravel/quartzite"
+        }
+      },
+      {
+        "chance":0.15,
+        "output":{
+          "item": "tfc:rock/gravel/marble"
+        }
+      }
+    ],
+    "result":{
+      "item":"minecraft:sand"
+    },
+    "input":{
+      "item":"minecraft:gravel"
+    },
+    "energy":1600
+  }

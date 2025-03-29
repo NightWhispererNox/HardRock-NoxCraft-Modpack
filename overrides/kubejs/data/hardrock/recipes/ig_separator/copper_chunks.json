@@ -1,0 +1,9 @@
+{
+    "type":"immersivegeology:gravityseparator",
+    "byproduct":{"item":"tfcorewashing:chunks_copper"},
+    "byproduct_chance":0.85,
+    "input":{"item":"tfcorewashing:rocky_chunks_copper"},
+    "result":{"item":"tfcorewashing:chunks_copper"},
+    "time":60,
+    "water":100
+}

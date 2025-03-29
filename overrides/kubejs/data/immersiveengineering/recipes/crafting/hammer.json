@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "  f",
+        " h ",
+        "s  "
+        ],
+    "key":{
+        "s":{"item":"minecraft:stick"},
+        "h":{"item":"tfc_ie_addon:tool_head/ie_hammer"},
+        "f":{"tag":"forge:string"}},
+    "result":{"item":"immersiveengineering:hammer"}
+}

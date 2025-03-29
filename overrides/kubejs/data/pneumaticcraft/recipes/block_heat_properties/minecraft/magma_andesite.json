@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tfc:rock/magma/andesite",
+  "temperature": 1300,
+  "thermalResistance": 500,
+  "transformCold": {
+    "block": "minecraft:netherrack"
+  },
+  "heatCapacity": 10000
+}

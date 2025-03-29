@@ -1,0 +1,26 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "EME",
+    " A "
+  ],
+  "key": {
+    "M": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "A": {
+      "tag": "forge:sheets/aluminum"
+    },
+    "E": {
+      "tag": "forge:sheets/steel"
+    }
+  },
+  "result": {
+    "item": "tfmg:converter"
+
+
+
+  }
+}

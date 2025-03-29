@@ -1,0 +1,1313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age-steel"
+	group: "4B506126B0B8AA84"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "firmalife:metal/ingot/stainless_steel"
+	}
+	id: "36C108823B7424ED"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C1F40C6E45C5388"]
+			description: ["Everything is here - Everything you need to know about STEEL and advanced machinery"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "43D80720A648B27E"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			tasks: [{
+				id: "373F56C4E35EB8A4"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			title: "Steel Engineering"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43D80720A648B27E"]
+			description: ["You need a lot of steel"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "373DD844B47B408E"
+			tasks: [
+				{
+					count: 32L
+					id: "4697B7AD4D8ADD5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/steel"
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "147E167232A34C42"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/rod/steel"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23B04A9DA6AF0A48"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "7FF37E611AD2CA86"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More steel"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["373DD844B47B408E"]
+			description: [
+				"Use a kinetic dynamo to convert the energy of the wheel's motion into electricity"
+				"You can also generate energy from the Create mod"
+			]
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:dynamo"
+			id: "30F07C1929542A93"
+			tasks: [
+				{
+					id: "770CA8E060E0D718"
+					item: "immersiveengineering:watermill"
+					type: "item"
+				}
+				{
+					id: "453E34B37E12BA65"
+					item: "immersiveengineering:windmill"
+					type: "item"
+				}
+				{
+					id: "62455FD791B28BF8"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "41243668BB13318E"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03B5F5471099C452"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2DFD3A7E05A5764D"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "3E9E542DE1CC9A21"
+					item: "immersiveengineering:treated_post"
+					type: "item"
+				}
+			]
+			title: "Electricy "
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build a crusher - Big crushing machine"
+				"Use projector from engineering"
+				"Read the Engineering manual"
+				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_crusher.png"
+				}
+			}
+			id: "1C7CB4780DE235F3"
+			tasks: [
+				{
+					count: 10L
+					id: "78332C92C7A3533F"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "703417E7C65B49FF"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "71099757EB703400"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "305428E672EF448E"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Crusher"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C1F40C6E45C5388"
+				"0131052F551C8267"
+			]
+			description: ["Everything is here - Everything you need to know about Compressed Technics and advanced machinery"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "45DFA5CC612AAB64"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			tasks: [{
+				id: "652EE9A5F96BDC05"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			title: "Pneumatic System"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45DFA5CC612AAB64"]
+			description: [
+				"You need compressed iron"
+				"During a controlled explosion, iron ingots are compressed iron"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "pneumaticcraft:ingot_iron_compressed"
+			}
+			id: "1BB2C94F47D40D17"
+			subtitle: "Expolion crafting"
+			tasks: [
+				{
+					count: 5L
+					id: "7E1C99BBBB5710C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/double_ingot/wrought_iron"
+					}
+					title: "Any #forge:ingots/irons"
+					type: "item"
+				}
+				{
+					id: "3B96EF29B084D99A"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "4AB022CFFAF2BE33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+			]
+			title: "Compressed iron"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build metal press"
+				"Use projector from engineering"
+				"Read the Engineering manual"
+				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_metalpress.png"
+				}
+			}
+			id: "491F114EDDF827AC"
+			tasks: [
+				{
+					count: 2L
+					id: "01758A01D06A8DDD"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "75E2C5362A1F1E42"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "27E6EC23F959373B"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "6C7AA549A7A8EF0A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2913F5EDB363B9E4"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "Metal Press"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build big Arc Furnace"
+				""
+				"Read the Engineering manual"
+				"A large structure needs a lot of electricity, keep this in mind"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_arcfurnace.png"
+				}
+			}
+			id: "18861B01D62463AB"
+			tasks: [
+				{
+					count: 5L
+					id: "5565D850F99C8188"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "23CCE309F1838938"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1D496BFA6206DE20"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "7E10C251AE4CDA4A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "0F118769B8606865"
+					item: "tfc:fire_bricks"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5A99C7CF9F973CC7"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "2C5BCDDC860E90BF"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "02F33F466F912EF4"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "14F365771B9FFE6C"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+			]
+			title: "Arc Furnace"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build big SawMill"
+				"Produce lumber, the most effective way"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_sawmill.png"
+				}
+			}
+			id: "6F249D70A8A5A365"
+			tasks: [
+				{
+					count: 8L
+					id: "3ECEBC9ECDBFEA35"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C64952D7437CFBE"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5AF0A14341872861"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "7B846576CA7C54D1"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F48D5BD544339C6"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "10E88D04933F5343"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Saw Mill"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2787ABC6AB238E88"]
+			description: ["Use a drill to find ore veins"]
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:sample_drill"
+			id: "70ECED9DE7F25427"
+			tasks: [{
+				id: "20D142ED0F332C3F"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			title: "Sample minerals"
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2787ABC6AB238E88"]
+			description: [
+				"Build big Refinery for crude oil processing"
+				""
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_refinery.png"
+				}
+			}
+			id: "276A0C4688CE6EDA"
+			tasks: [
+				{
+					count: 8L
+					id: "7346D4187BDE71F8"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0DD749E277EE875E"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0AB71C38AEB4F517"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "07DAF934EAB86F53"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "57B69D69F5E79A50"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5260F35381FC4C45"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Refinery"
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["276A0C4688CE6EDA"]
+			description: [
+				"Build a big Refinery for crude oil processing"
+				""
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_diesel.png"
+				}
+			}
+			id: "12D6E3396EFCBA0E"
+			tasks: [
+				{
+					count: 8L
+					id: "385DDE65DAFFD14C"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "343B4EE2C4E79012"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "388A76CA27C78A14"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "7D4A62A487919EB8"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7575FB843AAAF78A"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7FE9E97EECE1B56B"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Diesel Generator"
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"12D6E3396EFCBA0E"
+				"70ECED9DE7F25427"
+			]
+			description: [
+				"Find ore veins - Use big excavator machine "
+				""
+				"IMPORTANT - needs 4k FE/t"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_excavator.png"
+				}
+			}
+			id: "29A45271A949120C"
+			tasks: [
+				{
+					count: 26L
+					id: "5DEF573A45886A5A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "70E2C7B785FD6CF9"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "70185B53C9520495"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "72489A1DED396A3F"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4535D3C4D5173591"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "12FBFD401E8E9D75"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "76F95012061E8846"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+			]
+			title: "Excavator Machine"
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["18861B01D62463AB"]
+			description: [
+				"Build big Arc Furnace"
+				"Use projector from engineering"
+				"Read the Engineering manual"
+				"A large structure needs a lot of electricity, keep this in mind"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_cokker.png"
+				}
+			}
+			id: "7CA1B561305D1769"
+			tasks: [
+				{
+					count: 5L
+					id: "422D3C079F92ED52"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 82L
+					id: "0C53C7EAFB886527"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "44C076803F438D9E"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "4D8A4CCD1DFF5369"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 193L
+					id: "08B7694B62384900"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:steel_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "28046813A245BBE3"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "2F8900BC044F51C1"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					id: "36C6E87241E0ECCB"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "739C7198BC83B36B"
+					item: "immersiveengineering:slab_storage_steel"
+					type: "item"
+				}
+				{
+					count: 182L
+					id: "15B0988912DB5D1A"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "34BBA731687F07F6"
+					item: "immersiveengineering:concrete"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "4AB45C33AC3E4ED2"
+					item: "immersiveengineering:concrete_tile"
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "18C434B42697B887"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Cooker"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["05DB83EADA0C373C"]
+			description: [
+				"Destilation Tower"
+				"You will finally be able to process the obtained petroleum"
+				"Read the Engineering manual"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_destillation.png"
+				}
+			}
+			id: "19AD8E828CCCDDBA"
+			tasks: [
+				{
+					count: 25L
+					id: "1C16A46ED77328AA"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "2FB5A4F2A66E6560"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "4F8B027708B01608"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "08E1A877D1B85E81"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A8426E1EF35A23C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "3D01B5B75A315C6D"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					type: "item"
+				}
+			]
+			title: "Destilation Tower"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build Coke Oven"
+				"Change coal to Coal Coke"
+				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:coal_coke"
+			id: "6904F9FB6960E0BD"
+			tasks: [
+				{
+					count: 27L
+					id: "4502108FF0203EBD"
+					item: "tfc:fire_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1D88E00C1A967C65"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"18861B01D62463AB"
+				"6904F9FB6960E0BD"
+			]
+			description: [
+				"Use Arc Furnace"
+				"Faster steel produce"
+			]
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:storage_steel"
+			id: "2787ABC6AB238E88"
+			tasks: [
+				{
+					count: 64L
+					id: "56924F9C1994628A"
+					item: "immersiveengineering:dust_coke"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6AE31B4A5EB87739"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/irons"
+						}
+					}
+					title: "Any #forge:ingots/irons"
+					type: "item"
+				}
+			]
+			title: "Fast Steel produce"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build big Squeezer"
+				"Produce seed oil and biofuel components"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_squezzer.png"
+				}
+			}
+			id: "0094EADB6FDB4B13"
+			tasks: [
+				{
+					count: 6L
+					id: "15DF07AC7DE360D8"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "046AFE3CF51FD6DD"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "74B4AE0DE7471041"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "1892A8D324E933C8"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1CA85AE8CAD8E83D"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4D15F1B256A3C63A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:steel_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BF2089E9E086741"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Squeezer"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["665DDA9CC99F582F"]
+			description: [
+				"Derrick Tower"
+				"Now you will get the crude oil out of the ground"
+				"Read the Engineering manual"
+				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_derrik.png"
+				}
+			}
+			id: "3539A35820F5283F"
+			tasks: [
+				{
+					count: 5L
+					id: "37F093C8641C13AB"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 119L
+					id: "2F199CED320F0CC0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:steel_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7B149F93C5B234D6"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "45F80CCF0A9989E5"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "2518781554670E83"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55CBE2C698D9A764"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 31L
+					id: "1177415FA465D266"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "56CD5B3B5DE0AD28"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "Derrick"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2787ABC6AB238E88"]
+			description: [
+				"Search for large deposits of crude oil"
+				""
+			]
+			hide_until_deps_visible: true
+			icon: "tfc:bucket/metal/unknown"
+			id: "665DDA9CC99F582F"
+			title: "Seismic"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30F07C1929542A93"]
+			description: [
+				"Build Mixer"
+				"You need him"
+			]
+			hide_until_deps_visible: true
+			icon: "mekanism:pigment_mixer"
+			id: "3C277EBB6E9A0DB3"
+			tasks: [
+				{
+					count: 5L
+					id: "77723764CA472D17"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "05D0A46756A6A934"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:steel_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65574FE4CFD09474"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "3BCC8F0FE7ABE296"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "345E9EEA3A26CCFA"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E25A65D01B4065B"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Mixer"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26C796BFC4F33E55"]
+			description: [
+				"Build a pressure chamber"
+				"How? -  You already know, see the PNC manual"
+				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: "pneumaticcraft:pressure_chamber_interface"
+			id: "759538C10540F07F"
+			tasks: [
+				{
+					count: 2L
+					id: "7EF66F6E54988E63"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "6C22F0C1AF22E4AA"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "1F56AF769094C51E"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "08474A71C092004F"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+			]
+			title: "Pressure Chamber"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BB2C94F47D40D17"]
+			description: [
+				"Build first air compressor"
+				"How? -  You already know, see the PNC manual"
+				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: "pneumaticcraft:air_compressor"
+			id: "26C796BFC4F33E55"
+			tasks: [
+				{
+					count: 6L
+					id: "346E54FA4635B42D"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					id: "3C21ABB1F370FB89"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+			]
+			title: "Air Compressor"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45DFA5CC612AAB64"]
+			description: [
+				""
+				"New technologies will allow you to create plastic material"
+			]
+			hide_until_deps_visible: true
+			icon: "pneumaticcraft:plastic"
+			id: "7ECEB1B69DA49C01"
+			subtitle: "new materials"
+			tasks: [
+				{
+					id: "76452ACE0B7E9275"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+				{
+					id: "2202A647BBE3532D"
+					item: "pneumaticcraft:heat_frame"
+					type: "item"
+				}
+			]
+			title: "Plastic"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3539A35820F5283F"]
+			description: [
+				"Use the pumpjack to extract oil from the underground"
+				"Read the Engineering manual"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/img_pumpjack.png"
+				}
+			}
+			id: "05DB83EADA0C373C"
+			tasks: [
+				{
+					count: 11L
+					id: "72EB6FE06AB6ACEB"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7ED56B1EE058AB46"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					id: "414585CB2B38811A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "71F5400F9FE7C841"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14647E70C2FC38F0"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C4A853CDB3E2648"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "57A1417C6377ADCC"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "022D3E1D181B01B9"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+			]
+			title: "PumpJack"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18861B01D62463AB"]
+			description: ["Silicon opens up new technologies for storage system"]
+			hide_until_deps_visible: true
+			icon: "refinedstorage:silicon"
+			id: "3490ED7CDC9A2831"
+			subtitle: "ulocked Refined Storage System"
+			tasks: [{
+				id: "636136F8C828BD54"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			title: "Silicon"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["759538C10540F07F"]
+			description: [
+				"Use a pressure chamber - Take an egg "
+				"and rotten flesh to create a wolf egg"
+				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:wolf_spawn_egg"
+			id: "284FB0B8DF53D0DC"
+			tasks: [{
+				id: "1E47FBB4140E8271"
+				item: "minecraft:wolf_spawn_egg"
+				type: "item"
+			}]
+			title: "Wolf spawn egg"
+			x: -7.5d
+			y: -3.0d
+		}
+	]
+	title: "Age - Steel"
+}

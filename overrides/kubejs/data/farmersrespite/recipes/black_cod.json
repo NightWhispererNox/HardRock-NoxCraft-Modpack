@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten","ingredient": {"tag": "forge:cooked_fishes/cod"}
+    },
+    {
+      "item": "farmersrespite:black_tea_leaves"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "tfc:food/cabbage"}
+    },
+    {
+      "type": "tfc:not_rotten","ingredient": {"item": "tfc:food/cooked_rice"}
+    }
+  ],
+  "result": {
+    "item": "farmersrespite:black_cod"
+  }
+}

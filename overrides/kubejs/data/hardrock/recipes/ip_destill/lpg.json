@@ -1,0 +1,21 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "item": "immersivepetroleum:petcoke_dust",
+      "chance": "0.5"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "pneumaticcraft:lpg",
+      "amount": 8
+    }
+  ],
+  "input": {
+    "tag": "forge:gasoline",
+    "amount": 10
+  },
+  "time": 1,
+  "energy": 1024
+}

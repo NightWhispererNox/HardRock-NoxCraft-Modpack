@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:sourdough_bread"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersrespite:nether_wart_sourdough"
+    }
+  ]
+}

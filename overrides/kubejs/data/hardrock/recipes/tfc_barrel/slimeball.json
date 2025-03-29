@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "tag": "forge:dough"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "tfc:lime_dye",
+    "amount": 100
+  },
+  "output_item": {
+    "item": "minecraft:slime_ball"
+  },
+  "duration": 12000
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tfc:powder/diamond"
+    }
+  ],
+  "processingTime": 1200,
+  "results": [
+    {
+      "item": "createaddition:diamond_grit"
+    },
+    {
+      "item": "mekanism:dust_coal",
+      "chance": 0.75
+    }
+  ]
+}

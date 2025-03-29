@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "tfcchannelcasting:mold_table"
+    },
+    "A": {
+      "item": "create:andesite_scaffolding"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    " M ",
+    "SAS"
+  ],
+  "result": {
+    "item": "createmetallurgy:casting_table"
+  }
+}

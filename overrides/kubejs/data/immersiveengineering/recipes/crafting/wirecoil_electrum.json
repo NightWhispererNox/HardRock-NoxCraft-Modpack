@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "kubejs:spool_wire"},
+  "transitionalItem": {"item": "kubejs:sq_wire_elec"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_elec"}, {"tag": "forge:wires/electrum"}],"results": [{"item": "kubejs:sq_wire_elec"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_elec"}, {"tag": "forge:wires/electrum"}],"results": [{"item": "kubejs:sq_wire_elec"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_elec"}, {"tag": "forge:wires/electrum"}],"results": [{"item": "kubejs:sq_wire_elec"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_elec"}, {"tag": "forge:wires/electrum"}],"results": [{"item": "kubejs:sq_wire_elec"}]}
+  ],
+  "results": [{"item": "immersiveengineering:wirecoil_electrum"}],
+  "loops": 1
+}

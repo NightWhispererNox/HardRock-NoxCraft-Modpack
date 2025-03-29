@@ -1,0 +1,9 @@
+
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/steel"
+  },
+  "result": "tfmg:large_pumpjack_hammer_head",
+  "count": 1
+}

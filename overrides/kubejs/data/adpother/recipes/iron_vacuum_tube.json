@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" B ",
+		"TN ",
+		" C "
+	],
+	"key": {
+		"N": {
+			"item": "tfc:metal/tuyere/copper"
+		},
+		"T": {
+			"tag": "minecraft:buttons"
+		},
+		"B": {
+			"tag": "forge:plates/copper"
+		},
+		"C": {
+			"item": "minecraft:comparator"
+		}
+	},
+	"result": {
+		"item": "adpother:iron_vacuum_tube",
+		"count": 1
+	}
+}

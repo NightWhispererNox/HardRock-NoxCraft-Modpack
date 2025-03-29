@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:basin"
+    },
+    {
+      "item": "firmalife:reinforced_glass"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetallurgy:casting_basin"
+    }
+  ]
+}

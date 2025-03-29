@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GX ",
+    " Y ",
+    " XG"
+  ],
+  "key": {
+    "Y": {"item": "firmalife:copper_pipe"},
+    "G": {"tag": "forge:glue"},
+    "X": {"item": "tfc:lens"}
+  },
+  "result": {
+    "item": "minecraft:spyglass"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/cod","amount": 8},
+        {"itemKey": "tfc:food/tropical_fish","amount": 8},
+        {"itemKey": "tfc:food/bluegill","amount": 8},
+        {"itemKey": "tfc:food/crappie","amount": 8},
+        {"itemKey": "tfc:food/lake_trout","amount": 8},
+        {"itemKey": "tfc:food/largemouth_bass","amount": 8},
+        {"itemKey": "tfc:food/rainbow_trout","amount": 8},
+        {"itemKey": "tfc:food/salmon","amount": 8},
+        {"itemKey": "tfc:food/smallmouth_bass","amount": 8}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman/food/raw_fish"
+    },
+    {
+      "offer": {"itemKey": "minecraft:ink_sac","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman/ink_sacs"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:groundcover/clam","amount": 12},
+        {"itemKey": "tfc:groundcover/mollusk","amount": 12},
+        {"itemKey": "tfc:groundcover/mussel","amount": 12}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman/fluxstone_seashells"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "tfc:wood/barrel/maple","amount": 1,"advancedNBTData": "{kjsRandomize:['woodType','maple'],BlockEntityTag:{inventory:{tank:{FluidName:'tfc:salt_water',Amount:8000}}}}"},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman/saltwater"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "textile:cotton_string","amount": 12},
+        {"itemKey": "tfmg:synthetic_string","amount": 12},
+        {"itemKey": "minecraft:string","amount": 12}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman/string"
+    },
+    {
+      "offer": {"itemKey": "firmaciv:kayak","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 4
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman/kayak"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/cooked_cod","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_tropical_fish","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_bluegill","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_crappie","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_lake_trout","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_largemouth_bass","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_rainbow_trout","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_salmon","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"},
+        {"itemKey": "tfc:food/cooked_smallmouth_bass","amount": 8,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {traits: ['tfc:salted','firmalife:smoked']}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman/food/cooked_fish"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/fishing_rod/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/fishing_rod/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman/iron_fishing_rod"
+    },
+    {
+      "offer": {"itemKey": "coralstfc:coral_powder","amount": 16},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman/coral_powder"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:wool_cloth","amount": 2},
+        {"itemKey": "tfc:silk_cloth","amount": 2}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman/cloth"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "firmalife:hematitic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:red_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 0}}"},
+        {"itemKey": "firmalife:hematitic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:white_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 1}}"},
+        {"itemKey": "firmalife:hematitic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:rose_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 2}}"},
+        {"itemKey": "firmalife:hematitic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:sparkling_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 3}}"},
+        {"itemKey": "firmalife:hematitic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:dessert_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 4}}"},
+
+        {"itemKey": "firmalife:olivine_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:red_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 0}}"},
+        {"itemKey": "firmalife:olivine_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:white_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 1}}"},
+        {"itemKey": "firmalife:olivine_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:rose_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 2}}"},
+        {"itemKey": "firmalife:olivine_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:sparkling_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 3}}"},
+        {"itemKey": "firmalife:olivine_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:dessert_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 4}}"},
+
+        {"itemKey": "firmalife:volcanic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:red_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 0}}"},
+        {"itemKey": "firmalife:volcanic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:white_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 1}}"},
+        {"itemKey": "firmalife:volcanic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:rose_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 2}}"},
+        {"itemKey": "firmalife:volcanic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:sparkling_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 3}}"},
+        {"itemKey": "firmalife:volcanic_wine_bottle","amount": 1,"advancedNBTData": "{fluid: {FluidName: 'firmalife:dessert_wine', Amount: 2000}, wine: {climate: 5, creationDate: 1000000L, openDate: -1L, wineType: 4}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman/wine_bottle"
+    },
+    {
+      "offer": {"itemKey": "tfc:food/dried_kelp","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman/dried_kelp"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/cod', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.8f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/bluegill', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.6f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/crappie', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.6f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/lake_trout', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.8f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/largemouth_bass', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.8f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/rainbow_trout', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.8f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/salmon', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.8f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/maki_roll","amount": 6,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'tfc:food/smallmouth_bass', Count: 1b}, {id: 'tfc:food/cooked_rice', Count: 1b}, {id: 'tfc:food/dried_seaweed', Count: 1b}], foodData: {sat: 6.4f, water: 4.0f, fruit: 0.0f, meat: 0.8f, veg: 0.4f, grain: 0.8f, dairy: 0.0f, decay: 4.5f, food: 4}}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman/food/maki_rolls"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:bucket/bluegill","amount": 1},
+        {"itemKey": "tfc:bucket/crappie","amount": 1},
+        {"itemKey": "tfc:bucket/lake_trout","amount": 1},
+        {"itemKey": "tfc:bucket/largemouth_bass","amount": 1},
+        {"itemKey": "tfc:bucket/rainbow_trout","amount": 1},
+        {"itemKey": "tfc:bucket/salmon","amount": 1},
+        {"itemKey": "tfc:bucket/smallmouth_bass","amount": 1},
+        {"itemKey": "tfc:bucket/cod","amount": 1},
+        {"itemKey": "tfc:bucket/jellyfish","amount": 1},
+        {"itemKey": "tfc:bucket/tropical_fish","amount": 1},
+        {"itemKey": "tfc:bucket/pufferfish","amount": 1}
+      ],
+      "request": {
+        "itemKey": "minecraft:water_bucket",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman/fish_bucket"
+    }
+  ]
+}

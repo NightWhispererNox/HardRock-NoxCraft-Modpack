@@ -1,0 +1,12 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:glass/source/clear"
+  },
+  "result_fluid": {
+    "fluid": "kubejs:glass",
+    "amount": 100
+  },
+  "temperature": 1000
+}

@@ -1,0 +1,16 @@
+{
+  "type": "createmetallurgy:melting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "tfc:rock/gravel/andesite"
+    }
+  ],
+  "processingTime": 140,
+  "results": [
+    {
+      "amount": 25,
+      "fluid": "kubejs:andesite_stone"
+    }
+  ]
+}

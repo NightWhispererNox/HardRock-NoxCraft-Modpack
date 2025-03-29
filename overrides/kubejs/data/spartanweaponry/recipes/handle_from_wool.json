@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "spartanweaponry:handle",
+  "ingredients": [
+    {
+      "tag": "forge:handle/stick"
+    },
+    {
+      "tag": "forge:wool/strip"
+    }
+  ],
+  "result": {
+    "item": "spartanweaponry:handle"
+  }
+}

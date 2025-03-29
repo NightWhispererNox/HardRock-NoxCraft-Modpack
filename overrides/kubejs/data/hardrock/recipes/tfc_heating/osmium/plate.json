@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "forge:plates/osmium"
+  },
+  "result_fluid": {
+    "fluid": "createmetallurgy:molten_osmium",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

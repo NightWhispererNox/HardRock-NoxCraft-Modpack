@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "kubejs:resin",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+      "item": "kubejs:resin"
+    }
+  ],
+  "heatRequirement": "heated"
+}

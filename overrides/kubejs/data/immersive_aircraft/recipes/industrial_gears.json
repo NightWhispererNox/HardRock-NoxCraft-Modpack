@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    "PRP",
+    "S  "
+  ],
+  "key": {
+    "B": [
+      {
+        "tag": "forge:gears/bronze"
+      }
+    ],
+    "S": [
+      {
+        "tag": "forge:gears/iron"
+      }
+    ],
+    "R": [
+      {
+        "item": "tfc:brass_mechanisms"
+      }
+    ],
+    "P": [
+      {
+        "item": "tfc:metal/chain/steel"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}

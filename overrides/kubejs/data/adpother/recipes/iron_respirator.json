@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BHB",
+		"LNL",
+		"WVW"
+	],
+	"key": {
+		"N": {
+			"item": "tfc:metal/tuyere/copper"
+		},
+		"L": {
+			"item": "tfc:burlap_cloth"
+		},
+		"V": {
+			"tag": "minecraft:leaves"
+		},
+		"W": {
+			"item": "tfc:silk_cloth"
+		},
+		"H": {
+			"item": "minecraft:leather_helmet"
+		},
+		"B": [
+			{"item": "kubejs:primitive_glass_pane"},
+			{"item": "minecraft:glass_pane"}]
+	},
+	"result": {
+		"item": "adpother:iron_respirator",
+		"count": 1
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "fluid": "tfc:metal/zinc",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfc:metal/ingot/zinc"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "create:zinc_block"
+    }
+
+  ]
+}

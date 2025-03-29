@@ -1,0 +1,28 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 6,
+      "fluid": "tfc:metal/copper",
+      "nbt": {}
+    },
+    {
+      "amount": 2,
+      "fluid": "tfc:metal/bismuth",
+      "nbt": {}
+    },
+    {
+      "amount": 2,
+      "fluid": "tfc:metal/zinc",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "tfc:metal/bismuth_bronze"
+    }
+  ]
+}

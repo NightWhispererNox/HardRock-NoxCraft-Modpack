@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "firmalife:oven",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "pneumaticcraft:sourdough"
+    }
+  },
+  "result_item": {
+    "item": "pneumaticcraft:sourdough_bread"
+  },
+  "temperature": 200,
+  "duration": 1000
+}

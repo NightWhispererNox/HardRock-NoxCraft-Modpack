@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/osmium"},
+  "transitionalItem": {"item": "vintageimprovements:osmium_rod"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:osmium_rod"}],"results": [{"item": "vintageimprovements:osmium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:osmium_rod"}],"results": [{"item": "vintageimprovements:osmium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:osmium_rod"}],"results": [{"item": "vintageimprovements:osmium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:osmium_rod"}],"results": [{"item": "vintageimprovements:osmium_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:osmium_rod"}],"results": [{"item": "vintageimprovements:osmium_rod"}]}
+  ],
+  "results": [
+    {"item": "mekanism:nugget_osmium","count": 5}    
+  ],
+  "loops": 1
+}
+

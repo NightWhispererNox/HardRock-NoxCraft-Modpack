@@ -1,0 +1,53 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfc_loot:netherrack_clay"
+    },
+    {
+      "item": "tfc_loot:netherrack_clay"
+    },
+    {
+      "item": "tfc_loot:netherrack_clay"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "tag": "forge:mortar"
+    },
+    {
+      "amount": 1000,
+      "fluid": "tfc:limewater"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetallurgy:refractory_mortar"
+    }
+  ]
+}

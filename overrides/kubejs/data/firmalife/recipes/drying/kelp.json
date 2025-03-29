@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was created by tfch",
+  "type": "firmalife:drying",
+  "ingredient": {
+    "item": "tfc:plant/leafy_kelp"
+  },
+  "result": {
+    "item": "tfc:food/dried_kelp"
+  }
+}

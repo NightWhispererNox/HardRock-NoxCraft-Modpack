@@ -1,0 +1,26 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": [
+        {
+          "item": "kubejs:medical_paste"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "pneumaticcraft:glycerol"
+      },
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "pneumaticcraft:bandage",
+    "count": 12
+  }
+}

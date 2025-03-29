@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "createoreexcavation:vein",
+  "amountMax": 8.0,
+  "amountMin": 2.0,
+  "biomeWhitelist": "tfc:is_vein",
+  "icon": {
+    "item": "mekanism:raw_osmium"
+  },
+  "name": "{\"translate\":\"Osmium vein\"}",
+  "placement": {
+    "salt": 408736444,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

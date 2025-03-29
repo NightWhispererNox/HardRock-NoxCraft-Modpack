@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance":0.50,
+      "output":{
+          "count": 1,
+          "base_ingredient":{"item":"tfc:powder/sapphire"}
+      }
+  }
+  ],
+  "result": {
+    "item": "tfc:powder/sapphire",
+    "count": 3
+  },
+  "input": {
+    "item": "tfc:ore/sapphire"
+  },
+  "energy": 6000
+}

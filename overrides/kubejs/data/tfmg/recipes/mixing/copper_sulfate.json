@@ -1,0 +1,21 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluidTag": "forge:sulfuric_acid",
+      "amount": 500
+    },
+    {
+      "item": "tfc:powder/malachite"
+    }
+
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "tfmg:copper_sulfate"
+
+    }
+  ]
+}

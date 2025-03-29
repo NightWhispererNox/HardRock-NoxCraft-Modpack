@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+            "ingredient": {
+              "item": "tfc:food/olive"
+            }
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tfc:olive_oil_water",
+      "amount": 500
+    },
+    {
+      "item": "tfc:olive_paste"
+    }
+  ]
+}

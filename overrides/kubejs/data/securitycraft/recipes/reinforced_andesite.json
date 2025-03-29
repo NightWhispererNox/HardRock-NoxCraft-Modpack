@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:alloy",
+    "time":200,
+    "result":{"count":1,"base_ingredient":{"item":"securitycraft:reinforced_andesite"}},
+    "input0":{"count":3,"base_ingredient":{"item":"securitycraft:reinforced_cobblestone"}},
+    "input1":{"item":"tfc:rock/raw/andesite"}
+}

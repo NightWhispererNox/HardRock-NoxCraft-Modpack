@@ -1,0 +1,35 @@
+{
+	"parent": "adpother:base/aerometer",
+	"overrides": [
+		{
+			"predicate": {
+				"adpother:state": -1
+			},
+			"model": "adpother:item/aerometer_broken"
+		},
+		{
+			"predicate": {
+				"adpother:state": 0
+			},
+			"model": "adpother:base/aerometer"
+		},
+		{
+			"predicate": {
+				"adpother:state": 1
+			},
+			"model": "adpother:item/aerometer_green"
+		},
+		{
+			"predicate": {
+				"adpother:state": 2
+			},
+			"model": "adpother:item/aerometer_yellow"
+		},
+		{
+			"predicate": {
+				"adpother:state": 3
+			},
+			"model": "adpother:item/aerometer_red"
+		}
+	]
+}

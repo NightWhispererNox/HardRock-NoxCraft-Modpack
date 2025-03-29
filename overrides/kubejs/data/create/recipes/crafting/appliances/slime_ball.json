@@ -1,0 +1,29 @@
+{
+  "__comment__": "This file created by tfch",
+  "type": "firmalife:mixing_bowl",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "tfc:glue"
+    },
+    {
+      "item": "tfc:glue"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "tfc:lime_dye",
+    "amount": 1000
+  },
+  "output_item": {
+    "item": "minecraft:slime_ball",
+    "count": 5
+  }
+}

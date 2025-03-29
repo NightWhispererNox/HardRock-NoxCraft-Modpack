@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/aluminum"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:plates/aluminum"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "tfc_ie_addon:metal/aluminum"
+    }
+  ]
+}

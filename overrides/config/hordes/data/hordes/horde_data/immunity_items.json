@@ -1,0 +1,26 @@
+[
+	{
+		"item": "minecraft:enchanted_golden_apple",
+		"duration": 600
+	},
+	{
+		"item": "kubejs:silver_apple",
+		"duration": 300
+	},
+	{
+		"item": "kubejs:silver_carrot",
+		"duration": 300
+	},
+	{
+		"item": "minecraft:golden_carrot",
+		"duration": 150
+	},
+	{
+		"item": "minecraft:golden_apple",
+		"duration": 150
+	},
+	{
+		"item": "farmersdelight:squid_ink_pasta",
+		"duration": 150
+	}
+]

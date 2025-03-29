@@ -1,0 +1,6 @@
+
+[ModernInhibited]
+	validStructures = []
+	showEffectIcon = false
+	showEffectParticle = false
+

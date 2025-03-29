@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RSR",
+    " R "
+  ],
+  "key": {
+    "S": {
+      "tag": "tfc:swords"
+    },
+    "R": {
+      "item": "pneumaticcraft:turbine_rotor"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:guard_drone"
+  }
+}

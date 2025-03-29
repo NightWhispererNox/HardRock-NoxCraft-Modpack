@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "ek",
+        "re"
+    ],
+    "key":{
+        "e":{"tag":"forge:wires/copper"},
+        "r":{"tag":"forge:rods/wooden"},
+        "k":{"item":"tfc:metal/javelin_head/steel"}
+    },
+    "result":{"item":"immersiveengineering:toolupgrade_revolver_bayonet"}
+}

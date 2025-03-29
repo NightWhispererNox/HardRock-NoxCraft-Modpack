@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "wcw",
+      "ppp",
+      "sgs"
+    ],
+    "key": {
+      "c": {
+        "item": "minecraft:purple_carpet"
+      },
+      "w": {
+        "item": "createaddition:gold_wire"
+      },
+      "p": {
+        "item": "ars_nouveau:blank_parchment"
+      },
+      "g": {
+        "tag": "forge:glue"
+      }
+      ,
+      "s": {
+        "item": "sewingkit:leather_sheet"
+      }
+    },
+    "result": {
+      "item": "kubejs:inert_novice_spellbook",
+      "count": 1
+    }
+  }

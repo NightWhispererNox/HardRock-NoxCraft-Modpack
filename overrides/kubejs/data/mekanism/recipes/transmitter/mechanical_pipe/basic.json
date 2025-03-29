@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "refinedstorage:cable"
+    },
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "forge:glue"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "mekanism:basic_mechanical_pipe",
+      "count": 1
+    }
+  ]
+}

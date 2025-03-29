@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance":0.25,
+      "output":{
+          "count": 1,
+          "base_ingredient":{
+            "item":"tfc:powder/charcoal"
+          }
+      }
+    }
+  ],
+  "result": {
+    "item": "tfc:powder/charcoal",
+    "count": 2
+  },
+  "input": {
+    "item": "minecraft:charcoal"
+  },
+  "energy": 1600
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "simple_hot_air_balloons:light_blue_hot_air_balloon_envelope"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:light_blue",
+        "amount": 256
+    }
+}

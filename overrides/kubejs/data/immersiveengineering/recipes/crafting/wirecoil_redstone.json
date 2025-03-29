@@ -1,0 +1,13 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "kubejs:spool_wire"},
+  "transitionalItem": {"item": "kubejs:sq_wire_reds"},
+  "sequence": [
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_reds"}, {"tag": "forge:wires/aluminum"}],"results": [{"item": "kubejs:sq_wire_reds"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_reds"}, {"item": "minecraft:redstone"}],"results": [{"item": "kubejs:sq_wire_reds"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_reds"}, {"tag": "forge:wires/aluminum"}],"results": [{"item": "kubejs:sq_wire_reds"}]},
+    {"type": "create:deploying","ingredients": [{"item": "kubejs:sq_wire_reds"}, {"item": "minecraft:redstone"}],"results": [{"item": "kubejs:sq_wire_reds"}]}
+  ],
+  "results": [{"item": "immersiveengineering:wirecoil_redstone"}],
+  "loops": 2
+}

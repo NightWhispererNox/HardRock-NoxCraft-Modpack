@@ -1,0 +1,14 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:sheets/compressed_iron"},
+  "transitionalItem": {"item": "kubejs:sq_presstube"},
+  "sequence": [
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_presstube"}],"results": [{"item": "kubejs:sq_presstube"}]},
+    {"type": "createaddition:rolling","ingredients": [{"tag": "kubejs:sq_presstube"}],"results": [{"item": "kubejs:sq_presstube"}]},
+    {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_presstube"}],"results": [{"item": "kubejs:sq_presstube"}]},
+    {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_presstube"}],"results": [{"item": "kubejs:sq_presstube"}]},
+    {"type": "create:pressing","ingredients": [{"item": "kubejs:sq_presstube"}],"results": [{"item": "kubejs:sq_presstube"}]}
+  ],
+  "results": [{"item": "pneumaticcraft:pressure_tube","count":3}],
+  "loops": 1
+}

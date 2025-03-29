@@ -1,0 +1,21 @@
+{
+  "type": "tfmg:industrial_blasting",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "tfmg:blasting_mixture"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "fluid": "tfc:metal/pig_iron",
+      "amount": 80
+    },
+    {
+      "fluid": "tfc:metal/unknown",
+      "amount": 10
+    }
+
+  ]
+}

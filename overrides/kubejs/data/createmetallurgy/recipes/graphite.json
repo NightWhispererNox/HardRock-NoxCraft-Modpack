@@ -1,0 +1,50 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/graphite"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "item": "tfc_loot:netherrack_clay"
+    },
+    {
+      "amount": 1000,
+      "fluid": "tfc:limewater"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetallurgy:graphite"
+    }
+  ]
+}

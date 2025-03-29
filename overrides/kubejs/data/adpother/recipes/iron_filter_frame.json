@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"N#N",
+		"P#P",
+		"N#N"
+	],
+	"key": {
+		"#": {
+			"item": "createsifter:string_mesh"
+		},
+		"N": [
+			{"tag": "forge:rods/iron"},
+			{"tag": "forge:rods/wrought_iron"},
+			{"tag": "forge:rods/zinc"},
+			{"tag": "forge:rods/tin"},
+			{"tag": "forge:rods/bronze"},
+			{"tag": "forge:rods/copper"}],
+		"P": [
+			{"item": "kubejs:primitive_glass_pane"},
+			{"item": "minecraft:glass_pane"}]
+	},
+	"result": {
+		"item": "adpother:iron_filter_frame",
+		"count": 1
+	}
+}

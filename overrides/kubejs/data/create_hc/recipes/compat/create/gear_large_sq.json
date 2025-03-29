@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "transitionalItem": {
+    "item": "minecraft:oak_planks"
+  },
+  "sequence": [
+    {
+      "type":"vintageimprovements:turning",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "item": "minecraft:glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_planks"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "item": "minecraft:glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_planks"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "item": "minecraft:glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_planks"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "item": "minecraft:glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_planks"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "item": "minecraft:glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_planks"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_hc:gear_large",
+      "count": 2
+    }
+  ],
+  "loops": 1
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "forge:tools/knives"},
+    {"tag": "forge:tools/hammers"},
+    {"tag": "forge:tools/axes"},
+    {"tag": "minecraft:planks"}
+  ],
+  "result": {
+    "item": "minecraft:crafting_table"
+  }
+}

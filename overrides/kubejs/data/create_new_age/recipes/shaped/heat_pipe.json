@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": {
+      "item": "pneumaticcraft:reinforced_pressure_tube"
+    },
+    "z": {
+      "tag": "forge:glue"
+    }
+  },
+  "pattern": [
+    "z",
+    "c",
+    "z"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create_new_age:heat_pipe"
+  },
+  "show_notification": true
+}

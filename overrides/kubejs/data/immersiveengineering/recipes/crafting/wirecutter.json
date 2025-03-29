@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "hi",
+        "is"
+        ],
+    "key":{
+        "h":{"item":"tfc_ie_addon:tool_head/wirecutter"},
+        "s":{"tag":"forge:string"},
+        "i":{"tag":"forge:rods/wooden"}},
+    "result":{"item":"immersiveengineering:wirecutter"}
+}

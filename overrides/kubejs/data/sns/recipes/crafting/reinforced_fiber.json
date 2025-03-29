@@ -1,0 +1,7 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {"ingredient":{"tag": "forge:string"}},
+  "input_fluid": {"ingredient": {"tag": "artisanal:rendered_fats"},"amount": 50},
+  "output_item": {"item": "sns:reinforced_fiber"},
+  "duration": 6000
+}

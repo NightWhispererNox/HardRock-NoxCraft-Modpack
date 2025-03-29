@@ -1,0 +1,30 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:sand/red"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.02
+    },
+    {
+      "item": "tfc:ore/small_hematite",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:bone",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/ruby",
+      "chance": 0.001
+    }
+  ],
+  "processingTime": 500
+}

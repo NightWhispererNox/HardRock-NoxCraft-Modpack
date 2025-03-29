@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "|": {
+      "item": "create_new_age:heat_pipe"
+    },
+    "c": {
+      "tag": "forge:rods/cast_iron"
+    },
+    "p": {
+      "item": "firmalife:reinforced_glass"
+    },
+    "#": {
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "pattern": [
+    "|p|",
+    "c#c"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:basic_solar_heating_plate"
+  },
+  "show_notification": true
+}

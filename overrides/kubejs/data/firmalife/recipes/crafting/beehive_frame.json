@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XSX",
+    "SMS",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "tag": "tfc:lumber"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "M": {
+      "item": "htm:plant_mesh"
+    }
+  },
+  "result": {
+    "item": "firmalife:beehive_frame"
+  }
+}

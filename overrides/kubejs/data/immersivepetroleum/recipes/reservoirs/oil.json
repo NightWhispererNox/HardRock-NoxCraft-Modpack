@@ -1,0 +1,23 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "tfmg:crude_oil",
+  "fluidminimum": 2500000,
+  "fluidcapacity": 32500000,
+  "fluidtrace": 6,
+  "weight": 40,
+  "dimensions": {
+    "isBlacklist": false,
+    "list": [
+      "tfc:overworld",
+      "minecraft:overworld",
+      "minecraft:nether"
+    ]
+  },
+  "biomes": {
+    "isBlacklist": true,
+    "list": [
+      "minecraft:the_end"
+    ]
+  },
+  "name": "oil"
+}

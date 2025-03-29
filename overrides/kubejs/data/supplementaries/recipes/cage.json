@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bmb",
+    "b b",
+    "bsb"
+  ],
+  "key": {
+    "m": {
+      "tag": "minecraft:trapdoors"
+    },
+    "b": {
+      "item": "minecraft:iron_bars"
+    },
+    "s": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "supplementaries:cage",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "cage"
+    }
+  ]
+}

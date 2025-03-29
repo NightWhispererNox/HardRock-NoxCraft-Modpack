@@ -1,0 +1,37 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    },
+    {
+      "tag": "forge:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:coke"
+    }
+  ]
+}

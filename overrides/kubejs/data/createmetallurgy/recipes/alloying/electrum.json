@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 6,
+      "fluid": "tfc:metal/gold",
+      "nbt": {}
+    },
+    {
+      "amount": 4,
+      "fluid": "tfc:metal/silver",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "tfc_ie_addon:metal/electrum"
+    }
+  ]
+}

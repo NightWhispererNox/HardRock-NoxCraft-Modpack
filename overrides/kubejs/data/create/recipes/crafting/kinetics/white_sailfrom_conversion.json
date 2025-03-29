@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:sail_frame"
+    },
+    {
+      "tag": "forge:cloth"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:white_sail"
+    }
+  ]
+}

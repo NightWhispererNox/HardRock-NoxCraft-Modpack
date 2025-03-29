@@ -1,0 +1,60 @@
+{
+  "commonHelmets": {
+    "entries": {
+      "minecraft:carved_pumpkin": 0.01,
+      "minecraft:leather_helmet": 0.1,
+      "tfc:metal/helmet/wrought_iron": 0.3,
+      "minecraft:chainmail_helmet": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "rareHelmets": {
+    "entries": {
+      "tfc:metal/helmet/black_steel": 0.3,
+      "minecraft:carved_pumpkin": 0.2
+    },
+    "defaultItem": "air"
+  },
+  "commonChestplates": {
+    "entries": {
+      "minecraft:chainmail_chestplate": 0.3,
+      "minecraft:leather_chestplate": 0.1,
+      "tfc:metal/chestplate/wrought_iron": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "rareChestplates": {
+    "entries": {
+      "tfc:metal/chestplate/black_steel": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "commonLeggings": {
+    "entries": {
+      "minecraft:leather_leggings": 0.1,
+      "minecraft:chainmail_leggings": 0.3,
+      "tfc:metal/boots/wrought_iron": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "rareLeggings": {
+    "entries": {
+      "tfc:metal/greaves/black_steel": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "commonBoots": {
+    "entries": {
+      "minecraft:leather_boots": 0.1,
+      "tfc:metal/boots/wrought_iron": 0.3,
+      "tfc:metal/boots/steel": 0.3
+    },
+    "defaultItem": "air"
+  },
+  "rareBoots": {
+    "entries": {
+      "tfc:metal/boots/blue_steel": 0.1
+    },
+    "defaultItem": "air"
+  }
+}

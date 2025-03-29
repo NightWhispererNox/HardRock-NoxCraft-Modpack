@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bamboo_button"
+    },
+    "b": {
+      "item": "minecraft:bamboo_block"
+    },
+    "c": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "trashbinmod:bamboo_trash_bin",
+    "count": 1
+  }
+}

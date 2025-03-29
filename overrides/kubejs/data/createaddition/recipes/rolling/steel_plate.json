@@ -1,0 +1,27 @@
+{
+  "type":"createaddition:rolling",
+  "input": {
+    "type": "tfc:heatable",
+    "min_temp": 920,
+    "ingredient": {
+        "tag": "forge:rods/steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:wire_steel",
+    "count": 2
+  },
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "immersiveengineering"
+    	},
+		{
+			"type": "forge:not",
+			"value": {
+			  "type": "forge:mod_loaded",
+			  "modid": "vintageimprovements"
+			}
+		}
+	]
+}

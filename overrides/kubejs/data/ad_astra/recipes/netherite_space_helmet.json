@@ -1,0 +1,22 @@
+{
+  "group": "ad_astra",
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:plates/ostrum"
+    },
+    "G": {
+      "tag": "forge:glass_panes/yellow"
+    },
+    "N": {
+      "item": "ad_astra:space_helmet"
+    }
+  },
+  "pattern": [
+    "#N#",
+    "#G#"
+  ],
+  "result": {
+    "item": "ad_astra:netherite_space_helmet"
+  }
+}

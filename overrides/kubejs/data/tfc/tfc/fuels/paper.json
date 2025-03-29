@@ -1,0 +1,26 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:enchanted_book"
+    },
+    {
+      "item": "minecraft:written_book"
+    },
+    {
+      "item": "minecraft:writable_book"
+    }
+  ],
+  "duration": 100,
+  "temperature": 300,
+  "purity": 0.7
+}

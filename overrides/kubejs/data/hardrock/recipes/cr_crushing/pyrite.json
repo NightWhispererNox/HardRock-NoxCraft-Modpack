@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc:ore/pyrite"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "tfc:powder/pyrite",
+      "count": 2
+    },
+    {
+      "item": "tfc:powder/pyrite",
+      "count": 1,
+      "chance": 0.3
+    }
+  ]
+}

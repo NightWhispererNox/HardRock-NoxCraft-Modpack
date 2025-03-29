@@ -1,0 +1,14 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"tag": "forge:plates/iron"},
+    "transitionalItem": {"item": "immersiveengineering:slab_sheetmetal_iron"},
+    "sequence": [
+      {"type": "create:deploying","ingredients": [{"tag": "immersiveengineering:slab_sheetmetal_iron"}, {"tag": "forge:plates/iron"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_iron"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_iron"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_iron"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_iron"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_iron"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_iron"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_iron"}]},
+      {"type": "create:pressing","ingredients": [{"item": "immersiveengineering:slab_sheetmetal_iron"}],"results": [{"item": "immersiveengineering:slab_sheetmetal_iron"}]}
+    ],
+    "results": [{"item": "immersiveengineering:sheetmetal_iron"}],
+    "loops": 1
+  }

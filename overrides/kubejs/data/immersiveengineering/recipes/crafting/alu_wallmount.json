@@ -1,0 +1,16 @@
+{
+    "__comment__": "This file was created by tfch",
+    "type": "tfc:anvil",
+    "input": {
+      "tag": "forge:ingots/aluminum"
+    },
+    "result": {
+      "item": "immersiveengineering:alu_wallmount"
+    },
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ]
+  }

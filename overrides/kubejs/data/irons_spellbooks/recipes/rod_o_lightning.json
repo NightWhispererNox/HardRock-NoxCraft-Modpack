@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ler",
+    "cpe",
+    "gcl"
+  ],
+  "key": {
+    "e": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "r": {
+      "item": "minecraft:lightning_rod"
+    },
+    "l": {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    "g": {
+      "item": "tfc_metal_tools:copper_pommel"
+    },
+    "c": {
+      "item": "tfc_items:copper_ring"
+    },
+    "p": {
+      "item": "kubejs:copper_pole"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:lightning_rod",
+    "count": 1
+  }
+}

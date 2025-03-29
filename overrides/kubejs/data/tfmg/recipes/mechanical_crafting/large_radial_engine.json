@@ -1,0 +1,44 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "   M   ",
+    "  MHM  ",
+    " MNLNM ",
+    "MEPCPEM",
+    " MHSHM ",
+    "  MHM  ",
+    "   M   "
+  ],
+  "key": {
+
+    "L": {
+      "item": "pneumaticcraft:lubricant_bucket"
+    },
+
+    "C": {
+      "item": "tfmg:heavy_machinery_casing"
+    },
+    "M": {
+      "item": "tfmg:engine_chamber"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "P": {
+      "item": "tfmg:steel_pipe"
+    },
+    "E": {
+      "item": "tfmg:exhaust"
+    },
+    "H": {
+      "tag": "forge:heavy_sheets/steel"
+    },
+    "N": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "item": "tfmg:large_radial_engine"
+  },
+  "acceptMirrored": true
+}

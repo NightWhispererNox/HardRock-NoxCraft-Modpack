@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:hide_tanned_s"
+    },
+    {
+      "fluid": "tfc:olive_oil_water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:hide_oiled_s"
+    }
+  ]
+}

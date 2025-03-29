@@ -1,0 +1,17 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_ingot_mold"
+    },
+    {
+      "amount": 100,
+      "fluid": "tfc:metal/zinc",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 160,
+  "result": {
+    "item": "tfc:metal/ingot/zinc"
+  }
+}

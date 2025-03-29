@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc:silica_glass_bottle"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "tfc:silica_glass_batch",
+      "count": 1
+    }
+  ]
+}

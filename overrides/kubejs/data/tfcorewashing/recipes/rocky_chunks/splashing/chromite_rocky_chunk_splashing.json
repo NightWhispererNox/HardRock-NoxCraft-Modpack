@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "tfcorewashing:rocky_chunks_chromite"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfcorewashing:chunks_chromite"
+      },
+      {
+        "item": "tfc:rock/loose/andesite",
+        "chance": 0.60
+      },
+      {
+        "item": "tfc:rock/loose/dolomite",
+        "chance": 0.30
+      },
+      {
+        "item": "tfcorewashing:dirty_pile_chromite",
+        "chance": 0.25
+      },
+      {
+        "item": "tfc:ore/amethyst",
+        "chance": 0.001
+      }
+    ],
+    "processingTime": 1200
+}

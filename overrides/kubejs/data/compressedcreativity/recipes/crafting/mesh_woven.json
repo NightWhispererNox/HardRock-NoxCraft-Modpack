@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cloth"
+    },
+    {
+      "item": "compressedcreativity:mesh_empty"
+    }
+  ],
+  "result": {
+    "item": "compressedcreativity:mesh_woven"
+  }
+}

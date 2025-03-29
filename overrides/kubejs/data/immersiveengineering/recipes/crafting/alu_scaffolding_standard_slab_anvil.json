@@ -1,0 +1,15 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+      "tag": "forge:fences/aluminum"
+    },
+    "result": {
+      "item": "immersiveengineering:slab_alu_scaffolding_standard"
+    },
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ]
+}

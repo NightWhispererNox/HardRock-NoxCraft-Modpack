@@ -1,0 +1,11 @@
+{
+  "ingredient": [
+    {
+      "item": "pneumaticcraft:sourdough"
+    },
+    {
+      "item": "createaddition:cake_base"
+    }
+  ],
+  "heat_capacity": 1.0
+}

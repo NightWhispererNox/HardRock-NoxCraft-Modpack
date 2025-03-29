@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "mcwwindows:orange_mosaic_glass_pane"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:orange",
+        "amount": 8
+    }
+}

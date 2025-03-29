@@ -1,0 +1,25 @@
+{
+  "type": "createmetallurgy:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/andesite"
+      }
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:rods/andesite"
+    }
+  ],
+  "processingTime": 120,
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "kubejs:andesite_alloy"
+    }
+  ]
+}

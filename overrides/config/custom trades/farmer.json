@@ -1,0 +1,250 @@
+{
+  "profession": "minecraft:farmer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/cherry","amount": 6},
+        {"itemKey": "tfc:food/lemon","amount": 6},
+        {"itemKey": "tfc:food/orange","amount": 6},
+        {"itemKey": "tfc:food/peach","amount": 6},
+        {"itemKey": "tfc:food/plum","amount": 6},
+        {"itemKey": "firmalife:food/fig","amount": 6}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer/food/common_fruit"
+    },
+    {
+      "offer": {"itemKey": "tfc:powder/wood_ash","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer/wood_ash"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:seeds/cabbage","amount": 1},
+        {"itemKey": "tfc:seeds/carrot","amount": 1},
+        {"itemKey": "tfc:seeds/garlic","amount": 1},
+        {"itemKey": "tfc:seeds/green_bean","amount": 1},
+        {"itemKey": "tfc:seeds/potato","amount": 1},
+        {"itemKey": "tfc:seeds/onion","amount": 1},
+        {"itemKey": "tfc:seeds/squash","amount": 1},
+        {"itemKey": "tfc:seeds/tomato","amount": 1},
+        {"itemKey": "tfc:seeds/red_bell_pepper","amount": 1},
+        {"itemKey": "tfc:seeds/yellow_bell_pepper","amount": 1}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer/common_vegetable_seed"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:food/barley_dough","amount": 8},
+        {"itemKey": "tfc:food/maize_dough","amount": 8},
+        {"itemKey": "tfc:food/oat_dough","amount": 8},
+        {"itemKey": "tfc:food/rye_dough","amount": 8},
+        {"itemKey": "tfc:food/rice_dough","amount": 8},
+        {"itemKey": "tfc:food/wheat_dough","amount": 8}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer/food/flatbread_dough"
+    },
+    {
+      "offer": {"itemKey": "tfc:olive_paste","amount": 5},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer/olive_paste"
+    },
+    {
+      "offer": {"itemKey": "tfc:ore/saltpeter","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer/saltpeter_ore"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "firmalife:food/toast_with_jam","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer/food/jam_toast"
+    },
+    {
+      "offer": {"itemKey": "tfc:rotten_compost","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer/rotten_compost"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "artisanal:powdered_milk","amount": 8},
+        {"itemKey": "artisanal:powdered_goat_milk","amount": 8},
+        {"itemKey": "artisanal:powdered_yak_milk","amount": 8}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer/powdered_milk"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "firmalife:food/nachos","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer/food/nachos"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "firmalife:plant/cocoa_sapling","amount": 2},
+        {"itemKey": "firmalife:plant/fig_sapling","amount": 2},
+        {"itemKey": "tfc:plant/cherry_sapling","amount": 2},
+        {"itemKey": "tfc:plant/green_apple_sapling","amount": 2},
+        {"itemKey": "tfc:plant/lemon_sapling","amount": 2},
+        {"itemKey": "tfc:plant/olive_sapling","amount": 2},
+        {"itemKey": "tfc:plant/orange_sapling","amount": 2},
+        {"itemKey": "tfc:plant/peach_sapling","amount": 2},
+        {"itemKey": "tfc:plant/plum_sapling","amount": 2},
+        {"itemKey": "tfc:plant/red_apple_sapling","amount": 2},
+        {"itemKey": "tfc:plant/banana_sapling","amount": 2}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 6
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer/fruit_saplings"
+    },
+    {
+      "offer": {"itemKey": "tfc:groundcover/guano","amount": 2},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer/guano"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "firmalife:food/cooked_pizza","amount": 1,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'firmalife:food/pizza_dough', Count: 1b}, {id: 'farmersdelight:beef_patty', Count: 1b}, {id: 'tfc:food/onion', Count: 1b}, {id: 'firmalife:food/shredded_cheese', Count: 1b}, {id: 'firmalife:food/tomato_sauce', Count: 1b}], traits: ['firmalife:oven_baked'], foodData: {sat: 6.4f, water: 0.8f, fruit: 0.8f, meat: 1.2f, veg: 0.8f, grain: 1.0f, dairy: 0.85f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/taco","amount": 1,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'firmalife:food/taco_shell', Count: 1b}, {id: 'farmersdelight:beef_patty', Count: 1b}, {id: 'tfc:food/onion', Count: 1b}, {id: 'firmalife:food/shredded_cheese', Count: 1b}, {id: 'firmalife:food/salsa', Count: 1b}], foodData: {sat: 8.4f, water: 0.8f, fruit: 0.0f, meat: 0.8f, veg: 1.2f, grain: 0.48f, dairy: 0.6f, decay: 4.5f, food: 4}}}}"},
+        {"itemKey": "firmalife:food/burrito","amount": 1,"advancedNBTData": "{kjsForgeCaps: {'tfc:food': {ingredients: [{id: 'firmalife:food/corn_tortilla', Count: 1b}, {id: 'farmersdelight:beef_patty', Count: 1b}, {id: 'tfc:food/onion', Count: 1b}, {id: 'firmalife:food/shredded_cheese', Count: 1b}, {id: 'firmalife:food/salsa', Count: 1b}], foodData: {sat: 8.4f, water: 0.8f, fruit: 0.0f, meat: 0.8f, veg: 1.2f, grain: 0.48f, dairy: 0.6f, decay: 4.5f, food: 4}}}}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer/food/high_tier_dynamic"
+    },
+    {
+      "offer": {"itemKey": "firmalife:climate_station","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 16
+      },
+      "tradeExp": 160,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer/climate_station"
+    }
+  ]
+}

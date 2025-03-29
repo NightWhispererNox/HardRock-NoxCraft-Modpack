@@ -1,0 +1,243 @@
+{
+  "profession": "minecraft:fletcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {"itemKey": "minecraft:bow","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher/bow"
+    },
+    {
+      "offer": {"itemKey": "tfc:stick_bunch","amount": 6},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher/stick_bunches"
+    },
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:rock/loose/granite","amount": 24},
+        {"itemKey": "tfc:rock/loose/diorite","amount": 24},
+        {"itemKey": "tfc:rock/loose/gabbro","amount": 24},
+        {"itemKey": "tfc:rock/loose/rhyolite","amount": 24},
+        {"itemKey": "tfc:rock/loose/basalt","amount": 24},
+        {"itemKey": "tfc:rock/loose/andesite","amount": 24},
+        {"itemKey": "tfc:rock/loose/dacite","amount": 24}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher/loose_igneous_rocks"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "minecraft:crossbow","amount": 1},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher/crossbow"
+    },
+    {
+      "offer": {"itemKey": "minecraft:flint","amount": 16},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 6,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher/flint"
+    },
+    {
+      "offer": {"itemKey": "minecraft:feather","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_assarius",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher/feathers"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "tfc:metal/javelin/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':2}"},
+        {"itemKey": "tfc:metal/javelin/wrought_iron","amount": 1,"advancedNBTData": "{'tfc:forging_bonus':3}"}
+      ],
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 4
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher/iron_javelin"
+    },
+    {
+      "offer": {"itemKey": "minecraft:arrow","amount": 24},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher/arrows"
+    },
+    {
+      "offer": {"itemKey": "minecraft:string","amount": 12},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_ducat",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher/string"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:night_vision'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:invisibility'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:leaping'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:fire_resistance'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:swiftness'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:turtle_master'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:water_breathing'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:regeneration'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:strength'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:slow_falling'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'feathers:endurance_potion'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'feathers:energized_potion'}"}
+      ],
+      "request": {
+        "itemKey": "minecraft:spectral_arrow",
+        "amount": 6
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 4
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher/tipped_arrows/neutral_or_beneficial"
+    },
+    {
+      "offer": {"itemKey": "tfc:glow_arrow","amount": 16},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher/glow_arrows"
+    },
+    {
+      "offer": {"itemKey": "immersiveengineering:homing","amount": 8},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 4
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher/homing_cartridges"
+    },
+
+
+
+
+    {
+      "multiOffer": [
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:slowness'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:harming'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:poison'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'minecraft:weakness'}"},
+        {"itemKey": "minecraft:tipped_arrow","amount": 6,"advancedNBTData": "{Potion:'tfmg:hellfire_potion'}"}
+      ],
+      "request": {
+        "itemKey": "minecraft:spectral_arrow",
+        "amount": 6
+      },
+      "additionalRequest": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 4
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher/tipped_arrows/explicitly_harmful"
+    },
+    {
+      "offer": {"itemKey": "cgm:advanced_bullet","amount": 16},
+      "request": {
+        "itemKey": "lithiccoinstrading:refined_polished_gulden",
+        "amount": 4
+      },
+      "tradeExp": 60,
+      "maxUses": 4,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher/advanced_bullets"
+    }
+  ]
+}

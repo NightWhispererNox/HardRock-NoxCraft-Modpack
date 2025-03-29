@@ -1,0 +1,36 @@
+{
+  "type": "lychee:block_interacting",
+  "post": [
+    {
+      "type": "drop_item",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.95
+        }
+      ],
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "type": "place",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.85
+        }
+      ],
+      "block": "createdieselgenerators:chip_wood_stairs"
+    },
+    {
+      "type": "damage_item"
+    }
+  ],
+  "item_in": {
+    "tag": "tfc:saws"
+  },
+  "block_in": {
+    "blocks": [
+      "createdieselgenerators:chip_wood_block"
+    ]
+  }
+}

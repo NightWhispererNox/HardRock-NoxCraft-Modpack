@@ -1,0 +1,23 @@
+{
+  "type": "createmetallurgy:alloying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 5,
+      "fluid": "tfc:metal/cast_iron",
+      "nbt": {}
+    },
+    {
+      "amount": 5,
+      "fluid": "kubejs:quartz",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "kubejs:iron_quartz"
+    }
+  ]
+}

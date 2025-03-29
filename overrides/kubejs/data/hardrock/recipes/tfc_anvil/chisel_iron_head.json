@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:rods/wrought_iron"
+  },
+  "result": {
+    "item": "kubejs:chisel_iron_head",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

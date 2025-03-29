@@ -1,0 +1,12 @@
+{
+    "type":"mekanism:enriching",
+    "input":{
+        "amount":1,
+        "ingredient":{
+            "tag":"forge:dusts/amethyst"
+        }
+    },
+    "output":{
+        "item":"minecraft:amethyst_shard"
+    }
+}

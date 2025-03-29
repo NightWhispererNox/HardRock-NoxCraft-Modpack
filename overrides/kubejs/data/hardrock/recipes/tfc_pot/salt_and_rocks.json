@@ -1,0 +1,32 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+      "tag": "tfc:rock_knapping"
+    },
+    {
+      "tag": "tfc:rock_knapping"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "tfc:salt_water",
+    "amount": 1000
+  },
+  "duration": 4000,
+  "temperature": 600,
+  "fluid_output": {
+    "fluid": "kubejs:boiled_water",
+    "amount": 1000
+  },
+  "item_output": [
+    {
+      "item": "kubejs:crumbled_rock"
+    },
+    {
+      "item": "tfc:powder/salt"
+    },
+    {
+      "item": "tfc:powder/salt"
+    }
+  ]
+}

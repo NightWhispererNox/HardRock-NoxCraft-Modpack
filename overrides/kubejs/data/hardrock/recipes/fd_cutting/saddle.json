@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": [
+    {
+      "item": "sewingkit:leather_strip",
+      "count": 4
+    },
+    {
+      "item": "tfcambiental:leather_apron",
+      "count": 1,
+      "chance": 0.75
+    }
+  ]
+}

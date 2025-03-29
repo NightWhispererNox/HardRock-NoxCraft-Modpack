@@ -1,0 +1,129 @@
+{
+  "profession": "mna:spellmonger",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "mna:guide_book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "mna:vinteum_ingot",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "mna:arcanist_ink",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "mna:transmuted_silver",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "mna:herbalist_pouch",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "mna:transmuted_silver",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "mna:vinteum_dust",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "mna:transmuted_silver",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "mna:ironbark",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "mna:transmuted_silver",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "mna:mana_crystal_fragment",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "mna:chimerite_gem",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "mna:spell",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{spell:{components:[{attribute_0:\"HEIGHT\",attribute_1:\"PRECISION\",attribute_2:\"DELAY\",mult_0:1.0f,mult_1:1.0f,mult_2:1.0f,num_attributes:3,resource_location:\"mna:components/wind_shear\",value_0:1.0f,value_1:5.0f,value_2:0.0f}],modifiers:{modifier_0:\"mna:empty\",modifier_1:\"mna:empty\",modifier_2:\"mna:empty\"},mysterious:1b,overrideAffinity:\"UNKNOWN\",shape:{attribute_0:\"RADIUS\",attribute_1:\"WIDTH\",attribute_2:\"MAGNITUDE\",attribute_3:\"RANGE\",mult_0:1.0f,mult_1:1.0f,mult_2:1.0f,mult_3:1.0f,num_attributes:4,resource_location:\"mna:shapes/rune\",value_0:1.0f,value_1:1.0f,value_2:1.0f,value_3:3.0f}},spellColor:-1}"
+      },
+      "request": {
+        "itemKey": "mna:transmuted_silver",
+        "amount": 89,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

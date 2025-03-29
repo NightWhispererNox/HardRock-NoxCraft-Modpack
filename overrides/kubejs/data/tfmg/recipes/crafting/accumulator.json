@@ -1,0 +1,25 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "tfmg:electric_casing"},
+  "transitionalItem": {"item": "kubejs:sq_steelpipecr"},
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "kubejs:sq_steelpipecr"},{"tag": "forge:rods/lead"}],
+      "results": [{"item": "kubejs:sq_steelpipecr"}]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "kubejs:sq_steelpipecr"},{"tag": "forge:ingots/lithium"}],
+      "results": [{"item": "kubejs:sq_steelpipecr"}]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [{"item": "kubejs:sq_steelpipecr"},{"fluidTag": "forge:sulfuric_acid","nbt": {},"amount": 250}],
+      "results": [{"item": "kubejs:sq_steelpipecr"}]
+    }
+  ],
+  "results": [{"item": "tfmg:accumulator"}],
+  "loops": 4
+}

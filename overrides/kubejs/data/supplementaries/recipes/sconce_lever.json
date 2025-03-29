@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "121",
+    " 3 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "supplementaries:sconce"
+    }
+  },
+  "result": {
+    "item": "supplementaries:sconce_lever",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "sconce_lever"
+    }
+  ]
+}

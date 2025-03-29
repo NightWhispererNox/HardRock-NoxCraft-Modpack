@@ -1,0 +1,29 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:sawdust"
+    },
+    {
+      "tag": "forge:sawdust"
+    },
+    {
+      "tag": "forge:sawdust"
+    },
+    {
+      "tag": "forge:sawdust"
+    },
+    {
+      "tag": "forge:sawdust"
+    },
+    {
+      "tag": "forge:sawdust"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdieselgenerators:chip_wood_slab"
+    }
+  ]
+}

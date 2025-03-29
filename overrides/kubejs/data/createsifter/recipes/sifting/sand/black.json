@@ -1,0 +1,38 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "tfc:sand/black"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:ore/small_magnetite",
+      "chance": 0.02
+    },
+    {
+      "item": "tfc_ie_addon:ore/small_galena",
+      "chance": 0.01
+    },
+    {
+      "item": "tfc:powder/charcoal",
+      "chance": 0.05
+    },
+    {
+      "item": "minecraft:bone",
+      "chance": 0.05
+    },
+    {
+      "item": "tfc:ore/sulfur",
+      "chance": 0.01
+    },
+    {
+      "item": "tfc:ore/sapphire",
+      "chance": 0.001
+    }
+  ],
+  "processingTime": 500
+}

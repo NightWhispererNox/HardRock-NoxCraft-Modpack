@@ -1,0 +1,9 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":["lsl", "lsl"],
+    "key":{
+        "s":{"item":"immersiveengineering:stick_treated"},
+        "l":{"item":"tfc_ie_addon:treated_wood_lumber"}
+    },
+    "result":{"item":"immersiveengineering:treated_fence"}
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "aea",
+      "aba",
+      "cdc"
+    ],
+    "key": {
+      "a": {
+        "item": "kubejs:reinforced_copper_sheet"
+      },
+      "b": {
+        "item": "tfc:crucible"
+      },
+      "c": {
+        "item": "irons_spellbooks:arcane_essence"
+      },
+      "d": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+      ,
+      "e": {
+        "item": "tfc:metal/double_sheet/copper"
+      }
+    },
+    "result": {
+      "item": "irons_spellbooks:alchemist_cauldron",
+      "count": 1
+    }
+  }

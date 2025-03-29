@@ -1,0 +1,94 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:engine_base"
+  },
+  "transitionalItem": {
+    "item": "tfmg:unfinished_gasoline_engine"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [{"item": "tfmg:unfinished_gasoline_engine"},{"item": "createdieselgenerators:engine_piston"}],
+      "results": [{"item": "tfmg:unfinished_gasoline_engine"}]
+    },
+    {  
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "fluidTag": "forge:lubricant",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "item": "tfmg:engine_chamber"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "tag": "forge:screws/handful/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "item": "tfmg:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:filling","ingredients": [{"item": "tfmg:unfinished_turbine_engine"},{"fluidTag": "forge:gasoline","nbt": {},"amount": 2000}],
+      "results": [{"item": "tfmg:unfinished_turbine_engine"}]
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:gasoline_engine",
+      "count": 1
+    }
+  ],
+  "loops": 4
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " HHH ",
+    "HAPAH",
+    "HPSPH",
+    "HAPAH",
+    " HHH "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "A": {
+      "item": "create:andesite_alloy_block"
+    },
+    "H": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "result": {
+    "item": "create_new_age:generator_coil",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

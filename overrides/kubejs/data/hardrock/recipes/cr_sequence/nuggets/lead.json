@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:rods/lead"},
+  "transitionalItem": {"item": "vintageimprovements:lead_rod"},
+  "sequence": [
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:lead_rod"}],"results": [{"item": "vintageimprovements:lead_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:lead_rod"}],"results": [{"item": "vintageimprovements:lead_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:lead_rod"}],"results": [{"item": "vintageimprovements:lead_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:lead_rod"}],"results": [{"item": "vintageimprovements:lead_rod"}]},
+    {"type": "create:cutting","ingredients": [{"item": "vintageimprovements:lead_rod"}],"results": [{"item": "vintageimprovements:lead_rod"}]}
+  ],
+  "results": [
+    {"item": "immersiveengineering:nugget_lead","count": 5}    
+  ],
+  "loops": 1
+}
+

@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:bottling_machine",
+    "fluid":{"amount":100,"tag":"forge:lithium"},
+    "inputs":[
+        {"tag":"forge:graphite_molds/ingot"}
+    ],
+    "results":[
+        {"item":"tfmg:lithium_ingot"},
+        {"item":"createmetallurgy:graphite_ingot_mold"}
+    ]
+}

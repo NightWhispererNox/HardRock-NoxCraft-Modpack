@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "ingredient": {
+            "item": "immersiveengineering:slab_sheetmetal_colored_red"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:red",
+        "amount": 8
+    }
+}
