@@ -1,9 +1,0 @@
-{
-    "type":"immersiveengineering:mixer",
-    "energy":3200,
-    "fluid":{"amount":100,"tag":"minecraft:waters"},
-    "inputs":[
-        {"item":"tfmg:concrete_mixture"}
-    ],
-    "result":{"amount":250,"fluid":"tfmg:liquid_concrete"}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "tag": "forge:dusts/wood"
-  },
-  "result": "tfc:powder/wood_ash",
-  "experience": 0.0,
-  "cookingtime": 100
-}

@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#tfc:starts_fires_with_durability",
-    "tfc:firestarter"
-  ]
-}
